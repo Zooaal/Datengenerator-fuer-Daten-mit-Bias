@@ -1,0 +1,141 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{longtable}
+\usepackage[left= 2.5 cm,right = 2.5 cm, bottom = 2 cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{titlesec, graphicx, hyperref, chngcntr, url, changepage, ragged2e, setspace, mathptmx, courier, caption}
+\usepackage[printonlyused]{acronym}
+\usepackage[svgnames]{xcolor}
+\usepackage[parskip]{}
+\usepackage[scaled=0.9]{helvet}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{abstract}
+\usepackage{lmodern}
+%Graphen Plotten
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancypagestyle{plain}{%  the preset of fancyhdr 
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[C]{\textbf{\thepage}} % except the center
+    \fancyhead[C]{\leftmark}
+    \renewcommand{\headrulewidth}{0.6pt}
+    \renewcommand{\footrulewidth}{0.4pt}}
+
+% Generelle Einstellungen
+% Hurenkinder und Schusterjungen verhindern
+\clubpenalty = 10000 % schließt Schusterjungen aus (Seitenumbruch nach der ersten Zeile eines neuen Absatzes)
+\widowpenalty = 10000 % schließt Hurenkinder aus (die letzte Zeile eines Absatzes steht auf einer neuen Seite)
+\displaywidowpenalty=10000
+\urlstyle{same}
+\definecolor{accent_color}{HTML}{104EBC}
+\titleformat{\chapter}{\LARGE\bfseries}{\thechapter\hspace{10pt}\textcolor{accent_color}{|}\hspace{10pt}}{0pt}{\LARGE\bfseries}
+\titlespacing*{\chapter}{0pt}{-15pt}{20pt}
+\setlength{\parskip}{1em}
+
+% Farbe der Zitate anpassen
+\hypersetup{hidelinks}
+
+\begin{document}
+
+    % Deckblatt
+    \begin{spacing}{1}
+        \input{ads/deckblatt}
+        \phantomsection
+    \end{spacing}
+    \newpage
+
+	% Sperrvermerk
+	%\input{ads/sperrvermerk}
+	%\newpage
+
+	% Erklärung
+	\input{ads/erklärung}
+    \phantomsection
+	\newpage
+
+    %%% ABSTRACT
+    \renewcommand{\abstractname}{Abstract}
+    \begin{abstract}
+        Fasst die Aufgabenstellung und Ergebnisse kompakt und übersichtlich in wenigen Zeilen zusammen (4-7 Zeilen).
+        \thispagestyle{empty}
+    \end{abstract}
+    \phantomsection
+    %%% ENDE ABSTRACT
+
+	% Inhaltsverzeichnis
+	\begin{spacing}{1}
+		\begingroup
+            \fancyhf{}
+            \fancypagestyle{plain}{%  the preset of fancyhdr 
+                \fancyhf{} % clear all header and footer fields    
+                \renewcommand{\footrulewidth}{0pt}}
+                \renewcommand{\headrulewidth}{0pt}
+			\setcounter{tocdepth}{3}
+			\tableofcontents
+			\clearpage
+		\endgroup
+	\end{spacing}
+    \phantomsection
+
+    \pagenumbering{Roman}
+    \setcounter{page}{5}
+    \fancyhf{}
+	\fancypagestyle{plain}{%  the preset of fancyhdr 
+        \fancyhf{} % clear all header and footer fields
+        \fancyfoot[C]{\textbf{\thepage}} % except the center      
+        \renewcommand{\footrulewidth}{0.4pt}}
+        \renewcommand{\headrulewidth}{0pt}
+    \newpage
+
+    %Abkürzungsverzeichnis
+    \thispagestyle{empty}
+    \input{ads/abkürzungen}
+    \newpage
+
+    % Abbildungsverzeichnis
+	\cleardoublepage
+    \thispagestyle{empty}
+    \phantomsection
+	\listoffigures
+    \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+    \newpage
+
+	%Tabellenverzeichnis
+	\cleardoublepage
+    \thispagestyle{empty}
+    \phantomsection
+	\listoftables
+    \addcontentsline{toc}{section}{Tabellenverzeichnis}
+    \newpage
+
+    \pagenumbering{arabic}
+	\fancyhf{}
+    \fancypagestyle{plain}{%  the preset of fancyhdr 
+        \fancyhf{} % clear all header and footer fields
+        \fancyfoot[C]{\textbf{\thepage}} % except the center
+        \fancyhead[C]{\leftmark}
+        \renewcommand{\headrulewidth}{0.6pt}
+        \renewcommand{\footrulewidth}{0.4pt}}
+
+    % Inhalt
+	\foreach \i in {01,02,03,04,05,06,07,08,09,...,99} {%
+    \edef\FileName{content/\i kapitel}%
+        \IfFileExists{\FileName}{%
+            \input{\FileName}
+        }
+        {%
+            %file does not exist
+        }
+    }
+    
+    %Literaturverzeichnis
+    \newpage
+    \bibliographystyle{ieeetr}
+    \bibliography{Literatur.bib}
+
+\end{document}
