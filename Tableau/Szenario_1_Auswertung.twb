@@ -9,7 +9,10 @@
     <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
     <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <StorytellingArrowOnlyNavigator />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
   <preferences>
@@ -26,7 +29,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Daten_Bewertet' name='textscan.16u7soa04w6hes107w0xp1u31713'>
-            <connection class='textclean' cleaning='yes' compat='no' csvFile='I:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Datengenerator/Daten_Bewertet.csv' dataRefreshTime='' directory='I:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Datengenerator' filename='C:/Users/Simon/AppData/Local/Temp/TableauTemp/1wspnfn1ukk8u71b6dlgp02nlgnm/Daten_Bewertet.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='I:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Datengenerator/Daten_Bewertet.csv' dataRefreshTime='' directory='I:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Datengenerator' filename='C:/Users/Simon/AppData/Local/Temp/TableauTemp/0cuerwf10dfijw11d32b00ta12al/Daten_Bewertet.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.16u7soa04w6hes107w0xp1u31713' name='Daten_Bewertet.csv' table='[Daten_Bewertet#csv$]' type='table'>
@@ -163,15 +166,146 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column datatype='string' name='[Bewertung]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Geschlecht]' role='dimension' type='nominal' />
       <column caption='Haerte des Vergehens' datatype='string' name='[Haerte_des_Vergehens]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Hautfarbe]' role='dimension' type='nominal' />
       <column caption='Laufende Strafe' datatype='integer' name='[Laufende_Strafe]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Daten_Bewertet.csv' datatype='table' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[cum:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[pcdf:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Table' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Table' type='PctValue'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='RowInPane' rank-options='Competition,Descending' type='Rank' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' from='-2' ordering-type='Table' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[Bewertung]' derivation='Count' name='[cnt:Bewertung:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Table' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Haerte_des_Vergehens]' derivation='None' name='[none:Haerte_des_Vergehens:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Hautfarbe]' derivation='None' name='[none:Hautfarbe:nk]' pivot='key' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Geschlecht]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:11]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Hautfarbe]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Table' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:13]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Bewertung]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:14]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Bewertung]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Hautfarbe]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:15]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Bewertung]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Geschlecht]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Hautfarbe]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:16]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Bewertung]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Geschlecht]' />
+          <order field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Hautfarbe]' />
+          <sort direction='ASC' using='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[cnt:Bewertung:qk]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:17]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Pane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:3]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='RowInPane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:7]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='CellInPane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:9]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[Bewertung]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='RowInPane' type='PctValue'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' rank-options='Competition,Descending' type='Rank' />
+      </column-instance>
+      <column-instance column='[Laufende_Strafe]' derivation='Stdev' name='[std:Laufende_Strafe:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Laufende_Strafe]' derivation='Sum' name='[sum:Laufende_Strafe:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' from='-2' ordering-type='RowInPane' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:4]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' from='-1' ordering-type='RowInPane' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' from='0' ordering-type='RowInPane' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:8]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='0' ordering-type='RowInPane' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='de_DE' class='hyper' dbname='I:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Tableau/Daten_Bewertet.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/04/2022 08:17:52 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='de_DE' class='hyper' dbname='I:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Tableau/Daten_Bewertet.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/11/2022 02:11:39 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh>
-            <refresh-event add-from-file-path='Daten_Bewertet' increment-value='%null%' refresh-type='create' rows-inserted='1000' timestamp-start='2022-02-04 08:17:51.888' />
+            <refresh-event add-from-file-path='Daten_Bewertet' increment-value='%null%' refresh-type='create' rows-inserted='1000' timestamp-start='2022-02-11 14:11:39.152' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -184,7 +318,7 @@
               <family>Daten_Bewertet.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>298</approx-count>
+              <approx-count>325</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LDE_RDE' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
@@ -267,6 +401,861 @@
         </connection>
       </extract>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cum:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcdf:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401588158468:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591304198:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591529481:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591574538:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:11]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:13]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:14]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:15]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:16]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:17]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:3]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:7]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:9]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585307648:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585340417:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585573890:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585627139:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591324679:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591635979:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:4]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:8]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[std:Laufende_Strafe:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[sum:Laufende_Strafe:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Haerte_des_Vergehens:nk]&#10;[:Measure Names]' type='palette'>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cum:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcdf:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401588158468:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591304198:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591529481:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591574538:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:11]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:13]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:14]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:15]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:16]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:17]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:3]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:9]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585307648:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585340417:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585573890:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585627139:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591324679:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591635979:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:4]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#309143'>
+              <multibucket>
+                <bucket>&quot;Leicht&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:8]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cum:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcdf:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401588158468:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591304198:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591529481:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591574538:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:11]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:13]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:14]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:15]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:16]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:17]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:3]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:9]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585307648:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585340417:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585573890:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585627139:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591324679:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591635979:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:4]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b60a1c'>
+              <multibucket>
+                <bucket>&quot;Hart&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:8]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cum:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcdf:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[diff:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401588158468:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591304198:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591529481:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591574538:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:11]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:13]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:14]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:15]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:16]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:17]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:3]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:9]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcva:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[rank:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585307648:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585340417:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585573890:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401585627139:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591324679:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[usr:Calculation_1210342401591635979:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:10]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:2]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:4]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:6]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e39802'>
+              <multibucket>
+                <bucket>&quot;Mittel&quot;</bucket>
+                <bucket>&quot;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[win:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:8]&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Hautfarbe:nk]' type='palette'>
+            <map to='#59504e'>
+              <bucket>&quot;Black&quot;</bucket>
+            </map>
+            <map to='#dcd4d0'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Haerte_des_Vergehens:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Leicht&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hart&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mittel&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Deutschland&quot;' />
       </semantic-values>
@@ -294,6 +1283,16 @@
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
   </datasources>
+  <actions>
+    <action caption='Hervorhebung 1 (generiert)' name='[Action1_C2C8F401D7A4463AB712B4322460486C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Seite_1' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Seite_1' />
+      </command>
+    </action>
+  </actions>
   <worksheets>
     <worksheet name='Blatt 1'>
       <table>
@@ -307,22 +1306,33 @@
             <_.fcp.ObjectModelTableType.false...column caption='Daten_Bewertet.csv' datatype='integer' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
             <column datatype='string' name='[Hautfarbe]' role='dimension' type='nominal' />
             <_.fcp.ObjectModelTableType.true...column caption='Daten_Bewertet.csv' datatype='table' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
-            <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Bewertung]' derivation='None' name='[none:Bewertung:nk]' pivot='key' type='nominal' />
             <column-instance column='[Haerte_des_Vergehens]' derivation='None' name='[none:Haerte_des_Vergehens:nk]' pivot='key' type='nominal' />
             <column-instance column='[Hautfarbe]' derivation='None' name='[none:Hautfarbe:nk]' pivot='key' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[:Measure Names]'>
-            <groupfilter function='level-members' level='[:Measure Names]' />
-          </filter>
-          <slices>
-            <column>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[:Measure Names]</column>
-          </slices>
+          <manual-sort column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Leicht&quot;</bucket>
+              <bucket>&quot;Mittel&quot;</bucket>
+              <bucket>&quot;Hart&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='cell'>
-            <format attr='width' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' value='140' />
+            <format attr='width' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' value='103' />
+            <format attr='cell-w' value='80' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]' value='12' />
           </style-rule>
           <style-rule element='refband'>
             <format attr='reverse-palette' id='refline0' value='false' />
@@ -330,41 +1340,365 @@
             <format attr='line-visibility' id='refline0' value='on' />
             <format attr='line-pattern-only' id='refline0' value='solid' />
           </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]' value='12' />
+          </style-rule>
         </style>
         <panes>
-          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Shape' />
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
             <encodings>
               <color column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' />
-              <color column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[:Measure Names]' />
             </encodings>
-            <reference-line axis-column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' enable-instant-analytics='true' fill-above='false' fill-below='false' formula='median' id='refline0' label-type='automatic' percentage-bands='true' probability='95' scope='per-pane' symmetric='false' value-column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' z-order='1'>
-              <reference-line-value percentage='0' />
-              <reference-line-value percentage='100' />
-            </reference-line>
             <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2413811683654785' />
+              </style-rule>
               <style-rule element='pane'>
-                <format attr='minwidth' value='-1' />
-                <format attr='maxwidth' value='-1' />
-                <format attr='minwidth' value='-1' />
-                <format attr='maxwidth' value='-1' />
-                <format attr='minwidth' value='-1' />
-                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='308' />
+                <format attr='maxwidth' value='308' />
+                <format attr='minheight' value='673' />
+                <format attr='maxheight' value='673' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk:12]</rows>
+        <cols>([federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Bewertung:nk] / ([federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk] / [federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]))</cols>
+      </table>
+      <simple-id uuid='{470E78FF-B104-4E3E-B765-C532B3888E74}' />
+    </worksheet>
+    <worksheet name='Seite_1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Daten_Bewertet' name='federated.0jvvxyf1vwv8di1970k7s0mzxdmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jvvxyf1vwv8di1970k7s0mzxdmx'>
+            <_.fcp.ObjectModelTableType.false...column caption='Daten_Bewertet.csv' datatype='integer' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Hautfarbe]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Daten_Bewertet.csv' datatype='table' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hautfarbe]' derivation='None' name='[none:Hautfarbe:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' value='29' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' value='519' />
+            <format attr='cell-w' value='40' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1038' />
+                <format attr='maxwidth' value='1038' />
+                <format attr='minheight' value='622' />
+                <format attr='maxheight' value='622' />
+                <format attr='aspect' value='0' />
               </style-rule>
             </style>
           </pane>
         </panes>
         <rows>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]</rows>
-        <cols>([federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk] / ([federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Bewertung:nk] / [federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]))</cols>
+        <cols>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]</cols>
       </table>
-      <simple-id uuid='{470E78FF-B104-4E3E-B765-C532B3888E74}' />
+      <simple-id uuid='{95E7952F-15F6-480E-B764-A2FF6ADE0CAD}' />
+    </worksheet>
+    <worksheet name='Seite_2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Daten_Bewertet' name='federated.0jvvxyf1vwv8di1970k7s0mzxdmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jvvxyf1vwv8di1970k7s0mzxdmx'>
+            <column datatype='string' name='[Bewertung]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Daten_Bewertet.csv' datatype='integer' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Hautfarbe]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Daten_Bewertet.csv' datatype='table' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bewertung]' derivation='None' name='[none:Bewertung:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hautfarbe]' derivation='None' name='[none:Hautfarbe:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' value='273' />
+            <format attr='cell-w' value='40' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='546' />
+                <format attr='maxwidth' value='546' />
+                <format attr='minheight' value='656' />
+                <format attr='maxheight' value='656' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]</rows>
+        <cols>([federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Bewertung:nk] / [federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk])</cols>
+      </table>
+      <simple-id uuid='{EAF0DD98-D5D5-4035-8A1B-05E43E97270D}' />
+    </worksheet>
+    <worksheet name='Seite_3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Daten_Bewertet' name='federated.0jvvxyf1vwv8di1970k7s0mzxdmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jvvxyf1vwv8di1970k7s0mzxdmx'>
+            <column caption='Haerte des Vergehens' datatype='string' name='[Haerte_des_Vergehens]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Daten_Bewertet.csv' datatype='integer' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Hautfarbe]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Daten_Bewertet.csv' datatype='table' name='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Haerte_des_Vergehens]' derivation='None' name='[none:Haerte_des_Vergehens:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hautfarbe]' derivation='None' name='[none:Hautfarbe:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Leicht&quot;</bucket>
+              <bucket>&quot;Mittel&quot;</bucket>
+              <bucket>&quot;Hart&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' value='212' />
+            <format attr='cell-w' value='72' />
+            <format attr='cell-h' value='18' />
+            <format attr='cell' value='18' />
+            <format attr='cell-q' value='90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='635' />
+                <format attr='maxheight' value='635' />
+                <format attr='minwidth' value='636' />
+                <format attr='maxwidth' value='636' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[__tableau_internal_object_id__].[pcto:cnt:Daten_Bewertet.csv_F065621261D14165B0A0F06309D60175:qk]</rows>
+        <cols>([federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk] / [federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk])</cols>
+      </table>
+      <simple-id uuid='{41809F93-2FE1-4014-977A-4508651786AC}' />
     </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='1' param='vert' removable='false' type-v2='layout-flow' w='99000' x='500' y='889'>
+            <zone h='3667' id='3' type-v2='title' w='99000' x='500' y='889' />
+            <zone h='8778' id='4' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99000' x='500' y='4556' />
+            <zone h='85777' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99000' x='500' y='13334'>
+              <flipboard active-id='4' nav-type='arrowonly' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Seite_1' id='1' />
+                  <story-point captured-sheet='Seite_2' id='2' />
+                  <story-point captured-sheet='Seite_3' id='3' />
+                  <story-point captured-sheet='Blatt 1' id='4' />
+                  <story-point captured-sheet='' id='5' />
+                  <story-point captured-sheet='' id='6' />
+                  <story-point captured-sheet='' id='7' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{2EDC9D26-38CA-436E-B28B-91422CA8CC62}' />
+    </dashboard>
+  </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Blatt 1'>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{3F717004-7825-4930-9FA1-3C0522085CD3}' />
+    </window>
+    <window class='worksheet' name='Seite_1'>
+      <cards>
+        <edge name='left'>
+          <strip size='125'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[:Measure Names]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Bewertung:nk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{875940BE-3F64-460F-9431-9FAAA356F491}' />
+    </window>
+    <window class='worksheet' name='Seite_2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C2299B7D-03E2-4C54-8DAA-165CDD51A07D}' />
+    </window>
+    <window class='worksheet' name='Seite_3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591304198:qk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591529481:qk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401591574538:qk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{814C28D4-4555-496C-B00F-2D6A4EC3736D}' />
+    </window>
+    <window class='worksheet' name='Blatt 1'>
       <cards>
         <edge name='left'>
           <strip size='170'>
@@ -385,8 +1719,8 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='170'>
-            <card pane-specification-id='3' param='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]&#10;[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[:Measure Names]' type='color' />
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -395,7 +1729,10 @@
           <color-one-way>
             <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[:Measure Names]</field>
             <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Bewertung:nk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Calculation_1210342401588158468:qk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Geschlecht:nk]</field>
             <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Haerte_des_Vergehens:nk]</field>
+            <field>[federated.0jvvxyf1vwv8di1970k7s0mzxdmx].[none:Hautfarbe:nk]</field>
           </color-one-way>
         </highlight>
         <default-map-tool-selection tool='2' />
@@ -406,103 +1743,409 @@
   <thumbnails>
     <thumbnail height='192' name='Blatt 1' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      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
-      TkSuQmCC
+      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
+      morjqCheL/8Pdv9oOF849osAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Seite_1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Seite_2' width='192'>
+      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
+      OcyaccOHAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Seite_3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Story 1' width='192'>
+      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
+      QmCC
     </thumbnail>
   </thumbnails>
 </workbook>
