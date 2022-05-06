@@ -20,12 +20,12 @@
 \contentsline {chapter}{\numberline {3}Praktischer Teil}{4}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Szenarien}{4}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Szenario 1}{4}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{4}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Konzeption}{4}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Grobkonzet}{4}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{4}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Umsetzung}{4}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Schluss}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluierung}{5}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ausblick}{5}{section.4.3}%
+\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{5}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Konzeption}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Grobkonzet}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{5}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Umsetzung}{5}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Schluss}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluierung}{6}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ausblick}{6}{section.4.3}%

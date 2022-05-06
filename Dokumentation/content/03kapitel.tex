@@ -1,25 +1,35 @@
 \chapter{Praktischer Teil}
-    \label{sec:praktischerteil}
-In diesem Teil der Arbeit werden zuerst die beiden Szenarien erläutert und daraufhin die Konzeption und Umsetzung deren in Python beschrieben.
-    \section{Szenarien}
-    \label{subsec:szenarien}
+\label{sec:praktischerteil}
+In diesem Teil der Arbeit werden zuerst die beiden Szenarien erläutert und daraufhin die Konzeption und Umsetzung derer in Python beschrieben.
+\section{Szenarien}
+\label{subsec:szenarien}
+Für das generieren von Daten wurden zwei möglichst reale Szenarien ausgewählt. Zum einen das Szenario eines Bewährungsantrages, für welches 5 verscheiedene Attribute und eine endtgültige Bewertung mit stattgegeben oder nicht generiert werden. Zum anderen das zweite Szenario des social creditpoint system, für welches pro Person 7 Attribute zu generieren sind und eine numerische Bewertung zwischen 600 und 1400 creditpoints erstellt wird. Diese beiden Szenarien werden im folgenden genauers erläutert.
+\subsection{Szenario 1}
+\label{subsubsec:szenario1}
+In Szenario 1 soll ein Bewährungsantrag einer Person Bewertet werden. Ein Antrag besteht dabei aus dem Namen der Person, dessen Geschlecht, Hautfarbe und den entscheidenden Attributen der laufenden Strafe in Jahre und der Härte des Vergehens. Basierend auf diesen Attributen soll ein Bewerter beurteilen, ob der Antrag genehmigt oder abgelehnt wird. Das Geschlecht wird in \glqq{}Männlich\grqq{} und \glqq{}Weiblich\grqq{} angegeben. Die Hautfarbe der Person wird als \glqq{}Schwarz\grqq{} oder \glqq{}Weiß\grqq{} festgehalten. Die noch laufende Strafe des Gefangenen wird in Jahren von als Ganzzahlen von 1-5 angegeben. Da hier definiert wird ein Bewährungsantrag kann erst ab maximal 5 Jahren noch offene Strafe gestellt werden. Die Härte des Vergehens wird einfachheitshalber in den Gruppen \glqq{}Leicht\grqq{}, \glqq{}Mittel\grqq{} oder \glqq{}Hart\grqq{} festgehalten. \newline
+Für die Beurteilung des Antrags von dem Bewerter werden folgende Regeln definiert:
+\begin{table}[!h]
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribut}   & \textbf{Positive Auswirkung} & \textbf{Negative Auswirkung} \\ \hline
+    Laufende Strafe     & 1-3                          & 4-5                          \\ \hline
+    Härte des Vergehens & Leicht, Mittel               & Hart                         \\ \hline
+    \end{tabular}
+\end{table}\\
+Das Geschlecht und die Hautfarbe werden hierbei nicht direkt aufgelistet, da diese in der Regel keine Auswirkung auf die Bewertung haben sollten. Diese können jedoch durch einen konkreten Bias Aussagekraft bekommen. Damit soll dann in den generierten Daten ein Bias auf ein gewissen Wert gelegt werden können. Somit sind in diesem Szenario die möglichen Werte, welche durch einen Bias beeinflusst werden können, das Geschlecht und die Hautfarbe.
+\subsection{Szenario 2}
+\label{subsubsec:szenario2}
 
-    \subsection{Szenario 1}
-    \label{subsubsec:szenario1}
+\section{Konzeption}
+\label{subsection:konzeption}
 
-    \subsection{Szenario 2}
-    \label{subsubsec:szenario2}
+\subsection{Grobkonzet}
+\label{subsubsec:grobkonzept}
 
-    \section{Konzeption}
-    \label{subsection:konzeption}
+\subsection{Feinkonzept}
+\label{subsubsec:feinkonzept}
 
-    \subsection{Grobkonzet}
-    \label{subsubsec:grobkonzept}
+\section{Umsetzung}
+\label{umsetzung}
 
-    \subsection{Feinkonzept}
-    \label{subsubsec:feinkonzept}
-
-    \section{Umsetzung}
-    \label{umsetzung}
-
-    \newpage
+\newpage
