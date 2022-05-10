@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 MAY 2022 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 MAY 2022 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -946,14 +946,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-<Diagramme/Grobkonzept_PAP.drawio.png, id=261, 282.05376pt x 362.35374pt>
-File: Diagramme/Grobkonzept_PAP.drawio.png Graphic file (type png)
-<use Diagramme/Grobkonzept_PAP.drawio.png>
-Package pdftex.def Info: Diagramme/Grobkonzept_PAP.drawio.png  used on input line 53.
-(pdftex.def)             Requested size: 282.05305pt x 362.35286pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<Diagramme/Grobkonzept_PAP.jpg, id=261, 283.0575pt x 363.3575pt>
+File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
+<use Diagramme/Grobkonzept_PAP.jpg>
+Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
+(pdftex.def)             Requested size: 170.7212pt x 227.62459pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -962,7 +959,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]) (content/04kapitel.tex
+[7 <./Diagramme/Grobkonzept_PAP.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -970,7 +967,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./Diagramme/Grobkonzept_PAP.drawio.png>]
+[8]) (content/04kapitel.tex
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1002,16 +999,16 @@ Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34595 strings out of 478547
- 804857 string characters out of 2840420
+ 804808 string characters out of 2840420
  1226643 words of memory out of 3000000
  52048 multiletter control sequences out of 15000+600000
  512843 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,15n,105p,1227b,671s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on Studienarbeit.pdf (18 pages, 220533 bytes).
+Output written on Studienarbeit.pdf (18 pages, 229592 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
+ 311 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 

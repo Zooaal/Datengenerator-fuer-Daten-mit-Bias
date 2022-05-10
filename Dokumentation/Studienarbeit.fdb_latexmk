@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Studienarbeit"] 1652176337 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1652176956
+["bibtex Studienarbeit"] 1652186447 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1652186450
   "C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "Literatur.bib" 1651649400 5260 68190beb4cd7bce7801e19571d911efe ""
-  "Studienarbeit.aux" 1652176956 8323 cf2f5b0a5f7fb18b18120d172416c7ef "pdflatex"
+  "Studienarbeit.aux" 1652186450 8399 a51bfc5d7c6f636bc9ab7902ca56f022 "pdflatex"
   (generated)
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
-["pdflatex"] 1652176953 "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1652176956
+["pdflatex"] 1652186448 "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1652186450
   "Bilder/TruLogo.jpg" 1651649400 43291 cbc35cc9b63e30dfc7192edaf0f4c848 ""
   "Bilder/dhbw.png" 1651649400 28036 72715f284b6ae369970da384742d8059 ""
   "C:/Users/zaoralti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651661222 82507 a9eef8696c92627b87e9975edea03b2a ""
@@ -222,21 +222,21 @@
   "C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/svgnam.def" 1636288472 4701 9c94a851a756fcbe00f338a0e7fd92c9 ""
   "C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "Diagramme/Grobkonzept_PAP.drawio.png" 1652176087 14027 787051c5d7861f3d06f02bd62e61f379 ""
-  "Studienarbeit.aux" 1652176956 8323 cf2f5b0a5f7fb18b18120d172416c7ef "pdflatex"
-  "Studienarbeit.bbl" 1652176338 404 e4db1311c76ac76c79bed4ed791c0722 "bibtex Studienarbeit"
-  "Studienarbeit.lof" 1652176956 228 4394276ef46459fe4379ee5cffbd5cb1 "pdflatex"
-  "Studienarbeit.lot" 1652176956 392 5ae121f9cc4e1cc417d9afabf57fdc49 "pdflatex"
-  "Studienarbeit.out" 1652176956 4285 43dd9e30cf5e9a8953030b05fe29ce90 "pdflatex"
+  "Diagramme/Grobkonzept_PAP.jpg" 1652184616 14845 58053afef62f5e4e5503bcf782b314f1 ""
+  "Studienarbeit.aux" 1652186450 8399 a51bfc5d7c6f636bc9ab7902ca56f022 "pdflatex"
+  "Studienarbeit.bbl" 1652186448 404 e4db1311c76ac76c79bed4ed791c0722 "bibtex Studienarbeit"
+  "Studienarbeit.lof" 1652186450 266 12842741c60539078dfda1a5e3987fd5 "pdflatex"
+  "Studienarbeit.lot" 1652186450 392 5ae121f9cc4e1cc417d9afabf57fdc49 "pdflatex"
+  "Studienarbeit.out" 1652186450 4285 43dd9e30cf5e9a8953030b05fe29ce90 "pdflatex"
   "Studienarbeit.tex" 1652170051 4162 7d464aa4b693529a7cca83e9574e21b7 ""
-  "Studienarbeit.toc" 1652176956 2393 ca209dff643ad0aaf673f144866d8708 "pdflatex"
+  "Studienarbeit.toc" 1652186450 2393 a61d7a23a2afeb45810eec5c8704f429 "pdflatex"
   "ads/abkürzungen.tex" 1652169199 985 3e8758d6a1f36e239a50cbd27df4d276 ""
   "ads/deckblatt.tex" 1652164351 1312 330a46a1587014f870daa3ed9a999d83 ""
   "ads/erklärung.tex" 1651661558 624 2790cbdcf2ccbb22eab4cbb2f3a3d6eb ""
   "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1652170051 4162 7d464aa4b693529a7cca83e9574e21b7 ""
   "content/01kapitel.tex" 1652169078 4935 2f0ab125b7f419cc824b0791e711f75b ""
   "content/02kapitel.tex" 1651649400 1417 9ce9b38daa3e01a68a50a1c28719731a ""
-  "content/03kapitel.tex" 1652176953 8253 d36c243858892e45de2f7668e8782f3e ""
+  "content/03kapitel.tex" 1652186444 8414 7739880d14489dc9963009f59348b81a ""
   "content/04kapitel.tex" 1651649400 799 9f7884c3d8baee7ef7e589ff30ffc346 ""
   (generated)
   "Studienarbeit.aux"
