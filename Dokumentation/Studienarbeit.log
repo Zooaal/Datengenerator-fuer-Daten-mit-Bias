@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 MAY 2022 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 MAY 2022 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -938,6 +938,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5
 
 ]
+Overfull \hbox (380.29395pt too wide) in paragraph at lines 29--34
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -976,17 +980,17 @@ Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: FD81D0D1925A12BC38B06E4350E2BBF9;4280.
  ) 
 Here is how much of TeX's memory you used:
- 34579 strings out of 478547
- 804462 string characters out of 2840420
+ 34581 strings out of 478547
+ 804487 string characters out of 2840420
  1224643 words of memory out of 3000000
- 52038 multiletter control sequences out of 15000+600000
+ 52039 multiletter control sequences out of 15000+600000
  512843 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,12n,105p,1227b,671s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 103i,15n,105p,1227b,671s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on Studienarbeit.pdf (16 pages, 207865 bytes).
+Output written on Studienarbeit.pdf (16 pages, 209521 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
