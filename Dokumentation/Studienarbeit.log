@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 MAY 2022 07:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 MAY 2022 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,7 +825,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...ne {3.2.1}Grobkonzet}{5}{subsection.3.2.1}
+l.25 ...ne {3.2.1}Grobkonzet}{6}{subsection.3.2.1}
                                                   % [1
 
 ])
@@ -855,6 +855,7 @@ Package acronym Info: Label `acro:KI' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
 Package acronym Info: Label `acro:bzw' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
+Package acronym Info: Label `acro:bzw' overridden on input line 7.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -866,30 +867,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9         \newpage
-                     [1
+l.9         \section{Motivation}
+                                 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 23--31
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--31
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--31
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
  []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35         \newpage
-                      [2]) (content/02kapitel.tex
+l.33         \newpage
+                      [2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]) (content/02kapitel.tex
 Kapitel 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
@@ -908,7 +924,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3
+[4
 
 ]) (content/03kapitel.tex
 Kapitel 3.
@@ -919,9 +935,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4
+[5
 
-] [5]) (content/04kapitel.tex
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]) (content/04kapitel.tex
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -935,7 +959,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[7
 
 ]) (Studienarbeit.bbl)
 
@@ -945,27 +969,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7
+[8
 
 ] (Studienarbeit.aux)
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: FD81D0D1925A12BC38B06E4350E2BBF9;4280.
  ) 
 Here is how much of TeX's memory you used:
- 34565 strings out of 478547
- 804272 string characters out of 2840420
- 1224642 words of memory out of 3000000
- 52026 multiletter control sequences out of 15000+600000
+ 34579 strings out of 478547
+ 804462 string characters out of 2840420
+ 1224643 words of memory out of 3000000
+ 52038 multiletter control sequences out of 15000+600000
  512843 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,12n,105p,1227b,671s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{bzw} has been referenced but does not exist, replaced by a fixed one
-
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on Studienarbeit.pdf (15 pages, 204826 bytes).
+Output written on Studienarbeit.pdf (16 pages, 207865 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
