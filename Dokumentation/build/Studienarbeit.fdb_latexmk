@@ -1,0 +1,37 @@
+# Fdb version 3
+["bibtex Studienarbeit"] 1652262899 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1652273613
+  "C:/Users/ZahnbÃ¼rste_HQ/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 0 -1 0 ""
+  "Literatur.bib" 1641564988 5260 68190beb4cd7bce7801e19571d911efe ""
+  "Studienarbeit.aux" 1652257703 8515 a51bfc5d7c6f636bc9ab7902ca56f022 ""
+  (generated)
+  "Studienarbeit.bbl"
+  "Studienarbeit.blg"
+["xdvipdfmx"] 1652273612 "build/Studienarbeit.xdv" "build/Studienarbeit.pdf" "build/Studienarbeit" 1652273613
+  "build/Studienarbeit.xdv" 1652273612 61564 31d861fc54253af15c11f43f8ac64b2e "xelatex"
+  (generated)
+  "build/Studienarbeit.pdf"
+["xelatex"] 1652273572 "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/5.Semester/Studienarbeit/Repo/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "build/Studienarbeit.xdv" "Studienarbeit" 1652273613
+  "Bilder/dhbw.png" 1641564988 28036 72715f284b6ae369970da384742d8059 ""
+  "Diagramme/Grobkonzept_PAP.jpg" 1652257703 14845 58053afef62f5e4e5503bcf782b314f1 ""
+  "Diagramme/Verbindung_der_Attribute_S2.jpg" 1652272468 9678 7c92f20aa2abf903848e3c99cd36b585 ""
+  "Studienarbeit.bbl" 1652262899 404 e4db1311c76ac76c79bed4ed791c0722 "bibtex Studienarbeit"
+  "Studienarbeit.tex" 1652181268 4162 7d464aa4b693529a7cca83e9574e21b7 ""
+  "ads/deckblatt.tex" 1652262810 1314 4efcf5415aeccd2092b638a60e2680ab ""
+  "build/Studienarbeit.aux" 1652273612 8804 f98822699f924f64272cb0fbb7055605 "xelatex"
+  "build/Studienarbeit.lof" 1652273612 411 d4e20bc568bde38f4857725e52007650 "xelatex"
+  "build/Studienarbeit.lot" 1652273612 392 5ae121f9cc4e1cc417d9afabf57fdc49 "xelatex"
+  "build/Studienarbeit.out" 1652273612 4285 43dd9e30cf5e9a8953030b05fe29ce90 "xelatex"
+  "build/Studienarbeit.toc" 1652273612 2398 586c398451b799e817082d75705f835a "xelatex"
+  "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/5.Semester/Studienarbeit/Repo/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1652181268 4162 7d464aa4b693529a7cca83e9574e21b7 ""
+  "content/01kapitel.tex" 1652181268 4935 2f0ab125b7f419cc824b0791e711f75b ""
+  "content/02kapitel.tex" 1641564988 1417 9ce9b38daa3e01a68a50a1c28719731a ""
+  "content/03kapitel.tex" 1652273572 13692 11b9a25779e89947ecb04f64a5dfff5a ""
+  "content/04kapitel.tex" 1641564988 799 9f7884c3d8baee7ef7e589ff30ffc346 ""
+  (generated)
+  "build/Studienarbeit.aux"
+  "build/Studienarbeit.lof"
+  "build/Studienarbeit.log"
+  "build/Studienarbeit.lot"
+  "build/Studienarbeit.out"
+  "build/Studienarbeit.toc"
+  "build/Studienarbeit.xdv"
