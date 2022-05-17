@@ -7,7 +7,7 @@ In diesem Teil der Arbeit werden zuerst die beiden Szenarien erläutert und dara
 Für das generieren von Daten wurden zwei möglichst reale Szenarien ausgewählt. Zum einen das Szenario eines Bewährungsantrages, für welches 5 verschiedene Attribute und eine endgültige Bewertung mit stattgegeben oder nicht generiert werden. Zum anderen das zweite Szenario des social creditpoint system, für welches pro Person 7 Attribute zu generieren sind und eine numerische Bewertung zwischen 600 und 1400 creditpoints erstellt wird. Diese beiden Szenarien werden im folgenden genauer erläutert.
 \subsection{Szenario 1}
 \label{subsubsec:szenario1}
-In Szenario 1 soll ein Bewährungsantrag einer Person Bewertet werden. Ein Antrag besteht dabei aus dem Namen der Person, dessen Geschlecht, Hautfarbe und den entscheidenden Attributen der laufenden Strafe in Jahre und der Härte des Vergehens. Basierend auf diesen Attributen soll ein Bewerter beurteilen, ob der Antrag genehmigt oder abgelehnt wird. Das Geschlecht wird in \glqq{}Männlich\grqq{} und \glqq{}Weiblich\grqq{} angegeben. Die Hautfarbe der Person wird als \glqq{}Schwarz\grqq{} oder \glqq{}Weiß\grqq{} festgehalten. Die noch laufende Strafe des Gefangenen wird in Jahren von als Ganzzahlen von 1-5 angegeben. Da hier definiert wird ein Bewährungsantrag kann erst ab maximal 5 Jahren noch offene Strafe gestellt werden. Die Härte des Vergehens wird einfachheitshalber in den Gruppen \glqq{}Leicht\grqq{}, \glqq{}Mittel\grqq{} oder \glqq{}Hart\grqq{} festgehalten. \newline
+In Szenario 1 soll ein Bewährungsantrag einer Person Bewertet werden. Ein Antrag besteht dabei aus dem Namen der Person, dessen Geschlecht, Hautfarbe und den entscheidenden Attributen der laufenden Strafe in Jahre und der Härte des Vergehens. Basierend auf diesen Attributen soll ein Bewerter beurteilen, ob der Antrag genehmigt oder abgelehnt wird. Das Geschlecht wird in \glqq{}Männlich\grqq{} und \glqq{}Weiblich\grqq{} angegeben. Da zur Vereinfachung sich auf das biologische Geschlecht begrenzt wurde und aus diesem Grund die Genderdiversität für den Datengenerator au{\ss}envor gelassen wurde. Die Hautfarbe der Person wird als \glqq{}Schwarz\grqq{} oder \glqq{}Weiß\grqq{} festgehalten. Die noch laufende Strafe des Gefangenen wird in Jahren von als Ganzzahlen von 1-5 angegeben. Da hier definiert wird ein Bewährungsantrag kann erst ab maximal 5 Jahren noch offene Strafe gestellt werden. Die Härte des Vergehens wird einfachheitshalber in den Gruppen \glqq{}Leicht\grqq{}, \glqq{}Mittel\grqq{} oder \glqq{}Hart\grqq{} festgehalten. \newline
 Für die Beurteilung des Antrags von dem Bewerter werden folgende Regeln definiert:
 \begin{table}[!h]
     \centering
@@ -91,7 +91,99 @@ Im Programm für das erste Szenario, welches \glqq{}Szenario1.ipynb\grqq{} heiß
     \label{fig:Zelle1S1}
 \end{figure}\\
 In der Abbildung \ref{fig:Zelle1S1} ist die erste Zelle mit den Importen der Bibliotheken zu sehen. Die Bibliothek \glqq{}numpy\grqq{} wird für Zufallsauswahlen unter bestimmten Wahrscheinlichkeiten benötigt. \glqq{}faker\grqq{} ist eine Bibliothek für generierte Daten, so wird diese hier für das bestimmen zufälliger Namen verwendet. \glqq{}pandas\grqq{} bietet sogenannte Dataframes in welchen die Daten gespeichert werden und durch pandas auch in eine CSV Datei geschrieben werden können. Die letzte Bibliothek \glqq{}random\grqq{} ist ebenfalls wie \glqq{}numpy\grqq{} für das generieren von Zufallswerten zuständig. Zum Schluss wird in der Zelle noch eine Instanz der Faker Klasse erstellt, welches zur Verwendung der Bibliothek benötigt wird.\\
-In der nächsten Zelle ist die Methode \glqq{}create\_fake\_data\grqq{} zur Generierung der Daten umgesetzt. Diese Methode bekommt die beiden Parameter num und seed übergeben. Der Parameter seed wird zu Beginn verwendet um den Startwert der Faker Instanz und von \glqq{}numpy\grqq{} zu setzen. Dadurch wird es ermöglicht, mit unterschiedlichen Startwerten, eine nahezu \glqq{}echte\grqq{}Zufallszahl zu generieren. Bei gleichbleibendem Startwert und gleicher Methode würde der Code immer die gleiche Zufallszahlen bestimmen. Zum Beispiel wenn drei Zahlen von 0-10 generiert werden sollen, werden bei gleichem Startwert immer die drei selben Zahlen generiert. Variiert der Startwert jedoch, werden jedes Mal unterschiedliche Zahlen generiert und eine ausreichende Variabilität erreicht. Als nächstes wird mit einer Schleife über die im Parameter num angegebene Zahl iteriert. In jedem Schleifendurchlauf wird ein Eintrag für den Datensatz generiert. Somit ist num die Größe des gewünschten Datensatzes. 
+In der nächsten Zelle ist die Methode \glqq{}create\_fake\_data\grqq{} zur Generierung der Daten umgesetzt. Diese Methode bekommt die beiden Parameter num und seed übergeben. Der Parameter seed wird zu Beginn verwendet um den Startwert der Faker Instanz und von \glqq{}numpy\grqq{} zu setzen. Dadurch wird es ermöglicht, mit unterschiedlichen Startwerten, eine nahezu \glqq{}echte\grqq{}Zufallszahl zu generieren. Bei gleichbleibendem Startwert und gleicher Methode würde der Code immer die gleiche Zufallszahlen bestimmen. Zum Beispiel wenn drei Zahlen von 0-10 generiert werden sollen, werden bei gleichem Startwert immer die drei selben Zahlen generiert. Variiert der Startwert jedoch, werden jedes Mal unterschiedliche Zahlen generiert und eine ausreichende Variabilität erreicht. Als nächstes wird mit einer Schleife über die im Parameter num angegebene Zahl iteriert. In jedem Schleifendurchlauf wird ein Eintrag für den Datensatz generiert. Somit ist num die Größe des gewünschten Datensatzes. In diesem Szenario müssen somit in jedem Durchlauf ein Wert für die Attribute Name, Geschlecht, Härte der Strafe, Hautfarbe und Laufende Strafe ermittelt werden. Der Name in jedem Eintrag wird durch die Faker Instanz generiert. Dafür wird je nach Geschlecht die Methode zum generieren eines weiblichen oder männlichen Namen aufgerufen. Die Attribute Geschlecht, Härte der Strafe und Hautfarbe müssen nach bestimmten Wahrscheinlichkeiten berechnet werden. Dies wird für jedes dieser Attribute wie folgend ausgeführt:\\
+\textbf{Geschlecht}\\
+Formel zur Berechnung der Wahrscheinlichkeiten für \ac{M} und \ac{W}:\\
+Gegeben: Gesamt = Gesamt Zahl der Gefangenen\\
+\begin{equation}
+    W/M\% = \frac{W/M}{Gesamt}\label{eq:Sz1Mänlich}
+\end{equation}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{Berechnung} & \textbf{Wahrscheinlichkeit} \\ \hline
+    Weiblich              &\rule{0pt}{18pt} $\frac{105.000}{1.439.800}$  & 7,3\% \\[8pt] \hline
+    Männlich              & \rule{0pt}{18pt}$\frac{1.334.800}{1.439.800}$     & 92,7\%  \\[8pt] \hline
+    \end{tabular}
+\caption{Tabelle zur Bestimmung der Wahrscheinlichkeiten für das Geschlecht}
+\label{table:3}
+\end{table}
+Das Geschlecht für eine Person wird nach den in der Tabelle \ref{table:3} berechneten Wahrscheinlichkeiten bestimmt. Die hier berechneten Wahrscheinlichkeiten ergeben sich aus den Gefängniszahlen von 2017 der USA, welche in einem Beitrag des U.S. Department of Justice im April 2019 veröffentlicht wurden. Die Zahlen wurden hierbei aus der \glqq{}Table 8\grqq{} des Papers entnommen und zur Berechnung nach der oben aufgeführten Formel verwendet.\cite[S. 17]{Prisoners}\\
+Die daraus entstehenden Wahrscheinlichkeiten werden wie in der folgenden Abbildung\ref{fig:GeschlechtscodeS1} zur Bestimmung des Geschlechts mit Hilfe der \glqq{}numpy\grqq{} Bibliothek verwendet.
+\begin{figure}[h]
+    \centering
+    \includegraphics{Diagramme/Sz1_GeschlechtsCode.JPG}
+    \caption{Codezeile zur Bestimmung des Geschlechts einer Person}
+    \label{fig:GeschlechtscodeS1}
+\end{figure}\\
+In der Zeile Code werden zuerst die möglichen Ausprägungen als Strings in einem Array angegeben und dann die dazugehörigen Wahrscheinlichkeiten nach welchen eine Ausprägung bestimmt werden soll.\\
+\textbf{Härte der Strafe}\\
+Für die Bestimmung einer Ausprägung der Härte der Strafe, ist die Berechnung der Wahrscheinlichkeiten und die letztendliche Auswahl etwas komplexer. Da wie in der Konzeption geplant die Härte der Strafe vom Geschlecht einer Person abhängig ist. Daher ist es nicht möglich eine einfache Formel zur Berechnung aufzustellen, sondern es muss aus der Datenquelle erörtert werden wie sich die Wahrscheinlichkeiten verteilen. Die Verteilung der Wahrscheinlichkeiten ist in der folgenden Tabelle dargestellt.\\
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{Weiblich} & \textbf{Männlich} \\ \hline
+    Leicht                & 36,1\%            & 26,6\%            \\ \hline
+    Mittel                & 26,4\%            & 16,9\%            \\ \hline
+    Hart                  & 37,5\%            & 56,5\%            \\ \hline
+    \end{tabular}
+\caption{Tabelle der Wahrscheinlichkeiten für die Härte der Strafe nach Geschlecht}
+\label{table:4}
+\end{table}\\
+Die in Tabelle \ref{table:4} gezeigten Wahrscheinlichkeiten ergeben sich aus dem Beitrag des U.S. Department of Justice vom April 2019. In diesem ist in \glqq{}Table 12\grqq{} eine prozentuale Verteilung von den Strafgruppen Gewalttätig, Eigentum, Drogen, Öffentliche Ordnung und Sonstige über die Geschlechter \ac{W} und \ac{M} aus dem Dezember 2016 aufgelistet. Dabei sind die Strafen nach den schwersten Delikten absteigend aufgeführt. Somit wird diese Verteilung auf die in der Konzeption definierten Ausprägungen Leicht, Mittel und Hart verteilt. So wird der Prozentsatz der gewalttätigen Strafen Hart zugeordnet, die Eigentumsstrafen Mittel zugeordnet und die Drogen, Öffentliche Ordnung und Sonstigen Strafen Leicht zugeordnet. Dadurch ergeben sich auf Grundlage der Zahlen aus den USA die Wahrscheinlichkeiten in der Tabelle \ref{table:4}.\cite[S. 21]{Prisoners}\\
+Um die Bestimmung der Härte der Strafe nun durchzuführen, wird der selbe Code wie in Abbildung \ref{fig:GeschlechtscodeS1} gezeigt auf dieses Attribut angepasst und im Verbund mit einer if Abfrage zur Überprüfung des Geschlechts umgesetzt. So wird entsprechend dem Geschlecht einer Person nach den dazu passenden Wahrscheinlichkeiten die Härte der Strafe zufällig ausgewählt.\\
+\textbf{Hautfarbe}\\
+Formel zur Berechnung der Hautfarbe basierend auf dem Vorwissen des Geschlechtes:\\
+Gegeben: Gesamt \ac{W}/\ac{M} = Anzahl an Weißen und Schwarzen Gefangenen pro (G)Geschlecht = S(Schwarz) + Wi(Weiß)\\
+\begin{equation}
+    S/Wi\% = \frac{S/Wi}{Gesamt \ac{W}/\ac{M}}\label{eq:Sz1Hautfarbe}
+\end{equation}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{Berechnung} & \textbf{Wahrscheinlichkeit} \\ \hline
+    Schwarz              &\rule{0pt}{28pt} $
+        S\%= 
+    \begin{cases}
+        \frac{456.300}{843.700}\quad |&\text{Geschlecht: M}\\
+        \frac{19.600}{68.700} \quad | &\text{Geschlecht: W}
+    \end{cases}$ & \(\displaystyle S\%=
+    \begin{cases}
+    54,1\%\quad | & \text{Geschlecht: M} \\
+    28,5\%\quad| & \text{Geschlecht: W}
+    \end{cases} \) \\[22pt] \hline
+    Weiß              &\rule{0pt}{28pt} $
+        Wi\%= 
+    \begin{cases}
+        \frac{387.400}{843.700}\quad |& \text{Geschlecht: M}\\
+        \frac{49.100}{68.700} \quad |&\text{Geschlecht: W}
+    \end{cases}$ & \(\displaystyle Wi\%=
+    \begin{cases}
+    45,9\%\quad | & \text{Geschlecht: M} \\
+    71,5\%\quad | & \text{Geschlecht: W}
+    \end{cases} \) \\[22pt] \hline
+    \end{tabular}
+\caption{Tabelle zur Bestimmung der Wahrscheinlichkeiten für die Hautfarbe unter Berücksichtigung des Geschlechts}
+\label{table:5}
+\end{table}
+Die in der Tabelle \ref{table:5} dargestellten Berechnungen und daraus resultierenden Wahrscheinlichkeiten beruhen erneut auf der Veröffentlichung vom U.S. Department of Justice. In dieser sind in \glqq{}Table 8\grqq{} die Gefangenen nach Geschlecht und ethischen Gruppen aufgeteilt. Zur Vereinfachung wurden für die Hautfarbe jedoch nur zwischen Schwarz und Weiß unterschieden. Dabei werden Ethnien bewusst nicht gesondert berücksichtigt. Somit sind lediglich die Zahlen für die Anzahl an der Gruppe Schwarz und Weiß nach Geschlecht Männlich Weiblich von Interesse. Um daraus Prozentwerte zu bilden, nach welchen dann eine Person entweder die Hautfarbe Schwarz oder Weiß bekommt, wurde die oben gezeigte Formel aufgestellt. Für die Formel wird zuerst zum einen die Gesamtheit an Schwarzen sowie Weißen männlichen Personen und zum anderen die Gesamtheit am Schwarzen sowie Weißen weiblichen Personen gebildet. Daraufhin können basierend auf diesen Gesamtwerten die Wahrscheinlichkeitsverteilungen für Männlich und Schwarz, Männlich und Weiß, Weiblich und Schwarz, Weiblich und Weiß anhand der Formel berechnet werden.\\
+Damit diese Wahrscheinlichkeiten bei der Bestimmung angewendet werden können wird wie schon bei der Härte der Strafe, der Code aus Abbildung \ref{fig:GeschlechtscodeS1} durch eine if Abfrage erweitert und an dieses Attribut angepasst.\\
+Als letztes Attribut wird noch eine Ausprägung für die Länge der Strafe bestimmt. Hierfür wird mit der \glqq{}numpy\grqq{} Bibliothek eine zufällige Ganzzahl zwischen eins und fünf ausgewählt.\\
+Um einen Schleifendurchlauf abzuschließen werden die durch Wahrscheinlichkeiten bestimmten Werte zusammen als ein Dictionary als neuen Eintrag in ein Array mit der Zuordnung(Attribut:Ausprägung) hinzugefügt. Damit ist ein Schleifendurchlauf abgeschlossen und der nächste kann beginnen. Wenn die Schleife fertig ist, wird das volle Array mit den gespeicherten Einträgen aus der Methode zum Datengenerieren zurückgegeben und diese ist damit auch vollends durchgeführt.\\
+Als nächsten, aus der Konzeption definierten Prozessschritt nach dem generieren der Daten, wird das aufstellen der Regeln umgesetzt. Hierfür wird die Methode \glqq{}create\_Rules\grqq{} mit den Parametern\glqq{}request\_values, request\_bias, bias\grqq{} implementiert. Der Parameter \glqq{}request\_values\grqq{} ist ein Dictionary mit den Keys an den für die Bewertung relevanten Attributen und den dazugehörigen Ausprägungen in einem Array als Value. In diesem Fall sind es wie in der Konzeption definiert die Attribute Härte der Strafe und Laufende Strafe, welche wie in der folgenden Abbildung \ref{fig:RequestValues} im Dictionary angegeben werden.\\
+\begin{figure}[h]
+    \centering
+    \includegraphics{Diagramme/Sz1_RequestValues.JPG}
+    \caption{Codezeilen zum Erstellen eines Dictionary mit den zur Bewertung relevanten Attributen}
+    \label{fig:RequestValues}
+\end{figure}\\
+Der Parameter \glqq{}request\_bias\grqq{} ist genau gleich aufgebaut, beinhaltet jedoch die Attribute Geschlecht und Hautfarbe und deren Ausprägung. Dieser gibt die Liste der durch Verzerrung beeinflussbaren Attribute an. Der letzte Parameter \glqq{}bias\grqq{} gibt die gewünschte Verzerrung ebenfalls wie die anderen Parameter an. 
+
+NUN WEITER MIT RÜCKGABE WERTE UND DANN BESCHREIBUNG WIE LÄUFT METHODE AB WAS PASSIERT STÜCK FÜR STÜCK.
 \newpage
 \section{Datenauswertung}
 \label{datenauswerung}
