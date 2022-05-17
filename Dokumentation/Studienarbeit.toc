@@ -6,28 +6,28 @@
 \contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{3}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Stand der Technik}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Daten}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Datenqualität}{4}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Bias}{4}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Künstliche Intelligenz \& Maschinelles Lernen}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Was ist Künstliche Intelligenz}{4}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Teilgebiet Maschinelles Lernen}{4}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Ethik in der Künstlichen Intelligenz}{4}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Künstliche Intelligenz verbunden mit Bias}{4}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Diskriminierung durch verzerrte Daten}{4}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Gegenma{\ss }nahmen}{4}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Praktischer Teil}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Szenarien}{5}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{5}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{6}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Konzeption}{7}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{8}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Umsetzung}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Datenauswertung}{16}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{16}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Schluss}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diskussion}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ausblick}{17}{section.4.3}%
+\contentsline {chapter}{\numberline {2}Stand der Technik}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Daten}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Datenqualität}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Bias}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Künstliche Intelligenz \& Maschinelles Lernen}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Was ist Künstliche Intelligenz}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Teilgebiet Maschinelles Lernen}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Ethik in der Künstlichen Intelligenz}{5}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Künstliche Intelligenz verbunden mit Bias}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Diskriminierung durch verzerrte Daten}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Gegenma{\ss }nahmen}{5}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Praktischer Teil}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Szenarien}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{6}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{7}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Konzeption}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{9}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Umsetzung}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Datenauswertung}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{17}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Schluss}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diskussion}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ausblick}{18}{section.4.3}%
