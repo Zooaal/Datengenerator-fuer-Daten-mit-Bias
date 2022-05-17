@@ -92,5 +92,9 @@ Im Programm für das erste Szenario, welches \glqq{}Szenario1.ipynb\grqq{} heiß
 \end{figure}\\
 In der Abbildung \ref{fig:Zelle1S1} ist die erste Zelle mit den Importen der Bibliotheken zu sehen. Die Bibliothek \glqq{}numpy\grqq{} wird für Zufallsauswahlen unter bestimmten Wahrscheinlichkeiten benötigt. \glqq{}faker\grqq{} ist eine Bibliothek für generierte Daten, so wird diese hier für das bestimmen zufälliger Namen verwendet. \glqq{}pandas\grqq{} bietet sogenannte Dataframes in welchen die Daten gespeichert werden und durch pandas auch in eine CSV Datei geschrieben werden können. Die letzte Bibliothek \glqq{}random\grqq{} ist ebenfalls wie \glqq{}numpy\grqq{} für das generieren von Zufallswerten zuständig. Zum Schluss wird in der Zelle noch eine Instanz der Faker Klasse erstellt, welches zur Verwendung der Bibliothek benötigt wird.\\
 In der nächsten Zelle ist die Methode \glqq{}create\_fake\_data\grqq{} zur Generierung der Daten umgesetzt. Diese Methode bekommt die beiden Parameter num und seed übergeben. Der Parameter seed wird zu Beginn verwendet um den Startwert der Faker Instanz und von \glqq{}numpy\grqq{} zu setzen. Dadurch wird es ermöglicht, mit unterschiedlichen Startwerten, eine nahezu \glqq{}echte\grqq{}Zufallszahl zu generieren. Bei gleichbleibendem Startwert und gleicher Methode würde der Code immer die gleiche Zufallszahlen bestimmen. Zum Beispiel wenn drei Zahlen von 0-10 generiert werden sollen, werden bei gleichem Startwert immer die drei selben Zahlen generiert. Variiert der Startwert jedoch, werden jedes Mal unterschiedliche Zahlen generiert und eine ausreichende Variabilität erreicht. Als nächstes wird mit einer Schleife über die im Parameter num angegebene Zahl iteriert. In jedem Schleifendurchlauf wird ein Eintrag für den Datensatz generiert. Somit ist num die Größe des gewünschten Datensatzes. 
-\newpage 
+\newpage
+\section{Datenauswertung}
+\label{datenauswerung}
+\section{Evaluation der Ergebnisse}
+\label{evaluation}
 \end{onehalfspace}
