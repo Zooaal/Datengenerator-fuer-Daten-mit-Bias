@@ -19,10 +19,76 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{Parkavi}{inproceedings}{}
+    \entry{Otto2019}{misc}{}
+      \name{author}{10}{}{%
+        {{hash=47b6ff6bcb1c3b107867b3a8f8f2d8db}{%
+           family={Otto},
+           familyi={O\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f151f355343a7f42784fc1fa3150b30d}{%
+           family={Lis},
+           familyi={L\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=df3c57eb5b33bd18075548224dcda30e}{%
+           family={Jürjes},
+           familyi={J\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=889234aff92ac56a13fb3582231ba1d5}{%
+           family={Cirullies},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2639475e0d101d20461e2a55a0e1892f}{%
+           family={Opriel},
+           familyi={O\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d9b3e23746c76ef6419b7f77905ec8ed}{%
+           family={Howar},
+           familyi={H\bibinitperiod},
+           given={Falk},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f6089a62ae96318cd0e9dd1c2c745e6c}{%
+           family={Meister},
+           familyi={M\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=951f7c6e9fad51f2fd8d0a5c2b8fa44c}{%
+           family={Spiekermann},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2d9bf97af1ca8503a8678d9254c4aee}{%
+           family={Pettenpohl},
+           familyi={P\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ad6a39b7d67fa744bd9791ff574ba404}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{fullhash}{f5c7b8d35c821b4e48389851cf829408}
+      \strng{bibnamehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{authorbibnamehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{authornamehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{authorfullhash}{f5c7b8d35c821b4e48389851cf829408}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Ecosystems}
+      \field{year}{2019}
+    \endentry
+    \entry{Parkavi2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=53feed426a7d24dae7836d069fff943b}{%
-           family={A.},
+           family={A},
            familyi={A\bibinitperiod},
            given={Parkavi},
            giveni={P\bibinitperiod}}}%
@@ -37,8 +103,8 @@
            given={Saima},
            giveni={S\bibinitperiod}}}%
         {{hash=585af0705b3d819951aa92c2a704836a}{%
-           family={M.S.},
-           familyi={M\bibinitperiod},
+           family={M\bibnamedelima S},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
            given={Vinutha},
            giveni={V\bibinitperiod}}}%
       }
@@ -48,26 +114,80 @@
       \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
       \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
       \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
       \field{title}{The Patterns that Don’t Exist : Study on the effects of psychological human biases in data analysis and decision making}
       \field{year}{2018}
-      \field{pages}{193\bibrangedash 197}
-      \range{pages}{5}
       \verb{doi}
       \verb 10.1109/CSITSS.2018.8768554
       \endverb
     \endentry
-    \entry{Prisoners}{misc}{}
+    \entry{Cremers2019}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d5f9ee334c9e28a468affb8bd745845f}{%
+           family={Cremers},
+           familyi={C\bibinitperiod},
+           given={Armin\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a942fd1cdac7b49ac4cd04a21f5b5e0b}{%
+           family={Englander},
+           familyi={E\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{fullhash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{bibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 15.05.2022 [Online]. Verfügbar:\url{https://www.iais.fraunhofer.de/content/dam/iais/KINRW/Whitepaper_KI-Zertifizierung.pdf}}
+      \field{title}{Vertrauenswürdiger Einsatz von künstlicher Intelligenz}
+      \field{year}{2019}
+    \endentry
+    \entry{Gröger2021}{article}{}
       \name{author}{1}{}{%
-        {{hash=9c979611afbced8d2eeb72e681ff9620}{%
-           family={Bronson\bibnamedelima Jennifer},
-           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={Carson\bibnamedelimb E.\bibnamedelimi Ann},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=42c49a9ad2f6679a202075e51ca9655d}{%
+           family={Gröger},
+           familyi={G\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{fullhash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{bibnamehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{authorbibnamehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{authornamehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{authorfullhash}{42c49a9ad2f6679a202075e51ca9655d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{There is no AI without data}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1145/3448247
+      \endverb
+    \endentry
+    \entry{Bronson2017}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=1c210d927a0f2dd3ebd4ca9e3bf9020d}{%
+           family={Bronson},
+           familyi={B\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=428385754b37c72f4adea95e55c45451}{%
+           family={Carson},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi Ann},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \strng{namehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{fullhash}{9c979611afbced8d2eeb72e681ff9620}
@@ -75,11 +195,11 @@
       \strng{authorbibnamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authornamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authorfullhash}{9c979611afbced8d2eeb72e681ff9620}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
+      \field{addendum}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
       \field{title}{Prisoners in 2017}
       \field{year}{2019}
     \endentry

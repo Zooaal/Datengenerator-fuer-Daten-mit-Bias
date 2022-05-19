@@ -2348,11 +2348,17 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Parkavi</bcf:citekey>
-    <bcf:citekey order="2">Prisoners</bcf:citekey>
-    <bcf:citekey order="3">Prisoners</bcf:citekey>
-    <bcf:citekey order="4">Parkavi</bcf:citekey>
-    <bcf:citekey order="5">Prisoners</bcf:citekey>
+    <bcf:citekey order="1">Otto2019</bcf:citekey>
+    <bcf:citekey order="2">Parkavi2018</bcf:citekey>
+    <bcf:citekey order="3">Cremers2019</bcf:citekey>
+    <bcf:citekey order="4">Gröger2021</bcf:citekey>
+    <bcf:citekey order="5">Bronson2017</bcf:citekey>
+    <bcf:citekey order="6">Bronson2017</bcf:citekey>
+    <bcf:citekey order="7">Otto2019</bcf:citekey>
+    <bcf:citekey order="8">Parkavi2018</bcf:citekey>
+    <bcf:citekey order="9">Cremers2019</bcf:citekey>
+    <bcf:citekey order="10">Gröger2021</bcf:citekey>
+    <bcf:citekey order="11">Bronson2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
