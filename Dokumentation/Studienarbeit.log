@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  19 MAY 2022 07:53
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  18 MAY 2022 13:54
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -876,7 +880,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.25         \newpage
                       [2]
+<<<<<<< Updated upstream
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 34.
+=======
+Package acronym Info: Label `acro:ML' newly defined as it shall be overridden
+although it is yet undefined on input line 19.
+Package acronym Info: Label `acro:ML' overridden on input line 19.
+Package acronym Info: Label `acro:ML' overridden on input line 21.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 39.
+>>>>>>> Stashed changes
  (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -937,8 +966,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [7]
 <Diagramme/Grobkonzept_PAP.jpg, id=323, 283.0575pt x 363.3575pt>
+=======
+[9]
+<Diagramme/Grobkonzept_PAP.jpg, id=335, 283.0575pt x 363.3575pt>
+>>>>>>> Stashed changes
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
@@ -954,8 +988,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [8]
 <Diagramme/Verbindung_der_Attribute_S2.jpg, id=329, 350.30875pt x 121.45375pt>
+=======
+[10]
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=341, 350.30875pt x 121.45375pt>
+>>>>>>> Stashed changes
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 69.
@@ -984,8 +1023,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [11]
 <Diagramme/Sz1_Cell1.PNG, id=346, 448.074pt x 140.9265pt>
+=======
+[13]
+<Diagramme/Sz1_Cell1.PNG, id=358, 448.074pt x 140.9265pt>
+>>>>>>> Stashed changes
 File: Diagramme/Sz1_Cell1.PNG Graphic file (type png)
 <use Diagramme/Sz1_Cell1.PNG>
 Package pdftex.def Info: Diagramme/Sz1_Cell1.PNG  used on input line 89.
@@ -1009,8 +1053,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [12]
 <Diagramme/Sz1_GeschlechtsCode.JPG, id=357, 367.3725pt x 35.38219pt>
+=======
+[14]
+<Diagramme/Sz1_GeschlechtsCode.JPG, id=369, 367.3725pt x 35.38219pt>
+>>>>>>> Stashed changes
 File: Diagramme/Sz1_GeschlechtsCode.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_GeschlechtsCode.JPG>
 Package pdftex.def Info: Diagramme/Sz1_GeschlechtsCode.JPG  used on input line 116.
@@ -1048,11 +1097,20 @@ Overfull \hbox (37.46739pt too wide) in paragraph at lines 146--170
  [][] 
  []
 
+<<<<<<< Updated upstream
 <Diagramme/Sz1_RequestValues.JPG, id=386, 398.99063pt x 71.51718pt>
+=======
+<Diagramme/Sz1_RequestValues.JPG, id=398, 398.99063pt x 71.51718pt>
+>>>>>>> Stashed changes
 File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_RequestValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 180.
 (pdftex.def)             Requested size: 398.98965pt x 71.517pt.
+<Diagramme/Sz1_Regeln.drawio.png, id=399, 327.2225pt x 613.29124pt>
+File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
+<use Diagramme/Sz1_Regeln.drawio.png>
+Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 188.
+(pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1062,13 +1120,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[18 <./Diagramme/Sz1_RequestValues.JPG>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+<<<<<<< Updated upstream
 [16 <./Diagramme/Sz1_RequestValues.JPG>]) (content/04kapitel.tex
+=======
+[19 <./Diagramme/Sz1_Regeln.drawio.png>]) (content/04kapitel.tex
+>>>>>>> Stashed changes
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1076,7 +1149,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [17]
+=======
+[20]
+>>>>>>> Stashed changes
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1090,7 +1167,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [18
+=======
+[21
+>>>>>>> Stashed changes
 
 ]) (Studienarbeit.bbl)
 
@@ -1100,24 +1181,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [19
+=======
+[22
+>>>>>>> Stashed changes
 
 ] (Studienarbeit.aux)
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 28A3C38DB4F63436A82AF5D310AF83E5;4596.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  34707 strings out of 478547
  807161 string characters out of 2840420
  1232642 words of memory out of 3000000
  52122 multiletter control sequences out of 15000+600000
+=======
+ 34723 strings out of 478547
+ 807512 string characters out of 2840420
+ 1234643 words of memory out of 3000000
+ 52133 multiletter control sequences out of 15000+600000
+>>>>>>> Stashed changes
  519207 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,18n,105p,2062b,671s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+<<<<<<< Updated upstream
 Output written on Studienarbeit.pdf (27 pages, 320175 bytes).
 PDF statistics:
  478 PDF objects out of 1000 (max. 8388607)
  90 named destinations out of 1000 (max. 500000)
  299 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on Studienarbeit.pdf (30 pages, 337266 bytes).
+PDF statistics:
+ 498 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 

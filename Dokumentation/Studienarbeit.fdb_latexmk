@@ -1,4 +1,5 @@
 # Fdb version 3
+<<<<<<< Updated upstream
 ["bibtex Studienarbeit"] 1652939581 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1652939586
   "C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "Literatur.bib" 1652779692 5519 814e87208e1b7743460cf73f01bf7f71 ""
@@ -7,6 +8,16 @@
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
 ["pdflatex"] 1652939581 "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1652939586
+=======
+["bibtex Studienarbeit"] 1652870060 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1652874904
+  "C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
+  "Literatur.bib" 1652779692 5519 814e87208e1b7743460cf73f01bf7f71 ""
+  "Studienarbeit.aux" 1652874903 12163 7f8feaa43df54fb833a0e9132a14d910 "pdflatex"
+  (generated)
+  "Studienarbeit.bbl"
+  "Studienarbeit.blg"
+["pdflatex"] 1652874899 "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1652874904
+>>>>>>> Stashed changes
   "Bilder/dhbw.png" 1651649400 28036 72715f284b6ae369970da384742d8059 ""
   "C:/Users/zaoralti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652438699 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/zaoralti/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1651660982 10256457 589277ad94c5349d693a45fc8b83861e ""
@@ -238,6 +249,7 @@
   "Diagramme/Grobkonzept_PAP.jpg" 1652184616 14845 58053afef62f5e4e5503bcf782b314f1 ""
   "Diagramme/Sz1_Cell1.PNG" 1652703751 7079 fdc0f2f5ae5d0f42f1fd2c4fc6db3c9a ""
   "Diagramme/Sz1_GeschlechtsCode.JPG" 1652781057 14220 6cf5114310449e6c31d1323b3c4ed8e8 ""
+<<<<<<< Updated upstream
   "Diagramme/Sz1_RequestValues.JPG" 1652793423 15135 2f5d5ae39df0698cce3afcab3b646652 ""
   "Diagramme/Verbindung_der_Attribute_S2.jpg" 1652276430 9678 7c92f20aa2abf903848e3c99cd36b585 ""
   "Studienarbeit.aux" 1652939585 11839 aa51e53a678d840cf82ddf09a465e1d2 "pdflatex"
@@ -247,13 +259,31 @@
   "Studienarbeit.out" 1652939585 4596 28a3c38db4f63436a82af5d310af83e5 "pdflatex"
   "Studienarbeit.tex" 1652170051 4162 7d464aa4b693529a7cca83e9574e21b7 ""
   "Studienarbeit.toc" 1652939585 2559 6d3c1a9de43a9e0b17f65f8228038482 "pdflatex"
+=======
+  "Diagramme/Sz1_Regeln.drawio.png" 1652869617 27029 6ff506e7f087e201694598141e5e6f3f ""
+  "Diagramme/Sz1_RequestValues.JPG" 1652793423 15135 2f5d5ae39df0698cce3afcab3b646652 ""
+  "Diagramme/Verbindung_der_Attribute_S2.jpg" 1652276430 9678 7c92f20aa2abf903848e3c99cd36b585 ""
+  "Studienarbeit.aux" 1652874903 12163 7f8feaa43df54fb833a0e9132a14d910 "pdflatex"
+  "Studienarbeit.bbl" 1652870061 595 8b672abe22d57cfa5a577cb23f959664 "bibtex Studienarbeit"
+  "Studienarbeit.lof" 1652874903 997 b1d9414f9de37002432e8144a2a015a1 "pdflatex"
+  "Studienarbeit.lot" 1652874903 901 cef171c3921b47169ff5b76104f00c38 "pdflatex"
+  "Studienarbeit.out" 1652874903 4596 28a3c38db4f63436a82af5d310af83e5 "pdflatex"
+  "Studienarbeit.tex" 1652170051 4162 7d464aa4b693529a7cca83e9574e21b7 ""
+  "Studienarbeit.toc" 1652874903 2562 43ec9f351cb8cb407aa7ddc15ddb6293 "pdflatex"
+>>>>>>> Stashed changes
   "ads/abkürzungen.tex" 1652775571 1030 8a180787e15cf201abd07a9ab9914e4c ""
   "ads/deckblatt.tex" 1652276430 1314 4efcf5415aeccd2092b638a60e2680ab ""
   "ads/erklärung.tex" 1651661558 624 2790cbdcf2ccbb22eab4cbb2f3a3d6eb ""
   "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1652170051 4162 7d464aa4b693529a7cca83e9574e21b7 ""
+<<<<<<< Updated upstream
   "content/01kapitel.tex" 1652939573 9922 3a0bb453097e231fddcd2ed2dc008ceb ""
   "content/02kapitel.tex" 1651649400 1417 9ce9b38daa3e01a68a50a1c28719731a ""
   "content/03kapitel.tex" 1652939570 29776 17e7ee5010d2b5c753f40fccdcc832b0 ""
+=======
+  "content/01kapitel.tex" 1652864920 10118 ccccccb389f675d42f5bc65e945750cf ""
+  "content/02kapitel.tex" 1651649400 1417 9ce9b38daa3e01a68a50a1c28719731a ""
+  "content/03kapitel.tex" 1652874897 31055 fb485ba5268da94679ccd0001c78cd6c ""
+>>>>>>> Stashed changes
   "content/04kapitel.tex" 1652768659 808 021c5d687aa76221fb1dc444f480e061 ""
   (generated)
   "Studienarbeit.aux"

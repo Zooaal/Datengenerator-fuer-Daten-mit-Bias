@@ -182,6 +182,14 @@ Als nächsten, aus der Konzeption definierten Prozessschritt nach dem generieren
     \label{fig:RequestValues}
 \end{figure}\\
 Der Parameter \glqq{}request\_bias\grqq{} ist genau gleich aufgebaut, beinhaltet jedoch die Attribute Geschlecht und Hautfarbe und deren Ausprägung. Dieser gibt die Liste der durch Verzerrung beeinflussbaren Attribute an. Der letzte Parameter \glqq{}bias\grqq{} gibt die gewünschte Verzerrung ebenfalls wie die anderen Parameter an. 
+In der Methode werden vier Rückgabewerte als Dictionaries generiert. Eine Dictionary für die Regeln der positiven Auswirkung, eines für die negative Auswirkung und nochmals die selben zwei Listen nochmals ergänzt durch die gewünschte Verzerrung. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm,height=14cm]{Diagramme/Sz1_Regeln.drawio.png}
+    \caption{Programmablaufplan zur Generierung der Regeln von Szenario 1}
+    \label{fig:Sz1Regeln}
+\end{figure}\\
+In Abbildung \ref{fig:Sz1Regeln} ist der Ablauf der Methode als Programmablaufplan skizziert. Zu Beginn werden die vier Dictionaries, in welchen die Regeln gespeichert werden, initialisiert. Daraufhin wird eine Schleife durch alle Keys des \glqq{}request\_values\grqq{} Dictionary durchlaufen. Darin werden als erstes die Anzahl an Ausprägungen des in diesem Durchlauf ausgewählten Attributes gezählt. Nach dem die Anzahl an Ausprägungen klar ist, kann die Mitte bestimmt werden. Anhand der Mitte werden die Ausprägungen unterhalb und gleich der Mitte dem Dictionary der negativen Regeln hinzugefügt und die restlichen oberhalb der Mitte dem Dictionary der positiven Regeln. Wenn dies vollbracht ist, ist der erste Durchlauf beendet und es kann mit dem nächsten weiter gemacht werden. 
 
 NUN WEITER MIT RÜCKGABE WERTE UND DANN BESCHREIBUNG WIE LÄUFT METHODE AB WAS PASSIERT STÜCK FÜR STÜCK.
 \newpage
