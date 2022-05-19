@@ -1,15 +1,89 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{Parkavi}
-P.~A., A.~Jawaid, S.~Dev, and V.~M.S., ``The patterns that don’t exist :
-  Study on the effects of psychological human biases in data analysis and
-  decision making,'' in {\em 2018 3rd International Conference on Computational
-  Systems and Information Technology for Sustainable Solutions (CSITSS)},
-  pp.~193--197, 2018.
 
-\bibitem{Prisoners}
-C.~E.~A. Bronson~Jennifer, ``Prisoners in 2017,'' 2019.
-\newblock Accessed on: 17.05.2022. [Online]. Available:
-  \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}.
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Parkavi}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=53feed426a7d24dae7836d069fff943b}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Parkavi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=55db48a12e2f9b8d781069e02a2e3848}{%
+           family={Jawaid},
+           familyi={J\bibinitperiod},
+           given={Anam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5625f35ee4860e98ed9dc0aff5c341a9}{%
+           family={Dev},
+           familyi={D\bibinitperiod},
+           given={Saima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=585af0705b3d819951aa92c2a704836a}{%
+           family={M.S.},
+           familyi={M\bibinitperiod},
+           given={Vinutha},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc7ce8db94f357b0d1d19b34d82259a7}
+      \strng{fullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \strng{bibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
+      \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
+      \field{title}{The Patterns that Don’t Exist : Study on the effects of psychological human biases in data analysis and decision making}
+      \field{year}{2018}
+      \field{pages}{193\bibrangedash 197}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/CSITSS.2018.8768554
+      \endverb
+    \endentry
+    \entry{Prisoners}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c979611afbced8d2eeb72e681ff9620}{%
+           family={Bronson\bibnamedelima Jennifer},
+           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Carson\bibnamedelimb E.\bibnamedelimi Ann},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c979611afbced8d2eeb72e681ff9620}
+      \strng{fullhash}{9c979611afbced8d2eeb72e681ff9620}
+      \strng{bibnamehash}{9c979611afbced8d2eeb72e681ff9620}
+      \strng{authorbibnamehash}{9c979611afbced8d2eeb72e681ff9620}
+      \strng{authornamehash}{9c979611afbced8d2eeb72e681ff9620}
+      \strng{authorfullhash}{9c979611afbced8d2eeb72e681ff9620}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
+      \field{title}{Prisoners in 2017}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\end{thebibliography}

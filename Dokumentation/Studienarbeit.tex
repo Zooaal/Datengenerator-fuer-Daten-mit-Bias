@@ -15,6 +15,9 @@
 \usepackage{lmodern}
 %Graphen Plotten
 \usepackage{pgfplots}
+\usepackage[style=ieee,
+backend=biber, natbib=true]{biblatex}
+\addbibresource{Literatur.bib}
 \pgfplotsset{compat = newest}
 
 \pagestyle{fancy}
@@ -135,7 +138,8 @@
     
     %Literaturverzeichnis
     \newpage
-    \bibliographystyle{ieeetr}
-    \bibliography{Literatur.bib}
+    \printbibliography
+    %\bibliographystyle{ieeetr}
+    %\bibliography{Literatur.bib}
 
 \end{document}
