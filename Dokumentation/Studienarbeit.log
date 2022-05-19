@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  19 MAY 2022 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  19 MAY 2022 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -893,20 +893,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4]) (content/02kapitel.tex
 Kapitel 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 34.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -916,6 +902,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 39.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1129,14 +1123,14 @@ Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34731 strings out of 478614
- 806020 string characters out of 2842650
+ 806026 string characters out of 2842650
  1234928 words of memory out of 3000000
  52077 multiletter control sequences out of 15000+600000
  519207 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,18n,105p,2018b,694s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (29 pages, 335908 bytes).
+Output written on Studienarbeit.pdf (29 pages, 335961 bytes).
 PDF statistics:
  495 PDF objects out of 1000 (max. 8388607)
  91 named destinations out of 1000 (max. 500000)
