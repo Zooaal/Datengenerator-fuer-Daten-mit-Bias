@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  19 MAY 2022 09:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  19 MAY 2022 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -807,6 +807,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+Package acronym Info: Label `acro:KI' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -837,8 +839,7 @@ l.25 ...e {3.2.1}Grobkonzept}{9}{subsection.3.2.1}
 
 ] (content/01kapitel.tex
 Kapitel 1.
-Package acronym Info: Label `acro:KI' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
+Package acronym Info: Label `acro:KI' overridden on input line 4.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -892,12 +893,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4]) (content/02kapitel.tex
 Kapitel 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 34.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
@@ -938,7 +943,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<Diagramme/Grobkonzept_PAP.jpg, id=324, 283.0575pt x 363.3575pt>
+<Diagramme/Grobkonzept_PAP.jpg, id=332, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
@@ -955,7 +960,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=330, 350.30875pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=338, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 69.
@@ -985,7 +990,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-<Diagramme/Sz1_Cell1.PNG, id=347, 448.074pt x 140.9265pt>
+<Diagramme/Sz1_Cell1.PNG, id=355, 448.074pt x 140.9265pt>
 File: Diagramme/Sz1_Cell1.PNG Graphic file (type png)
 <use Diagramme/Sz1_Cell1.PNG>
 Package pdftex.def Info: Diagramme/Sz1_Cell1.PNG  used on input line 89.
@@ -1010,7 +1015,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<Diagramme/Sz1_GeschlechtsCode.JPG, id=358, 367.3725pt x 35.38219pt>
+<Diagramme/Sz1_GeschlechtsCode.JPG, id=366, 367.3725pt x 35.38219pt>
 File: Diagramme/Sz1_GeschlechtsCode.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_GeschlechtsCode.JPG>
 Package pdftex.def Info: Diagramme/Sz1_GeschlechtsCode.JPG  used on input line 116.
@@ -1048,12 +1053,12 @@ Overfull \hbox (37.46739pt too wide) in paragraph at lines 146--170
  [][] 
  []
 
-<Diagramme/Sz1_RequestValues.JPG, id=387, 398.99063pt x 71.51718pt>
+<Diagramme/Sz1_RequestValues.JPG, id=395, 398.99063pt x 71.51718pt>
 File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_RequestValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 180.
 (pdftex.def)             Requested size: 398.98965pt x 71.517pt.
-<Diagramme/Sz1_Regeln.drawio.png, id=388, 327.2225pt x 613.29124pt>
+<Diagramme/Sz1_Regeln.drawio.png, id=396, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 188.
@@ -1120,20 +1125,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (Studienarbeit.aux)
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 28A3C38DB4F63436A82AF5D310AF83E5;4596.
+(rerunfilecheck)             Checksum: C72D7D1DFB8D8A93C89F9F7BA603EBE8;4334.
  ) 
 Here is how much of TeX's memory you used:
- 34729 strings out of 478614
- 806007 string characters out of 2842650
+ 34731 strings out of 478614
+ 806026 string characters out of 2842650
  1234928 words of memory out of 3000000
- 52076 multiletter control sequences out of 15000+600000
+ 52077 multiletter control sequences out of 15000+600000
  519207 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,18n,105p,2018b,694s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (29 pages, 335106 bytes).
+Output written on Studienarbeit.pdf (29 pages, 335914 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
  304 words of extra memory for PDF output out of 10000 (max. 10000000)
 

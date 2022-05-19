@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{Abkürzungsverzeichnis}{V}{chapter*.6}%
-\contentsline {section}{Abbildungsverzeichnis}{VI}{chapter*.9}%
-\contentsline {section}{Tabellenverzeichnis}{VII}{chapter*.11}%
+\contentsline {section}{Abkürzungsverzeichnis}{V}{chapter*.7}%
+\contentsline {section}{Abbildungsverzeichnis}{VI}{chapter*.10}%
+\contentsline {section}{Tabellenverzeichnis}{VII}{chapter*.12}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Zielsetzung}{3}{section.1.2}%
@@ -10,11 +10,11 @@
 \contentsline {section}{\numberline {2.1}Daten}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Datenqualität}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Bias}{5}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Künstliche Intelligenz \& Maschinelles Lernen}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Künstliche Intelligenz}{5}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Was ist Künstliche Intelligenz}{5}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Teilgebiet Maschinelles Lernen}{5}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Ethik in der Künstlichen Intelligenz}{6}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Künstliche Intelligenz verbunden mit Bias}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Bias in der \ac *{KI}}{6}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Diskriminierung durch verzerrte Daten}{6}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Gegenma{\ss }nahmen}{6}{subsection.2.3.2}%
 \contentsline {chapter}{\numberline {3}Praktischer Teil}{7}{chapter.3}%
