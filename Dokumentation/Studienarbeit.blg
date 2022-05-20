@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Studienarbeit.blg'
-[201] biber-MSWIN64:340> INFO - === 
-[305] Biber.pm:418> INFO - Reading 'Studienarbeit.bcf'
-[482] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
-[496] Biber.pm:4383> INFO - Processing section 0
-[525] Biber.pm:4574> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[619] bibtex.pm:1713> INFO - LaTeX decoding ...
-[635] bibtex.pm:1518> INFO - Found BibTeX data source 'Literatur.bib'
-[721] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[721] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[721] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[721] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
-[725] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
-[728] bbl.pm:757> INFO - Output to Studienarbeit.bbl
+[168] biber-MSWIN64:340> INFO - === 
+[227] Biber.pm:418> INFO - Reading 'Studienarbeit.bcf'
+[365] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
+[385] Biber.pm:4383> INFO - Processing section 0
+[416] Biber.pm:4574> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[544] bibtex.pm:1713> INFO - LaTeX decoding ...
+[601] bibtex.pm:1518> INFO - Found BibTeX data source 'Literatur.bib'
+[727] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[728] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[728] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[728] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[734] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
+[739] bbl.pm:757> INFO - Output to Studienarbeit.bbl

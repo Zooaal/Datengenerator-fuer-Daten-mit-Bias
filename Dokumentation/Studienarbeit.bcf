@@ -2348,17 +2348,19 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Otto2019</bcf:citekey>
-    <bcf:citekey order="2">Parkavi2018</bcf:citekey>
-    <bcf:citekey order="3">Cremers2019</bcf:citekey>
-    <bcf:citekey order="4">Gröger2021</bcf:citekey>
-    <bcf:citekey order="5">Bronson2017</bcf:citekey>
-    <bcf:citekey order="6">Bronson2017</bcf:citekey>
-    <bcf:citekey order="7">Otto2019</bcf:citekey>
-    <bcf:citekey order="8">Parkavi2018</bcf:citekey>
-    <bcf:citekey order="9">Cremers2019</bcf:citekey>
-    <bcf:citekey order="10">Gröger2021</bcf:citekey>
-    <bcf:citekey order="11">Bronson2017</bcf:citekey>
+    <bcf:citekey order="2">Otto2019</bcf:citekey>
+    <bcf:citekey order="3">Reinsel2018</bcf:citekey>
+    <bcf:citekey order="4">Reinsel2018</bcf:citekey>
+    <bcf:citekey order="5">Reinsel2018</bcf:citekey>
+    <bcf:citekey order="6">ISO2382</bcf:citekey>
+    <bcf:citekey order="7">Parkavi2018</bcf:citekey>
+    <bcf:citekey order="8">Bronson2017</bcf:citekey>
+    <bcf:citekey order="9">Bronson2017</bcf:citekey>
+    <bcf:citekey order="10">Otto2019</bcf:citekey>
+    <bcf:citekey order="11">Reinsel2018</bcf:citekey>
+    <bcf:citekey order="12">ISO2382</bcf:citekey>
+    <bcf:citekey order="13">Parkavi2018</bcf:citekey>
+    <bcf:citekey order="14">Bronson2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
