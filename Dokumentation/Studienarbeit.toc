@@ -26,9 +26,9 @@
 \contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{11}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{12}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Umsetzung}{15}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Datenauswertung}{21}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{21}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Schluss}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diskussion}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ausblick}{22}{section.4.3}%
+\contentsline {section}{\numberline {3.4}Datenauswertung}{26}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{26}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Schluss}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diskussion}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ausblick}{27}{section.4.3}%
