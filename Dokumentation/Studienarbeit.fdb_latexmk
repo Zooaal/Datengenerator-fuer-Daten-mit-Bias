@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Studienarbeit"] 1653053642 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1653053737
+["biber Studienarbeit"] 1653053642 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1653233887
   "Literatur.bib" 1653052765 2957 2d04f12cea74a18b1a99dfaeb945b656 ""
-  "Studienarbeit.bcf" 1653053737 106625 9a69348e486575227c257775c11199f2 "pdflatex"
+  "Studienarbeit.bcf" 1653233886 106625 9a69348e486575227c257775c11199f2 "pdflatex"
   (generated)
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
-["pdflatex"] 1653053734 "e:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1653053737
+["pdflatex"] 1653233884 "e:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1653233887
   "Bilder/Annual_Data_Size.png" 1653052765 73043 e85836d9e8ce4d57a4dc064d229dc13f ""
   "Bilder/dhbw.png" 1565241863 28036 72715f284b6ae369970da384742d8059 ""
   "C:/Users/simon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1653053634 203622 88bf4cb8fdc952c83c00fda2048d1986 ""
@@ -271,17 +271,17 @@
   "E:/Software/MiKTeX/tex/latex/xcolor/svgnam.def" 1636288472 4701 9c94a851a756fcbe00f338a0e7fd92c9 ""
   "E:/Software/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "E:/Software/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "Studienarbeit.aux" 1653053737 17982 76baaec72c97e83a685c333f7064321c "pdflatex"
+  "Studienarbeit.aux" 1653233886 17999 be289207dc0eb5a6db08e5115b73ca63 "pdflatex"
   "Studienarbeit.bbl" 1653053644 8788 119f2e6f12f394b0cf6a3d51d890a215 "biber Studienarbeit"
-  "Studienarbeit.lof" 1653053737 2345 61f8b1645eedb95c1bf831a1f224e12b "pdflatex"
-  "Studienarbeit.lot" 1653053737 1321 3a6503d0ba5a92010f63c7027c316846 "pdflatex"
-  "Studienarbeit.out" 1653053737 4646 b7b3a04169c943f0ad4dd5e6872dccc2 "pdflatex"
-  "Studienarbeit.run.xml" 1653053737 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
+  "Studienarbeit.lof" 1653233886 2345 61f8b1645eedb95c1bf831a1f224e12b "pdflatex"
+  "Studienarbeit.lot" 1653233886 1321 3a6503d0ba5a92010f63c7027c316846 "pdflatex"
+  "Studienarbeit.out" 1653233886 4646 b7b3a04169c943f0ad4dd5e6872dccc2 "pdflatex"
+  "Studienarbeit.run.xml" 1653233886 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
   "Studienarbeit.tex" 1653052765 4284 b24e615e8c31337b793f40aad2a57962 ""
-  "Studienarbeit.toc" 1653053737 3896 f4880434bf67647f8ebfbe4468d9cd68 "pdflatex"
+  "Studienarbeit.toc" 1653233886 3896 f4880434bf67647f8ebfbe4468d9cd68 "pdflatex"
   "ads/deckblatt.tex" 1652277046 1314 4efcf5415aeccd2092b638a60e2680ab ""
   "content/01kapitel.tex" 1653053670 9654 1c8429565777411a792c491a7d24858b ""
-  "content/02kapitel.tex" 1653053733 5640 d67aba7af7610a7e874c41410adefe34 ""
+  "content/02kapitel.tex" 1653233883 5741 48bec327a247c7216eee652b71256524 ""
   "content/03kapitel.tex" 1653052765 40856 c00310dbeab7cc6c06f96f8891d8bf64 ""
   "content/04kapitel.tex" 1652812218 808 021c5d687aa76221fb1dc444f480e061 ""
   "e:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1653052765 4284 b24e615e8c31337b793f40aad2a57962 ""
