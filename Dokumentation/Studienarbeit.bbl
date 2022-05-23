@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -141,6 +141,53 @@
       \field{type}{Standard}
       \field{year}{2015}
     \endentry
+    \entry{Horn2022}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b41d6da949a5c0b81ffcd5a2c57eb90a}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{fullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{bibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authorbibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authornamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authorfullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://franziskahorn.de/mlbook_all.html}}
+      \field{edition}{Version 1.3, 02.02.2022}
+      \field{title}{A Practitioner’s Guide to Machine Learning}
+      \field{year}{2022}
+    \endentry
+    \entry{Gröger2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=42c49a9ad2f6679a202075e51ca9655d}{%
+           family={Gröger},
+           familyi={G\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{fullhash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{bibnamehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{authorbibnamehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{authornamehash}{42c49a9ad2f6679a202075e51ca9655d}
+      \strng{authorfullhash}{42c49a9ad2f6679a202075e51ca9655d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{There is no AI without data}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1145/3448247
+      \endverb
+    \endentry
     \entry{Parkavi2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=53feed426a7d24dae7836d069fff943b}{%
@@ -170,8 +217,8 @@
       \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
       \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
       \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
@@ -200,8 +247,8 @@
       \strng{authorbibnamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authornamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authorfullhash}{9c979611afbced8d2eeb72e681ff9620}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
