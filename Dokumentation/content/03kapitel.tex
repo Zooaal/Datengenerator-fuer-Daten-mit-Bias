@@ -80,10 +80,14 @@ Insgesamt werden bei beiden Szenarien die Einträge aus dem generierten Datensat
 \textbf{Speichern der Daten}\\
 Zum Abschluss werden bei beiden Szenarien gleich die beiden Datensätze als CSV Datei gespeichert. Zum einen den ursprünglich generierten Datensatz und zum anderen auch der Datensatz mit der jeweiligen Bewertung enthalten. Durch eine CSV Datei können die Daten dann beliebig in anderen Programmen weiterverwendet werden.\\
 Insgesamt ist damit die Konzeption abgeschlossen. Im Grobkonzept wurde ein Grundgerüst für die beiden Programme der Szenarien entworfen, welches auch für noch weitere Szenarien der Art verwendet werden kann. Im Feinkonzept wurde dann das Grundgerüst durch Inhalt der jeweiligen Szenarien gefüllt und das geplante im Detail beschrieben. So kann nun zur Umsetzung der beiden Programme als Notebooks übergegangen werden.
+
 \section{Umsetzung}
 \label{umsetzung}
-Da die Programme als Notebooks in python umgesetzt sind, können die einzelnen, in der Konzeption dargestellten, Prozessschritte als Zellen verwirklicht werden. Nun wird die Umsetzung des ersten Szenarios beschrieben.\\
-Im Programm für das erste Szenario, welches \glqq{}Szenario1.ipynb\grqq{} heißt, müssen zu aller erst in der ersten Zelle die benötigten Bibliotheken geladen werden.
+In diesem Kapitel wird die konkrete Umsetzung der beiden Szenarien in einzelnen Unterkapiteln beschrieben.
+\subsection{Umsetzung des Szenario 1}
+\label{umsetzungsz1}
+Da die Programme als Notebooks in Python umgesetzt sind, können die einzelnen, in der Konzeption dargestellten, Prozessschritte als Zellen verwirklicht werden. Nun wird die Umsetzung des ersten Szenarios beschrieben.\\
+Im Programm für das erste Szenario, welches \glqq{}Szenario1.ipynb\grqq{} heißt, müssen in der ersten Zelle die benötigten Bibliotheken geladen werden.
 \begin{figure}[h]
     \centering
     \includegraphics{Diagramme/Sz1_Cell1.PNG}
@@ -98,7 +102,7 @@ Gegeben: Gesamt = Gesamt Zahl der Gefangenen\\
 \begin{equation}
     W/M\% = \frac{W/M}{Gesamt}\label{eq:Sz1Mänlich}
 \end{equation}
-\begin{table}[h]
+\begin{table}[!h]
     \centering
     \begin{tabular}{|c|c|c|}
     \hline
@@ -108,9 +112,9 @@ Gegeben: Gesamt = Gesamt Zahl der Gefangenen\\
     \end{tabular}
 \caption{Tabelle zur Bestimmung der Wahrscheinlichkeiten für das Geschlecht}
 \label{table:3}
-\end{table}
+\end{table}\\
 Das Geschlecht für eine Person wird nach den in der Tabelle \ref{table:3} berechneten Wahrscheinlichkeiten bestimmt. Die hier berechneten Wahrscheinlichkeiten ergeben sich aus den Gefängniszahlen von 2017 der USA, welche in einem Beitrag des U.S. Department of Justice im April 2019 veröffentlicht wurden. Die Zahlen wurden hierbei aus der \glqq{}Table 8\grqq{} des Papers entnommen und zur Berechnung nach der oben aufgeführten Formel verwendet.\cite[S. 17]{Bronson2017}\\
-Die daraus entstehenden Wahrscheinlichkeiten werden wie in der folgenden Abbildung\ref{fig:GeschlechtscodeS1} zur Bestimmung des Geschlechts mit Hilfe der \glqq{}numpy\grqq{} Bibliothek verwendet.
+Die daraus entstehenden Wahrscheinlichkeiten werden wie in der folgenden Abbildung \ref{fig:GeschlechtscodeS1} zur Bestimmung des Geschlechts mit Hilfe der \glqq{}numpy\grqq{} Bibliothek verwendet.
 \begin{figure}[h]
     \centering
     \includegraphics{Diagramme/Sz1_GeschlechtsCode.JPG}
@@ -140,7 +144,6 @@ Gegeben: Gesamt \ac{W}/\ac{M} = Anzahl an Weißen und Schwarzen Gefangenen pro (
 \begin{equation}
     S/Wi\% = \frac{S/Wi}{Gesamt \ac{W}/\ac{M}}\label{eq:Sz1Hautfarbe}
 \end{equation}
-
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|}
@@ -169,7 +172,7 @@ Gegeben: Gesamt \ac{W}/\ac{M} = Anzahl an Weißen und Schwarzen Gefangenen pro (
     \end{tabular}
 \caption{Tabelle zur Bestimmung der Wahrscheinlichkeiten für die Hautfarbe unter Berücksichtigung des Geschlechts}
 \label{table:5}
-\end{table}
+\end{table}\\
 Die in der Tabelle \ref{table:5} dargestellten Berechnungen und daraus resultierenden Wahrscheinlichkeiten beruhen erneut auf der Veröffentlichung vom U.S. Department of Justice. In dieser sind in \glqq{}Table 8\grqq{} die Gefangenen nach Geschlecht und ethischen Gruppen aufgeteilt. Zur Vereinfachung wurden für die Hautfarbe jedoch nur zwischen Schwarz und Weiß unterschieden. Dabei werden Ethnien bewusst nicht gesondert berücksichtigt. Somit sind lediglich die Zahlen für die Anzahl an der Gruppe Schwarz und Weiß nach Geschlecht Männlich Weiblich von Interesse. Um daraus Prozentwerte zu bilden, nach welchen dann eine Person entweder die Hautfarbe Schwarz oder Weiß bekommt, wurde die oben gezeigte Formel aufgestellt. Für die Formel wird zuerst zum einen die Gesamtheit an Schwarzen sowie Weißen männlichen Personen und zum anderen die Gesamtheit am Schwarzen sowie Weißen weiblichen Personen gebildet. Daraufhin können basierend auf diesen Gesamtwerten die Wahrscheinlichkeitsverteilungen für Männlich und Schwarz, Männlich und Weiß, Weiblich und Schwarz, Weiblich und Weiß anhand der Formel berechnet werden.\\
 Damit diese Wahrscheinlichkeiten bei der Bestimmung angewendet werden können wird wie schon bei der Härte der Strafe, der Code aus Abbildung \ref{fig:GeschlechtscodeS1} durch eine if Abfrage erweitert und an dieses Attribut angepasst.\\
 Als letztes Attribut wird noch eine Ausprägung für die Länge der Strafe bestimmt. Hierfür wird mit der \glqq{}numpy\grqq{} Bibliothek eine zufällige Ganzzahl zwischen eins und fünf ausgewählt.\\
@@ -227,6 +230,81 @@ Damit sind auch die letzten beiden Methoden umgesetzt und es muss letztendlich n
 \end{figure}\\
 In der Abbildung \ref{fig:Sz1finalCell} ist die letzte Zelle für die Benutzenden Interaktion dargestellt. Im oberen Teil der Zelle haben die Benutzenden die Möglichkeit Anpassungen am Datengenerator zu machen. So kann hier die gewünschte Verzerrung, die Größe des Datensatzes, die Anzahl an Bewertenden, die Anzahl der diskriminierenden unter den Bewertenden und der Prozentuale Einfluss der Verzerrung angepasst werden. Im unteren Teil wird dann die Hauptmethode zum Datengenerieren (generate\_data) aufgerufen und im Anschluss durch die Methode \glqq{}work\grqq{} die zuvor generierten Anträge bewertet. Beide Datensätze werden separat als Variablen geführt, sodass am Ende der Methode die Ursprungsdaten als \glqq{}Daten.csv\grqq{} und der bewertete Datensatz als \glqq{}Daten\_Bewertet.csv\grqq{} abgespeichert werden.\\
 Insgesamt ist mit dieser letzten Zelle die gesamte Umsetzung des ersten Szenarios als \glqq{}Szenario1.ipynb\grqq{} Datei abgeschlossen und kann so direkt verwendet werden, um Daten zu generieren.
+\subsection{Umsetzung des Szenario 2}
+\label{umsetzungsz2}
+Das zweite Szenario wird ebenfalls wie das erste in eine Python Notebook umgesetzt. Das File trägt den Namen \glqq{}Szenario2.ipynb\grqq{} und beginnt sowie auch Szenario 1 mit dem laden der benötigten Bibliotheken. Auch in diesem werden die gleichen Bibliotheken wie in Abbildung \ref{fig:Zelle1S1} dargestellt geladen. Einzige Ausnahme hierbei liegt darin, dass das Faker Objekt nicht wie in der Abbildung gezeigt ist erstellt wird. In diesem Fall wir es wie folgt erstellt: \glqq{}fake = Factory.create("de\_DE")\grqq{}. Der Grund dafür, liegt darin, dass in diesem Szenario Deutsche Namen generiert werden sollen, da es sich um ein auf Deutschland angelegtes Szenario handelt. In der zweiten Zelle des Notebooks wird die Methode für das erstellen eines Seed/Startwert aus Szenario 1 implementiert. Diese verändert sich nicht und kann daher so verwendet werden.\\
+Als nächstes ist die Methode \glqq{}create\_fake\_data\grqq{} mit den Parameter num und seed umgesetzt. In dieser wird die durch num angegebene Anzahl an Daten generiert. Der Parameter seed wird zu beginn der Methode als Startwert für die Zufallsmethoden von numpy und Faker gesetzt. Als nächstes wird eine Schleife über num begonnen, in welcher in jedem Durchlauf einen Eintrag für den Datensatz generiert wird. In jedem Durchlauf müssen die Ausprägungen der für dieses Szenario bestimmte Attribute Name, Alter, Politische Orientierung, Bildungsabschluss, Soziales, Wohnlage und CO2-Fußabdruck, unter Betrachtung der im Kapitel \ref{subsection:konzeption} angegebenen Abhängigkeiten, bestimmt werden. Der Name eines Eintrages wird durch die Faker Instanz wie folgt \glqq{}"Name": fake.first\_name()\grqq{} generiert. Die anderen Ausprägungen der Attribute werden, um das Szenario so real wie möglich zu halten, beruhend auf Wahrscheinlichkeiten aus Statistiken bestimmt. Die Wahrscheinlichkeiten der verschiedenen Attributen ergeben sich wie folgend aufgeführt:\\
+\textbf{Alter}\\
+Ein Alter für eine Person wird zwischen 20 und 79 Jahren bestimmt. Zur Bestimmung wird aufgrund der verwendeten Statistik in drei Altersgruppen unterteilt, welche unterschiedliche Wahrscheinlichkeiten besitzen. Die Altersgruppen sind von 20 bis 39, 40-59 und 60 bis 79 Jahren.\\
+Die Formel zur Berechnung der Wahrscheinlichkeiten:\\
+Gegeben: Gesamt(Personen im Alter zwischen 20-79) = 20,36 + 23,38 + 18,15 = 61,89 Millionen\\
+\begin{equation}
+    Altersgruppe\% = \frac{Altersgruppe}{Gesamt}\label{eq:Sz2Alter}
+\end{equation}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Altersgruppen} & \textbf{Berechnung} & \textbf{Wahrscheinlichkeit} \\ \hline
+    20-39                  & \rule{0pt}{18pt} $\frac{20,36}{61,89}$ & 33\%   \\[8pt] \hline
+    40-59                  & \rule{0pt}{18pt} $\frac{23,38}{61,89}$ & 38\%  \\[8pt] \hline
+    60-79                  & \rule{0pt}{18pt} $\frac{18,15}{61,89}$ & 29\%   \\[8pt] \hline
+    \end{tabular}
+    \caption{Tabelle zur Bestimmung der Wahrscheinlichkeiten für die Altersgruppen}
+    \label{table:6}
+\end{table}
+Die in der Tabelle \ref{table:6} nach der Formel \ref{eq:Sz2Alter} errechneten Wahrscheinlichkeiten beruhen auf der Statistik des Statistischen Bundesamt vom 31. Dezember 2020. Die Zahlen wurden passend zu den Altersgruppen aus der Statistik entnommen. Um nun aus den errechneten Wahrscheinlichkeiten auf ein Alter zu kommen, wird im Code zu erst die Altersgruppe nach den Wahrscheinlichkeiten bestimmt. Nachdem die Altersgruppe klar ist, wird eine Zufallszahl im Bereich der Altersgruppe bestimmt, welche dann das endgültige Alter ist. Dadurch wird eine gute Verteilung des Alters entsprechend der Statistik gewährleistet.\\
+\textbf{Politische Orientierung}\\
+Bei der Bestimmung der Politischen Orientierung in Links, Mitte und Rechts wird wie in der Abbildung \ref{fig:VerbindungenS2} aus Kapitel \ref{subsubsec:feinkonzept} dargestellt, dass Alter als Grundlage mit verwendet. Daher ist die Berechnung und damit auch die Wahrscheinlichkeitsverteilung pro Altersgruppe für die Politische Orientierung unterschiedlich. Des weiteren wird, um die Daten so realitätsnahe wie möglich zu halten, eine statistische Auswertung des Wahlverhaltens bei der Bundestagswahl 2017 nach Alter hinzugezogen. Da in der Statistik die Ergebnisse in Prozent pro Partei angegeben sind, wurde nach eigenem Ermessen entscheiden, welche Partei zu welcher Ausprägung zugeordnet wird. Zur Ausprägung Mitte gehört dabei die CDU, SPD, CSU und FDP zu Links Die Linke und Grüne und zu Rechts wird die AFD zugeordnet. Daraus lassen sich dann die in der folgenden Tabelle \ref{table:7} aufgelisteten Wahrscheinlichkeiten nach dem Alter berechnen.\\
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{20-24} & \textbf{25-34} & \textbf{35-44} & \textbf{45-59} & \textbf{60-69} & \textbf{70-79} \\ \hline
+    Links                 & 28,0\%         & 24,4\%         & 21,6\%         & 20,7\%         & 17,7\%         & 10,7\%         \\ \hline
+    Mitte                 & 63,1\%         & 61,4\%         & 61,8\%         & 63,5\%         & 68,7\%         & 80,9\%         \\ \hline
+    Rechts                & 8,9\%          & 14,2\%         & 16,6\%         & 15,8\%         & 13,6\%         & 8,4\%          \\ \hline
+    \end{tabular}
+    \caption{Tabelle der Wahrscheinlichkeiten für die Politische Orientierung nach Alter}
+    \label{table:7}
+\end{table}\\
+Die in der Tabelle \ref{table:7} dargestellten Wahrscheinlichkeiten wurden nach den dafür angegebenen Altersgruppen aus der Tabelle der Veröffentlichung von der Konrad-Adenauer-Stiftung e. V. berechnet. Dafür wurden die Prozente der oben zugeordneten Parteien aufsummiert. So ergeben sich die Prozentpunkte für Links, Mitte und Rechts. Jedoch fehlen zu den 100\% pro Altersgruppe die Prozentpunkte der Sonstigen Parteien. Da diese nämlich keiner Richtung zugeordnet werden können müssen die Prozente der sonstigen Insgesamt verrechnet werden. Nach der Verrechnung der Sonstigen Parteien entstehen dann die in der Tabelle dargestellten Wahrscheinlichkeiten. Zur Umsetzung der Bestimmung der Politischen Orientierung wird eine Reihe an ifelse Abfragen über das zutreffende Alter durchlaufen, um dann mit den Altersendsprechenden Wahrscheinlichkeiten die Politische Orientierung zu bestimmen. Der Code für die Wahrscheinlichkeitsauswahl sieht dabei genau wie im Beispiel aus der Abbildung \ref{fig:GeschlechtscodeS1} dargestellt aus.\\
+\textbf{Bildungsabschluss}\\
+Der Bildungsabschluss einer Person basiert ebenfalls wie die Politische Orientierung auf dem Alter. Zusätzlich wird wie auch schon zuvor eine Statistik aus einem Datenreport des Jahres 2021 vom Statistischen Bundesamt verwendet. Dadurch können die Daten so realitätsnahe wie möglich gehalten werden.\\ 
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{\textless{}=29} & \textbf{30-39} & \textbf{40-49} & \textbf{50-59} & \textbf{\textgreater{}=60} \\ \hline
+    Ausbildung            & 42,5\%                  & 45,2\%         & 51,6\%         & 55,9\%         & 54,4\%                     \\ \hline
+    Fachschulabschluss    & 8,1\%                   & 9,1\%          & 9,7\%          & 11,3\%         & 9,6\%                      \\ \hline
+    Bachelor              & 11,7\%                  & 5,9\%          & 1,4\%          & 0,5\%          & 0,2\%                      \\ \hline
+    Master                & 7,1\%                   & 5,2\%          & 1,1\%          & 0,3\%          & 0,1\%                      \\ \hline
+    Diplom                & 5,9\%                   & 15,7\%         & 17,9\%         & 15,9\%         & 13,2\%                     \\ \hline
+    Promotion             & 0,3\%                   & 1,6\%          & 1,7\%          & 1,4\%          & 1,2\%                      \\ \hline
+    Ohne                  & 24,4\%                  & 17,3\%         & 16,6\%         & 14,7\%         & 21,3\%                     \\ \hline
+    \end{tabular}
+    \caption{Tabelle der Wahrscheinlichkeiten für den Bildungsabschluss nach Alter}
+    \label{table:8}
+\end{table}\\
+Die in der Tabelle \ref{table:8} dargestellten Wahrscheinlichkeiten für die dort aufgeführten Altersgruppen ergeben sich aus der \glqq{}Tab 9\grqq{} des Datenreports vom Statistischen Bundesamt. Die Daten der \glqq{}Tab 9\grqq{} stammen aus dem Jahr 2018 der deutschen Bevölkerung. Für die Altersgruppe von 20 bis 29 Jahre existiert keine passende Angabe in der Quelle, da in dieser erst ab dem Alter von 25 Jahren Werte aufgelistet sind. Einfachheitshalber wird daher für die Personen kleiner gleich 29 Jahre die Werte der Personen zwischen 25 und 29 Jahren genommen. Dasselbe gilt auch für die Personen älter als 60, hier werden in der Quelle nur eine Wertereihe für Personen mit 60 und älter angegeben. Das Szenario bezieht sich jedoch nur bis 79 Jahre und passt somit hier auch nicht vollkommen. Zur Vereinfachung wird hierbei jedoch diese Wertereihe für alle zwischen 60 und 79 Jahren verwendet.\\
+\textbf{Soziales}
+Das soziale Engagement wird von 0 bis 3 angegeben und basiert, wie in der Konzeption beschrieben um die Daten interessanter zu machen, auf der Politischen Orientierung. Durch solche Abhängigkeiten gestalten sich die Daten nämlich realitätsnaher und bringen eine größere Variabilität mit. Da jedoch für die Werte keine Referenzen aus der realen Welt zur Verfügung stehen, wird mit fiktiven Werten gearbeitet.\\
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{Links} & \textbf{Mitte} & \textbf{Rechts} \\ \hline
+    0                     & 40\%           & 60\%           & 75\%            \\ \hline
+    1                     & 25\%           & 20\%           & 15\%            \\ \hline
+    2                     & 25\%           & 15\%           & 9\%             \\ \hline
+    3                     & 10\%           & 5\%            & 1\%             \\ \hline
+    \end{tabular}
+    \caption{Tabelle der Wahrscheinlichkeiten für das Soziale Engagement nach Politischer Orientierung}
+    \label{table:9}
+\end{table}\\
+Die in der Tabelle \ref{table:9} aufgeführten fiktiven Wahrscheinlichkeiten sind ebenso wie schon bei der Bestimmung der anderen Attribute, durch den Code aus Abbildung \ref{fig:GeschlechtscodeS1} umgesetzt. Jedoch wird durch eine if else Abfrage die unterschiedlichen Politischen Orientierungen unterschieden und dementsprechend die passenden Wahrscheinlichkeiten in der Codezeile verwendet.
+
 \newpage
 \section{Datenauswertung}
 \label{datenauswerung}

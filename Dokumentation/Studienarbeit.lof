@@ -5,6 +5,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Big Data 3 V rule \blx@tocontentsinit {0}\cite {Taleb2018}\relax }}{6}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Data Quality Dimensions \blx@tocontentsinit {0}\cite {Taleb2018}\relax }}{7}{figure.caption.16}%
 \addvspace {10\p@ }
+<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Programmablaufplan der fünf Hauptschritte zur Generierung der Daten\relax }}{14}{figure.caption.20}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Verbindungen zwischen den Attributen des zweiten Szenario\relax }}{15}{figure.caption.21}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Erste Zelle Code des Szenario1\relax }}{18}{figure.caption.22}%
@@ -15,4 +16,16 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Methode eines Bewertenden zum Bewerten von Anträgen.\relax }}{24}{figure.caption.32}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Dictionaries gefüllt mit Standard Werten des Szenario 1\relax }}{26}{figure.caption.33}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Letzte Zelle des Szenario 1 für die Benutzenden Interaktion\relax }}{26}{figure.caption.34}%
+=======
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Programmablaufplan der fünf Hauptschritte zur Generierung der Daten\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Verbindungen zwischen den Attributen des zweiten Szenario\relax }}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Erste Zelle Code des Szenario1\relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Codezeile zur Bestimmung des Geschlechts einer Person\relax }}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Codezeilen zum Erstellen eines Dictionary mit den zur Bewertung relevanten Attributen\relax }}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Programmablaufplan zur Generierung der Regeln von Szenario 1\relax }}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Methode zur Initialisierung eines Bewertenden\relax }}{22}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Methode eines Bewertenden zum Bewerten von Anträgen.\relax }}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Dictionaries gefüllt mit Standard Werten des Szenario 1\relax }}{25}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Letzte Zelle des Szenario 1 für die Benutzenden Interaktion\relax }}{26}{figure.caption.31}%
+>>>>>>> Stashed changes
 \addvspace {10\p@ }
