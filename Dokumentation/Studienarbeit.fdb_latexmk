@@ -1,12 +1,14 @@
 # Fdb version 3
-["biber Studienarbeit"] 1653294168 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1653294175
-  "Literatur.bib" 1653294167 3075 a8b3c106ffe6645ecac7b95d719cc86e ""
-  "Studienarbeit.bcf" 1653292529 107326 37d4261f2ce62373670deb88b706263c "pdflatex"
+["biber Studienarbeit"] 1653312164 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1653316193
+  "Literatur.bib" 1653298049 4857 f0c0189c80225373b03ca2101a082aa8 ""
+  "Studienarbeit.bcf" 1653316193 108402 f38d706c567b7cecf64f0e70b04bc447 "pdflatex"
   (generated)
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
-["pdflatex"] 1653292526 "c:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1653294175
+["pdflatex"] 1653316189 "c:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1653316193
+  "Bilder/3VRule.png" 1653307120 114313 51d76908a2deb5b55c867e1748e72dbb ""
   "Bilder/Annual_Data_Size.png" 1653031594 73043 e85836d9e8ce4d57a4dc064d229dc13f ""
+  "Bilder/Data_quality_dimensions.png" 1653312027 637825 1f8dc07c24b5e5119da6da898b5dbfcc ""
   "Bilder/dhbw.png" 1652789967 28036 72715f284b6ae369970da384742d8059 ""
   "C:/Users/jesssi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652956449 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/jesssi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1652789989 10252927 b1666db2cbbd61c81fd3984bf067a6d1 ""
@@ -269,20 +271,20 @@
   "Diagramme/Sz1_RequestValues.JPG" 1652794435 15135 2f5d5ae39df0698cce3afcab3b646652 ""
   "Diagramme/Sz1_standardValues.JPG" 1653050796 28555 1083b724726a112f877952f258d0e183 ""
   "Diagramme/Verbindung_der_Attribute_S2.jpg" 1652789967 9678 7c92f20aa2abf903848e3c99cd36b585 ""
-  "Studienarbeit.aux" 1653292529 14950 eb1b14491d4032c66853cb82152a0823 "pdflatex"
-  "Studienarbeit.bbl" 1653294175 10817 9f292a5515967f8d50e29bbaf0ac2632 "biber Studienarbeit"
-  "Studienarbeit.lof" 1653292529 1739 1b1a45781c6d9a8e43e9ab8e94e35ff6 "pdflatex"
-  "Studienarbeit.lot" 1653292529 903 33667074d8557386193bda66719b25d5 "pdflatex"
-  "Studienarbeit.out" 1653292529 4646 b7b3a04169c943f0ad4dd5e6872dccc2 "pdflatex"
-  "Studienarbeit.run.xml" 1653292529 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
+  "Studienarbeit.aux" 1653316193 17040 19a6a693fe1c86fdcee8c6fca7568cbb "pdflatex"
+  "Studienarbeit.bbl" 1653312166 18344 44183d45866924f1f2c20036e0078996 "biber Studienarbeit"
+  "Studienarbeit.lof" 1653316193 2037 166ad58d081233b8ea963f29f44262a0 "pdflatex"
+  "Studienarbeit.lot" 1653316193 903 c90d2bb9d164ce1ecda08c5dc143ada9 "pdflatex"
+  "Studienarbeit.out" 1653316193 4646 a37dfd1241bd207d708dd10b36aff2e4 "pdflatex"
+  "Studienarbeit.run.xml" 1653316193 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
   "Studienarbeit.tex" 1652956323 4284 b24e615e8c31337b793f40aad2a57962 ""
-  "Studienarbeit.toc" 1653292529 2640 c25824f2d72e2b976101174707509261 "pdflatex"
-  "ads/abkürzungen.tex" 1652794435 1030 8a180787e15cf201abd07a9ab9914e4c ""
+  "Studienarbeit.toc" 1653316193 2644 c781ad331da5028b7048bf19c13f5b29 "pdflatex"
+  "ads/abkürzungen.tex" 1653314424 1054 1ab9b4f715ce32cdff45b9ab71d05853 ""
   "ads/deckblatt.tex" 1652789967 1314 4efcf5415aeccd2092b638a60e2680ab ""
   "ads/erklärung.tex" 1652789967 624 2790cbdcf2ccbb22eab4cbb2f3a3d6eb ""
   "c:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1652956323 4284 b24e615e8c31337b793f40aad2a57962 ""
   "content/01kapitel.tex" 1653286770 9654 1c8429565777411a792c491a7d24858b ""
-  "content/02kapitel.tex" 1653292525 7849 5fde42cecbc35f00f5059daf40551879 ""
+  "content/02kapitel.tex" 1653316188 11021 111ae116aeebf76d2aeb403dbd25686a ""
   "content/03kapitel.tex" 1653050797 40856 c00310dbeab7cc6c06f96f8891d8bf64 ""
   "content/04kapitel.tex" 1652789967 808 021c5d687aa76221fb1dc444f480e061 ""
   (generated)
