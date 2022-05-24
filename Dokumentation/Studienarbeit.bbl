@@ -426,6 +426,74 @@
       \field{title}{Prisoners in 2017}
       \field{year}{2019}
     \endentry
+    \entry{statista2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=faf19df46d07203502a5ad8ae90f820d}{%
+           family={Department},
+           familyi={D\bibinitperiod},
+           given={Statista\bibnamedelima Research},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{faf19df46d07203502a5ad8ae90f820d}
+      \strng{fullhash}{faf19df46d07203502a5ad8ae90f820d}
+      \strng{bibnamehash}{faf19df46d07203502a5ad8ae90f820d}
+      \strng{authorbibnamehash}{faf19df46d07203502a5ad8ae90f820d}
+      \strng{authornamehash}{faf19df46d07203502a5ad8ae90f820d}
+      \strng{authorfullhash}{faf19df46d07203502a5ad8ae90f820d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://de.statista.com/statistik/daten/studie/1112579/umfrage/bevoelkerung-in-deutschland-nach-altersgruppen/}}
+      \field{title}{Bevölkerung - Zahl der Einwohner in Deutschland nach Altersgruppen am 31. Dezember 2020}
+      \field{year}{2022}
+    \endentry
+    \entry{konrad-adenauer-stiftung2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=508321e881d1ce2c83963a6c574826cf}{%
+           family={V.},
+           familyi={V\bibinitperiod},
+           given={Konrad-Adenauer-Stiftung},
+           giveni={K\bibinithyphendelim A\bibinithyphendelim S\bibinitperiod},
+           prefix={e.},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{508321e881d1ce2c83963a6c574826cf}
+      \strng{fullhash}{508321e881d1ce2c83963a6c574826cf}
+      \strng{bibnamehash}{508321e881d1ce2c83963a6c574826cf}
+      \strng{authorbibnamehash}{508321e881d1ce2c83963a6c574826cf}
+      \strng{authornamehash}{508321e881d1ce2c83963a6c574826cf}
+      \strng{authorfullhash}{508321e881d1ce2c83963a6c574826cf}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.kas.de/documents/291186/291235/Datensammlung+Alter+und+Geschlecht.pdf/a25fb063-b305-d567-2d98-e77b1104f713?version=1.1&t=1618912553715}}
+      \field{title}{Wahlverhalten nach Alter und Geschlecht}
+      \field{year}{2021}
+    \endentry
+    \entry{destatis2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fd17f7dce20314001ac56a2700f1a22b}{%
+           family={Bundesamt},
+           familyi={B\bibinitperiod},
+           given={Statistisches},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd17f7dce20314001ac56a2700f1a22b}
+      \strng{fullhash}{fd17f7dce20314001ac56a2700f1a22b}
+      \strng{bibnamehash}{fd17f7dce20314001ac56a2700f1a22b}
+      \strng{authorbibnamehash}{fd17f7dce20314001ac56a2700f1a22b}
+      \strng{authornamehash}{fd17f7dce20314001ac56a2700f1a22b}
+      \strng{authorfullhash}{fd17f7dce20314001ac56a2700f1a22b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.destatis.de/DE/Service/Statistik-Campus/Datenreport/Downloads/datenreport-2021-kap-3.html}}
+      \field{title}{Datenreport 2021 - Kapitel 3: Bildung}
+      \field{year}{2021}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

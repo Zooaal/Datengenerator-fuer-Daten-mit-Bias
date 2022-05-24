@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  23 MAY 2022 16:29
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  23 MAY 2022 16:35
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  23 MAY 2022 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1183,16 +1179,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]) (content/02kapitel.tex
 Kapitel 2.
-<<<<<<< Updated upstream
-<Bilder/Annual_Data_Size.png, id=342, 853.1875pt x 290.08376pt>
-=======
-<Bilder/Annual_Data_Size.png, id=349, 853.1875pt x 290.08376pt>
->>>>>>> Stashed changes
+<Bilder/Annual_Data_Size.png, id=361, 853.1875pt x 290.08376pt>
 File: Bilder/Annual_Data_Size.png Graphic file (type png)
 <use Bilder/Annual_Data_Size.png>
 Package pdftex.def Info: Bilder/Annual_Data_Size.png  used on input line 14.
 (pdftex.def)             Requested size: 441.01772pt x 149.9503pt.
-<Bilder/3VRule.png, id=355, 690.1785pt x 333.04425pt>
+<Bilder/3VRule.png, id=374, 690.1785pt x 333.04425pt>
 File: Bilder/3VRule.png Graphic file (type png)
 <use Bilder/3VRule.png>
 Package pdftex.def Info: Bilder/3VRule.png  used on input line 28.
@@ -1215,7 +1207,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./Bilder/3VRule.png>]
-<Bilder/Data_quality_dimensions.png, id=384, 876.876pt x 447.47176pt>
+<Bilder/Data_quality_dimensions.png, id=403, 876.876pt x 447.47176pt>
 File: Bilder/Data_quality_dimensions.png Graphic file (type png)
 <use Bilder/Data_quality_dimensions.png>
 Package pdftex.def Info: Bilder/Data_quality_dimensions.png  used on input line 44.
@@ -1281,13 +1273,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
 [12]
-<Diagramme/Grobkonzept_PAP.jpg, id=423, 283.0575pt x 363.3575pt>
-=======
-[11]
-<Diagramme/Grobkonzept_PAP.jpg, id=399, 283.0575pt x 363.3575pt>
->>>>>>> Stashed changes
+<Diagramme/Grobkonzept_PAP.jpg, id=442, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
@@ -1303,13 +1290,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
 [13]
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=429, 350.30875pt x 121.45375pt>
-=======
-[12]
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=405, 350.30875pt x 121.45375pt>
->>>>>>> Stashed changes
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=448, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 69.
@@ -1338,13 +1320,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
 [16]
-<Diagramme/Sz1_Cell1.PNG, id=445, 448.074pt x 140.9265pt>
-=======
-[15]
-<Diagramme/Sz1_Cell1.PNG, id=421, 448.074pt x 140.9265pt>
->>>>>>> Stashed changes
+<Diagramme/Sz1_Cell1.PNG, id=464, 448.074pt x 140.9265pt>
 File: Diagramme/Sz1_Cell1.PNG Graphic file (type png)
 <use Diagramme/Sz1_Cell1.PNG>
 Package pdftex.def Info: Diagramme/Sz1_Cell1.PNG  used on input line 93.
@@ -1368,13 +1345,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
 [17]
-<Diagramme/Sz1_GeschlechtsCode.JPG, id=457, 367.3725pt x 35.38219pt>
-=======
-[16]
-<Diagramme/Sz1_GeschlechtsCode.JPG, id=432, 367.3725pt x 35.38219pt>
->>>>>>> Stashed changes
+<Diagramme/Sz1_GeschlechtsCode.JPG, id=476, 367.3725pt x 35.38219pt>
 File: Diagramme/Sz1_GeschlechtsCode.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_GeschlechtsCode.JPG>
 Package pdftex.def Info: Diagramme/Sz1_GeschlechtsCode.JPG  used on input line 120.
@@ -1404,66 +1376,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
 [19 <./Diagramme/Sz1_GeschlechtsCode.JPG>]
-Overfull \hbox (37.46739pt too wide) in paragraph at lines 146--170
- [][] 
- []
-
-<Diagramme/Sz1_RequestValues.JPG, id=486, 398.99063pt x 71.51718pt>
-=======
-[18 <./Diagramme/Sz1_GeschlechtsCode.JPG>]
 Overfull \hbox (37.46739pt too wide) in paragraph at lines 149--173
  [][] 
  []
 
-<Diagramme/Sz1_RequestValues.JPG, id=462, 398.99063pt x 71.51718pt>
->>>>>>> Stashed changes
+<Diagramme/Sz1_RequestValues.JPG, id=505, 398.99063pt x 71.51718pt>
 File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_RequestValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 183.
 (pdftex.def)             Requested size: 398.98965pt x 71.517pt.
-<<<<<<< Updated upstream
-<Diagramme/Sz1_Regeln.drawio.png, id=487, 327.2225pt x 613.29124pt>
-=======
-<Diagramme/Sz1_Regeln.drawio.png, id=463, 327.2225pt x 613.29124pt>
->>>>>>> Stashed changes
+<Diagramme/Sz1_Regeln.drawio.png, id=506, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 191.
 (pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
-<<<<<<< Updated upstream
-<Diagramme/Evaluator_Init.JPG, id=490, 432.11438pt x 106.14656pt>
-=======
-<Diagramme/Evaluator_Init.JPG, id=466, 432.11438pt x 106.14656pt>
->>>>>>> Stashed changes
+<Diagramme/Evaluator_Init.JPG, id=509, 432.11438pt x 106.14656pt>
 File: Diagramme/Evaluator_Init.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Init.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Init.JPG  used on input line 202.
 (pdftex.def)             Requested size: 432.11331pt x 106.1463pt.
-<<<<<<< Updated upstream
-<Diagramme/Evaluator_Rate.JPG, id=492, 714.41907pt x 465.99094pt>
-=======
-<Diagramme/Evaluator_Rate.JPG, id=468, 714.41907pt x 465.99094pt>
->>>>>>> Stashed changes
+<Diagramme/Evaluator_Rate.JPG, id=511, 714.41907pt x 465.99094pt>
 File: Diagramme/Evaluator_Rate.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Rate.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Rate.JPG  used on input line 210.
 (pdftex.def)             Requested size: 455.24265pt x 398.35529pt.
-<<<<<<< Updated upstream
-<Diagramme/Sz1_standardValues.JPG, id=494, 529.22719pt x 173.14688pt>
-=======
-<Diagramme/Sz1_standardValues.JPG, id=470, 529.22719pt x 173.14688pt>
->>>>>>> Stashed changes
+<Diagramme/Sz1_standardValues.JPG, id=513, 529.22719pt x 173.14688pt>
 File: Diagramme/Sz1_standardValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_standardValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_standardValues.JPG  used on input line 219.
 (pdftex.def)             Requested size: 455.24763pt x 170.72108pt.
-<<<<<<< Updated upstream
-<Diagramme/Sz1Final.JPG, id=495, 548.80031pt x 336.50719pt>
-=======
-<Diagramme/Sz1Final.JPG, id=471, 548.80031pt x 336.50719pt>
->>>>>>> Stashed changes
+<Diagramme/Sz1Final.JPG, id=514, 548.80031pt x 336.50719pt>
 File: Diagramme/Sz1Final.JPG Graphic file (type jpg)
 <use Diagramme/Sz1Final.JPG>
 Package pdftex.def Info: Diagramme/Sz1Final.JPG  used on input line 227.
@@ -1534,11 +1477,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
-[26 <./Diagramme/Sz1_standardValues.JPG> <./Diagramme/Sz1Final.JPG>]
-=======
-[25 <./Diagramme/Sz1_standardValues.JPG>]
->>>>>>> Stashed changes
+[26 <./Diagramme/Sz1_standardValues.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1546,11 +1485,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
-[27]) (content/04kapitel.tex
-=======
-[26 <./Diagramme/Sz1Final.JPG>]
->>>>>>> Stashed changes
+[27 <./Diagramme/Sz1Final.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--308
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1558,10 +1497,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
 [28]
-=======
-[27]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1572,7 +1508,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1580,7 +1516,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]) (content/04kapitel.tex
+[30]) (content/04kapitel.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1588,8 +1524,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
->>>>>>> Stashed changes
+[31]
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1603,13 +1538,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
-[29
-=======
-[31
->>>>>>> Stashed changes
+[32
 
 ])
+Overfull \hbox (21.69473pt too wide) in paragraph at lines 144--144
+\T1/lmr/m/n/12 Datensammlung + Alter + und + Geschlecht . pdf / a25fb063 -[] b305 -[] d567 -[] 2d98 -[] e77b1104f713 ?
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1617,59 +1552,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<<<<<<< Updated upstream
-[30
-=======
-[32
->>>>>>> Stashed changes
+[33
 
-] (Studienarbeit.aux)
+]
+Overfull \hbox (11.31828pt too wide) in paragraph at lines 144--144
+[]\T1/lmr/m/n/12 S. Bun-des-amt, \T1/lmr/m/it/12 Da-ten-re-port 2021 - Ka-pi-tel 3: Bil-dung\T1/lmr/m/n/12 , 2021, Letz-ter Zu-griff: 23.05.2022.
+ []
 
-LaTeX Warning: There were undefined references.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34] (Studienarbeit.aux)
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
-<<<<<<< Updated upstream
-(rerunfilecheck)             Checksum: A37DFD1241BD207D708DD10B36AFF2E4;4646.
-=======
-(rerunfilecheck)             Checksum: 7C10D3FE97152810638CC223883D56F8;5028.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Studienarbeit
-(biblatex)                and rerun LaTeX afterwards.
-
->>>>>>> Stashed changes
+(rerunfilecheck)             Checksum: 3386D08AAC582B031FD5178934EC1831;5028.
 Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 \openout1 = `Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< Updated upstream
- 42513 strings out of 478614
- 962747 string characters out of 2842650
- 1773973 words of memory out of 3000000
- 59746 multiletter control sequences out of 15000+600000
+ 42534 strings out of 478547
+ 965075 string characters out of 2840420
+ 1770939 words of memory out of 3000000
+ 59820 multiletter control sequences out of 15000+600000
  522002 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 103i,18n,105p,2018b,2584s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (38 pages, 1443098 bytes).
-PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 347 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 42472 strings out of 478547
- 963191 string characters out of 2840420
- 1770278 words of memory out of 3000000
- 59774 multiletter control sequences out of 15000+600000
- 522002 words of font info for 59 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 103i,19n,105p,2062b,2581s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 103i,19n,105p,2062b,2584s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (40 pages, 658614 bytes).
+Output written on Studienarbeit.pdf (42 pages, 1468138 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> Stashed changes
+ 708 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 363 words of extra memory for PDF output out of 10000 (max. 10000000)
 
