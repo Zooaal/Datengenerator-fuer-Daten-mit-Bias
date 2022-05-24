@@ -38,7 +38,7 @@
     \label{subsubsec:datenqualität}
         Im Zusammenhang mit Daten fällt immer häufiger auch der Begriff Datenqualität. Hier trifft Quantität auf Qualität. Wie bereits erwähnt, ist die Menge an Daten die bereits zur Verfügung steht, rießig. Quantität ist daher nicht das Problem. Die Qualität der Daten hat hier jedoch sehr großen Einfluss. Nicht selten können Daten nicht verwendet werden, da die Qualität nicht ausreichend ist. Gerade für Analysen, Auswertungen und Vorhersagen, wie sie durch die \ac*{KI} getroffen werden sollen, wird hohe Datenqualität benötigt.\cite{Byabazaire2020}
         \\
-        Datenqaulität selbst lässt sich auf unterschiedliche Arten und Weisen verstehen.\cite{Yalaoui2021} Eine gängige Definition für Datenqualität in der Literatur ist:\glqq{}fitness for use\grqq{}.\cite{Faroukhi2020} Es bedeutet, dass die Datenqualität von Nutzungskontext und Anwendungsfall abhängt und in erster Linie nicht allgemeine Qualitätsanforderungen erfüllt werden, sondern die für den Use Case benötigten Qualitätsanfoderungen.\cite{Faroukhi2020}\cite{Yalaoui2021}
+        Datenqualität selbst lässt sich auf unterschiedliche Arten und Weisen verstehen.\cite{Yalaoui2021} Eine gängige Definition für Datenqualität in der Literatur ist:\glqq{}fitness for use\grqq{}.\cite{Faroukhi2020} Es bedeutet, dass die Datenqualität von Nutzungskontext und Anwendungsfall abhängt und in erster Linie nicht allgemeine Qualitätsanforderungen erfüllt werden, sondern die für den Use Case benötigten Qualitätsanfoderungen.\cite{Faroukhi2020}\cite{Yalaoui2021}
         \begin{figure}[h]
             \centering
             \includegraphics[width = 9cm]{Bilder/Data_quality_dimensions.png}
@@ -46,7 +46,7 @@
             \label{fig:DataQualityDimensions}
         \end{figure}
         \\
-        Für die Validierung der Datenqualität gibt es die sogenannten Data Quality Dimensions. In Abbildung \ref{fig:DataQualityDimensions} sind die vier unterschiedlichen Dimensionen: Intrinsic (\ac{dt}.: Intrinsisch), Contextual (\ac{dt}.: Kontextbezogen), Accessibility (\ac{dt}.: Erreichbarkeit) und Representational (\ac{dt}.: Repräsentativ) dargstellt. Jede Dimension besitzt eigene Merkmale an denen die Datenqualität gemessen werden kann. 
+        Für die Validierung der Datenqualität gibt es die sogenannten Data Quality Dimensions. In Abbildung \ref{fig:DataQualityDimensions} sind die vier unterschiedlichen Dimensionen: Intrinsic (\ac{dt}.: Intrinsisch), Contextual (\ac{dt}.: Kontextbezogen), Accessibility (\ac{dt}.: Zugänglichkeit ) und Representational (\ac{dt}.: Repräsentativ) dargstellt. Jede Dimension besitzt eigene Merkmale an denen die Datenqualität gemessen werden kann. Näher erläutert werden die Dimensionen in der Tabelle \ref*{table:0}.
         \\
         \begin{table}[h]
             \centering
@@ -54,21 +54,43 @@
             \resizebox{\textwidth}{!}{\begin{tabular}{|c|c|}
             \hline
             Intrinsic        & \begin{tabular}[c]{@{}l@{}}
-                                    Zur intrinsischen Datenqualität gehören, wie in Abbildung \ref*{fig:DataQualityDimensions}
-                                    zu sehen,\\ die Merkmale: Zeitlos, Vollständigkeit, Genauigkeit, Konsistenz. Die \\
-                                    intrinsische Dimension ist daher die allgemeine Qualität gemessen an den \\
-                                    genannten Merkmalen und repräsentieren Objektivität und \\
-                                    Glaubwürdigkeit der Daten. \cite{Yalaoui2021}
-                                \end{tabular}  \\\hline
-            Contextual       &     \\\hline
-            Representational &     \\\hline
-            Accessibility    &  \cite{Byabazaire2020}   \\ \hline           
+                                    Zur intrinsischen Datenqualität gehören, wie in Abbildung \ref*{fig:DataQualityDimensions} zu sehen,\\
+                                    die Merkmale: Zeitlos, Vollständigkeit, Genauigkeit, Konsistenz. Die \\
+                                    intrinsische Dimension bildet die Qualitätsmerkmale der Daten selbst ab. \\
+                                    und gibt Aufschluss über Objektivität und Glaubwürdigkeit der Daten.\cite{Yalaoui2021}
+                                \end{tabular}  \\ \hline
+            Contextual      &   \begin{tabular}[c]{@{}l@{}}
+                                    Bei der kontextbezogenen Datenqualität wird betrachtet in welchem Ausmaß \\
+                                    die Daten für den Nutzenden einsetzbar sind. Darin werden Eigenschaften wie:\\
+                                    Datenmenge (Quantität), Zugänglichkeit, Aktualität und Mehrwert \\
+                                    der Daten betrachtet um die Nutzbarkeit zu messen.\cite{Otto2019}
+                                \end{tabular}  \\ \hline
+            Representational &  \begin{tabular}[c]{@{}l@{}}
+                                    Repräsentativ bedeutet im Kontext der Datenqualität, dass die Daten \\
+                                    Interpretierbarkeit und dabei primär einfach zu Verstehen sind, \\
+                                    Konsistaent sind und  Manipulierbarkeit, also Veränderbar sind. \\
+                                    \cite{Byabazaire2020}
+
+                                \end{tabular}  \\ \hline
+            Accessibility    &  \begin{tabular}[c]{@{}l@{}}
+                                    Die vierte Dimension, die Zugänglichkeit, bezieht sich Insbesondere \\
+                                    auf das Speichersystem der Daten. Diese Dimension wird an der möglichst\\
+                                    einfachen Zugänglichkeit und der entgegenstehenden Sicherheit der \\
+                                    Daten gemessen.\cite{Byabazaire2020}
+                                \end{tabular}  \\ \hline           
             \end{tabular}}
             \end{adjustbox}
             \caption{Data Quality Dimensions Merkmale}
             \label{table:0}
         \end{table}
-        Trotz des Bewusstseins für Datenqualität, besteht rund 80 Prozent der Arbeit eines Data Scientist daraus, Daten aufgrund von Qualitätsanfoderungen vorzuverarbeiten. Angefangen beim einfachen Umwandeln bis hin zu komplexeren Bereinigungen und Encodierungen der Daten. Daten werden in den meisten Fällen nicht die gewünschten Qualitätsanforderungen erfüllen können. Datenqualität ist keine verallgemeinerbare Formel, sondern immer abhängig vom Anwendungsfall und dem Kontext in dem die Daten genutzt werden sollen.
+        \\
+        Datenqualität lässt sich in unterschiedlichsten Dimensionen und anhand unterschiedlicher Qualitätsmerkmale messen. Die in Abbildung \ref*{fig:DataQualityDimensions} dargestellten und in Tabelle \ref*{table:0} erläuterten Dimensionen sind dabei nur eine der gängigen Modelle aus der Literatur. 
+        \\
+        Trotz des Bewusstseins für Datenqualität, besteht rund 80 Prozent der Arbeit eines Data Scientist daraus, Daten aufgrund von Qualitätsanfoderungen vorzuverarbeiten.\cite{Horn2022} Angefangen beim einfachen Umwandeln bis hin zu komplexeren Bereinigungen und Encodierungen der Daten. Daten werden in den meisten Fällen nicht die gewünschten Qualitätsanforderungen erfüllen können. Datenqualität ist keine verallgemeinerbare Formel, sondern immer abhängig vom Anwendungsfall und dem Kontext in dem die Daten genutzt werden sollen.
+        \\
+        Dass Datenqualität eine wichtige Rolle spielt, unabhängig von dem Verwendungszweck, ist keine Frage. In der Wissenschaft sowie Wirtschaft wird sich immer intensiver mit der Themaitik der Datenqualität auseinandergesetzte, da heutzutage die Quantität kam noch ein Problem darstellt, sondern viel mehr die Qualität der Daten. Denn Quantität ist nicht gleich Qualität!
+
+%%#########################################
 
     \newpage
     \section{Künstliche Intelligenz}
@@ -81,9 +103,7 @@
         - Was ist alles KI
         - Wie definiert sich KI
         \\
-        \cite{Lis2019}\cite{HEGKI2019Definition}
-
-
+        \cite{Lis2019}\cite{HEGKI2019Definition}\cite{Gröger2021}
 
     \subsection{Teilgebiet maschinelles Lernen}
     \label{subsubsec:teilgebietML}
@@ -101,6 +121,9 @@
         - Diskriminierung durch KI ist ein fatales Problem
         - Maschinen besitzen keine Moral und Ethisches werteverständnis
         \cite{Cremers2019} \cite{Beckert2021} \cite{Hallensleben2020} \cite{HEGKI2019}
+
+%%#########################################
+
     \newpage
     \section{Bias im Zusammenhang mit \ac{KI}}
     \label{subsec:KIundbias}
