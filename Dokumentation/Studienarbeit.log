@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  24 MAY 2022 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  24 MAY 2022 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1539,7 +1539,7 @@ Package pdftex.def Info: Diagramme/Sz2_Auswahl_Lage.JPG  used on input line 325.
 File: Diagramme/Sz2AddEntry.JPG Graphic file (type jpg)
 <use Diagramme/Sz2AddEntry.JPG>
 Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 334.
-(pdftex.def)             Requested size: 455.28209pt x 284.52695pt.
+(pdftex.def)             Requested size: 455.28209pt x 256.07393pt.
 
 
 LaTeX Warning: Reference `subsubsec:umsetzungsz1' on page 28 undefined on input line 340.
@@ -1672,7 +1672,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  103i,19n,105p,2161b,2584s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (45 pages, 1555365 bytes).
+Output written on Studienarbeit.pdf (45 pages, 1555367 bytes).
 PDF statistics:
  771 PDF objects out of 1000 (max. 8388607)
  148 named destinations out of 1000 (max. 500000)
