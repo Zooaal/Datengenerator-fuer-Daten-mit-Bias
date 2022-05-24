@@ -46,12 +46,29 @@
             \label{fig:DataQualityDimensions}
         \end{figure}
         \\
-        Für die Validierung der Datenqualität gibt es die sogenannten Data Quality Dimensions. In Abbildung \ref{fig:DataQualityDimensions} sind die vier unterschiedlichen Dimensionen: Intrinsic (\ac{dt}.: Intrinsisch), Contextual (\ac{dt}.: Kontextbezogen), Accessibility (\ac{dt}.: Erreichbarkeit) und Representational (\ac{dt}.: Repräsentativ) dargstellt.
+        Für die Validierung der Datenqualität gibt es die sogenannten Data Quality Dimensions. In Abbildung \ref{fig:DataQualityDimensions} sind die vier unterschiedlichen Dimensionen: Intrinsic (\ac{dt}.: Intrinsisch), Contextual (\ac{dt}.: Kontextbezogen), Accessibility (\ac{dt}.: Erreichbarkeit) und Representational (\ac{dt}.: Repräsentativ) dargstellt. Jede Dimension besitzt eigene Merkmale an denen die Datenqualität gemessen werden kann. 
         \\
-        Trotz des Bewusstseins für Datenqualität, besteht rund 80 Prozent der Arbeit eines Data Scientist daraus, Daten aufgrund von Qualitätsanfoderungen vorzuverarbeiten. Angefangen beim einfachen Umwandeln bis hin zu komplexeren Bereinigungen und Encodierungen der Daten. Daten werden in den meisten Fällen nicht die gewünschten Qualitätsanforderungen erfüllen können. Datenqualität ist keine verallgemeinerbare Formel, sondern Datenqualität ist immer abhängig vom Anwendungsfall.
-
- 
-
+        \begin{table}[h]
+            \centering
+            \begin{adjustbox}{width=\textwidth}
+            \resizebox{\textwidth}{!}{\begin{tabular}{|c|c|}
+            \hline
+            Intrinsic        & \begin{tabular}[c]{@{}l@{}}
+                                    Zur intrinsischen Datenqualität gehören, wie in Abbildung \ref*{fig:DataQualityDimensions}
+                                    zu sehen,\\ die Merkmale: Zeitlos, Vollständigkeit, Genauigkeit, Konsistenz. Die \\
+                                    intrinsische Dimension ist daher die allgemeine Qualität gemessen an den \\
+                                    genannten Merkmalen und repräsentieren Objektivität und \\
+                                    Glaubwürdigkeit der Daten. \cite{Yalaoui2021}
+                                \end{tabular}  \\\hline
+            Contextual       &     \\\hline
+            Representational &     \\\hline
+            Accessibility    &  \cite{Byabazaire2020}   \\ \hline           
+            \end{tabular}}
+            \end{adjustbox}
+            \caption{Data Quality Dimensions Merkmale}
+            \label{table:0}
+        \end{table}
+        Trotz des Bewusstseins für Datenqualität, besteht rund 80 Prozent der Arbeit eines Data Scientist daraus, Daten aufgrund von Qualitätsanfoderungen vorzuverarbeiten. Angefangen beim einfachen Umwandeln bis hin zu komplexeren Bereinigungen und Encodierungen der Daten. Daten werden in den meisten Fällen nicht die gewünschten Qualitätsanforderungen erfüllen können. Datenqualität ist keine verallgemeinerbare Formel, sondern immer abhängig vom Anwendungsfall und dem Kontext in dem die Daten genutzt werden sollen.
 
     \newpage
     \section{Künstliche Intelligenz}
@@ -63,6 +80,9 @@
         - KI und seine potentiale Ausleuchten 
         - Was ist alles KI
         - Wie definiert sich KI
+        \\
+        \cite{Lis2019}\cite{HEGKI2019Definition}
+
 
 
     \subsection{Teilgebiet maschinelles Lernen}
@@ -80,8 +100,7 @@
         - EU Setzt sich mit Richtlinien auseinandern
         - Diskriminierung durch KI ist ein fatales Problem
         - Maschinen besitzen keine Moral und Ethisches werteverständnis
-
-
+        \cite{Cremers2019} \cite{Beckert2021} \cite{Hallensleben2020} \cite{HEGKI2019}
     \newpage
     \section{Bias im Zusammenhang mit \ac{KI}}
     \label{subsec:KIundbias}
@@ -91,7 +110,7 @@
         -   Arten von Bias: \\
             -   Bias durch Abwesenheit - Wenn eine Info fehlt, kann das zu Diskriminierung führen. \\
             -   Diskriminierung durch Menschen. \\
-        Arten von Bias: Cognitive, Social, Perceptual und Motivational Bias \cite{Parkavi2018}
+        Arten von Bias: Cognitive, Social, Perceptual und Motivational Bias \cite{HEGKI2019Definition}\cite{Parkavi2018}
 
     \subsection{Diskriminierung durch Bias in Daten}
     \label{subsubsec:diskriminierungdurchverzerrung}
