@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  24 MAY 2022 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  24 MAY 2022 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1314,7 +1314,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-<Diagramme/Grobkonzept_PAP.jpg, id=472, 283.0575pt x 363.3575pt>
+<Diagramme/Grobkonzept_PAP.jpg, id=476, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
@@ -1331,7 +1331,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=478, 350.30875pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=482, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 69.
@@ -1361,7 +1361,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-<Diagramme/Sz1_Cell1.PNG, id=494, 448.074pt x 140.9265pt>
+<Diagramme/Sz1_Cell1.PNG, id=498, 448.074pt x 140.9265pt>
 File: Diagramme/Sz1_Cell1.PNG Graphic file (type png)
 <use Diagramme/Sz1_Cell1.PNG>
 Package pdftex.def Info: Diagramme/Sz1_Cell1.PNG  used on input line 93.
@@ -1386,7 +1386,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-<Diagramme/Sz1_GeschlechtsCode.JPG, id=506, 367.3725pt x 35.38219pt>
+<Diagramme/Sz1_GeschlechtsCode.JPG, id=510, 367.3725pt x 35.38219pt>
 File: Diagramme/Sz1_GeschlechtsCode.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_GeschlechtsCode.JPG>
 Package pdftex.def Info: Diagramme/Sz1_GeschlechtsCode.JPG  used on input line 120.
@@ -1421,32 +1421,32 @@ Overfull \hbox (37.46739pt too wide) in paragraph at lines 149--173
  [][] 
  []
 
-<Diagramme/Sz1_RequestValues.JPG, id=535, 398.99063pt x 71.51718pt>
+<Diagramme/Sz1_RequestValues.JPG, id=539, 398.99063pt x 71.51718pt>
 File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_RequestValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 183.
 (pdftex.def)             Requested size: 398.98965pt x 71.517pt.
-<Diagramme/Sz1_Regeln.drawio.png, id=536, 327.2225pt x 613.29124pt>
+<Diagramme/Sz1_Regeln.drawio.png, id=540, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 191.
 (pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
-<Diagramme/Evaluator_Init.JPG, id=539, 432.11438pt x 106.14656pt>
+<Diagramme/Evaluator_Init.JPG, id=543, 432.11438pt x 106.14656pt>
 File: Diagramme/Evaluator_Init.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Init.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Init.JPG  used on input line 202.
 (pdftex.def)             Requested size: 432.11331pt x 106.1463pt.
-<Diagramme/Evaluator_Rate.JPG, id=541, 714.41907pt x 465.99094pt>
+<Diagramme/Evaluator_Rate.JPG, id=545, 714.41907pt x 465.99094pt>
 File: Diagramme/Evaluator_Rate.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Rate.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Rate.JPG  used on input line 210.
 (pdftex.def)             Requested size: 455.24265pt x 398.35529pt.
-<Diagramme/Sz1_standardValues.JPG, id=543, 529.22719pt x 173.14688pt>
+<Diagramme/Sz1_standardValues.JPG, id=547, 529.22719pt x 173.14688pt>
 File: Diagramme/Sz1_standardValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_standardValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_standardValues.JPG  used on input line 219.
 (pdftex.def)             Requested size: 455.24763pt x 170.72108pt.
-<Diagramme/Sz1Final.JPG, id=544, 548.80031pt x 336.50719pt>
+<Diagramme/Sz1Final.JPG, id=548, 548.80031pt x 336.50719pt>
 File: Diagramme/Sz1Final.JPG Graphic file (type jpg)
 <use Diagramme/Sz1Final.JPG>
 Package pdftex.def Info: Diagramme/Sz1Final.JPG  used on input line 227.
@@ -1526,12 +1526,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27 <./Diagramme/Sz1Final.JPG>]
-<Diagramme/Sz2_Auswahl_Lage.JPG, id=602, 746.79pt x 18.82031pt>
+<Diagramme/Sz2_Auswahl_Lage.JPG, id=606, 746.79pt x 18.82031pt>
 File: Diagramme/Sz2_Auswahl_Lage.JPG Graphic file (type jpg)
 <use Diagramme/Sz2_Auswahl_Lage.JPG>
 Package pdftex.def Info: Diagramme/Sz2_Auswahl_Lage.JPG  used on input line 325.
 (pdftex.def)             Requested size: 455.24408pt x 11.47289pt.
-<Diagramme/Sz2AddEntry.JPG, id=606, 316.93407pt x 209.28188pt>
+<Diagramme/Sz2AddEntry.JPG, id=610, 316.93407pt x 209.28188pt>
 File: Diagramme/Sz2AddEntry.JPG Graphic file (type jpg)
 <use Diagramme/Sz2AddEntry.JPG>
 Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 334.
@@ -1540,7 +1540,7 @@ Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 334.
 
 LaTeX Warning: Reference `subsubsec:umsetzungsz1' on page 28 undefined on input line 340.
 
-<Diagramme/Sz2Regeln.JPG, id=608, 432.86719pt x 156.585pt>
+<Diagramme/Sz2Regeln.JPG, id=612, 432.86719pt x 156.585pt>
 File: Diagramme/Sz2Regeln.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Regeln.JPG>
 Package pdftex.def Info: Diagramme/Sz2Regeln.JPG  used on input line 344.
@@ -1660,17 +1660,17 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43737 strings out of 478614
- 986496 string characters out of 2842650
- 1795753 words of memory out of 3000000
- 60904 multiletter control sequences out of 15000+600000
+ 43745 strings out of 478614
+ 986862 string characters out of 2842650
+ 1795891 words of memory out of 3000000
+ 60910 multiletter control sequences out of 15000+600000
  522002 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  103i,19n,105p,2117b,2584s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (45 pages, 1557021 bytes).
+Output written on Studienarbeit.pdf (45 pages, 1558629 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
+ 780 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

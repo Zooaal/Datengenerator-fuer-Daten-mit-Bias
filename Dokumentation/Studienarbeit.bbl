@@ -425,6 +425,35 @@
       \field{title}{Eine Definition der KI: Wichtigste Fähigkeiten und Wissenschaftsgebiete}
       \field{year}{2019}
     \endentry
+    \entry{Datenkommission2019}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=f501460a63e7d9657cff6a6b6e790d77}{%
+           family={Dathenethikkommission},
+           familyi={D\bibinitperiod}}}%
+        {{hash=4bf60c11becf1a698b7ef4c96e1d4412}{%
+           family={Wendehorst},
+           familyi={W\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b3a2610dc7cccd7283465988153cb3be}{%
+           family={Woopen},
+           familyi={W\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b4469fbb1358288d8d66d86aa9e49a0}
+      \strng{fullhash}{6b4469fbb1358288d8d66d86aa9e49a0}
+      \strng{bibnamehash}{6b4469fbb1358288d8d66d86aa9e49a0}
+      \strng{authorbibnamehash}{6b4469fbb1358288d8d66d86aa9e49a0}
+      \strng{authornamehash}{6b4469fbb1358288d8d66d86aa9e49a0}
+      \strng{authorfullhash}{6b4469fbb1358288d8d66d86aa9e49a0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gutachten der Datenethikkommission}
+      \field{year}{2019}
+    \endentry
     \entry{Cremers2019}{misc}{}
       \name{author}{2}{}{%
         {{hash=d5f9ee334c9e28a468affb8bd745845f}{%
@@ -533,8 +562,8 @@
       \strng{authornamehash}{8df179aa7ac87e18ffe186030f62aca9}
       \strng{authorfullhash}{8df179aa7ac87e18ffe186030f62aca9}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ethik-Leitlinien für eine Vertrauenswürdige KI}
@@ -579,6 +608,27 @@
       \verb{doi}
       \verb 10.1109/CSITSS.2018.8768554
       \endverb
+    \endentry
+    \entry{IncidentDatabase2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7079c72c21415131774625ba1d64f4b0}{%
+           family={Anonymous},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{bibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 23.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/16}}
+      \field{howpublished}{Responsible AI Collaborative.}
+      \field{title}{Incident Number 16. in McGregor, S. (ed.) Artificial Intelligence Incident Database.}
+      \field{year}{2015}
     \endentry
     \entry{Bronson2017}{misc}{}
       \name{author}{2}{}{%
@@ -689,8 +739,8 @@
       \strng{authorbibnamehash}{ce29b256df4f1f2631f6eed647e4c95f}
       \strng{authornamehash}{ce29b256df4f1f2631f6eed647e4c95f}
       \strng{authorfullhash}{ce29b256df4f1f2631f6eed647e4c95f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.climatewatchdata.org/ghg-emissions}}
