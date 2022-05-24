@@ -675,6 +675,28 @@
       \field{title}{Datenreport 2021 - Kapitel 3: Bildung}
       \field{year}{2021}
     \endentry
+    \entry{ClimateWatch2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ce29b256df4f1f2631f6eed647e4c95f}{%
+           family={Washington},
+           familyi={W\bibinitperiod},
+           given={DC:\bibnamedelimb World\bibnamedelimb Resources\bibnamedelima Institute},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce29b256df4f1f2631f6eed647e4c95f}
+      \strng{fullhash}{ce29b256df4f1f2631f6eed647e4c95f}
+      \strng{bibnamehash}{ce29b256df4f1f2631f6eed647e4c95f}
+      \strng{authorbibnamehash}{ce29b256df4f1f2631f6eed647e4c95f}
+      \strng{authornamehash}{ce29b256df4f1f2631f6eed647e4c95f}
+      \strng{authorfullhash}{ce29b256df4f1f2631f6eed647e4c95f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.climatewatchdata.org/ghg-emissions}}
+      \field{title}{Climate Watch Historical GHG Emissions}
+      \field{year}{2022}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

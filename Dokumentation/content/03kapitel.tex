@@ -289,7 +289,7 @@ Der Bildungsabschluss einer Person basiert ebenfalls wie die Politische Orientie
 \end{table}\\
 Die in der Tabelle \ref{table:8} dargestellten Wahrscheinlichkeiten für die dort aufgeführten Altersgruppen ergeben sich aus der \glqq{}Tab 9\grqq{} des Datenreports vom Statistischen Bundesamt. Die Daten der \glqq{}Tab 9\grqq{} stammen aus dem Jahr 2018 der deutschen Bevölkerung. Für die Altersgruppe von 20 bis 29 Jahre existiert keine passende Angabe in der Quelle, da in dieser erst ab dem Alter von 25 Jahren Werte aufgelistet sind. Einfachheitshalber wird daher für die Personen kleiner gleich 29 Jahre die Werte der Personen zwischen 25 und 29 Jahren genommen. Dasselbe gilt auch für die Personen älter als 60, hier werden in der Quelle nur eine Wertereihe für Personen mit 60 und älter angegeben. Das Szenario bezieht sich jedoch nur bis 79 Jahre und passt somit hier auch nicht vollkommen. Zur Vereinfachung wird hierbei jedoch diese Wertereihe für alle zwischen 60 und 79 Jahren verwendet.\cite{destatis2021}\\
 \textbf{Soziales}\\
-Das soziale Engagement wird von 0 bis 3 angegeben und basiert, wie in der Konzeption beschrieben um die Daten interessanter zu machen, auf der Politischen Orientierung. Durch solche Abhängigkeiten gestalten sich die Daten nämlich realitätsnaher und bringen eine größere Variabilität mit. Da jedoch für die Werte keine Referenzen aus der realen Welt zur Verfügung stehen, wird mit fiktiven Werten gearbeitet.\\
+Das soziale Engagement wird von 0 bis 3 angegeben und basiert wie in der Konzeption beschrieben, um die Daten interessanter zu machen, auf der Politischen Orientierung. Durch solche Abhängigkeiten gestalten sich die Daten nämlich realitätsnaher und bringen eine größere Variabilität mit. Da jedoch für die Werte keine Referenzen aus der realen Welt zur Verfügung stehen, wird mit fiktiven Werten gearbeitet.\\
 \begin{table}[!h]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -305,7 +305,47 @@ Das soziale Engagement wird von 0 bis 3 angegeben und basiert, wie in der Konzep
 \end{table}\\
 Die in der Tabelle \ref{table:9} aufgeführten fiktiven Wahrscheinlichkeiten sind ebenso wie schon bei der Bestimmung der anderen Attribute, durch den Code aus Abbildung \ref{fig:GeschlechtscodeS1} umgesetzt. Jedoch wird durch eine if else Abfrage die unterschiedlichen Politischen Orientierungen unterschieden und dementsprechend die passenden Wahrscheinlichkeiten in der Codezeile verwendet.\\
 \textbf{Wohnlage}\\
-
+Die Wohnlage wird durch die Ausprägungen Ländlich, Vorort, Kleinstadt und Großstadt angegebenen und wird durch kein anderes Attribut beeinflusst. Die Wahrscheinlichkeiten für die einzelnen Ausprägungen sind in nachfolgender Tabelle aufgezeigt.
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Ausprägungen} & \textbf{Einwohnergrenze} & \textbf{Wahrscheinlichkeit} \\ \hline
+    Ländlich              & \textless{}= 2000        & 5,38\%                      \\ \hline
+    Vorort                & 2.000 - 5000             & 8,5\%                       \\ \hline
+    Kleinstadt            & 5.000 - 20.000           & 26,6\%                      \\ \hline
+    Großstadt             & \textgreater 20.000      & 59,52\%                     \\ \hline
+    \end{tabular}
+    \caption{Tabelle der Wahrscheinlichkeiten für die Wohnlage}
+    \label{table:10}
+\end{table}\\
+Zur Bestimmung der Wahrscheinlichkeiten für die unterschiedlichen Ausprägungen der Wohnlage müssen zuerst die in der Tabelle \ref{table:10} angegebenen Einwohnergrenzen pro Ausprägung festgelegt werden. Für die Festlegung wurde nach eigenem Ermessen entschieden, welche Ausprägung zu welcher Einwohnergrenze passt. Aus einer Publikation des Statistischen Bundesamt können dann nach dieser Eingliederung die Wahrscheinlichkeiten aufsummiert werden. In der Publikation \glqq{}Gemeinden nach Bundesländern und Einwohnergrößenklassen am 31.12.2020\grqq{} sind der prozentuale Anteil an deutschen Einwohner in gewissen Einwohnergrenzen angegeben. Diese werden dann nach den hier für die Ausprägungen definierten Grenzen aufsummiert und in der Tabelle angegebenen. Damit kann eine möglichst Realitätsnahe Datenerzeugung gewährleistet werden. Für die Umsetzung der Auswahl der Ausprägung kann wie auch schon in den vorigen Fällen der selbe Code aus Abbildung \ref{fig:GeschlechtscodeS1} auf den Fall hier angepasst und verwendet werden. So sieht die finale Codezeile wie in der folgenden Abbildung dargestellt aus.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=16cm]{Diagramme/Sz2_Auswahl_Lage.JPG}
+    \caption{Codezeile zur Auswahl der Ausprägung der Wohnlage basierend auf angegebenen Wahrscheinlichkeiten}
+    \label{fig:Sz2AuswahlWohnlage}
+\end{figure}\\
+\textbf{CO2-Fußabdruck}
+Der CO2-Fußabdruck ist das komplexeste Attribut des Szenarios, da dieser auf zwei Attributen basiert. Wie in der Abbildung \ref{fig:VerbindungenS2} dargestellt hat das Soziale Engagement und die Wohnlage eine Auswirkung auf den CO2-Fußabdruck. Dadurch, dass das Soziale Engagement ebenfalls noch von der Politischen Orientierung und diese vom Alter abhängig ist, haben auch noch zwei weitere Attribute eine indirekte Auswirkung auf den CO2-Fußabdruck. Dies lässt sich auch dadurch begründen, dass der CO2-Fußabdruck in der Realität sich aus vielen unterschiedlichen Teilen zusammensetzt. Da es für den CO2-Fußabdruck unter Berücksichtigung dieser Auswirkungen keine Referenzen aus der realen Welt gibt, wurden fiktive Werte für eine Gaußkurve verwendet. Als Referenzen für die Angabe der Ausprägung des CO2-Fußabdruck in Tonnen pro Kopf konnte jedoch der Mittelwert von 7,91 Tonnen herangezogen werden.\cite{ClimateWatch2022} Um daraus ein Intervall um diesen Wert als Mittelwert festzulegen. So ergab sich das Intervall von 4 bis 12 Tonnen in 0,5er Schritten. Für die daraus resultierenden 17 Ausprägungen wurde eine Gaußkurve erzeugt. Um die Auswirkung von Sozialem Engagement und Wohnlage durchzusetzen wird die Gaußkurve, je nach Grundlage der Attribute verschoben. Für die Umsetzung der jeweiligen Verschiebung durch die beiden Attribute Soziales Engagement und Wohnlage muss eine große ifelse Abfragestruktur mit 16 unterschiedlichen Zuständen erstellt werden, da beide Attribute 4 verschiedene Ausprägungen haben(4*4=16). In den 16 unterschiedlichen Zuständen wird dann die Codezeile aus der Abbildung \ref{fig:Sz2AuswahlWohnlage}, um die 17 Ausprägungen des CO2-Fußabdruck angepasst und die Wahrscheinlichkeiten der Gaußkurve entsprechend dem Zustand eingetragen. Dadurch entsteht ein recht komplexes Codekonstrukt, welches jedoch sehr anschauliche abhängige Daten liefert und damit das Szenario in der Auswertung interessanter gestaltet.\\
+Mit der abschließenden Bestimmung des CO2-Fußabdruck sind alle Ausprägungen der Attribute bestimmt und die Werte können nun als ein Dictionary dem Array des gesamt Datensatzes hinzugefügt werden. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=16cm,height=10cm]{Diagramme/Sz2AddEntry.JPG}
+    \caption{Codeausschnitt zum Hinzufügen eines Dateneintrags}
+    \label{fig:Sz2AddEntry}
+\end{figure}\\
+In der Abbildung \ref{fig:Sz2AddEntry} ist der Codeausschnitt zu sehen, wie das Dictionary mit der Zuordnung Attribut als Key und die Ausprägung als Value erstellt und dem Array \glqq{}output\grqq{} angehängt wird. Die Ausprägung des Namens wird in diesem Schritt erst bestimmt und die anderen werden durch die Variablen übertragen.
+Im Anschluss ist ein Schleifendurchlauf beendet, somit ein Eintrag dem Datensatz hinzugefügt und es wird falls noch offen der nächste Durchlauf begonnen. Sobald die Schleife beendet ist, ist der gesamte gewünschte Datensatz generiert und wird letztendlich nur noch als Array aus der Methode zurückgegeben. \\
+Als nächste Zelle wird wie auch schon im Szenario 1 eine Methode, welche das Datenerstellen zusammenfasst umgesetzt. Diese ist genau gleich wie im Kapitel \ref{subsubsec:umsetzungsz1} beschrieben umgesetzt. Zuerst wird ein Seed und danach mit diesem die gewünschte Anzahl an Daten generiert, als Dataframe gespeichert und zurückgegeben.\\ 
+In der darauffolgenden Zelle ist die Methode \glqq{}create\_Rules()\grqq{} für das erstellen der Regeln implementiert. Diese Methode ist deutlich einfacher implementiert als sie im Szenario 1 implementiert werden musste. In diesem Szenario werden die Regeln fix als Dictionary angegeben erstellt.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=16cm]{Diagramme/Sz2Regeln.JPG}
+    \caption{Codeausschnitt zum Erstellen des Regel Dictionary}
+    \label{fig:Sz2Regeln}
+\end{figure}\\
+Das Dictionary der Regeln, welches in der Methode erstellt und zurückgegeben wird, ist in der Abbildung \ref{fig:Sz2Regeln} dargestellt. Für jedes Attribut, welches in der Konzeption unter \ref{subsubsec:szenario2} als beeinflussendes Attribut eingestuft wird, muss ein Key Value Paar dem Dictionary hinzugefügt werden. Als Keys werden die Attribute und in den Values nach der in der zur Generierung angegebenen Reihenfolge eine Punktzahl für jede Ausprägung angegeben. 
 \newpage
 \section{Datenauswertung}
 \label{datenauswerung}
