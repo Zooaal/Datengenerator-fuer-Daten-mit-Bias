@@ -88,31 +88,52 @@
         \\
         Trotz des Bewusstseins für Datenqualität, besteht rund 80 Prozent der Arbeit eines Data Scientist daraus, Daten aufgrund von Qualitätsanfoderungen vorzuverarbeiten.\cite{Horn2022} Angefangen beim einfachen Umwandeln bis hin zu komplexeren Bereinigungen und Encodierungen der Daten. Daten werden in den meisten Fällen nicht die gewünschten Qualitätsanforderungen erfüllen können. Datenqualität ist keine verallgemeinerbare Formel, sondern immer abhängig vom Anwendungsfall und dem Kontext in dem die Daten genutzt werden sollen.
         \\
-        Dass Datenqualität eine wichtige Rolle spielt, unabhängig von dem Verwendungszweck, ist keine Frage. In der Wissenschaft sowie Wirtschaft wird sich immer intensiver mit der Themaitik der Datenqualität auseinandergesetzte, da heutzutage die Quantität kam noch ein Problem darstellt, sondern viel mehr die Qualität der Daten. Denn Quantität ist nicht gleich Qualität!
+        Dass Datenqualität eine wichtige Rolle spielt, unabhängig von dem Verwendungszweck, ist keine Frage. In der Wissenschaft sowie Wirtschaft wird sich immer intensiver mit der Themaitik der Datenqualität auseinandergesetzte, da heutzutage die Quantität kam noch ein Problem darstellt, sondern viel mehr die Qualität der Daten.\cite{Lis2019} Denn Quantität ist nicht gleich Qualität!
 
-%%#########################################
+%#########################################
 
     \newpage
     \section{Künstliche Intelligenz}
     \label{subsec:KIandML}
     \subsection{Künstliche Intelligenz Allgemein}
     \label{subsubsec:KIAllgemein}
-        - Was bildet KI alles ab <-- Grafik B. Otto?
-        - KI als Geschäftsfeld 
-        - KI und seine potentiale Ausleuchten 
-        - Was ist alles KI
-        - Wie definiert sich KI
+        \ac{KI} als Begriff wird vielseitig und unterschiedlich Verwendet. Die Vision von \ac{KI} ist es, die intellektuellen und menschlichen Fähigkeiten als ein KI-System nachzubilden.\cite{Lis2019} Letztendlich beschreibt \ac{KI} ein Forschungsbreich aus der Informatik, der aus einer Vielzahl aus Technologien besteht.\cite{HEGKI2019Definition} 
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = \textwidth]{Bilder/ml_toolset.png}
+            \caption{Exemplarisch dargestellte Disziplinen von \ac{KI}\cite{Horn2022}}
+            \label{fig:ml_toolset}
+        \end{figure}
         \\
-        \cite{Gröger2021}\cite{Lis2019}\cite{HEGKI2019Definition}\cite{Datenkommission2019}
-
+        Die Abbildung \ref*{fig:ml_toolset} ziegt exemplarisch, welche Position \ac*{KI} in der Infromatik einnimmt. Zur \ac{KI} gehören bekannte Teilgebiet wie das \ac*{ML}, Optimierungsalgorithmen, aber auch  in der Robotik kommt \ac{KI} zum Einsatz. Selbst wird die Disziplin aber auch von anderen übergeordneten Disziplinen genutzt.\cite{HEGKI2019Definition} Ein Beispiel hierfür ist Data Science. Die Abbildung \ref*{fig:ml_toolset} veranschaulticht, dass einige Aspekte aus der \ac{KI} im Bereich Data Science augegriffen werden, jedoch deutlich mehr als nur \ac{KI} hinter Data Science steckt.
+        \\
+        In der Literatur wurde in der Vergangenheit oft zwischen \glqq{}schwacher\grqq{} und \glqq{}starker\grqq{} \ac{KI} unterschieden. Eine schwache \ac{KI} ist dabei für ein spezifisches Anwendungsproblem konzipiert. Der \ac{KI} wird eine Aufgabe gegeben und diese versucht mittels Algorithmen und mathematischen Funktionen die Aufgabe zu lösen. Diese Art der \ac{KI} versucht Aufgaben zu lösen und Ergebnisse zu liefern, wie sie durch menschliche Intelligenz entstehen können.\cite{Lis2019} Ein Beispiel hierfür ist die Bilderkennung, bei der Entschieden wird, ob auf dem Bild eine Erdbeere zu sehen ist, oder nicht.
+        \\
+        Als starke \ac{KI} wird ein System verstanden, welches in der Lage ist ein breites Spektrum an Aufgaben zu erledigen.\cite{Datenkommission2019} Sie verfügt über weitere Methoden zur Datenverarbeitung. In dieser Form der \ac{KI} wird mehr versucht die menschlichen Fähigkeiten und Intelligenz abzubilden. Es wird nicht nach eine spezifischen Vorgehensweise vorgegangen, sondern Aufgaben werden mit individuellen Lösungenswegen erledigt.\cite{Lis2019}
+        \\
+        Mit dem Begriff \ac{KI} wird demzufolge nur ein grundlegendes Prinzip von \ac*{KI}-Systemen definiert. Die Aufgabe dieser \ac*{KI}-Systeme ist es, Daten jeglicher Form zu interpretieren, Schlussfolgerungen daraus zu ziehen und eine Aussage über das zu erreichende Ziel zu liefern. Unabhängig davon, ob es sich um einen optimalen Lösungsweg, eine Vorhersage oder eine Schlussfolgerung handelt. \cite{HEGKI2019Definition}    
+    
     \subsection{Teilgebiet maschinelles Lernen}
     \label{subsubsec:teilgebietML}
-        - Wie funktioniert ML --> Daten die gesammelt werden
-        - Bewertete Daten aus der Vergangenheit --> Daten bewerter Jobs <-- Quelle
-        - Welche Risiken - over under fitting etc.
-        -   Superviced learning --> Data Bias\\
-        -   Unsuperviced learning --> nicht zwingend Data Bias\\
-
+        Maschinelles Lernen ist das bekannteste Teilgebiet der \ac{KI}. Unter \ac{ML} wird verstanden, 
+        \\
+        Um das Teilgebiet \ac{ML} detaillierter zu betrachten, unterscheidet man zwischen \glqq{}superviced learning\grqq{}(\ac*{dt}.: überwachtes Lernen), \glqq{}unsuperviced learning\grqq{}(\ac*{dt}.: unüberwachtes Lernen) und dem \glqq{}reinforcement learning\grqq{}(\ac*{dt}.: bestärktes Lernen).\cite{Horn2022}\cite{Datenkommission2019} Bei dieser Unterschiedung wird zwischen der Art des Lernens unterschieden. 
+        \\
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 12cm]{Bilder/ml_algorithms.png}
+            \caption{Arten des maschinellen Lernen\cite{Horn2022}}
+            \label{fig:ml_algorithms}
+        \end{figure}
+        \\
+        Die Abbildung \ref*{fig:ml_algorithms} stellt diese unterschiedlichen Arten des Lernens vereinfacht dar. Das unsuperviced learning funktioniert, indem ich wie in Abbildung \ref*{fig:ml_algorithms} einen Text ohne zusätzliche Informationen angebe, und das Modell selbstständig den Zusammenhang erkennt und die Frage identifiziert. Diese Art ist vergleichbar mit dem menschlichen Lernen durch Ausprobieren. 
+        Das überwachte Lernen, ist die natürliche Form der menschlichen Wissensaneignung. Hier wird dem Modell etwas beigebracht. Das Beispiel der Abbildung \ref*{fig:ml_algorithms} veranschaulicht es sehr gut. Hier wird auf ein Flugzeug gezeigt und dem Kinde gesagt, dass es sich um ein Flugzeug handelt. Das Kind merkt sich dies und ist beim nächsten mal selbst in der Lage das Flugzeug zu erkennen. In stark vereinfachter Form gilt dies auch für ein Modell, dem Modell wird beigebracht, dass es sich um ein Flugzeug handelt und dieses lernt die Assoziation eines Flugzeugs mit dem Begriff Flugzeug.
+        Die dritte und bisher noch nicht sehr weit verbreite Art des Lernens ist das bestärkte Lernen. Es handelt sich dabei um ein Feedback basiertes Lernen. Das bedeutet, dass das Modell frei Handeln und Entscheiden darf. Die Handlungen werden jedoch danach bewertet und das Modell bekommt gesagt, ob es gut war oder nicht. Das Beispeil mit dem Geigenspieler der zuerst spielt und im nachhinein Feedback bekommt aus Abbildung \ref*{fig:ml_algorithms} illustriert die Form des Lernens recht passend. 
+        \\
+        Im Rahmen dieser Arbeit wird sich speziell auf das superviced Learning fokussiert. Superviced learning wird immer dann eingesetzt, wenn man etwas auf Basis von Eingabedaten vorhersagen, Schlussfolgern oder Entscheiden möchte. Die bekannten Beispiele sind hier die Bildererkennung von Google mit der Unterscheidung von Hunden und Katzen. 
+        \\
+        Es gibt aber auch einige Risiken, die im Zusammenhangmit \ac{ML} auftreten. Für das beschriebene Lernverfahren des superviced learning ist es zum einen wichtig eine ausreichende Datenmenge zu besitzen. 
+        Des weiteren muss beim Trainieren und Lernen des Modells das Modell selbst bewertet werden. Dazu gibt es unterschiedliche Metriken die es einem ermöglichen die Qualität eines Modells zu bewerten. Denn wird dies nicht getan, kann es passieren, dass das Modell over- oder underfitted. 
 
     \subsection{Ethik in der künstlichen Intelligenz}
     \label{subsubsec:ethikinderKI}
@@ -122,14 +143,15 @@
         - Maschinen besitzen keine Moral und Ethisches werteverständnis
         \cite{Cremers2019} \cite{Beckert2021} \cite{Hallensleben2020} \cite{HEGKI2019}
 
-%%#########################################
+%#########################################
 
     \newpage
     \section{Bias im Zusammenhang mit \ac{KI}}
     \label{subsec:KIundbias}
     \subsection{Bias}
     \label{subsubsec:Bias}
-        -   Begriffserklärung: Data Bias vs Bias Verzerrung / Over-/Underfitting (zu viel/zu wenig lernen im ml)\\
+        - ML ist immer auf Basis von Daten aus der Vergangenheit 
+        -   Begriffserklärung: Data Bias vs Bias Verzerrung\\
         -   Arten von Bias: \\
             -   Bias durch Abwesenheit - Wenn eine Info fehlt, kann das zu Diskriminierung führen. \\
             -   Diskriminierung durch Menschen. \\

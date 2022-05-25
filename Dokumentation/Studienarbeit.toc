@@ -12,25 +12,25 @@
 \contentsline {subsection}{\numberline {2.1.2}Datenqualität}{7}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Künstliche Intelligenz}{9}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Künstliche Intelligenz Allgemein}{9}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Teilgebiet maschinelles Lernen}{9}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Ethik in der künstlichen Intelligenz}{9}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Bias im Zusammenhang mit \ac {KI}}{10}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Bias}{10}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Diskriminierung durch Bias in Daten}{10}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Gegenma{\ss }nahmen}{10}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Praktischer Teil}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Szenarien}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{12}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Konzeption}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{14}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Umsetzung}{17}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario 1}{17}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario 2}{27}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Datenauswertung}{34}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{34}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Schluss}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diskussion}{35}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ausblick}{35}{section.4.3}%
+\contentsline {subsection}{\numberline {2.2.2}Teilgebiet maschinelles Lernen}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Ethik in der künstlichen Intelligenz}{11}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Bias im Zusammenhang mit \ac {KI}}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Bias}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Diskriminierung durch Bias in Daten}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Gegenma{\ss }nahmen}{12}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Praktischer Teil}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Szenarien}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{14}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Konzeption}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{15}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{16}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Umsetzung}{19}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario 1}{19}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario 2}{29}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Datenauswertung}{36}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{36}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Schluss}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diskussion}{37}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ausblick}{37}{section.4.3}%
