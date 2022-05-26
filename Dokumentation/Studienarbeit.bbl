@@ -33,8 +33,8 @@
       \strng{authorbibnamehash}{e8f088e515a80ad15550e7eaba6b4e96}
       \strng{authornamehash}{e8f088e515a80ad15550e7eaba6b4e96}
       \strng{authorfullhash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://www.forbes.com/sites/theyec/2021/07/15/data-isnt-the-new-oil--time-is/?sh=45eb63a135bb}}
@@ -101,8 +101,8 @@
       \strng{authorbibnamehash}{120dddfbcfcdce6331900a201f017f7c}
       \strng{authornamehash}{120dddfbcfcdce6331900a201f017f7c}
       \strng{authorfullhash}{f5c7b8d35c821b4e48389851cf829408}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Data Ecosystems}
@@ -132,8 +132,8 @@
       \strng{authorbibnamehash}{edf3684f877b4a8d6513f2e39281ba99}
       \strng{authornamehash}{edf3684f877b4a8d6513f2e39281ba99}
       \strng{authorfullhash}{edf3684f877b4a8d6513f2e39281ba99}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{IDC White Paper – US44413318}
@@ -454,6 +454,86 @@
       \field{title}{Gutachten der Datenethikkommission}
       \field{year}{2019}
     \endentry
+    \entry{Döbel2018}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=04911c4b53913deab2b7a626cd956f2b}{%
+           family={Döbel},
+           familyi={D\bibinitperiod},
+           given={Inga},
+           giveni={I\bibinitperiod}}}%
+        {{hash=819bf85f2170f54ac6145b7b9b82b4d3}{%
+           family={Leis},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=34cce9c3897791bd79df802a80571259}{%
+           family={Vogelsang},
+           familyi={V\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b75b12df799db3538060a896469b7317}{%
+           family={Neustroev},
+           familyi={N\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c911e4c6afc124a43b2d4f347159a64}
+      \strng{fullhash}{ae2f79580c920ebf567e3bdc5db97722}
+      \strng{bibnamehash}{ae2f79580c920ebf567e3bdc5db97722}
+      \strng{authorbibnamehash}{ae2f79580c920ebf567e3bdc5db97722}
+      \strng{authornamehash}{5c911e4c6afc124a43b2d4f347159a64}
+      \strng{authorfullhash}{ae2f79580c920ebf567e3bdc5db97722}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 25.05.2022 [Online]. Verfügbar:\url{https://www.bigdata-ai.fraunhofer.de/content/dam/bigdata/de/documents/Publikationen/Fraunhofer_Studie_ML_201809.pdf}}
+      \field{title}{Maschinelles Lernen - Eine Analyse zur Kompetenzen, Forschunng und Anwendung}
+      \field{year}{2018}
+    \endentry
+    \entry{Ng2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bdb4d740fc9548d1c32a62103c30169d}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{fullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{bibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorbibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authornamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorfullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Yearning - Technical Strateg for AI Engineers, In the Era of Deep Learning}
+      \field{year}{2018}
+    \endentry
+    \entry{Goasduff2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ba9cce1b01720388a0f95f6e272540d7}{%
+           family={Goasduff},
+           familyi={G\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{fullhash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{bibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{authorbibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{authornamehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{authorfullhash}{ba9cce1b01720388a0f95f6e272540d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 25.05.2022 [Online]. Verfügbar:\url{https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020}}
+      \field{title}{2 Megatrends Dominate the Gartner Hype Cycle for Artificial Intelligence, 2020}
+      \field{year}{202}
+    \endentry
     \entry{Cremers2019}{misc}{}
       \name{author}{2}{}{%
         {{hash=d5f9ee334c9e28a468affb8bd745845f}{%
@@ -473,8 +553,8 @@
       \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
       \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
       \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 15.05.2022 [Online]. Verfügbar:\url{https://www.iais.fraunhofer.de/content/dam/iais/KINRW/Whitepaper_KI-Zertifizierung.pdf}}
@@ -621,8 +701,8 @@
       \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/16}}
@@ -649,8 +729,8 @@
       \strng{authorbibnamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authornamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authorfullhash}{9c979611afbced8d2eeb72e681ff9620}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
@@ -671,8 +751,8 @@
       \strng{authorbibnamehash}{faf19df46d07203502a5ad8ae90f820d}
       \strng{authornamehash}{faf19df46d07203502a5ad8ae90f820d}
       \strng{authorfullhash}{faf19df46d07203502a5ad8ae90f820d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://de.statista.com/statistik/daten/studie/1112579/umfrage/bevoelkerung-in-deutschland-nach-altersgruppen/}}
@@ -695,8 +775,8 @@
       \strng{authorbibnamehash}{508321e881d1ce2c83963a6c574826cf}
       \strng{authornamehash}{508321e881d1ce2c83963a6c574826cf}
       \strng{authorfullhash}{508321e881d1ce2c83963a6c574826cf}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.kas.de/documents/291186/291235/Datensammlung+Alter+und+Geschlecht.pdf/a25fb063-b305-d567-2d98-e77b1104f713?version=1.1&t=1618912553715}}
