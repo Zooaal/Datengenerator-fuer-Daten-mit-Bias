@@ -87,7 +87,7 @@
         \\
         Trotz des Bewusstseins für Datenqualität, besteht rund 80 Prozent der Arbeit eines Data Scientist daraus, Daten aufgrund von Qualitätsanfoderungen vorzuverarbeiten.\cite{Horn2022} Angefangen beim einfachen Umwandeln bis hin zu komplexeren Bereinigungen und Encodierungen der Daten. Daten werden in den meisten Fällen nicht die gewünschten Qualitätsanforderungen erfüllen können. Datenqualität ist keine verallgemeinerbare Formel, sondern immer abhängig vom Anwendungsfall und dem Kontext in dem die Daten genutzt werden sollen.
         \\
-        Dass Datenqualität eine wichtige Rolle spielt, unabhängig von dem Verwendungszweck, ist keine Frage. In der Wissenschaft sowie Wirtschaft wird sich immer intensiver mit der Themaitik der Datenqualität auseinandergesetzte, da heutzutage die Quantität kam noch ein Problem darstellt, sondern viel mehr die Qualität der Daten.\cite{Lis2019} Denn Quantität ist nicht gleich Qualität!
+        Dass Datenqualität eine wichtige Rolle spielt, unabhängig von dem Verwendungszweck, ist keine Frage. In der Wissenschaft sowie Wirtschaft wird sich immer intensiver mit der Thematik der Datenqualität auseinandergesetzte, da heutzutage die Quantität kam noch ein Problem darstellt, sondern viel mehr die Qualität der Daten.\cite{Lis2019} Denn Quantität ist nicht gleich Qualität!
 
 %#########################################
 
@@ -129,30 +129,48 @@
         Das überwachte Lernen, ist die natürliche Form der menschlichen Wissensaneignung. Hier wird dem Modell etwas beigebracht. Das Beispiel der Abbildung \ref*{fig:ml_algorithms} veranschaulicht es sehr gut. Hier wird auf ein Flugzeug gezeigt und dem Kinde gesagt, dass es sich um ein Flugzeug handelt. Das Kind merkt sich dies und ist beim nächsten mal selbst in der Lage das Flugzeug zu erkennen. In stark vereinfachter Form gilt dies auch für ein Modell, dem Modell wird beigebracht, dass es sich um ein Flugzeug handelt und dieses lernt die Assoziation eines Flugzeugs mit dem Begriff Flugzeug.
         Die dritte und bisher noch nicht sehr weit verbreite Art des Lernens ist das bestärkte Lernen. Es handelt sich dabei um ein Feedback basiertes Lernen. Das bedeutet, dass das Modell frei Handeln und Entscheiden darf. Die Handlungen werden jedoch danach bewertet und das Modell bekommt gesagt, ob es gut war oder nicht. Das Beispeil mit dem Geigenspieler der zuerst spielt und im nachhinein Feedback bekommt aus Abbildung \ref*{fig:ml_algorithms} illustriert die Form des Lernens recht passend. 
         \\
-        Im Rahmen dieser Arbeit wird sich speziell auf das superviced Learning fokussiert. Superviced learning wird immer dann eingesetzt, wenn man etwas auf Basis von Eingabedaten vorhersagen, Schlussfolgern oder Entscheiden möchte. Die bekannten Beispiele sind hier die Bildererkennung von Google mit der Unterscheidung von Hunden und Katzen. 
+        ZU ÜBERARBEITEN:
+        \\
+        Im Rahmen dieser Arbeit wird der Fokus speziell auf das superviced Learning gelegt. Superviced learning wird immer dann eingesetzt, wenn man etwas auf Basis von Eingabedaten vorhersagen, Schlussfolgern oder Entscheiden möchte. Die bekannten Beispiele sind hier die Bildererkennung von Google mit der Unterscheidung von Hunden und Katzen. 
         \\
         Es gibt aber auch einige Risiken, die im Zusammenhangmit \ac{ML} auftreten. Für das beschriebene Lernverfahren des superviced learning ist es zum einen wichtig eine ausreichende Datenmenge zu besitzen. 
         Des weiteren muss beim Trainieren und Lernen des Modells das Modell selbst bewertet werden. Dazu gibt es unterschiedliche Metriken die es einem ermöglichen die Qualität eines Modells zu bewerten. Denn wird dies nicht getan, kann es passieren, dass das Modell over- oder underfitted. 
         \\
-        ZU ÜBERARBEITEN\cite{Döbel2018}\cite{Ng2018}
+        \cite{Döbel2018}\cite{Ng2018}
         \\
 
+    \newpage    
     \subsection{Ethik in der künstlichen Intelligenz}
     \label{subsubsec:ethikinderKI}
-        Spacer
-        \\
+        Ein Aspekt der bisher nicht beleutet wurde ist die Ethik. Die Ethik spielt in der \ac{KI} eine immer größer werdende Rolle. In einer Gesellschaft die für Inklusion steht, werden häufig Entscheidungen hinterfragt und kritisiert. Dies gilt insbesondere für Entscheidungen und Vorhersagen, die durch \ac{KI} getroffen werden und so ohne direkten menschlichen Einfluss getroffen werden. 
         \begin{figure}[h]
             \centering
             \includegraphics[width = \textwidth]{Bilder/Gartner_hypeCycle.png}
-            \caption{Gartner Hype Cycle für \ac*{KI}\cite{Goasduff2020}}
+            \caption{Gartner Hype Cycle für \ac*{KI} \cite{Goasduff2020}}
             \label{fig:HypeCycle}
         \end{figure}
         \\
-        - Ethik spielt eine große Rolle in der Gesellschaft
-        - EU Setzt sich mit Richtlinien auseinandern
-        - Diskriminierung durch KI ist ein fatales Problem
-        - Maschinen besitzen keine Moral und Ethisches werteverständnis
-        \cite{Cremers2019} \cite{Beckert2021} \cite{Hallensleben2020} \cite{HEGKI2019}
+        Im Gartner Hype Cycle für \ac*{KI} aus dem Jahr 2020, dargestellt in Abbildung \ref*{fig:HypeCycle}, wurde das Thema Digitale Ethik auf dem Höhepunkt der Kurve platziert. Der Forschungsbreich rund um die digitale Ethik befindet sich jedoch erst im Anfangsstadium. Trotzdem sind die Erwartungen bereits sehr hoch, denn auch der gesellschaftliche Druck steigt an. Ursache dafür ist unteranderem der Skandal um den Chatbot Tay von Microsoft der innerhalb von nur einem einzigen Tag rassistische \"Außerungen von den Nutzern lernte und daraufhin offline genommen werden musste.\cite{Cremers2019}
+        Um einen einheitlichen Rahmen für die Ethik in der \ac*{KI} zu schaffen wurde 2018 von der EU eine Kommision von hochrangigen \ac*{KI} Experten (kurz. HEG KI) gegründer, aber auch Forschungsinstitute setzten sich vermehrt mit der Thematik auseinandern. 2021 waren es allein in Deutschland über 40 Projekte.\cite{Beckert2021}
+        \\
+        Die Ethik wird dabei meist mit dem Konzept von vertrauenswürdiger \ac*{KI} in Verbindung gebracht. In diesem Konzept werden die folgenden drei Anforderungen an eine \ac*{KI} gestellt:
+        \begin{enumerate}
+            \item \textbf{Rechtmäßigkeit:} \\ Eine \ac*{KI} soll das geltenden Recht und die gesetzlichen Bestimmungen einhalten.
+            \item \textbf{Ethik:} \\ Eine \ac*{KI} soll ethische Grundsätze und Werte einhalten.
+            \item \textbf{Robustheit:} \\ Eine \ac*{KI} soll technisch Robust gegen Manipulation gestaltet sein.
+        \end{enumerate}
+        Erfüllt eine \ac*{KI} alle drei Anforderungen gilt sie als eine vertrauenswürdige \ac*{KI}. Ziel des Konzepts ist es, die Vorteile von \ac*{KI} zu maximieren aber gleichzeitig die Risiken, egal ob rechtliche oder ethische, möglichst gering zu halten.\cite{HEGKI2019}
+        Wenn man sich nun mit dem Konzept einer vertrauenswürdigen \ac*{KI} genauer beschäftigt, müssen Fragestellungen, wie sie in Abbildung \ref*{fig:EthikAnforderungen} zu sehen sind, gestellt werden. 
+        \\
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = \textwidth]{Bilder/Grafik-KI_Whitepaper_final_WEB_2.png}
+            \caption{Ethische und rechtliche Anforderungen an \ac*{KI} \cite{Cremers2019}}
+            \label{fig:EthikAnforderungen}
+        \end{figure}
+        \\
+        Hier kommt jetzt mehr Detaill
+        \cite{Beckert2021} \cite{Hallensleben2020}
 
 %#########################################
 

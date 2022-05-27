@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'Studienarbeit.blg'
-[281] biber-MSWIN64:340> INFO - === 
-[363] Biber.pm:418> INFO - Reading 'Studienarbeit.bcf'
-[694] Biber.pm:972> INFO - Found 27 citekeys in bib section 0
-[722] Biber.pm:4383> INFO - Processing section 0
-[737] Biber.pm:4574> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[894] bibtex.pm:1713> INFO - LaTeX decoding ...
-[998] bibtex.pm:1518> INFO - Found BibTeX data source 'Literatur.bib'
-[1348] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1348] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1348] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1348] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
-[1378] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
-[1394] bbl.pm:757> INFO - Output to Studienarbeit.bbl
+[1] Config.pm:310> INFO - Logfile is 'Studienarbeit.blg'
+[202] biber-MSWIN64:340> INFO - === 
+[255] Biber.pm:418> INFO - Reading 'Studienarbeit.bcf'
+[390] Biber.pm:972> INFO - Found 27 citekeys in bib section 0
+[410] Biber.pm:4383> INFO - Processing section 0
+[431] Biber.pm:4574> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[524] bibtex.pm:1713> INFO - LaTeX decoding ...
+[595] bibtex.pm:1518> INFO - Found BibTeX data source 'Literatur.bib'
+[883] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[884] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[884] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[884] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[912] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
+[928] bbl.pm:757> INFO - Output to Studienarbeit.bbl
