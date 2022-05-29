@@ -114,43 +114,79 @@
     
     \subsection{Teilgebiet maschinelles Lernen}
     \label{subsubsec:teilgebietML}
-        Maschinelles Lernen ist das bekannteste Teilgebiet der \ac{KI}. Unter \ac{ML} wird verstanden, 
+        Maschinelles Lernen ist das Teilgebiet der \ac{KI}, welches häufig als \ac*{KI} bezeichnet wird. Unter \ac{ML} wird verstanden, dass ein \ac*{ML} Modell von Lernalgorithmen entwickelt wird, welches in der Lage ist, das Wissen aus Erfahrungen anzuwenden. Dabei soll dem Modell ein unbekannter Input geliefert, dieses verarbeitet die Eingabewerte mit dem Wissen welches es besitzt und liefert ein Ergebnis als Output zurück. Der Output ist dabei abhängig von der zu lösenden Aufgabe. Klassische Anwendungsfälle von \ac*{ML} sind daher Vorhersagen, Schlussfolgerungen, Optimierungen, Entscheidungen, Sprach- und Bilderkennung \ac*{bzw} Verarbeitung und weitere ähnliche Aufgaben.\cite{HEGKI2019}
         \\
-        Um das Teilgebiet \ac{ML} detaillierter zu betrachten, unterscheidet man zwischen \glqq{}superviced learning\grqq{}(\ac*{dt}.: überwachtes Lernen), \glqq{}unsuperviced learning\grqq{}(\ac*{dt}.: unüberwachtes Lernen) und dem \glqq{}reinforcement learning\grqq{}(\ac*{dt}.: bestärktes Lernen).\cite{Horn2022}\cite{Datenkommission2019} Bei dieser Unterschiedung wird zwischen der Art des Lernens unterschieden. 
-        \\
+        Um das Teilgebiet \ac{ML} genauer zu betrachten, unterscheidet man in der Literatur zwischen \glqq{}superviced learning\grqq{}(\ac*{dt}.: überwachtes Lernen), \glqq{}unsuperviced learning\grqq{}(\ac*{dt}.: unüberwachtes Lernen) und dem \glqq{}reinforcement learning\grqq{}(\ac*{dt}.: bestärktes Lernen).\cite{Datenkommission2019} Diese Unterscheidung wird anhand der Art des Lernens getroffen.\cite{Horn2022} In Abbildung \ref*{fig:ml_algorithms}, werden diese unterschiedlichen Änsätze des Lernens vereinfacht dargestellt. 
         \begin{figure}[h]
             \centering
-            \includegraphics[width = 12cm]{Bilder/ml_algorithms.png}
+            \includegraphics[width = 14cm]{Bilder/ml_algorithms.png}
             \caption{Arten des maschinellen Lernen\cite{Horn2022}}
             \label{fig:ml_algorithms}
         \end{figure}
         \\
-        Die Abbildung \ref*{fig:ml_algorithms} stellt diese unterschiedlichen Arten des Lernens vereinfacht dar. Das unsuperviced learning funktioniert, indem ich wie in Abbildung \ref*{fig:ml_algorithms} einen Text ohne zusätzliche Informationen angebe, und das Modell selbstständig den Zusammenhang erkennt und die Frage identifiziert. Diese Art ist vergleichbar mit dem menschlichen Lernen durch Ausprobieren. 
-        Das überwachte Lernen, ist die natürliche Form der menschlichen Wissensaneignung. Hier wird dem Modell etwas beigebracht. Das Beispiel der Abbildung \ref*{fig:ml_algorithms} veranschaulicht es sehr gut. Hier wird auf ein Flugzeug gezeigt und dem Kinde gesagt, dass es sich um ein Flugzeug handelt. Das Kind merkt sich dies und ist beim nächsten mal selbst in der Lage das Flugzeug zu erkennen. In stark vereinfachter Form gilt dies auch für ein Modell, dem Modell wird beigebracht, dass es sich um ein Flugzeug handelt und dieses lernt die Assoziation eines Flugzeugs mit dem Begriff Flugzeug.
-        Die dritte und bisher noch nicht sehr weit verbreite Art des Lernens ist das bestärkte Lernen. Es handelt sich dabei um ein Feedback basiertes Lernen. Das bedeutet, dass das Modell frei Handeln und Entscheiden darf. Die Handlungen werden jedoch danach bewertet und das Modell bekommt gesagt, ob es gut war oder nicht. Das Beispeil mit dem Geigenspieler der zuerst spielt und im nachhinein Feedback bekommt aus Abbildung \ref*{fig:ml_algorithms} illustriert die Form des Lernens recht passend. 
+        Das \glqq{}unsuperviced learning\grqq{}(\ac*{dt}.: unüberwachtes Lernen), in der Abbildung \ref*{fig:ml_algorithms} links dargestellt, basiert auf dem Prinzip, dass dem Modell ein Input ohne zusätzliche Informationen gegeben wird und das Modell selbstständig Zusammenhänge erlernt. Lediglich die zu suchende Struktur ist dem Modell zu liefer, damit ist gemeint, ob nach bspw. Ausreißern gesucht werden soll. In der Abbildung  \ref*{fig:ml_algorithms}, wird dies an dem Beispiel eines Texts veranschaulicht. Dem Modell wird lediglich die Buchstabenkette gegeben und dieses erkennt darin die einzelnen Wörter und, dass es sich um eine Frage handelt. Ein häufiger Anwendungsfall für das unüberwachte Lernen ist das Clustering, da das Modell in den Daten Zusammenhänge erkennt, die ein Mensch nicht direkt sieht.\cite{Datenkommission2019}\cite{Döbel2018} \\
+        Bei dem \glqq{}superviced learning\grqq{}(\ac*{dt}.: überwachtes Lernen), wird ein sehr Menschen ähnliches Lernverfahren genutzt. Vereinfacht gesagt wird bei dieser Art des Lernens etwas vorgemacht/erklärt und das Modell merkt sich diesen Zusammenhang. Auf diese Art und weiße erlernt das Modell Strukturen und kan dies auf ihm unbekannte Daten anwenden. Das Beispiel aus Abbildung \ref*{fig:ml_algorithms} veranschaulicht diesen Lernverfahren. Hier wird auf ein Flugzeug gezeigt und dem Kinde gesagt, dass es sich um ein Flugzeug handelt. Das Kind merkt sich diesen Zusammenhang und ist beim nächsten mal selbst in der Lage das Flugzeug zu erkennen und es so zu benennen. Die gängigen Anwendungsfelder des überwachten Lernen sind Vorhersagen und Entscheidugen.\cite{Döbel2018} \\
+        Die dritte und bisher am wenigsten verbreitete Art des Lernens ist das \glqq{}reinforcement learning\grqq{}(\ac*{dt}.: bestärktes Lernen). Es handelt sich dabei um Feedback basiertes Lernen. Es bedeutet, dass das Modell eine Auswahl an Handlungen hat, aus denen das Modell frei entscheiden darf, welche ausgeführt wird. Die Entscheidungen werden erst im Nachgang bewertet und in Form einer meist numerischen Bewertung an das Modell zurück gegeben. So lernt das Modell, wenn es etwas gut gemacht hat oder auch falsche Handlungen ausgeführt hat. In Abbildung \ref*{fig:ml_algorithms}, wird dies anhand einer musizierenden Person dargestellt. Die Person spielt etwas auf ihrem Instument und bekommt nach dem Spielen eines Tons das Feedback der Zuhörenden ob es sich gut anhört oder nicht. So lernt die Person wann sich etwas gut anhört und verbessert durch das Feedback ihr können. Häufig findet das bestärkende Lernen deshalb Einsatz in der Robotik, in der ein Roboter anhand von Feedback Bewegungsabläufe erlernt. Bekannt ist hier eine Roboter, der eine menschliche Hand nachbildet und erlernt einhändig einen Rubik’s Cube zu lösen.\cite{Horn2022}\cite{Döbel2018}\cite{Rubik2019}
         \\
-        ZU ÜBERARBEITEN:
+        Im Rahmen dieser Arbeit wird der Fokus speziell auf das superviced Learning gelegt. Denn überwahtes Lernen komm meist dann zum Einsatz, wenn Vorhersagen oder Entscheidungen getroffen werden. Dieser Aspekt wird im Verlauf der Arbeit immer wieder eine Rolle spielen. Einzigartig am überwachten Lernen ist, wie bereits erwähnt, dass zum Lernen von Zusammenhängen immer ein \glqq{}Lehrer\grqq{} benötigt wird. Im Falle eines \ac{ML} Modells handelt es sich dabei nicht um eine Lehrer, sondern um Daten, genauer gesagt Trainingsdaten.
+        Das Prinzip nach dem das überwachte Lernen funktioniert, ist in Abbildung \ref*{fig:learningProcess} anhand eines Beispiels dargestellt.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 14cm]{Bilder/superviced_learning.png}
+            \caption{Der Prozess von überwachtem Lernen \cite{Kharwal2020}}
+            \label{fig:learningProcess}
+        \end{figure}
+ %       ZU ÜBERARBEITEN
         \\
-        Im Rahmen dieser Arbeit wird der Fokus speziell auf das superviced Learning gelegt. Superviced learning wird immer dann eingesetzt, wenn man etwas auf Basis von Eingabedaten vorhersagen, Schlussfolgern oder Entscheiden möchte. Die bekannten Beispiele sind hier die Bildererkennung von Google mit der Unterscheidung von Hunden und Katzen. 
+        Zu Beginn wird das zu lösende Problem definiert, dabei geht es darum die Lernaufgabe des Modells festzulegen. Beim überwachten Lernen wird zwischen Regressionen und Klassifikation unterschieden. Regressionen kommen meist bei Schlussfolgerungen oder Vorhersagen zum Einsatz und Klassifikationen bei Entscheidungen. 
+        Anhand des Problems wird dann ein Alogirthmus als Grundlage für das Modell ausgewählt. Um den Modell nun Wissen beizubringen werden sogenannte Trainingsdaten verwendet. Dabei handelt es sich um Daten in dem Format, wie sie auch später im Betrieb als Eingaben X geliefert werden. Diese werden jedoch davor mit Labels versehen. Diese Labels werden durch Experten für die Trainingsdaten erstellt. Im nächsten Schritt wird dann das Modell auf Basis der Trainingsdaten trainiert. Diese Phase ist die entscheidende Lernphase des Modells. Im prinzip ist das Modell nach dem training bereit für den Einsatz. Meist wird jedoch noch mit einem, dem Modell bisher unbekannten und nicht gelabeldten, Datensatz überprüft ob das Modell richitg funktioniert und die Qualität anhand unterschiedlicher Metirken, wie der Genauigkeit bewertet. Danach ist das Modell einatzbereit und kann mit Eingaben X gespeist werden und schließt dann auf Basis des erlernten Wissens auf eine Ausgabe Y.
+        Auf diese Art und weiße werden beim überwachten Lernen die input Output Probleme gelöst.
         \\
-        Es gibt aber auch einige Risiken, die im Zusammenhangmit \ac{ML} auftreten. Für das beschriebene Lernverfahren des superviced learning ist es zum einen wichtig eine ausreichende Datenmenge zu besitzen. 
-        Des weiteren muss beim Trainieren und Lernen des Modells das Modell selbst bewertet werden. Dazu gibt es unterschiedliche Metriken die es einem ermöglichen die Qualität eines Modells zu bewerten. Denn wird dies nicht getan, kann es passieren, dass das Modell over- oder underfitted. 
+        Es gibt aber auch einige negative Eigenschaften bei \ac{ML} Modelle zu berücksichtigen sind und zu möglichen Problemen führen können. Die meisten dieser Risiken lassen sich jedoch inzwischen durch Gegenmaßnahmen verhinder. Zu den Häufigsten Problemen gehören zu geringe Datenmengen, die Passgenauigkeit, Scheinkorrelationen und Verzerrungen. 
+        \begin{enumerate}
+            \item Die Datenmenge ist ein entscheidender Faktor im überwachten Lernen. Viele Modelle scheitern daran, dass sie auf Basis von zu wenigen Trainingsdaten trainiert wurden und so nicht in der Lage sind treffende Schlüsse zu ziehen. \cite{Datenkommission2019}\cite{Ng2018}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width = 8cm]{Bilder/Datenmenge.png}
+                \caption{Veränderung der Performance durch die Datenmengen \cite{Ng2018}}
+                \label{fig:Datavolume}
+            \end{figure} 
+            In Abbildung \ref*{fig:Datavolume} ist der Zusammenhang zwischen der Datenmenge und der Performance des Modells dargestellt. Hier wird zwar des spezielle Fall von unterschiedlich großen Neuronalen Netzen betrachtet, jedoch lässt sich dies auch auf allgemein \ac*{ML} übertragen. Der Verlauf ähnelt dem eines beschränkten Wachstums. Das bedeutet für das Modell, dass es zu Beginn mit einer ausreichenden Datenmenge möglich ist eine gute Performance zu erziehlen, jedoch um später wenige Prozente an Verbesserung zu erziehlen werden sehr große Datenmengen benötigt.\cite{Ng2018} In einigen Szenarien existieren aber von Beginn an zu wenig Daten für eine gute Performance. Als Gegenmaßnahme können lediglich mehr Daten generiert und gesammelt werden.
+            \item Bei der Passgenauigkeit wird ein Problem bei dem Modell selbst adressiert, nämlich das overfitting (\ac*{dt}.: \glqq{}überangepasst\grqq{}) und underfitting (\ac*{dt}.: \glqq{}unterangepasst\grqq{}). Vereinfacht gesagt, wird beim overfitting der Trainingsdatensatz durch das Modell zu genau repräsentiert. Erkennbar wird overfitting, wenn man die Performance von dem Modell bei einem Trainings- und eine Testdatensatz betrachtet. Ist die Performance bei den Trainingsdaten akzeptabel und bei den Testdaten deutlich schlechter, ist es nahezu sicher, dass das Modell zu sehr auf die Trainingsdaten angepasst ist.
+            Beim underfitting hingegen, ist die Performance bei beiden Datensätzen nicht akzeptabel. Das liegt daran, dass beim underfitting zu wenig Zusammenhänge erlernt wurden und so keine realistischen Ergebnisse reproduziert werden können.
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width = 12cm]{Bilder/overunderfitting.png}
+                \caption{Overfitting und Underfitting \cite{Horn2022}}
+                \label{fig:Fitting}
+            \end{figure}
+            Diese Problematik wird in Abbildung \ref*{fig:Fitting} veranschaulicht. Auf der linken Seite ist ein überangepasstes Modell, welches den Trainingsdatensatz \glqq{}auswenig gelernt\grqq{} hat und nicht auf neue Datenpunkte verallgemeinern kann. Rechts ist das unterangepasste Modell zu sehen, welches den Zusammenhang von Input und Output nicht abbilden kann und zu ungenau ist, da es \glqq{}zu wenig gelernt\grqq{} hat.\cite{Horn2022}
+            \item Nicht nur overfitting und underfitting sorgen in Modellen für ungenauigkeiten auch Scheinkorrelationen sind häufig eine Fehlerursache. Bei Scheinkorrelationen, werden von dem Modell Zusammenhänge erlernt, die keinerlei Zusammenhang mit der tatsächlichen Entscheidung haben.
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width = 12cm]{Bilder/Scheinkorrelation.png}
+                \caption{Scheinkorrelationen in der Bilderkennung \cite{Lapuschkin2016}}
+                \label{fig:Scheinkorrelation}
+            \end{figure} \\
+            Ein Beispiel dafür ist in Abbildung \ref*{fig:Scheinkorrelation} zu sehen. In der ein Pferdebild nicht anhand der Kontur des Pferdes, sondern anhand des Wasserzeichens in dem Bild erkannt wurde. Grund dafür war, dass einige der Trainingsdaten dieses Wasserzeichen beinhaltet haben und das Modell daraus eine Scheinkorrelation erlernt hat. 
+            \item Ein letztes und schwerwiegendes Problem ist die Verzerrung von Trainingsdaten, auch Bias genannt. Dieser Aspekt wird später in Kapitel \ref*{subsubsec:Bias} genauer betrachtet. Allgemein kann man sagen, existieren Verzerrungen in Trainingsdaten, so wird das Modell diese Verzerrungen reproduzieren.\cite{Cremers2019}
+        \end{enumerate}
+        Zusammenfassend wird bei \ac*{ML}, speziell beim überwachten Lernen auf Basis von Daten, Trainingsdaten genannt, Wissen aus der Vergangenheit erlernt. Dazu werden Zusammenhänge in den Daten genutzt und die dazugehörigen Bewertungen in Form der Labels.
         \\
-        \cite{Döbel2018}\cite{Ng2018}
-        \\
-
-    \newpage    
+        Paper die im hintergrund stehen\cite{Horn2022}\cite{Döbel2018}\cite{Ng2018}\cite{james2013}
+ 
+    \newpage
     \subsection{Ethik in der künstlichen Intelligenz}
     \label{subsubsec:ethikinderKI}
         Ein Aspekt der bisher nicht beleutet wurde ist die Ethik. Die Ethik spielt in der \ac{KI} eine immer größer werdende Rolle. In einer Gesellschaft die für Inklusion steht, werden häufig Entscheidungen hinterfragt und kritisiert. Dies gilt insbesondere für Entscheidungen und Vorhersagen, die durch \ac{KI} getroffen werden und so ohne direkten menschlichen Einfluss getroffen werden. 
         \begin{figure}[h]
             \centering
-            \includegraphics[width = \textwidth]{Bilder/Gartner_hypeCycle.png}
+            \includegraphics[width = 14cm]{Bilder/Gartner_hypeCycle.png}
             \caption{Gartner Hype Cycle für \ac*{KI} \cite{Goasduff2020}}
             \label{fig:HypeCycle}
         \end{figure}
         \\
-        Im Gartner Hype Cycle für \ac*{KI} aus dem Jahr 2020, dargestellt in Abbildung \ref*{fig:HypeCycle}, wurde das Thema Digitale Ethik auf dem Höhepunkt der Kurve platziert. Der Forschungsbreich rund um die digitale Ethik befindet sich jedoch erst im Anfangsstadium. Trotzdem sind die Erwartungen bereits sehr hoch, denn auch der gesellschaftliche Druck steigt an. Ursache dafür ist unteranderem der Skandal um den Chatbot Tay von Microsoft der innerhalb von nur einem einzigen Tag rassistische \"Außerungen von den Nutzern lernte und daraufhin offline genommen werden musste.\cite{Cremers2019}
+        Im Gartner Hype Cycle für \ac*{KI} aus dem Jahr 2020, dargestellt in Abbildung \ref*{fig:HypeCycle}, wurde das Thema Digitale Ethik auf dem Höhepunkt der Kurve platziert. Der Forschungsbreich rund um die digitale Ethik befindet sich jedoch erst im Anfangsstadium. Trotzdem sind die Erwartungen bereits sehr hoch, denn auch der gesellschaftliche Druck steigt an. Ursache dafür ist unter anderem der Skandal um den Chatbot Tay von Microsoft der innerhalb von nur einem einzigen Tag rassistische \"Außerungen von den Nutzern lernte und daraufhin offline genommen werden musste.\cite{Cremers2019}
         Um einen einheitlichen Rahmen für die Ethik in der \ac*{KI} zu schaffen wurde 2018 von der EU eine Kommision von hochrangigen \ac*{KI} Experten (kurz. HEG KI) gegründer, aber auch Forschungsinstitute setzten sich vermehrt mit der Thematik auseinandern. 2021 waren es allein in Deutschland über 40 Projekte.\cite{Beckert2021}
         \\
         Die Ethik wird dabei meist mit dem Konzept von vertrauenswürdiger \ac*{KI} in Verbindung gebracht. In diesem Konzept werden die folgenden drei Anforderungen an eine \ac*{KI} gestellt:
@@ -164,7 +200,7 @@
         \\
         \begin{figure}[h]
             \centering
-            \includegraphics[width = \textwidth]{Bilder/Grafik-KI_Whitepaper_final_WEB_2.png}
+            \includegraphics[width = 14cm]{Bilder/Grafik-KI_Whitepaper_final_WEB_2.png}
             \caption{Ethische und rechtliche Anforderungen an \ac*{KI} \cite{Cremers2019}}
             \label{fig:EthikAnforderungen}
         \end{figure}
@@ -173,7 +209,6 @@
         \cite{Beckert2021} \cite{Hallensleben2020}
 
 %#########################################
-
     \newpage
     \section{Bias im Zusammenhang mit \ac{KI}}
     \label{subsec:KIundbias}

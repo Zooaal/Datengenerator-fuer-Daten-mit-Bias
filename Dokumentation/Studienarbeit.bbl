@@ -33,8 +33,8 @@
       \strng{authorbibnamehash}{e8f088e515a80ad15550e7eaba6b4e96}
       \strng{authornamehash}{e8f088e515a80ad15550e7eaba6b4e96}
       \strng{authorfullhash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://www.forbes.com/sites/theyec/2021/07/15/data-isnt-the-new-oil--time-is/?sh=45eb63a135bb}}
@@ -101,8 +101,8 @@
       \strng{authorbibnamehash}{120dddfbcfcdce6331900a201f017f7c}
       \strng{authornamehash}{120dddfbcfcdce6331900a201f017f7c}
       \strng{authorfullhash}{f5c7b8d35c821b4e48389851cf829408}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Data Ecosystems}
@@ -253,8 +253,8 @@
       \strng{authorbibnamehash}{636af2b105bba30220070d3a44435560}
       \strng{authornamehash}{772710fd6edad789da747feb108d8393}
       \strng{authorfullhash}{636af2b105bba30220070d3a44435560}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 IEEE 2nd International Conference on Electronics, Control, Optimization and Computer Science (ICECOCS)}
@@ -388,8 +388,8 @@
       \strng{authorbibnamehash}{4a7c28cefcfddffa20d4822ce373d2f9}
       \strng{authornamehash}{6d399ae5acd8aed3d298cf025ddb39ad}
       \strng{authorfullhash}{4a7c28cefcfddffa20d4822ce373d2f9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Positionspapier}
@@ -418,8 +418,8 @@
       \strng{authornamehash}{8df179aa7ac87e18ffe186030f62aca9}
       \strng{authorfullhash}{8df179aa7ac87e18ffe186030f62aca9}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Eine Definition der KI: Wichtigste Fähigkeiten und Wissenschaftsgebiete}
@@ -452,6 +452,32 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gutachten der Datenethikkommission}
+      \field{year}{2019}
+    \endentry
+    \entry{HEGKI2019}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=13a06c2bd9f59b05c33a5be36b5e561f}{%
+           family={HEG-KI},
+           familyi={H\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=eb5eee96c056ea79c45bce317a45a3d2}{%
+           family={Europäische-Kommission},
+           familyi={E\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brüssel}%
+      }
+      \strng{namehash}{8df179aa7ac87e18ffe186030f62aca9}
+      \strng{fullhash}{8df179aa7ac87e18ffe186030f62aca9}
+      \strng{bibnamehash}{8df179aa7ac87e18ffe186030f62aca9}
+      \strng{authorbibnamehash}{8df179aa7ac87e18ffe186030f62aca9}
+      \strng{authornamehash}{8df179aa7ac87e18ffe186030f62aca9}
+      \strng{authorfullhash}{8df179aa7ac87e18ffe186030f62aca9}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ethik-Leitlinien für eine Vertrauenswürdige KI}
       \field{year}{2019}
     \endentry
     \entry{Döbel2018}{article}{}
@@ -519,6 +545,149 @@
       \field{pages}{2020}
       \range{pages}{1}
     \endentry
+    \entry{Rubik2019}{article}{}
+      \name{author}{19}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+        {{hash=1a2177a207bf8581bc044590f1e55602}{%
+           family={Akkaya},
+           familyi={A\bibinitperiod},
+           given={Ilge},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0d8b72cabbd1b548097b4a7b81a0f335}{%
+           family={Andrychowicz},
+           familyi={A\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=db785ba8e6356e7dd7e0f860f4f2f473}{%
+           family={Chociej},
+           familyi={C\bibinitperiod},
+           given={Maciek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e5aa3a709cbe706efba113bec9789364}{%
+           family={Litwin},
+           familyi={L\bibinitperiod},
+           given={Mateusz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6da1a977c02cecc78ec16c61217dcc42}{%
+           family={McGrew},
+           familyi={M\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0d79ff0263ade6eee20336810b23e5d8}{%
+           family={Petron},
+           familyi={P\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=445e6e3c370e31dfc6fa4557bab7bbcb}{%
+           family={Paino},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=599240d5bfe42aeb65a0c26dae77cd31}{%
+           family={Plappert},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=34d0d7625e65761eaef54be0603bbf12}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Glenn},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4e91ce42053256b8eeeb6ba57772fe8b}{%
+           family={Ribas},
+           familyi={R\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5167ef9d0b77bf68557730648baac9b7}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dab05157b89bd0192cb59f4386f74eda}{%
+           family={Tezak},
+           familyi={T\bibinitperiod},
+           given={Nikolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=98cbd7022a1c31a6293aa1c8b62bdebf}{%
+           family={Tworek},
+           familyi={T\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod}}}%
+        {{hash=462853f8544f0acfb7014fe747f84922}{%
+           family={Welinder},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=49d03d499031db786a0e61119024cf5a}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a0082b934c2454295be3f0a3b138f21d}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e9fec85bbce1b087a6ebefe26e73f7bf}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f4a4cbf770add19c206827116c68732e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{19d5ca89279fb11ba3bd51763039620c}
+      \strng{fullhash}{533c7f798be0a787c8260607a2dd279a}
+      \strng{bibnamehash}{19d5ca89279fb11ba3bd51763039620c}
+      \strng{authorbibnamehash}{19d5ca89279fb11ba3bd51763039620c}
+      \strng{authornamehash}{19d5ca89279fb11ba3bd51763039620c}
+      \strng{authorfullhash}{533c7f798be0a787c8260607a2dd279a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Solving Rubik's Cube with a Robot Hand}
+      \field{volume}{abs/1910.07113}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1910.07113
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1910.07113
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1910.07113
+      \endverb
+    \endentry
+    \entry{Kharwal2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=78971f73bf6fc60066faf4c1f7eacfe4}{%
+           family={Kharwal},
+           familyi={K\bibinitperiod},
+           given={Aman},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{78971f73bf6fc60066faf4c1f7eacfe4}
+      \strng{fullhash}{78971f73bf6fc60066faf4c1f7eacfe4}
+      \strng{bibnamehash}{78971f73bf6fc60066faf4c1f7eacfe4}
+      \strng{authorbibnamehash}{78971f73bf6fc60066faf4c1f7eacfe4}
+      \strng{authornamehash}{78971f73bf6fc60066faf4c1f7eacfe4}
+      \strng{authorfullhash}{78971f73bf6fc60066faf4c1f7eacfe4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 28.05.2022 [Online]. Verfügbar:\url{https://thecleverprogrammer.com/2020/10/23/what-is-supervised-learning-in-machine-learning/}}
+      \field{title}{What is Superviced Learning in Machine Learning}
+      \field{year}{2020}
+    \endentry
     \entry{Ng2018}{misc}{}
       \name{author}{1}{}{%
         {{hash=bdb4d740fc9548d1c32a62103c30169d}{%
@@ -533,34 +702,59 @@
       \strng{authorbibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
       \strng{authornamehash}{bdb4d740fc9548d1c32a62103c30169d}
       \strng{authorfullhash}{bdb4d740fc9548d1c32a62103c30169d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Machine Learning Yearning - Technical Strateg for AI Engineers, In the Era of Deep Learning}
       \field{year}{2018}
     \endentry
-    \entry{Goasduff2020}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=ba9cce1b01720388a0f95f6e272540d7}{%
-           family={Goasduff},
-           familyi={G\bibinitperiod},
-           given={Laurence},
-           giveni={L\bibinitperiod}}}%
+    \entry{Lapuschkin2016}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=ae7623274e86daf16f369161c4ae78f7}{%
+           family={Lapuschkin},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d122a2a87d21da4007f460564975e967}{%
+           family={Binder},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9814da6448531b11ca7cad511a0259d0}{%
+           family={Montavon},
+           familyi={M\bibinitperiod},
+           given={Gregoire},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9f1b6144a45b1967e989e74552e37ada}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Klaus-Robert},
+           giveni={K\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=7f49b6382ab4ca917a2aa2249f875f79}{%
+           family={Samek},
+           familyi={S\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{ba9cce1b01720388a0f95f6e272540d7}
-      \strng{fullhash}{ba9cce1b01720388a0f95f6e272540d7}
-      \strng{bibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
-      \strng{authorbibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
-      \strng{authornamehash}{ba9cce1b01720388a0f95f6e272540d7}
-      \strng{authorfullhash}{ba9cce1b01720388a0f95f6e272540d7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{f216694234452e3228a46898b2c55269}
+      \strng{fullhash}{27f6631a723091d8bd776794fd46b549}
+      \strng{bibnamehash}{27f6631a723091d8bd776794fd46b549}
+      \strng{authorbibnamehash}{27f6631a723091d8bd776794fd46b549}
+      \strng{authornamehash}{f216694234452e3228a46898b2c55269}
+      \strng{authorfullhash}{27f6631a723091d8bd776794fd46b549}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{Letzter Zugriff: 25.05.2022 [Online]. Verfügbar:\url{https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020}}
-      \field{title}{2 Megatrends Dominate the Gartner Hype Cycle for Artificial Intelligence, 2020}
-      \field{year}{202}
+      \field{month}{06}
+      \field{title}{Analyzing Classifiers: Fisher Vectors and Deep Neural Networks}
+      \field{year}{2016}
+      \field{pages}{2912\bibrangedash 2920}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/CVPR.2016.318
+      \endverb
     \endentry
     \entry{Cremers2019}{misc}{}
       \name{author}{2}{}{%
@@ -581,13 +775,75 @@
       \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
       \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
       \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 15.05.2022 [Online]. Verfügbar:\url{https://www.iais.fraunhofer.de/content/dam/iais/KINRW/Whitepaper_KI-Zertifizierung.pdf}}
       \field{title}{Vertrauenswürdiger Einsatz von künstlicher Intelligenz}
       \field{year}{2019}
+    \endentry
+    \entry{james2013}{book}{}
+      \name{author}{4}{}{%
+        {{hash=df184c5fa522ac8a515ec4de13aef234}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1ab16961e0de50711fa6bd9425f9b4a6}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=88eea600247d798f8b2ce0b2dc614492}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3d8a73eb38e099a1e37f27374e4c9b6d}
+      \strng{fullhash}{da61646157a6be769f34984f5cb603b0}
+      \strng{bibnamehash}{da61646157a6be769f34984f5cb603b0}
+      \strng{authorbibnamehash}{da61646157a6be769f34984f5cb603b0}
+      \strng{authornamehash}{3d8a73eb38e099a1e37f27374e4c9b6d}
+      \strng{authorfullhash}{da61646157a6be769f34984f5cb603b0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to statistical learning}
+      \field{volume}{112}
+      \field{year}{2013}
+    \endentry
+    \entry{Goasduff2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ba9cce1b01720388a0f95f6e272540d7}{%
+           family={Goasduff},
+           familyi={G\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{fullhash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{bibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{authorbibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{authornamehash}{ba9cce1b01720388a0f95f6e272540d7}
+      \strng{authorfullhash}{ba9cce1b01720388a0f95f6e272540d7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 25.05.2022 [Online]. Verfügbar:\url{https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020}}
+      \field{title}{2 Megatrends Dominate the Gartner Hype Cycle for Artificial Intelligence, 2020}
+      \field{year}{202}
     \endentry
     \entry{Beckert2021}{article}{}
       \name{author}{1}{}{%
@@ -603,8 +859,8 @@
       \strng{authorbibnamehash}{70f0b368feead7fc5ddaf3c0d1141a20}
       \strng{authornamehash}{70f0b368feead7fc5ddaf3c0d1141a20}
       \strng{authorfullhash}{70f0b368feead7fc5ddaf3c0d1141a20}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{TATuP - Zeitschrift für Technikfolgenabschätzung in Theorie und Praxis}
@@ -623,32 +879,6 @@
       \verb{url}
       \verb https://www.tatup.de/index.php/tatup/article/view/6926
       \endverb
-    \endentry
-    \entry{HEGKI2019}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=13a06c2bd9f59b05c33a5be36b5e561f}{%
-           family={HEG-KI},
-           familyi={H\bibinithyphendelim K\bibinitperiod}}}%
-        {{hash=eb5eee96c056ea79c45bce317a45a3d2}{%
-           family={Europäische-Kommission},
-           familyi={E\bibinithyphendelim K\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Brüssel}%
-      }
-      \strng{namehash}{8df179aa7ac87e18ffe186030f62aca9}
-      \strng{fullhash}{8df179aa7ac87e18ffe186030f62aca9}
-      \strng{bibnamehash}{8df179aa7ac87e18ffe186030f62aca9}
-      \strng{authorbibnamehash}{8df179aa7ac87e18ffe186030f62aca9}
-      \strng{authornamehash}{8df179aa7ac87e18ffe186030f62aca9}
-      \strng{authorfullhash}{8df179aa7ac87e18ffe186030f62aca9}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Ethik-Leitlinien für eine Vertrauenswürdige KI}
-      \field{year}{2019}
     \endentry
     \entry{Hallensleben2020}{misc}{}
       \name{author}{2}{}{%
@@ -669,8 +899,8 @@
       \strng{authorbibnamehash}{247f5799115678df7c5503f522a1822b}
       \strng{authornamehash}{247f5799115678df7c5503f522a1822b}
       \strng{authorfullhash}{247f5799115678df7c5503f522a1822b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Imprint}
@@ -706,8 +936,8 @@
       \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
       \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
       \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
@@ -729,8 +959,8 @@
       \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/16}}
@@ -757,8 +987,8 @@
       \strng{authorbibnamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authornamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authorfullhash}{9c979611afbced8d2eeb72e681ff9620}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
@@ -779,8 +1009,8 @@
       \strng{authorbibnamehash}{faf19df46d07203502a5ad8ae90f820d}
       \strng{authornamehash}{faf19df46d07203502a5ad8ae90f820d}
       \strng{authorfullhash}{faf19df46d07203502a5ad8ae90f820d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://de.statista.com/statistik/daten/studie/1112579/umfrage/bevoelkerung-in-deutschland-nach-altersgruppen/}}
@@ -803,8 +1033,8 @@
       \strng{authorbibnamehash}{508321e881d1ce2c83963a6c574826cf}
       \strng{authornamehash}{508321e881d1ce2c83963a6c574826cf}
       \strng{authorfullhash}{508321e881d1ce2c83963a6c574826cf}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.kas.de/documents/291186/291235/Datensammlung+Alter+und+Geschlecht.pdf/a25fb063-b305-d567-2d98-e77b1104f713?version=1.1&t=1618912553715}}
@@ -825,8 +1055,8 @@
       \strng{authorbibnamehash}{fd17f7dce20314001ac56a2700f1a22b}
       \strng{authornamehash}{fd17f7dce20314001ac56a2700f1a22b}
       \strng{authorfullhash}{fd17f7dce20314001ac56a2700f1a22b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.destatis.de/DE/Service/Statistik-Campus/Datenreport/Downloads/datenreport-2021-kap-3.html}}
@@ -847,8 +1077,8 @@
       \strng{authorbibnamehash}{ce29b256df4f1f2631f6eed647e4c95f}
       \strng{authornamehash}{ce29b256df4f1f2631f6eed647e4c95f}
       \strng{authorfullhash}{ce29b256df4f1f2631f6eed647e4c95f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.climatewatchdata.org/ghg-emissions}}
