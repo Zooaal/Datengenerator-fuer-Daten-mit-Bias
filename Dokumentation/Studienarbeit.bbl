@@ -19,28 +19,28 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{Frorbes2021}{unpublished}{}
+    \entry{Horn2022}{book}{}
       \name{author}{1}{}{%
-        {{hash=e8f088e515a80ad15550e7eaba6b4e96}{%
-           family={Kershner},
-           familyi={K\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
+        {{hash=b41d6da949a5c0b81ffcd5a2c57eb90a}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \strng{fullhash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \strng{bibnamehash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \strng{authorbibnamehash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \strng{authornamehash}{e8f088e515a80ad15550e7eaba6b4e96}
-      \strng{authorfullhash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \strng{namehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{fullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{bibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authorbibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authornamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authorfullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{Letzter Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://www.forbes.com/sites/theyec/2021/07/15/data-isnt-the-new-oil--time-is/?sh=45eb63a135bb}}
-      \field{edition}{15.07.2021}
-      \field{title}{Data Isn't The New Oil — Time Is}
-      \field{year}{2021}
+      \field{addendum}{Letzer Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://franziskahorn.de/mlbook_all.html}}
+      \field{edition}{Version 1.3, 02.02.2022}
+      \field{title}{A Practitioner’s Guide to Machine Learning}
+      \field{year}{2022}
     \endentry
     \entry{Otto2019}{misc}{}
       \name{author}{10}{}{%
@@ -108,6 +108,143 @@
       \field{title}{Data Ecosystems}
       \field{year}{2019}
     \endentry
+    \entry{Cremers2019}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d5f9ee334c9e28a468affb8bd745845f}{%
+           family={Cremers},
+           familyi={C\bibinitperiod},
+           given={Armin\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a942fd1cdac7b49ac4cd04a21f5b5e0b}{%
+           family={Englander},
+           familyi={E\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{fullhash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{bibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 15.05.2022 [Online]. Verfügbar:\url{https://www.iais.fraunhofer.de/content/dam/iais/KINRW/Whitepaper_KI-Zertifizierung.pdf}}
+      \field{title}{Vertrauenswürdiger Einsatz von künstlicher Intelligenz}
+      \field{year}{2019}
+    \endentry
+    \entry{Döbel2018}{article}{}
+      \name{author}{9}{}{%
+        {{hash=04911c4b53913deab2b7a626cd956f2b}{%
+           family={Döbel},
+           familyi={D\bibinitperiod},
+           given={Inga},
+           giveni={I\bibinitperiod}}}%
+        {{hash=819bf85f2170f54ac6145b7b9b82b4d3}{%
+           family={Leis},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d9259b68a49195455fda36321384699}{%
+           family={Vogelsang},
+           familyi={V\bibinitperiod},
+           given={Manuel\bibnamedelima Molina},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b75b12df799db3538060a896469b7317}{%
+           family={Neustroev},
+           familyi={N\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=14780831ce09e09da92e2954c6b5e602}{%
+           family={Petzka},
+           familyi={P\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5542de54439d41b447be3ccd49e278a6}{%
+           family={Rüping},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1457b3150cf21f6f5b41a3da4731c6a2}{%
+           family={Voss},
+           familyi={V\bibinitperiod},
+           given={Angelika},
+           giveni={A\bibinitperiod}}}%
+        {{hash=67c361be7bd992c38bb12808a0d21ab6}{%
+           family={Wegele},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=df6a1654c3c42c74b1a94ed9cabb973c}{%
+           family={Welz},
+           familyi={W\bibinitperiod},
+           given={Juliane},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d012e1599ac70e0c57cc17b3616bdc47}
+      \strng{fullhash}{ececd930d036180c625243695b0ee531}
+      \strng{bibnamehash}{d012e1599ac70e0c57cc17b3616bdc47}
+      \strng{authorbibnamehash}{d012e1599ac70e0c57cc17b3616bdc47}
+      \strng{authornamehash}{d012e1599ac70e0c57cc17b3616bdc47}
+      \strng{authorfullhash}{ececd930d036180c625243695b0ee531}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fraunhofer IAIS, Fraunhofer IMW, Fraunhofer Zentrale. Zugriff am}
+      \field{title}{Maschinelles Lernen--Kompetenzen, Anwendungen und Forschungsbedarf}
+      \field{volume}{21}
+      \field{year}{2018}
+      \field{pages}{2020}
+      \range{pages}{1}
+    \endentry
+    \entry{IncidentDatabase2015_37}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7079c72c21415131774625ba1d64f4b0}{%
+           family={Anonymous},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{bibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 30.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/37}}
+      \field{howpublished}{Responsible AI Collaborative}
+      \field{title}{Incident Number 37. in McGregor, S. (ed.) Artificial Intelligence Incident Database}
+      \field{year}{2018}
+    \endentry
+    \entry{Frorbes2021}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=e8f088e515a80ad15550e7eaba6b4e96}{%
+           family={Kershner},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \strng{fullhash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \strng{bibnamehash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \strng{authorbibnamehash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \strng{authornamehash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \strng{authorfullhash}{e8f088e515a80ad15550e7eaba6b4e96}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://www.forbes.com/sites/theyec/2021/07/15/data-isnt-the-new-oil--time-is/?sh=45eb63a135bb}}
+      \field{edition}{15.07.2021}
+      \field{title}{Data Isn't The New Oil — Time Is}
+      \field{year}{2021}
+    \endentry
     \entry{Reinsel2018}{misc}{}
       \name{author}{3}{}{%
         {{hash=b94eb85ed75464bc816150c397d45381}{%
@@ -132,8 +269,8 @@
       \strng{authorbibnamehash}{edf3684f877b4a8d6513f2e39281ba99}
       \strng{authornamehash}{edf3684f877b4a8d6513f2e39281ba99}
       \strng{authorfullhash}{edf3684f877b4a8d6513f2e39281ba99}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{IDC White Paper – US44413318}
@@ -164,8 +301,8 @@
       \strng{authorbibnamehash}{95e9fe7b2f2f8e6fa94c25b0d08f7867}
       \strng{authornamehash}{95e9fe7b2f2f8e6fa94c25b0d08f7867}
       \strng{authorfullhash}{95e9fe7b2f2f8e6fa94c25b0d08f7867}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 IEEE International Congress on Big Data (BigData Congress)}
@@ -191,8 +328,8 @@
       \strng{authorbibnamehash}{21df42948ab52dbcf85cac4b0c6a0ee7}
       \strng{authornamehash}{21df42948ab52dbcf85cac4b0c6a0ee7}
       \strng{authorfullhash}{21df42948ab52dbcf85cac4b0c6a0ee7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzer Zugriff: 20.5.2022 [Online]. Verfügbar:\url{https://www.iso.org/standard/63598.html}}
@@ -200,29 +337,6 @@
       \field{title}{Information technology - Vocabulary}
       \field{type}{Standard}
       \field{year}{2015}
-    \endentry
-    \entry{Horn2022}{book}{}
-      \name{author}{1}{}{%
-        {{hash=b41d6da949a5c0b81ffcd5a2c57eb90a}{%
-           family={Horn},
-           familyi={H\bibinitperiod},
-           given={Franziska},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \strng{fullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \strng{bibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \strng{authorbibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \strng{authornamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \strng{authorfullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{addendum}{Letzer Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://franziskahorn.de/mlbook_all.html}}
-      \field{edition}{Version 1.3, 02.02.2022}
-      \field{title}{A Practitioner’s Guide to Machine Learning}
-      \field{year}{2022}
     \endentry
     \entry{Faroukhi2020}{inproceedings}{}
       \name{author}{4}{}{%
@@ -253,8 +367,8 @@
       \strng{authorbibnamehash}{636af2b105bba30220070d3a44435560}
       \strng{authornamehash}{772710fd6edad789da747feb108d8393}
       \strng{authorfullhash}{636af2b105bba30220070d3a44435560}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 IEEE 2nd International Conference on Electronics, Control, Optimization and Computer Science (ICECOCS)}
@@ -285,8 +399,8 @@
       \strng{authorbibnamehash}{74ae07ffdaa88e36dff35217c44dc22d}
       \strng{authornamehash}{74ae07ffdaa88e36dff35217c44dc22d}
       \strng{authorfullhash}{74ae07ffdaa88e36dff35217c44dc22d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2021 International Conference on Information Systems and Advanced Technologies (ICISAT)}
@@ -312,8 +426,8 @@
       \strng{authorbibnamehash}{42c49a9ad2f6679a202075e51ca9655d}
       \strng{authornamehash}{42c49a9ad2f6679a202075e51ca9655d}
       \strng{authorfullhash}{42c49a9ad2f6679a202075e51ca9655d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{There is no AI without data}
@@ -418,8 +532,8 @@
       \strng{authornamehash}{8df179aa7ac87e18ffe186030f62aca9}
       \strng{authorfullhash}{8df179aa7ac87e18ffe186030f62aca9}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Eine Definition der KI: Wichtigste Fähigkeiten und Wissenschaftsgebiete}
@@ -447,8 +561,8 @@
       \strng{authorbibnamehash}{6b4469fbb1358288d8d66d86aa9e49a0}
       \strng{authornamehash}{6b4469fbb1358288d8d66d86aa9e49a0}
       \strng{authorfullhash}{6b4469fbb1358288d8d66d86aa9e49a0}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gutachten der Datenethikkommission}
@@ -479,71 +593,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Ethik-Leitlinien für eine Vertrauenswürdige KI}
       \field{year}{2019}
-    \endentry
-    \entry{Döbel2018}{article}{}
-      \name{author}{9}{}{%
-        {{hash=04911c4b53913deab2b7a626cd956f2b}{%
-           family={Döbel},
-           familyi={D\bibinitperiod},
-           given={Inga},
-           giveni={I\bibinitperiod}}}%
-        {{hash=819bf85f2170f54ac6145b7b9b82b4d3}{%
-           family={Leis},
-           familyi={L\bibinitperiod},
-           given={Miriam},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5d9259b68a49195455fda36321384699}{%
-           family={Vogelsang},
-           familyi={V\bibinitperiod},
-           given={Manuel\bibnamedelima Molina},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=b75b12df799db3538060a896469b7317}{%
-           family={Neustroev},
-           familyi={N\bibinitperiod},
-           given={Dmitry},
-           giveni={D\bibinitperiod}}}%
-        {{hash=14780831ce09e09da92e2954c6b5e602}{%
-           family={Petzka},
-           familyi={P\bibinitperiod},
-           given={Henning},
-           giveni={H\bibinitperiod}}}%
-        {{hash=5542de54439d41b447be3ccd49e278a6}{%
-           family={Rüping},
-           familyi={R\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1457b3150cf21f6f5b41a3da4731c6a2}{%
-           family={Voss},
-           familyi={V\bibinitperiod},
-           given={Angelika},
-           giveni={A\bibinitperiod}}}%
-        {{hash=67c361be7bd992c38bb12808a0d21ab6}{%
-           family={Wegele},
-           familyi={W\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=df6a1654c3c42c74b1a94ed9cabb973c}{%
-           family={Welz},
-           familyi={W\bibinitperiod},
-           given={Juliane},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{d012e1599ac70e0c57cc17b3616bdc47}
-      \strng{fullhash}{ececd930d036180c625243695b0ee531}
-      \strng{bibnamehash}{d012e1599ac70e0c57cc17b3616bdc47}
-      \strng{authorbibnamehash}{d012e1599ac70e0c57cc17b3616bdc47}
-      \strng{authornamehash}{d012e1599ac70e0c57cc17b3616bdc47}
-      \strng{authorfullhash}{ececd930d036180c625243695b0ee531}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Fraunhofer IAIS, Fraunhofer IMW, Fraunhofer Zentrale. Zugriff am}
-      \field{title}{Maschinelles Lernen--Kompetenzen, Anwendungen und Forschungsbedarf}
-      \field{volume}{21}
-      \field{year}{2018}
-      \field{pages}{2020}
-      \range{pages}{1}
     \endentry
     \entry{Rubik2019}{article}{}
       \name{author}{19}{}{%
@@ -680,8 +729,8 @@
       \strng{authorbibnamehash}{78971f73bf6fc60066faf4c1f7eacfe4}
       \strng{authornamehash}{78971f73bf6fc60066faf4c1f7eacfe4}
       \strng{authorfullhash}{78971f73bf6fc60066faf4c1f7eacfe4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzer Zugriff: 28.05.2022 [Online]. Verfügbar:\url{https://thecleverprogrammer.com/2020/10/23/what-is-supervised-learning-in-machine-learning/}}
@@ -702,8 +751,8 @@
       \strng{authorbibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
       \strng{authornamehash}{bdb4d740fc9548d1c32a62103c30169d}
       \strng{authorfullhash}{bdb4d740fc9548d1c32a62103c30169d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Machine Learning Yearning - Technical Strateg for AI Engineers, In the Era of Deep Learning}
@@ -743,8 +792,8 @@
       \strng{authorbibnamehash}{27f6631a723091d8bd776794fd46b549}
       \strng{authornamehash}{f216694234452e3228a46898b2c55269}
       \strng{authorfullhash}{27f6631a723091d8bd776794fd46b549}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{06}
@@ -755,33 +804,6 @@
       \verb{doi}
       \verb 10.1109/CVPR.2016.318
       \endverb
-    \endentry
-    \entry{Cremers2019}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=d5f9ee334c9e28a468affb8bd745845f}{%
-           family={Cremers},
-           familyi={C\bibinitperiod},
-           given={Armin\bibnamedelima B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=a942fd1cdac7b49ac4cd04a21f5b5e0b}{%
-           family={Englander},
-           familyi={E\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{49647725ff82ff3c110cbdc2595c7b47}
-      \strng{fullhash}{49647725ff82ff3c110cbdc2595c7b47}
-      \strng{bibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
-      \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
-      \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
-      \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{addendum}{Letzter Zugriff: 15.05.2022 [Online]. Verfügbar:\url{https://www.iais.fraunhofer.de/content/dam/iais/KINRW/Whitepaper_KI-Zertifizierung.pdf}}
-      \field{title}{Vertrauenswürdiger Einsatz von künstlicher Intelligenz}
-      \field{year}{2019}
     \endentry
     \entry{Goasduff2020}{misc}{}
       \name{author}{1}{}{%
@@ -797,8 +819,8 @@
       \strng{authorbibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
       \strng{authornamehash}{ba9cce1b01720388a0f95f6e272540d7}
       \strng{authorfullhash}{ba9cce1b01720388a0f95f6e272540d7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 25.05.2022 [Online]. Verfügbar:\url{https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020}}
@@ -819,8 +841,8 @@
       \strng{authorbibnamehash}{70f0b368feead7fc5ddaf3c0d1141a20}
       \strng{authornamehash}{70f0b368feead7fc5ddaf3c0d1141a20}
       \strng{authorfullhash}{70f0b368feead7fc5ddaf3c0d1141a20}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{TATuP - Zeitschrift für Technikfolgenabschätzung in Theorie und Praxis}
@@ -854,8 +876,8 @@
       \strng{authorbibnamehash}{a8b4afb5d428ecf1dd6a82fec36ca692}
       \strng{authornamehash}{a8b4afb5d428ecf1dd6a82fec36ca692}
       \strng{authorfullhash}{a8b4afb5d428ecf1dd6a82fec36ca692}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Whitepaper aus der Plattform Lernende Systeme}
@@ -880,8 +902,8 @@
       \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
       \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{AI and Ethics}
@@ -909,8 +931,8 @@
       \strng{authorbibnamehash}{247f5799115678df7c5503f522a1822b}
       \strng{authornamehash}{247f5799115678df7c5503f522a1822b}
       \strng{authorfullhash}{247f5799115678df7c5503f522a1822b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Imprint}
@@ -935,8 +957,8 @@
       \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
       \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Minds and Machines}
@@ -1026,7 +1048,7 @@
       \endverb
       \keyw{Machine Learning (cs.LG),Artificial Intelligence (cs.AI),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
-    \entry{IncidentDatabase2015}{misc}{}
+    \entry{IncidentDatabase2015_16}{misc}{}
       \name{author}{1}{}{%
         {{hash=7079c72c21415131774625ba1d64f4b0}{%
            family={Anonymous},
@@ -1038,6 +1060,7 @@
       \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
