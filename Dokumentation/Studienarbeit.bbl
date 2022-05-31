@@ -215,8 +215,8 @@
       \strng{authorbibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
       \strng{authornamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
       \strng{authorfullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzer Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://franziskahorn.de/mlbook_all.html}}
@@ -346,8 +346,8 @@
       \strng{authorbibnamehash}{265d13a098ab7c6b0d4b604ce2070f4c}
       \strng{authornamehash}{265d13a098ab7c6b0d4b604ce2070f4c}
       \strng{authorfullhash}{265d13a098ab7c6b0d4b604ce2070f4c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 IEEE International Conference on Communications Workshops (ICC Workshops)}
@@ -775,53 +775,13 @@
       \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
       \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
       \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 15.05.2022 [Online]. Verfügbar:\url{https://www.iais.fraunhofer.de/content/dam/iais/KINRW/Whitepaper_KI-Zertifizierung.pdf}}
       \field{title}{Vertrauenswürdiger Einsatz von künstlicher Intelligenz}
       \field{year}{2019}
-    \endentry
-    \entry{james2013}{book}{}
-      \name{author}{4}{}{%
-        {{hash=df184c5fa522ac8a515ec4de13aef234}{%
-           family={James},
-           familyi={J\bibinitperiod},
-           given={Gareth},
-           giveni={G\bibinitperiod}}}%
-        {{hash=1ab16961e0de50711fa6bd9425f9b4a6}{%
-           family={Witten},
-           familyi={W\bibinitperiod},
-           given={Daniela},
-           giveni={D\bibinitperiod}}}%
-        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
-           family={Hastie},
-           familyi={H\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
-        {{hash=88eea600247d798f8b2ce0b2dc614492}{%
-           family={Tibshirani},
-           familyi={T\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{3d8a73eb38e099a1e37f27374e4c9b6d}
-      \strng{fullhash}{da61646157a6be769f34984f5cb603b0}
-      \strng{bibnamehash}{da61646157a6be769f34984f5cb603b0}
-      \strng{authorbibnamehash}{da61646157a6be769f34984f5cb603b0}
-      \strng{authornamehash}{3d8a73eb38e099a1e37f27374e4c9b6d}
-      \strng{authorfullhash}{da61646157a6be769f34984f5cb603b0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{An introduction to statistical learning}
-      \field{volume}{112}
-      \field{year}{2013}
     \endentry
     \entry{Goasduff2020}{misc}{}
       \name{author}{1}{}{%
@@ -837,8 +797,8 @@
       \strng{authorbibnamehash}{ba9cce1b01720388a0f95f6e272540d7}
       \strng{authornamehash}{ba9cce1b01720388a0f95f6e272540d7}
       \strng{authorfullhash}{ba9cce1b01720388a0f95f6e272540d7}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 25.05.2022 [Online]. Verfügbar:\url{https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020}}
@@ -880,6 +840,56 @@
       \verb https://www.tatup.de/index.php/tatup/article/view/6926
       \endverb
     \endentry
+    \entry{Heesen2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a8b4afb5d428ecf1dd6a82fec36ca692}{%
+           family={Heesen},
+           familyi={H\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8b4afb5d428ecf1dd6a82fec36ca692}
+      \strng{fullhash}{a8b4afb5d428ecf1dd6a82fec36ca692}
+      \strng{bibnamehash}{a8b4afb5d428ecf1dd6a82fec36ca692}
+      \strng{authorbibnamehash}{a8b4afb5d428ecf1dd6a82fec36ca692}
+      \strng{authornamehash}{a8b4afb5d428ecf1dd6a82fec36ca692}
+      \strng{authorfullhash}{a8b4afb5d428ecf1dd6a82fec36ca692}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Whitepaper aus der Plattform Lernende Systeme}
+      \field{title}{Ethik-Briefing. Leitfaden für eine verantwortungsvolle Entwicklung und Anwendung von KI-Systemen}
+      \field{year}{2020}
+    \endentry
+    \entry{hagendorff2021blind}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
+           family={Hagendorff},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{fullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{bibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorbibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AI and Ethics}
+      \field{title}{Blind spots in AI ethics}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+    \endentry
     \entry{Hallensleben2020}{misc}{}
       \name{author}{2}{}{%
         {{hash=a5566a7007bf080b83a6ecafe594e5b8}{%
@@ -899,13 +909,43 @@
       \strng{authorbibnamehash}{247f5799115678df7c5503f522a1822b}
       \strng{authornamehash}{247f5799115678df7c5503f522a1822b}
       \strng{authorfullhash}{247f5799115678df7c5503f522a1822b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Imprint}
       \field{title}{From Principles to Practice An interdisciplinary framework to operationalise AI ethics}
       \field{year}{2020}
+    \endentry
+    \entry{Hagendorff2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
+           family={Hagendorff},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{fullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{bibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorbibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Minds and Machines}
+      \field{number}{1}
+      \field{title}{The ethics of AI ethics: An evaluation of guidelines}
+      \field{volume}{30}
+      \field{year}{2020}
+      \field{pages}{99\bibrangedash 120}
+      \range{pages}{22}
     \endentry
     \entry{Parkavi2018}{inproceedings}{}
       \name{author}{4}{}{%
@@ -936,8 +976,8 @@
       \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
       \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
       \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
@@ -946,6 +986,45 @@
       \verb{doi}
       \verb 10.1109/CSITSS.2018.8768554
       \endverb
+    \endentry
+    \entry{Fabi2022}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d28bf12ab5070d36e63315fba69a00fb}{%
+           family={Fabi},
+           familyi={F\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
+           family={Hagendorff},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{fullhash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{bibnamehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{authorbibnamehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{authornamehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{authorfullhash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why we need biased AI -- How including cognitive and ethical machine biases can enhance AI systems}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2203.09911
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2203.09911
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2203.09911
+      \endverb
+      \keyw{Machine Learning (cs.LG),Artificial Intelligence (cs.AI),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{IncidentDatabase2015}{misc}{}
       \name{author}{1}{}{%
@@ -959,14 +1038,44 @@
       \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/16}}
       \field{howpublished}{Responsible AI Collaborative.}
       \field{title}{Incident Number 16. in McGregor, S. (ed.) Artificial Intelligence Incident Database.}
       \field{year}{2015}
+    \endentry
+    \entry{hagendorff2019maschinelles}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
+           family={Hagendorff},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{fullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{bibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorbibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Österreichische Zeitschrift für Soziologie}
+      \field{number}{1}
+      \field{title}{Maschinelles Lernen und Diskriminierung: Probleme und Lösungsansätze}
+      \field{volume}{44}
+      \field{year}{2019}
+      \field{pages}{53\bibrangedash 66}
+      \range{pages}{14}
     \endentry
     \entry{Bronson2017}{misc}{}
       \name{author}{2}{}{%
@@ -987,8 +1096,8 @@
       \strng{authorbibnamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authornamehash}{9c979611afbced8d2eeb72e681ff9620}
       \strng{authorfullhash}{9c979611afbced8d2eeb72e681ff9620}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 17.05.2022. [Online]. Verfügbar: \url{https://bjs.ojp.gov/content/pub/pdf/p17.pdf}}
@@ -1009,8 +1118,8 @@
       \strng{authorbibnamehash}{faf19df46d07203502a5ad8ae90f820d}
       \strng{authornamehash}{faf19df46d07203502a5ad8ae90f820d}
       \strng{authorfullhash}{faf19df46d07203502a5ad8ae90f820d}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://de.statista.com/statistik/daten/studie/1112579/umfrage/bevoelkerung-in-deutschland-nach-altersgruppen/}}
@@ -1033,8 +1142,8 @@
       \strng{authorbibnamehash}{508321e881d1ce2c83963a6c574826cf}
       \strng{authornamehash}{508321e881d1ce2c83963a6c574826cf}
       \strng{authorfullhash}{508321e881d1ce2c83963a6c574826cf}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.kas.de/documents/291186/291235/Datensammlung+Alter+und+Geschlecht.pdf/a25fb063-b305-d567-2d98-e77b1104f713?version=1.1&t=1618912553715}}
@@ -1055,8 +1164,8 @@
       \strng{authorbibnamehash}{fd17f7dce20314001ac56a2700f1a22b}
       \strng{authornamehash}{fd17f7dce20314001ac56a2700f1a22b}
       \strng{authorfullhash}{fd17f7dce20314001ac56a2700f1a22b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.destatis.de/DE/Service/Statistik-Campus/Datenreport/Downloads/datenreport-2021-kap-3.html}}
@@ -1077,8 +1186,8 @@
       \strng{authorbibnamehash}{ce29b256df4f1f2631f6eed647e4c95f}
       \strng{authornamehash}{ce29b256df4f1f2631f6eed647e4c95f}
       \strng{authorfullhash}{ce29b256df4f1f2631f6eed647e4c95f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzter Zugriff: 23.05.2022. [Online]. Verfügbar: \url{https://www.climatewatchdata.org/ghg-emissions}}

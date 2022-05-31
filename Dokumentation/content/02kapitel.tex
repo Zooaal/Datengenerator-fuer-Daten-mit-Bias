@@ -129,7 +129,7 @@
         Die dritte und bisher am wenigsten verbreitete Art des Lernens ist das \glqq{}reinforcement learning\grqq{}(\ac*{dt}.: bestärktes Lernen). Es handelt sich dabei um Feedback basiertes Lernen. Es bedeutet, dass das Modell eine Auswahl an Handlungen hat, aus denen das Modell frei entscheiden darf, welche ausgeführt wird. Die Entscheidungen werden erst im Nachgang bewertet und in Form einer meist numerischen Bewertung an das Modell zurück gegeben. So lernt das Modell, wenn es etwas gut gemacht hat oder auch falsche Handlungen ausgeführt hat. In Abbildung \ref*{fig:ml_algorithms}, wird dies anhand einer musizierenden Person dargestellt. Die Person spielt etwas auf ihrem Instument und bekommt nach dem Spielen eines Tons das Feedback der Zuhörenden ob es sich gut anhört oder nicht. So lernt die Person wann sich etwas gut anhört und verbessert durch das Feedback ihr können. Häufig findet das bestärkende Lernen deshalb Einsatz in der Robotik, in der ein Roboter anhand von Feedback Bewegungsabläufe erlernt. Bekannt ist hier eine Roboter, der eine menschliche Hand nachbildet und erlernt einhändig einen Rubik’s Cube zu lösen.\cite{Horn2022}\cite{Döbel2018}\cite{Rubik2019}
         \\
         Im Rahmen dieser Arbeit wird der Fokus speziell auf das superviced Learning gelegt. Denn überwahtes Lernen komm meist dann zum Einsatz, wenn Vorhersagen oder Entscheidungen getroffen werden. Dieser Aspekt wird im Verlauf der Arbeit immer wieder eine Rolle spielen. Einzigartig am überwachten Lernen ist, wie bereits erwähnt, dass zum Lernen von Zusammenhängen immer ein \glqq{}Lehrer\grqq{} benötigt wird. Im Falle eines \ac{ML} Modells handelt es sich dabei nicht um eine Lehrer, sondern um Daten, genauer gesagt Trainingsdaten.
-        Das Prinzip nach dem das überwachte Lernen funktioniert, ist in Abbildung \ref*{fig:learningProcess} anhand eines Beispiels dargestellt.
+        Das Prinzip nach dem das überwachte Lernen funktioniert, ist in Abbildung \ref*{fig:learningProcess} exemplarisch anhand eines Beispiels dargestellt.
         \begin{figure}[h]
             \centering
             \includegraphics[width = 14cm]{Bilder/superviced_learning.png}
@@ -139,10 +139,10 @@
  %       ZU ÜBERARBEITEN
         \\
         Zu Beginn wird das zu lösende Problem definiert, dabei geht es darum die Lernaufgabe des Modells festzulegen. Beim überwachten Lernen wird zwischen Regressionen und Klassifikation unterschieden. Regressionen kommen meist bei Schlussfolgerungen oder Vorhersagen zum Einsatz und Klassifikationen bei Entscheidungen. 
-        Anhand des Problems wird dann ein Alogirthmus als Grundlage für das Modell ausgewählt. Um den Modell nun Wissen beizubringen werden sogenannte Trainingsdaten verwendet. Dabei handelt es sich um Daten in dem Format, wie sie auch später im Betrieb als Eingaben X geliefert werden. Diese werden jedoch davor mit Labels versehen. Diese Labels werden durch Experten für die Trainingsdaten erstellt. Im nächsten Schritt wird dann das Modell auf Basis der Trainingsdaten trainiert. Diese Phase ist die entscheidende Lernphase des Modells. Im prinzip ist das Modell nach dem training bereit für den Einsatz. Meist wird jedoch noch mit einem, dem Modell bisher unbekannten und nicht gelabeldten, Datensatz überprüft ob das Modell richitg funktioniert und die Qualität anhand unterschiedlicher Metirken, wie der Genauigkeit bewertet. Danach ist das Modell einatzbereit und kann mit Eingaben X gespeist werden und schließt dann auf Basis des erlernten Wissens auf eine Ausgabe Y.
-        Auf diese Art und weiße werden beim überwachten Lernen die input Output Probleme gelöst.
+        Anhand des Problems wird dann ein Alogirthmus als Grundlage für das Modell ausgewählt. Um den Modell nun Wissen beizubringen werden sogenannte Trainingsdaten verwendet. Dabei handelt es sich um Daten in dem Format, wie sie auch später im Betrieb als Eingaben X geliefert werden. Diese werden jedoch davor mit Labels versehen. Diese Labels werden durch Experten für die Trainingsdaten erstellt. Im nächsten Schritt wird dann das Modell auf Basis der Trainingsdaten trainiert. Diese Phase ist die entscheidende Lernphase des Modells. Im prinzip ist das Modell nach dem training bereit für den Einsatz. Meist wird jedoch noch mit einem, dem Modell bisher unbekannten und nicht gelabeldten, Datensatz überprüft ob das Modell richitg funktioniert und die Qualität anhand unterschiedlicher Metirken, wie der Genauigkeit bewertet. Danach ist das Modell einatzbereit und kann mit Eingaben X gespeist werden und schließt dann auf Basis des erlernten Wissens auf eine Ausgabe Y. \cite{Horn2022}\cite{Döbel2018}
+        Auf diese Art und weiße werden beim überwachten Lernen die input Output Probleme gelöst. \cite{Ng2018}
         \\
-        Es gibt aber auch einige negative Eigenschaften bei \ac{ML} Modelle zu berücksichtigen sind und zu möglichen Problemen führen können. Die meisten dieser Risiken lassen sich jedoch inzwischen durch Gegenmaßnahmen verhinder. Zu den Häufigsten Problemen gehören zu geringe Datenmengen, die Passgenauigkeit, Scheinkorrelationen und Verzerrungen. 
+        Es gibt aber auch einige negative Eigenschaften die bei \ac{ML} Modelle zu berücksichtigen sind und zu möglichen Problemen führen können. Die meisten dieser Risiken lassen sich jedoch inzwischen durch Gegenmaßnahmen verhinder. Zu den Häufigsten Problemen gehören zu geringe Datenmengen, die Passgenauigkeit, Scheinkorrelationen und Verzerrungen. 
         \begin{enumerate}
             \item Die Datenmenge ist ein entscheidender Faktor im überwachten Lernen. Viele Modelle scheitern daran, dass sie auf Basis von zu wenigen Trainingsdaten trainiert wurden und so nicht in der Lage sind treffende Schlüsse zu ziehen. \cite{Datenkommission2019}\cite{Ng2018}
             \begin{figure}[h]
@@ -168,17 +168,15 @@
                 \caption{Scheinkorrelationen in der Bilderkennung \cite{Lapuschkin2016}}
                 \label{fig:Scheinkorrelation}
             \end{figure} \\
-            Ein Beispiel dafür ist in Abbildung \ref*{fig:Scheinkorrelation} zu sehen. In der ein Pferdebild nicht anhand der Kontur des Pferdes, sondern anhand des Wasserzeichens in dem Bild erkannt wurde. Grund dafür war, dass einige der Trainingsdaten dieses Wasserzeichen beinhaltet haben und das Modell daraus eine Scheinkorrelation erlernt hat. 
+            Ein Beispiel dafür ist in Abbildung \ref*{fig:Scheinkorrelation} zu sehen. In der ein Pferdebild nicht anhand der Kontur des Pferdes, sondern anhand des Wasserzeichens in dem Bild erkannt wurde. Grund dafür war, dass einige der Trainingsdaten dieses Wasserzeichen beinhaltet haben und das Modell daraus eine Scheinkorrelation erlernt hat. \cite{Horn2022}\cite{Lapuschkin2016}\cite{Cremers2019}
             \item Ein letztes und schwerwiegendes Problem ist die Verzerrung von Trainingsdaten, auch Bias genannt. Dieser Aspekt wird später in Kapitel \ref*{subsubsec:Bias} genauer betrachtet. Allgemein kann man sagen, existieren Verzerrungen in Trainingsdaten, so wird das Modell diese Verzerrungen reproduzieren.\cite{Cremers2019}
         \end{enumerate}
-        Zusammenfassend wird bei \ac*{ML}, speziell beim überwachten Lernen auf Basis von Daten, Trainingsdaten genannt, Wissen aus der Vergangenheit erlernt. Dazu werden Zusammenhänge in den Daten genutzt und die dazugehörigen Bewertungen in Form der Labels.
-        \\
-        Paper die im hintergrund stehen\cite{Horn2022}\cite{Döbel2018}\cite{Ng2018}\cite{james2013}
+        Zusammenfassend wird bei \ac*{ML}, speziell beim überwachten Lernen auf Basis von Daten, Trainingsdaten genannt, Wissen aus der Vergangenheit erlernt. Dazu werden Zusammenhänge in den Daten genutzt und die dazugehörigen Bewertungen in Form von Labels. So entsteht eine äbhängigkeit des Modells von den Trainingsdaten. Im Falle von zu wenig Trainingsdaten, wird das Modell die Realität unterrepräsentieren und daher nicht einsetzbar. Die Daten selbst können aber ebenfalls zu Scheinkorrelationen und Verzerrungen führen die das Ergebnis des Modells mitunter stark beeinflussen. \cite{Cremers2019}
  
     \newpage
     \subsection{Ethik in der künstlichen Intelligenz}
     \label{subsubsec:ethikinderKI}
-        Ein Aspekt der bisher nicht beleutet wurde ist die Ethik. Die Ethik spielt in der \ac{KI} eine immer größer werdende Rolle. In einer Gesellschaft die für Inklusion steht, werden häufig Entscheidungen hinterfragt und kritisiert. Dies gilt insbesondere für Entscheidungen und Vorhersagen, die durch \ac{KI} getroffen werden und so ohne direkten menschlichen Einfluss getroffen werden. 
+        Ein Aspekt der bisher nicht beleutet wurde ist die Ethik. Die Ethik spielt in der \ac{KI} eine immer größer werdende Rolle. In einer Gesellschaft die für Inklusion steht, werden häufig Entscheidungen hinterfragt und kritisiert. Dies gilt insbesondere für Entscheidungen und Vorhersagen, die durch \ac{KI} getroffen werden und so ohne direkten menschlichen Einfluss getroffen werden.
         \begin{figure}[h]
             \centering
             \includegraphics[width = 14cm]{Bilder/Gartner_hypeCycle.png}
@@ -189,24 +187,46 @@
         Im Gartner Hype Cycle für \ac*{KI} aus dem Jahr 2020, dargestellt in Abbildung \ref*{fig:HypeCycle}, wurde das Thema Digitale Ethik auf dem Höhepunkt der Kurve platziert. Der Forschungsbreich rund um die digitale Ethik befindet sich jedoch erst im Anfangsstadium. Trotzdem sind die Erwartungen bereits sehr hoch, denn auch der gesellschaftliche Druck steigt an. Ursache dafür ist unter anderem der Skandal um den Chatbot Tay von Microsoft der innerhalb von nur einem einzigen Tag rassistische \"Außerungen von den Nutzern lernte und daraufhin offline genommen werden musste.\cite{Cremers2019}
         Um einen einheitlichen Rahmen für die Ethik in der \ac*{KI} zu schaffen wurde 2018 von der EU eine Kommision von hochrangigen \ac*{KI} Experten (kurz. HEG KI) gegründer, aber auch Forschungsinstitute setzten sich vermehrt mit der Thematik auseinandern. 2021 waren es allein in Deutschland über 40 Projekte.\cite{Beckert2021}
         \\
+        Grundlegend ist die Aufgabe der Ethik in der \ac*{KI}, dass ein Rahmen geschaffen wird, in dem eine \ac*{KI} agiert und dabei keine ethischen Grundprinzipien verletzt.\cite{Cremers2019} Ethik ist jedoch nicht einfach in Form von Code programmierbar und kann daher auch nicht von Grund auf in eine \ac*{KI} integriert werden. In den meisten Fällen ist Ethik und ethische Entscheidungen stark von dem Rahmen und Kontext abhängig. Ziel der Ethik ist es sich so zu verhalten und zu handeln, dass  keine beteilite Person in ihren Rechten bechnitten wird oder einen Schaden erleidet.\cite{Heesen2020}
+        Dabei bezieht sich die Ethik für die Vorgabe von Leitlinien meist auf die Grundrechte die in Deutschland durch das Grundgesetz definiert werden. In Zeiten der Digitalisierung reichen diese ethischen Grundsätze jedoch oft nicht aus. Mit immer schneller aufkommenden neun Technologien kommen auch neue Probleme und nicht selten auch ethische Probleme auf. Da die Ethik aber auf historischen Erfahrungen basiert, fehlen diese, um einen klaren Weg vorzugeben. So kommt es, dass die Ethik mehr und mehr eine zentrale Rolle in der Gesellschaft gewinnt, wenn es um den Umgang mit neuen digitalen Technologien geht.\cite{Cremers2019} \\
+        Die \ac*{KI} hat die Frage nach Ethik dabei insbesondere damit geprägt, dass Entscheidungen von einem maschinellen Modell getroffen werden, welche in der Vergangenheit oft nicht transparent und nachvollziehbar waren. Für Viele fehlt daher das Vertrauen in eine Entscheidung, die durch einen Computer getroffen wurde. Um diese Bedenken zu minimieren und ein Vertrauen zu schaffen benötigt man Leitlinien für Ethik in der \ac*{KI}.\cite{Heesen2020}
+        \\
         Die Ethik wird dabei meist mit dem Konzept von vertrauenswürdiger \ac*{KI} in Verbindung gebracht. In diesem Konzept werden die folgenden drei Anforderungen an eine \ac*{KI} gestellt:
         \begin{enumerate}
             \item \textbf{Rechtmäßigkeit:} \\ Eine \ac*{KI} soll das geltenden Recht und die gesetzlichen Bestimmungen einhalten.
             \item \textbf{Ethik:} \\ Eine \ac*{KI} soll ethische Grundsätze und Werte einhalten.
             \item \textbf{Robustheit:} \\ Eine \ac*{KI} soll technisch Robust gegen Manipulation gestaltet sein.
         \end{enumerate}
-        Erfüllt eine \ac*{KI} alle drei Anforderungen gilt sie als eine vertrauenswürdige \ac*{KI}. Ziel des Konzepts ist es, die Vorteile von \ac*{KI} zu maximieren aber gleichzeitig die Risiken, egal ob rechtliche oder ethische, möglichst gering zu halten.\cite{HEGKI2019}
+        Erfüllt eine \ac*{KI} alle drei Anforderungen gilt sie als eine vertrauenswürdige \ac*{KI}. Ziel des Konzepts ist es, die Vorteile von \ac*{KI} zu maximieren aber gleichzeitig die Risiken, egal ob rechtliche oder ethische, möglichst gering zu halten.\cite{HEGKI2019} Dafür muss eine Grundlage auf Basis der drei Kategorien Recht, Ethik und Technologie geschaffen werden, die nur im zusammenspiel zu einer umsetzbaren vertrauenswürdigen \ac*{KI} führen.
+        \\
         Wenn man sich nun mit dem Konzept einer vertrauenswürdigen \ac*{KI} genauer beschäftigt, müssen Fragestellungen, wie sie in Abbildung \ref*{fig:EthikAnforderungen} zu sehen sind, gestellt werden. 
         \\
         \begin{figure}[h]
             \centering
             \includegraphics[width = 14cm]{Bilder/Grafik-KI_Whitepaper_final_WEB_2.png}
-            \caption{Ethische und rechtliche Anforderungen an \ac*{KI} \cite{Cremers2019}}
+            \caption{Ethische und rechtliche Grundlagen für eine \ac*{KI} \cite{Cremers2019}}
             \label{fig:EthikAnforderungen}
         \end{figure}
         \\
-        Hier kommt jetzt mehr Detaill
-        \cite{Beckert2021} \cite{Hallensleben2020}
+        Die Abbildung \ref*{fig:EthikAnforderungen} stellt konkrete Aspekte, der oben beschreibenen Grundsätze, dar. Es sind die einzelnen Aspekte die für eine vertrauenswürdige \ac*{KI} notwendig sind. Begonnen bei ethischen Grundsätzen wie der Autonomie und Fairness bis hin zu klar rechtlich einordbaren Grundsätzen wie der Sicherheit und dem Datenschutz.\cite{Cremers2019}
+        \begin{enumerate}
+            \item Autonomie und Kontrolle
+            \item Fairness \cite{hagendorff2021blind}
+            \item Transparenz \cite{Hallensleben2020}
+            \item Verlässlichkeit 
+            \item Sicherheit
+            \item Datenschutz
+        \end{enumerate}
+        
+        \newpage
+        Spacer
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = \textwidth]{Bilder/Ethical huidelines hagendorf 2020.png}
+            \caption{Übersicht ethischer Leitlinien und die Abgedeckten Aspekte \cite{Hagendorff2020}}
+            \label{fig:EthikGuidelines}
+        \end{figure} \\
+        Um den aktuellen Stand der bereits existierenden Ethik Leitlinien wird die Abbildung \ref*{fig:EthikGuidelines} herangezogen.\cite{Hagendorff2020}
 
 %#########################################
     \newpage
@@ -219,16 +239,16 @@
         -   Arten von Bias: \\
             -   Bias durch Abwesenheit - Wenn eine Info fehlt, kann das zu Diskriminierung führen. \\
             -   Diskriminierung durch Menschen. \\
-        Arten von Bias: Cognitive, Social, Perceptual und Motivational Bias \cite{HEGKI2019Definition}\cite{Parkavi2018}
+        Arten von Bias: Cognitive, Social, Perceptual und Motivational Bias \cite{HEGKI2019Definition}\cite{Parkavi2018} \cite{Fabi2022}
 
     \subsection{Diskriminierung durch Bias in Daten}
     \label{subsubsec:diskriminierungdurchverzerrung}
-        - Bias in Daten
+
         - Wie funktioniert Bias in Daten
         - Was ist die Problematik
         - Welche Auswirkungen hat es 
         - Realbeispiele <-- Bewerbungsverfahren
-        \cite{IncidentDatabase2015}
+        \cite{IncidentDatabase2015} \cite{hagendorff2019maschinelles}
 
     \subsection{Gegenma{\ss}nahmen}
     \label{subsubsec:gegenmassnahmen}
