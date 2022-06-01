@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  1 JUN 2022 01:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  1 JUN 2022 10:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1415,11 +1415,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<Bilder/Ethical huidelines hagendorf 2020.png, id=727, 997.92825pt x 781.7205pt>
+<Bilder/Ethical huidelines hagendorf 2020.png, id=730, 1062.97125pt x 834.11626pt>
 File: Bilder/Ethical huidelines hagendorf 2020.png Graphic file (type png)
 <use Bilder/Ethical huidelines hagendorf 2020.png>
 Package pdftex.def Info: Bilder/Ethical huidelines hagendorf 2020.png  used on input line 229.
-(pdftex.def)             Requested size: 455.24411pt x 356.61377pt.
+(pdftex.def)             Requested size: 455.24411pt x 357.23752pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1463,7 +1463,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-<Diagramme/Grobkonzept_PAP.jpg, id=759, 283.0575pt x 363.3575pt>
+<Diagramme/Grobkonzept_PAP.jpg, id=764, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
@@ -1480,7 +1480,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=765, 350.30875pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=770, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 69.
@@ -1514,7 +1514,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
-<Diagramme/Sz1_Cell1.PNG, id=781, 448.074pt x 140.9265pt>
+<Diagramme/Sz1_Cell1.PNG, id=786, 448.074pt x 140.9265pt>
 File: Diagramme/Sz1_Cell1.PNG Graphic file (type png)
 <use Diagramme/Sz1_Cell1.PNG>
 Package pdftex.def Info: Diagramme/Sz1_Cell1.PNG  used on input line 93.
@@ -1547,7 +1547,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./Diagramme/Sz1_Cell1.PNG>]
-<Diagramme/Sz1_GeschlechtsCode.JPG, id=798, 367.3725pt x 35.38219pt>
+<Diagramme/Sz1_GeschlechtsCode.JPG, id=803, 367.3725pt x 35.38219pt>
 File: Diagramme/Sz1_GeschlechtsCode.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_GeschlechtsCode.JPG>
 Package pdftex.def Info: Diagramme/Sz1_GeschlechtsCode.JPG  used on input line 120.
@@ -1577,32 +1577,32 @@ Overfull \hbox (37.46739pt too wide) in paragraph at lines 149--173
  [][] 
  []
 
-<Diagramme/Sz1_RequestValues.JPG, id=822, 398.99063pt x 71.51718pt>
+<Diagramme/Sz1_RequestValues.JPG, id=827, 398.99063pt x 71.51718pt>
 File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_RequestValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 183.
 (pdftex.def)             Requested size: 398.98965pt x 71.517pt.
-<Diagramme/Sz1_Regeln.drawio.png, id=823, 327.2225pt x 613.29124pt>
+<Diagramme/Sz1_Regeln.drawio.png, id=828, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 191.
 (pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
-<Diagramme/Evaluator_Init.JPG, id=826, 432.11438pt x 106.14656pt>
+<Diagramme/Evaluator_Init.JPG, id=831, 432.11438pt x 106.14656pt>
 File: Diagramme/Evaluator_Init.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Init.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Init.JPG  used on input line 202.
 (pdftex.def)             Requested size: 432.11331pt x 106.1463pt.
-<Diagramme/Evaluator_Rate.JPG, id=828, 714.41907pt x 465.99094pt>
+<Diagramme/Evaluator_Rate.JPG, id=833, 714.41907pt x 465.99094pt>
 File: Diagramme/Evaluator_Rate.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Rate.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Rate.JPG  used on input line 210.
 (pdftex.def)             Requested size: 455.24265pt x 398.35529pt.
-<Diagramme/Sz1_standardValues.JPG, id=830, 529.22719pt x 173.14688pt>
+<Diagramme/Sz1_standardValues.JPG, id=835, 529.22719pt x 173.14688pt>
 File: Diagramme/Sz1_standardValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_standardValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_standardValues.JPG  used on input line 219.
 (pdftex.def)             Requested size: 455.24763pt x 170.72108pt.
-<Diagramme/Sz1Final.JPG, id=831, 548.80031pt x 336.50719pt>
+<Diagramme/Sz1Final.JPG, id=836, 548.80031pt x 336.50719pt>
 File: Diagramme/Sz1Final.JPG Graphic file (type jpg)
 <use Diagramme/Sz1Final.JPG>
 Package pdftex.def Info: Diagramme/Sz1Final.JPG  used on input line 227.
@@ -1682,12 +1682,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38 <./Diagramme/Sz1Final.JPG>]
-<Diagramme/Sz2_Auswahl_Lage.JPG, id=889, 746.79pt x 18.82031pt>
+<Diagramme/Sz2_Auswahl_Lage.JPG, id=894, 746.79pt x 18.82031pt>
 File: Diagramme/Sz2_Auswahl_Lage.JPG Graphic file (type jpg)
 <use Diagramme/Sz2_Auswahl_Lage.JPG>
 Package pdftex.def Info: Diagramme/Sz2_Auswahl_Lage.JPG  used on input line 325.
 (pdftex.def)             Requested size: 455.24408pt x 11.47289pt.
-<Diagramme/Sz2AddEntry.JPG, id=893, 316.93407pt x 209.28188pt>
+<Diagramme/Sz2AddEntry.JPG, id=898, 316.93407pt x 209.28188pt>
 File: Diagramme/Sz2AddEntry.JPG Graphic file (type jpg)
 <use Diagramme/Sz2AddEntry.JPG>
 Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 334.
@@ -1696,23 +1696,23 @@ Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 334.
 
 LaTeX Warning: Reference `subsubsec:umsetzungsz1' on page 39 undefined on input line 340.
 
-<Diagramme/Sz2Regeln.JPG, id=895, 432.86719pt x 156.585pt>
+<Diagramme/Sz2Regeln.JPG, id=900, 432.86719pt x 156.585pt>
 File: Diagramme/Sz2Regeln.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Regeln.JPG>
 Package pdftex.def Info: Diagramme/Sz2Regeln.JPG  used on input line 344.
 (pdftex.def)             Requested size: 455.24408pt x 164.68669pt.
-<Diagramme/Sz2Rate1.JPG, id=898, 371.88937pt x 225.84375pt>
+<Diagramme/Sz2Rate1.JPG, id=903, 371.88937pt x 225.84375pt>
 File: Diagramme/Sz2Rate1.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Rate1.JPG>
 Package pdftex.def Info: Diagramme/Sz2Rate1.JPG  used on input line 352.
 (pdftex.def)             Requested size: 455.24408pt x 276.47319pt.
 Package acronym Info: Label `acro:bzw' overridden on input line 356.
-<Diagramme/Sz2Rate2.JPG, id=901, 468.24937pt x 173.14688pt>
+<Diagramme/Sz2Rate2.JPG, id=906, 468.24937pt x 173.14688pt>
 File: Diagramme/Sz2Rate2.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Rate2.JPG>
 Package pdftex.def Info: Diagramme/Sz2Rate2.JPG  used on input line 359.
 (pdftex.def)             Requested size: 455.24408pt x 168.34592pt.
-<Diagramme/Sz2finish.JPG, id=903, 868.74562pt x 414.04688pt>
+<Diagramme/Sz2finish.JPG, id=908, 868.74562pt x 414.04688pt>
 File: Diagramme/Sz2finish.JPG Graphic file (type jpg)
 <use Diagramme/Sz2finish.JPG>
 Package pdftex.def Info: Diagramme/Sz2finish.JPG  used on input line 368.
@@ -1872,17 +1872,17 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43942 strings out of 478614
- 992237 string characters out of 2842650
- 1809767 words of memory out of 3000000
- 61038 multiletter control sequences out of 15000+600000
+ 43946 strings out of 478614
+ 992402 string characters out of 2842650
+ 1809828 words of memory out of 3000000
+ 61041 multiletter control sequences out of 15000+600000
  522002 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  103i,19n,105p,2361b,2585s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (62 pages, 3551874 bytes).
+Output written on Studienarbeit.pdf (62 pages, 3577635 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 1120 PDF objects out of 1200 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
  438 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -969,6 +969,45 @@
       \field{pages}{99\bibrangedash 120}
       \range{pages}{22}
     \endentry
+    \entry{jobin2019global}{article}{}
+      \name{author}{3}{}{%
+        {{hash=12f9d9c320aaa9e18b905defe77a27e1}{%
+           family={Jobin},
+           familyi={J\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f7fc9ed4fa7931b458b028956c1ac90}{%
+           family={Ienca},
+           familyi={I\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b41e812a035a7f15a158d71ba3ed626}{%
+           family={Vayena},
+           familyi={V\bibinitperiod},
+           given={Effy},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{90654c97b59747b95f92666ab1a9f338}
+      \strng{fullhash}{90654c97b59747b95f92666ab1a9f338}
+      \strng{bibnamehash}{90654c97b59747b95f92666ab1a9f338}
+      \strng{authorbibnamehash}{90654c97b59747b95f92666ab1a9f338}
+      \strng{authornamehash}{90654c97b59747b95f92666ab1a9f338}
+      \strng{authorfullhash}{90654c97b59747b95f92666ab1a9f338}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Machine Intelligence}
+      \field{number}{9}
+      \field{title}{The global landscape of AI ethics guidelines}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{pages}{389\bibrangedash 399}
+      \range{pages}{11}
+    \endentry
     \entry{Parkavi2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=53feed426a7d24dae7836d069fff943b}{%
