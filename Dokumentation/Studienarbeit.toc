@@ -14,23 +14,23 @@
 \contentsline {subsection}{\numberline {2.2.1}Künstliche Intelligenz Allgemein}{9}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Teilgebiet maschinelles Lernen}{10}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Ethik in der künstlichen Intelligenz}{16}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Vorurteile im Zusammenhang mit \ac {KI}}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Bias}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Diskriminierung durch Vorurteile in Daten}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Gegenma{\ss }nahmen}{21}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Praktischer Teil}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Szenarien}{22}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{22}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{23}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Konzeption}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{24}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{25}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Umsetzung}{28}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario 1}{28}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario 2}{38}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Datenauswertung}{49}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{49}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Schluss}{50}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{50}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diskussion}{50}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ausblick}{50}{section.4.3}%
+\contentsline {section}{\numberline {2.3}Vorurteile im Zusammenhang mit \ac {KI}}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Bias}{22}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Diskriminierung durch Vorurteile in Daten}{23}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Gegenma{\ss }nahmen}{23}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Praktischer Teil}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Szenarien}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{26}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Konzeption}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{28}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Umsetzung}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario 1}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario 2}{41}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Datenauswertung}{52}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{52}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Schluss}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diskussion}{53}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ausblick}{53}{section.4.3}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  1 JUN 2022 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  2 JUN 2022 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1146,7 +1146,7 @@ although it is yet undefined on input line 17.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...mberline {3.2}Konzeption}{24}{section.3.2}
+l.25 ...mberline {3.2}Konzeption}{27}{section.3.2}
                                                   % [1
 
 ])
@@ -1224,12 +1224,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]) (content/02kapitel.tex
 Kapitel 2.
-<Bilder/Annual_Data_Size.png, id=434, 853.1875pt x 290.08376pt>
+<Bilder/Annual_Data_Size.png, id=439, 853.1875pt x 290.08376pt>
 File: Bilder/Annual_Data_Size.png Graphic file (type png)
 <use Bilder/Annual_Data_Size.png>
 Package pdftex.def Info: Bilder/Annual_Data_Size.png  used on input line 14.
 (pdftex.def)             Requested size: 441.01772pt x 149.9503pt.
-<Bilder/3VRule.png, id=447, 690.1785pt x 333.04425pt>
+<Bilder/3VRule.png, id=452, 690.1785pt x 333.04425pt>
 File: Bilder/3VRule.png Graphic file (type png)
 <use Bilder/3VRule.png>
 Package pdftex.def Info: Bilder/3VRule.png  used on input line 28.
@@ -1252,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./Bilder/3VRule.png>]
-<Bilder/Data_quality_dimensions.png, id=473, 876.876pt x 447.47176pt>
+<Bilder/Data_quality_dimensions.png, id=478, 876.876pt x 447.47176pt>
 File: Bilder/Data_quality_dimensions.png Graphic file (type png)
 <use Bilder/Data_quality_dimensions.png>
 Package pdftex.def Info: Bilder/Data_quality_dimensions.png  used on input line 44.
@@ -1276,7 +1276,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<Bilder/ml_toolset.png, id=504, 963.6pt x 790.955pt>
+<Bilder/ml_toolset.png, id=509, 963.6pt x 790.955pt>
 File: Bilder/ml_toolset.png Graphic file (type png)
 <use Bilder/ml_toolset.png>
 Package pdftex.def Info: Bilder/ml_toolset.png  used on input line 102.
@@ -1292,12 +1292,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9 <./Bilder/ml_toolset.png>]
 Package acronym Info: Label `acro:bzw' newly defined as it shall be overridden
 although it is yet undefined on input line 117.
-<Bilder/ml_algorithms.png, id=547, 1114.1625pt x 625.33624pt>
+<Bilder/ml_algorithms.png, id=552, 1114.1625pt x 625.33624pt>
 File: Bilder/ml_algorithms.png Graphic file (type png)
 <use Bilder/ml_algorithms.png>
 Package pdftex.def Info: Bilder/ml_algorithms.png  used on input line 122.
 (pdftex.def)             Requested size: 398.33858pt x 223.56555pt.
-<Bilder/superviced_learning.png, id=560, 604.2575pt x 319.1925pt>
+<Bilder/superviced_learning.png, id=565, 604.2575pt x 319.1925pt>
 File: Bilder/superviced_learning.png Graphic file (type png)
 <use Bilder/superviced_learning.png>
 Package pdftex.def Info: Bilder/superviced_learning.png  used on input line 135.
@@ -1330,12 +1330,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./Bilder/superviced_learning.png>]
-<Bilder/Datenmenge.png, id=588, 316.18124pt x 202.356pt>
+<Bilder/Datenmenge.png, id=593, 316.18124pt x 202.356pt>
 File: Bilder/Datenmenge.png Graphic file (type png)
 <use Bilder/Datenmenge.png>
 Package pdftex.def Info: Bilder/Datenmenge.png  used on input line 150.
 (pdftex.def)             Requested size: 227.62204pt x 145.68076pt.
-<Bilder/overunderfitting.png, id=595, 1264.725pt x 646.415pt>
+<Bilder/overunderfitting.png, id=600, 1264.725pt x 646.415pt>
 File: Bilder/overunderfitting.png Graphic file (type png)
 <use Bilder/overunderfitting.png>
 Package pdftex.def Info: Bilder/overunderfitting.png  used on input line 159.
@@ -1349,7 +1349,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./Bilder/Datenmenge.png>]
-<Bilder/Scheinkorrelation.png, id=606, 546.843pt x 180.675pt>
+<Bilder/Scheinkorrelation.png, id=611, 546.843pt x 180.675pt>
 File: Bilder/Scheinkorrelation.png Graphic file (type png)
 <use Bilder/Scheinkorrelation.png>
 Package pdftex.def Info: Bilder/Scheinkorrelation.png  used on input line 167.
@@ -1371,7 +1371,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<Bilder/Gartner_hypeCycle.png, id=629, 1228.59pt x 1168.365pt>
+<Bilder/Gartner_hypeCycle.png, id=634, 1228.59pt x 1168.365pt>
 File: Bilder/Gartner_hypeCycle.png Graphic file (type png)
 <use Bilder/Gartner_hypeCycle.png>
 Package pdftex.def Info: Bilder/Gartner_hypeCycle.png  used on input line 182.
@@ -1385,7 +1385,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./Bilder/Gartner_hypeCycle.png>]
-<Bilder/Grafik-KI_Whitepaper_final_WEB_2.png, id=665, 1134.2375pt x 515.9275pt>
+<Bilder/Grafik-KI_Whitepaper_final_WEB_2.png, id=670, 1134.2375pt x 515.9275pt>
 File: Bilder/Grafik-KI_Whitepaper_final_WEB_2.png Graphic file (type png)
 <use Bilder/Grafik-KI_Whitepaper_final_WEB_2.png>
 Package pdftex.def Info: Bilder/Grafik-KI_Whitepaper_final_WEB_2.png  used on input line 206.
@@ -1415,7 +1415,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<Bilder/Ethical huidelines hagendorf 2020.png, id=730, 1062.97125pt x 834.11626pt>
+<Bilder/Ethical huidelines hagendorf 2020.png, id=736, 1062.97125pt x 834.11626pt>
 File: Bilder/Ethical huidelines hagendorf 2020.png Graphic file (type png)
 <use Bilder/Ethical huidelines hagendorf 2020.png>
 Package pdftex.def Info: Bilder/Ethical huidelines hagendorf 2020.png  used on input line 229.
@@ -1430,8 +1430,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20 <./Bilder/Ethical huidelines hagendorf 2020.png>]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 237.
+(hyperref)                removing `\@ac' on input line 239.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1440,7 +1448,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]) (content/03kapitel.tex
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 273--281
+
+ []
+
+<Bilder/MinimizingBias.png, id=805, 481.8pt x 321.6015pt>
+File: Bilder/MinimizingBias.png Graphic file (type png)
+<use Bilder/MinimizingBias.png>
+Package pdftex.def Info: Bilder/MinimizingBias.png  used on input line 292.
+(pdftex.def)             Requested size: 455.24411pt x 303.88557pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--296
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]) (content/03kapitel.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./Bilder/MinimizingBias.png>]
 Kapitel 3.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1452,7 +1493,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22
+[25
 
 ]
 
@@ -1462,8 +1503,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
-<Diagramme/Grobkonzept_PAP.jpg, id=764, 283.0575pt x 363.3575pt>
+[26]
+<Diagramme/Grobkonzept_PAP.jpg, id=834, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 53.
@@ -1479,8 +1520,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=770, 350.30875pt x 121.45375pt>
+[27]
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=840, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 69.
@@ -1497,7 +1538,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25 <./Diagramme/Grobkonzept_PAP.jpg>]
+[28 <./Diagramme/Grobkonzept_PAP.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1505,7 +1546,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26 <./Diagramme/Verbindung_der_Attribute_S2.jpg>]
+[29 <./Diagramme/Verbindung_der_Attribute_S2.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1513,8 +1554,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
-<Diagramme/Sz1_Cell1.PNG, id=786, 448.074pt x 140.9265pt>
+[30]
+<Diagramme/Sz1_Cell1.PNG, id=857, 448.074pt x 140.9265pt>
 File: Diagramme/Sz1_Cell1.PNG Graphic file (type png)
 <use Diagramme/Sz1_Cell1.PNG>
 Package pdftex.def Info: Diagramme/Sz1_Cell1.PNG  used on input line 93.
@@ -1538,7 +1579,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[31]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1546,8 +1587,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29 <./Diagramme/Sz1_Cell1.PNG>]
-<Diagramme/Sz1_GeschlechtsCode.JPG, id=803, 367.3725pt x 35.38219pt>
+[32 <./Diagramme/Sz1_Cell1.PNG>]
+<Diagramme/Sz1_GeschlechtsCode.JPG, id=873, 367.3725pt x 35.38219pt>
 File: Diagramme/Sz1_GeschlechtsCode.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_GeschlechtsCode.JPG>
 Package pdftex.def Info: Diagramme/Sz1_GeschlechtsCode.JPG  used on input line 120.
@@ -1572,37 +1613,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30 <./Diagramme/Sz1_GeschlechtsCode.JPG>]
+[33 <./Diagramme/Sz1_GeschlechtsCode.JPG>]
 Overfull \hbox (37.46739pt too wide) in paragraph at lines 149--173
  [][] 
  []
 
-<Diagramme/Sz1_RequestValues.JPG, id=827, 398.99063pt x 71.51718pt>
+<Diagramme/Sz1_RequestValues.JPG, id=897, 398.99063pt x 71.51718pt>
 File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_RequestValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 183.
 (pdftex.def)             Requested size: 398.98965pt x 71.517pt.
-<Diagramme/Sz1_Regeln.drawio.png, id=828, 327.2225pt x 613.29124pt>
+<Diagramme/Sz1_Regeln.drawio.png, id=898, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 191.
 (pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
-<Diagramme/Evaluator_Init.JPG, id=831, 432.11438pt x 106.14656pt>
+<Diagramme/Evaluator_Init.JPG, id=901, 432.11438pt x 106.14656pt>
 File: Diagramme/Evaluator_Init.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Init.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Init.JPG  used on input line 202.
 (pdftex.def)             Requested size: 432.11331pt x 106.1463pt.
-<Diagramme/Evaluator_Rate.JPG, id=833, 714.41907pt x 465.99094pt>
+<Diagramme/Evaluator_Rate.JPG, id=903, 714.41907pt x 465.99094pt>
 File: Diagramme/Evaluator_Rate.JPG Graphic file (type jpg)
 <use Diagramme/Evaluator_Rate.JPG>
 Package pdftex.def Info: Diagramme/Evaluator_Rate.JPG  used on input line 210.
 (pdftex.def)             Requested size: 455.24265pt x 398.35529pt.
-<Diagramme/Sz1_standardValues.JPG, id=835, 529.22719pt x 173.14688pt>
+<Diagramme/Sz1_standardValues.JPG, id=905, 529.22719pt x 173.14688pt>
 File: Diagramme/Sz1_standardValues.JPG Graphic file (type jpg)
 <use Diagramme/Sz1_standardValues.JPG>
 Package pdftex.def Info: Diagramme/Sz1_standardValues.JPG  used on input line 219.
 (pdftex.def)             Requested size: 455.24763pt x 170.72108pt.
-<Diagramme/Sz1Final.JPG, id=836, 548.80031pt x 336.50719pt>
+<Diagramme/Sz1Final.JPG, id=906, 548.80031pt x 336.50719pt>
 File: Diagramme/Sz1Final.JPG Graphic file (type jpg)
 <use Diagramme/Sz1Final.JPG>
 Package pdftex.def Info: Diagramme/Sz1Final.JPG  used on input line 227.
@@ -1614,7 +1655,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]
+[34]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1622,7 +1663,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32 <./Diagramme/Sz1_RequestValues.JPG>]
+[35 <./Diagramme/Sz1_RequestValues.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1630,7 +1671,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./Diagramme/Sz1_Regeln.drawio.png>]
+[36 <./Diagramme/Sz1_Regeln.drawio.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1638,7 +1679,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34 <./Diagramme/Evaluator_Init.JPG>]
+[37 <./Diagramme/Evaluator_Init.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1646,7 +1687,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35 <./Diagramme/Evaluator_Rate.JPG>]
+[38 <./Diagramme/Evaluator_Rate.JPG>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1657,7 +1698,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[39]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1673,7 +1714,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./Diagramme/Sz1_standardValues.JPG>]
+[40 <./Diagramme/Sz1_standardValues.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1681,38 +1722,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./Diagramme/Sz1Final.JPG>]
-<Diagramme/Sz2_Auswahl_Lage.JPG, id=894, 746.79pt x 18.82031pt>
+[41 <./Diagramme/Sz1Final.JPG>]
+<Diagramme/Sz2_Auswahl_Lage.JPG, id=965, 746.79pt x 18.82031pt>
 File: Diagramme/Sz2_Auswahl_Lage.JPG Graphic file (type jpg)
 <use Diagramme/Sz2_Auswahl_Lage.JPG>
 Package pdftex.def Info: Diagramme/Sz2_Auswahl_Lage.JPG  used on input line 325.
 (pdftex.def)             Requested size: 455.24408pt x 11.47289pt.
-<Diagramme/Sz2AddEntry.JPG, id=898, 316.93407pt x 209.28188pt>
+<Diagramme/Sz2AddEntry.JPG, id=969, 316.93407pt x 209.28188pt>
 File: Diagramme/Sz2AddEntry.JPG Graphic file (type jpg)
 <use Diagramme/Sz2AddEntry.JPG>
 Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 334.
 (pdftex.def)             Requested size: 455.28209pt x 256.07393pt.
 
 
-LaTeX Warning: Reference `subsubsec:umsetzungsz1' on page 39 undefined on input line 340.
+LaTeX Warning: Reference `subsubsec:umsetzungsz1' on page 42 undefined on input line 340.
 
-<Diagramme/Sz2Regeln.JPG, id=900, 432.86719pt x 156.585pt>
+<Diagramme/Sz2Regeln.JPG, id=971, 432.86719pt x 156.585pt>
 File: Diagramme/Sz2Regeln.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Regeln.JPG>
 Package pdftex.def Info: Diagramme/Sz2Regeln.JPG  used on input line 344.
 (pdftex.def)             Requested size: 455.24408pt x 164.68669pt.
-<Diagramme/Sz2Rate1.JPG, id=903, 371.88937pt x 225.84375pt>
+<Diagramme/Sz2Rate1.JPG, id=974, 371.88937pt x 225.84375pt>
 File: Diagramme/Sz2Rate1.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Rate1.JPG>
 Package pdftex.def Info: Diagramme/Sz2Rate1.JPG  used on input line 352.
 (pdftex.def)             Requested size: 455.24408pt x 276.47319pt.
 Package acronym Info: Label `acro:bzw' overridden on input line 356.
-<Diagramme/Sz2Rate2.JPG, id=906, 468.24937pt x 173.14688pt>
+<Diagramme/Sz2Rate2.JPG, id=977, 468.24937pt x 173.14688pt>
 File: Diagramme/Sz2Rate2.JPG Graphic file (type jpg)
 <use Diagramme/Sz2Rate2.JPG>
 Package pdftex.def Info: Diagramme/Sz2Rate2.JPG  used on input line 359.
 (pdftex.def)             Requested size: 455.24408pt x 168.34592pt.
-<Diagramme/Sz2finish.JPG, id=908, 868.74562pt x 414.04688pt>
+<Diagramme/Sz2finish.JPG, id=979, 868.74562pt x 414.04688pt>
 File: Diagramme/Sz2finish.JPG Graphic file (type jpg)
 <use Diagramme/Sz2finish.JPG>
 Package pdftex.def Info: Diagramme/Sz2finish.JPG  used on input line 368.
@@ -1724,7 +1765,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[42]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1735,7 +1776,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
+[43]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1746,7 +1787,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1754,7 +1795,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./Diagramme/Sz2_Auswahl_Lage.JPG>]
+[45 <./Diagramme/Sz2_Auswahl_Lage.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1762,7 +1803,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43 <./Diagramme/Sz2AddEntry.JPG>]
+[46 <./Diagramme/Sz2AddEntry.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1770,7 +1811,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <./Diagramme/Sz2Regeln.JPG>]
+[47 <./Diagramme/Sz2Regeln.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1778,7 +1819,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./Diagramme/Sz2Rate1.JPG>]
+[48 <./Diagramme/Sz2Rate1.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1786,7 +1827,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46 <./Diagramme/Sz2Rate2.JPG>]
+[49 <./Diagramme/Sz2Rate2.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1794,7 +1835,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./Diagramme/Sz2finish.JPG>]
+[50 <./Diagramme/Sz2finish.JPG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1802,7 +1843,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48]) (content/04kapitel.tex
+[51]) (content/04kapitel.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1810,7 +1851,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
+[52]
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1824,7 +1865,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50
+[53
 
 ])
 
@@ -1834,7 +1875,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51
+[54
 
 ]
 
@@ -1844,7 +1885,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52]
+[55]
 Overfull \hbox (21.69473pt too wide) in paragraph at lines 145--145
 \T1/lmr/m/n/12 Datensammlung + Alter + und + Geschlecht . pdf / a25fb063 -[] b305 -[] d567 -[] 2d98 -[] e77b1104f713 ?
  []
@@ -1861,7 +1902,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53] (Studienarbeit.aux)
+[56]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57] (Studienarbeit.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1872,17 +1921,17 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43946 strings out of 478614
- 992402 string characters out of 2842650
- 1809828 words of memory out of 3000000
- 61041 multiletter control sequences out of 15000+600000
+ 43995 strings out of 478614
+ 994050 string characters out of 2842650
+ 1810329 words of memory out of 3000000
+ 61077 multiletter control sequences out of 15000+600000
  522002 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  103i,19n,105p,2361b,2585s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Studienarbeit.pdf (62 pages, 3577635 bytes).
+Output written on Studienarbeit.pdf (66 pages, 3766719 bytes).
 PDF statistics:
- 1120 PDF objects out of 1200 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1208 PDF objects out of 1440 (max. 8388607)
+ 220 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
 

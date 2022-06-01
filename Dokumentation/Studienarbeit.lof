@@ -13,21 +13,22 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Gartner Hype Cycle für \ac *{KI} \blx@tocontentsinit {0}\cite {Goasduff2020}\relax }}{16}{figure.caption.26}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Ethische und rechtliche Grundlagen für eine \ac *{KI} \blx@tocontentsinit {0}\cite {Cremers2019}\relax }}{18}{figure.caption.27}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Übersicht ethischer Leitlinien und die Abgedeckten Aspekte \blx@tocontentsinit {0}\cite {Hagendorff2020}\relax }}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Ansätze um Bias in der \ac *{KI} zu minimieren \blx@tocontentsinit {0}\cite {Dilmegani2020}\relax }}{24}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Programmablaufplan der fünf Hauptschritte zur Generierung der Daten\relax }}{25}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Verbindungen zwischen den Attributen des zweiten Szenario\relax }}{26}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Erste Zelle Code des Szenario1\relax }}{29}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Codezeile zur Bestimmung des Geschlechts einer Person\relax }}{30}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Codezeilen zum Erstellen eines Dictionary mit den zur Bewertung relevanten Attributen\relax }}{32}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Programmablaufplan zur Generierung der Regeln von Szenario 1\relax }}{33}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Methode zur Initialisierung eines Bewertenden\relax }}{34}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Methode eines Bewertenden zum Bewerten von Anträgen.\relax }}{35}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Dictionaries gefüllt mit Standard Werten des Szenario 1\relax }}{37}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Letzte Zelle des Szenario 1 für die Benutzenden Interaktion\relax }}{38}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Codezeile zur Auswahl der Ausprägung der Wohnlage basierend auf angegebenen Wahrscheinlichkeiten\relax }}{42}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Codeausschnitt zum Hinzufügen eines Dateneintrags\relax }}{43}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Codeausschnitt zum Erstellen des Regel Dictionary\relax }}{44}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Codeausschnitt der Funktion zum Bewerten von Personen\relax }}{45}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Codeausschnitt für das Hinzufügen eines Bias beim Bewerten der Personen\relax }}{46}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Codeausschnitt für das Hinzufügen eines Bias beim Bewerten der Personen\relax }}{47}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Programmablaufplan der fünf Hauptschritte zur Generierung der Daten\relax }}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Verbindungen zwischen den Attributen des zweiten Szenario\relax }}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Erste Zelle Code des Szenario1\relax }}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Codezeile zur Bestimmung des Geschlechts einer Person\relax }}{33}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Codezeilen zum Erstellen eines Dictionary mit den zur Bewertung relevanten Attributen\relax }}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Programmablaufplan zur Generierung der Regeln von Szenario 1\relax }}{36}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Methode zur Initialisierung eines Bewertenden\relax }}{37}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Methode eines Bewertenden zum Bewerten von Anträgen.\relax }}{38}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Dictionaries gefüllt mit Standard Werten des Szenario 1\relax }}{40}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Letzte Zelle des Szenario 1 für die Benutzenden Interaktion\relax }}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Codezeile zur Auswahl der Ausprägung der Wohnlage basierend auf angegebenen Wahrscheinlichkeiten\relax }}{45}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Codeausschnitt zum Hinzufügen eines Dateneintrags\relax }}{46}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Codeausschnitt zum Erstellen des Regel Dictionary\relax }}{47}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Codeausschnitt der Funktion zum Bewerten von Personen\relax }}{48}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Codeausschnitt für das Hinzufügen eines Bias beim Bewerten der Personen\relax }}{49}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Codeausschnitt für das Hinzufügen eines Bias beim Bewerten der Personen\relax }}{50}{figure.caption.58}%
 \addvspace {10\p@ }

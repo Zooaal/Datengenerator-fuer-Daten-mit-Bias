@@ -213,8 +213,8 @@
       \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
       \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Letzer Zugriff: 30.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/37}}
@@ -502,8 +502,8 @@
       \strng{authorbibnamehash}{4a7c28cefcfddffa20d4822ce373d2f9}
       \strng{authornamehash}{6d399ae5acd8aed3d298cf025ddb39ad}
       \strng{authorfullhash}{4a7c28cefcfddffa20d4822ce373d2f9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Positionspapier}
@@ -587,8 +587,8 @@
       \strng{authornamehash}{8df179aa7ac87e18ffe186030f62aca9}
       \strng{authorfullhash}{8df179aa7ac87e18ffe186030f62aca9}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ethik-Leitlinien für eine Vertrauenswürdige KI}
@@ -696,8 +696,8 @@
       \strng{authorbibnamehash}{19d5ca89279fb11ba3bd51763039620c}
       \strng{authornamehash}{19d5ca89279fb11ba3bd51763039620c}
       \strng{authorfullhash}{533c7f798be0a787c8260607a2dd279a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -1008,6 +1008,192 @@
       \field{pages}{389\bibrangedash 399}
       \range{pages}{11}
     \endentry
+    \entry{Fabi2022}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d28bf12ab5070d36e63315fba69a00fb}{%
+           family={Fabi},
+           familyi={F\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
+           family={Hagendorff},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{fullhash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{bibnamehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{authorbibnamehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{authornamehash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{authorfullhash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why we need biased AI -- How including cognitive and ethical machine biases can enhance AI systems}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2203.09911
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2203.09911
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2203.09911
+      \endverb
+      \keyw{Machine Learning (cs.LG),Artificial Intelligence (cs.AI),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{Dilmegani2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c6996972108b0b0fd4a6e33b99346476}{%
+           family={Dilmegani},
+           familyi={D\bibinitperiod},
+           given={Cem},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6996972108b0b0fd4a6e33b99346476}
+      \strng{fullhash}{c6996972108b0b0fd4a6e33b99346476}
+      \strng{bibnamehash}{c6996972108b0b0fd4a6e33b99346476}
+      \strng{authorbibnamehash}{c6996972108b0b0fd4a6e33b99346476}
+      \strng{authornamehash}{c6996972108b0b0fd4a6e33b99346476}
+      \strng{authorfullhash}{c6996972108b0b0fd4a6e33b99346476}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 30.05.2022 [Online]. Verfügbar:\url{https://research.aimultiple.com/ai-bias/}}
+      \field{title}{Bias in AI: What it is, Types, Examples and 6 Ways to Fix it in 2022}
+      \field{year}{2020}
+    \endentry
+    \entry{silberg2019notes}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f713f36dfac02430e7e189736c6c4778}{%
+           family={Silberg},
+           familyi={S\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e456d570ec236cee82b8cf83a29db39f}{%
+           family={Manyika},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{731a84c0ddb3b54d4cf5ff97e76905ae}
+      \strng{fullhash}{731a84c0ddb3b54d4cf5ff97e76905ae}
+      \strng{bibnamehash}{731a84c0ddb3b54d4cf5ff97e76905ae}
+      \strng{authorbibnamehash}{731a84c0ddb3b54d4cf5ff97e76905ae}
+      \strng{authornamehash}{731a84c0ddb3b54d4cf5ff97e76905ae}
+      \strng{authorfullhash}{731a84c0ddb3b54d4cf5ff97e76905ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{McKinsey Global Institute}
+      \field{title}{Notes from the AI frontier: Tackling bias in AI (and in humans)}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{srinivasan2021biases}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a930a8136a87db041b6b58a5fc9dd8e3}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Ramya},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f4681ff8513ab4c895eab49b3764eefb}{%
+           family={Chander},
+           familyi={C\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{7b72b1fa951a33b844b9a457426a665a}
+      \strng{fullhash}{7b72b1fa951a33b844b9a457426a665a}
+      \strng{bibnamehash}{7b72b1fa951a33b844b9a457426a665a}
+      \strng{authorbibnamehash}{7b72b1fa951a33b844b9a457426a665a}
+      \strng{authornamehash}{7b72b1fa951a33b844b9a457426a665a}
+      \strng{authorfullhash}{7b72b1fa951a33b844b9a457426a665a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{8}
+      \field{title}{Biases in AI systems}
+      \field{volume}{64}
+      \field{year}{2021}
+      \field{pages}{44\bibrangedash 49}
+      \range{pages}{6}
+    \endentry
+    \entry{Mehrabi2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e49a830517defa430474d9c2b5c22d83}{%
+           family={Mehrabi},
+           familyi={M\bibinitperiod},
+           given={Ninareh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6fc2e21e9c786462d54f7e2eeae61c19}{%
+           family={Morstatter},
+           familyi={M\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=125158a659e4885af8901c5155a4e57a}{%
+           family={Saxena},
+           familyi={S\bibinitperiod},
+           given={Nripsuta},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8aea0a421db201a447f5fec22e73a92f}{%
+           family={Lerman},
+           familyi={L\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=73b781905368dfe2cc66cef5e33e0d32}{%
+           family={Galstyan},
+           familyi={G\bibinitperiod},
+           given={Aram},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{924d32aa74663b7c6179fc81d2ff0140}
+      \strng{fullhash}{70df8b815290d4668300a842f0dfe8bc}
+      \strng{bibnamehash}{70df8b815290d4668300a842f0dfe8bc}
+      \strng{authorbibnamehash}{70df8b815290d4668300a842f0dfe8bc}
+      \strng{authornamehash}{924d32aa74663b7c6179fc81d2ff0140}
+      \strng{authorfullhash}{70df8b815290d4668300a842f0dfe8bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Comput. Surv.}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{A Survey on Bias and Fairness in Machine Learning}
+      \field{volume}{54}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1145/3457607
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3457607
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3457607
+      \endverb
+      \keyw{representation learning,deep learning,machine learning,Fairness and bias in artificial intelligence,natural language processing}
+    \endentry
     \entry{Parkavi2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=53feed426a7d24dae7836d069fff943b}{%
@@ -1048,44 +1234,81 @@
       \verb 10.1109/CSITSS.2018.8768554
       \endverb
     \endentry
-    \entry{Fabi2022}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=d28bf12ab5070d36e63315fba69a00fb}{%
-           family={Fabi},
+    \entry{ntoutsi2020bias}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=d91e68c27fb6532cbc9436b0b640a962}{%
+           family={Ntoutsi},
+           familyi={N\bibinitperiod},
+           given={Eirini},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4324253df183ab6a846df79383a55536}{%
+           family={Fafalios},
            familyi={F\bibinitperiod},
-           given={Sarah},
+           given={Pavlos},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ea6b2df58b4d406148304d6a0ab5e2cf}{%
+           family={Gadiraju},
+           familyi={G\bibinitperiod},
+           given={Ujwal},
+           giveni={U\bibinitperiod}}}%
+        {{hash=88ee2428ef6a40169f9225138dcad138}{%
+           family={Iosifidis},
+           familyi={I\bibinitperiod},
+           given={Vasileios},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d6f39264fac99623136df11c39951df7}{%
+           family={Nejdl},
+           familyi={N\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7690d7bd760c8039dc1ab142ff7c067b}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Maria-Esther},
+           giveni={M\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=a76ccbef49119aa2cc87d46090bea705}{%
+           family={Ruggieri},
+           familyi={R\bibinitperiod},
+           given={Salvatore},
            giveni={S\bibinitperiod}}}%
-        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
-           family={Hagendorff},
-           familyi={H\bibinitperiod},
-           given={Thilo},
-           giveni={T\bibinitperiod}}}%
+        {{hash=239ddb34b2b1f4cba06ecb606fca3560}{%
+           family={Turini},
+           familyi={T\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6a7d4b316269c9e4bb25972c0970820e}{%
+           family={Papadopoulos},
+           familyi={P\bibinitperiod},
+           given={Symeon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=698c833ee9b071c94b26ac2a53a668b9}{%
+           family={Krasanakis},
+           familyi={K\bibinitperiod},
+           given={Emmanouil},
+           giveni={E\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {arXiv}%
+        {Wiley Online Library}%
       }
-      \strng{namehash}{e6139e7007dbd59c50b07c6590a8f72a}
-      \strng{fullhash}{e6139e7007dbd59c50b07c6590a8f72a}
-      \strng{bibnamehash}{e6139e7007dbd59c50b07c6590a8f72a}
-      \strng{authorbibnamehash}{e6139e7007dbd59c50b07c6590a8f72a}
-      \strng{authornamehash}{e6139e7007dbd59c50b07c6590a8f72a}
-      \strng{authorfullhash}{e6139e7007dbd59c50b07c6590a8f72a}
+      \strng{namehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{fullhash}{7d81e09199f1d0198a334a4195609710}
+      \strng{bibnamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{authorbibnamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{authornamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{authorfullhash}{7d81e09199f1d0198a334a4195609710}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Why we need biased AI -- How including cognitive and ethical machine biases can enhance AI systems}
-      \field{year}{2022}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2203.09911
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2203.09911
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2203.09911
-      \endverb
-      \keyw{Machine Learning (cs.LG),Artificial Intelligence (cs.AI),FOS: Computer and information sciences,FOS: Computer and information sciences}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery}
+      \field{number}{3}
+      \field{title}{Bias in data-driven artificial intelligence systems—An introductory survey}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{e1356}
+      \range{pages}{-1}
     \endentry
     \entry{IncidentDatabase2015_16}{misc}{}
       \name{author}{1}{}{%
@@ -1108,6 +1331,44 @@
       \field{howpublished}{Responsible AI Collaborative.}
       \field{title}{Incident Number 16. in McGregor, S. (ed.) Artificial Intelligence Incident Database.}
       \field{year}{2015}
+    \endentry
+    \entry{MachineBias2016}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=48c46dd28c4e658ea1ad97ba6caec416}{%
+           family={Angwin},
+           familyi={A\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d6cdd970807360d93b4b80fb5eaf286c}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c92891e86996d2c01c8683c11cd41560}{%
+           family={Surya},
+           familyi={S\bibinitperiod},
+           given={Mattu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2839b86b8666c075c9d0a7fa27fcada6}{%
+           family={Kirchner},
+           familyi={K\bibinitperiod},
+           given={Lauren},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{046bfb5fd41e0fb1069e3d418c5582ce}
+      \strng{fullhash}{3ceab4327a10a3e98a48324c3c02fbbc}
+      \strng{bibnamehash}{3ceab4327a10a3e98a48324c3c02fbbc}
+      \strng{authorbibnamehash}{3ceab4327a10a3e98a48324c3c02fbbc}
+      \strng{authornamehash}{046bfb5fd41e0fb1069e3d418c5582ce}
+      \strng{authorfullhash}{3ceab4327a10a3e98a48324c3c02fbbc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 28.05.2022 [Online]. Verfügbar:\url{https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing}}
+      \field{howpublished}{Pro Pubica artikle}
+      \field{title}{Machine Bias - There’s software used across the country to predict future criminals. And it’s biased against blacks.}
+      \field{year}{2016}
     \endentry
     \entry{hagendorff2019maschinelles}{article}{}
       \name{author}{1}{}{%
@@ -1138,6 +1399,59 @@
       \field{year}{2019}
       \field{pages}{53\bibrangedash 66}
       \range{pages}{14}
+    \endentry
+    \entry{Drew2019}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b7f2c953cd66d9d47ffbdc038443560a}{%
+           family={Roselli},
+           familyi={R\bibinitperiod},
+           given={Drew},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d8be74aaea67fecf0ca3b5f7f2a6e59c}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Jeanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0b619e19d1edaefd4ef5f142c44b670}{%
+           family={Talagala},
+           familyi={T\bibinitperiod},
+           given={Nisha},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{969afa14310fabd74b3b21f8ee23ea15}
+      \strng{fullhash}{969afa14310fabd74b3b21f8ee23ea15}
+      \strng{bibnamehash}{969afa14310fabd74b3b21f8ee23ea15}
+      \strng{authorbibnamehash}{969afa14310fabd74b3b21f8ee23ea15}
+      \strng{authornamehash}{969afa14310fabd74b3b21f8ee23ea15}
+      \strng{authorfullhash}{969afa14310fabd74b3b21f8ee23ea15}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent awareness of the impacts of bias in AI algorithms raises the risk for companies to deploy such algorithms, especially because the algorithms may not be explainable in the same way that non-AI algorithms are. Even with careful review of the algorithms and data sets, it may not be possible to delete all unwanted bias, particularly because AI systems learn from historical data, which encodes historical biases. In this paper, we propose a set of processes that companies can use to mitigate and manage three general classes of bias: those related to mapping the business intent into the AI implementation, those that arise due to the distribution of samples used for training, and those that are present in individual input samples. While there may be no simple or complete solution to this issue, best practices can be used to reduce the effects of bias on algorithmic outcomes.}
+      \field{booktitle}{Companion Proceedings of The 2019 World Wide Web Conference}
+      \field{isbn}{9781450366755}
+      \field{series}{WWW '19}
+      \field{title}{Managing Bias in AI}
+      \field{year}{2019}
+      \field{pages}{539\bibrangedash 544}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3308560.3317590
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3308560.3317590
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3308560.3317590
+      \endverb
+      \keyw{Artificial intelligence,production monitoring,bias}
     \endentry
     \entry{Bronson2017}{misc}{}
       \name{author}{2}{}{%

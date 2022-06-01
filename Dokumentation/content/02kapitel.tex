@@ -110,7 +110,7 @@
         \\
         Als starke \ac{KI} wird ein System verstanden, welches in der Lage ist ein breites Spektrum an Aufgaben zu erledigen.\cite{Datenkommission2019} Sie verfügt über weitere Methoden zur Datenverarbeitung. In dieser Form der \ac{KI} wird mehr versucht die menschlichen Fähigkeiten und Intelligenz abzubilden. Es wird nicht nach eine spezifischen Vorgehensweise vorgegangen, sondern Aufgaben werden mit individuellen Lösungenswegen erledigt.\cite{Lis2019}
         \\
-        Mit dem Begriff \ac{KI} wird demzufolge nur ein grundlegendes Prinzip von \ac*{KI}-Systemen definiert. Die Aufgabe dieser \ac*{KI}-Systeme ist es, Daten jeglicher Form zu interpretieren, Schlussfolgerungen daraus zu ziehen und eine Aussage über das zu erreichende Ziel zu liefern. Unabhängig davon, ob es sich um einen optimalen Lösungsweg, eine Vorhersage oder eine Schlussfolgerung handelt. \cite{HEGKI2019Definition}    
+        Mit dem Begriff \ac{KI} wird demzufolge nur ein grundlegendes Prinzip von \ac*{KI}-Systemen definiert. Die Aufgabe dieser \ac*{KI}-Systeme ist es, Daten jeglicher Form zu interpretieren, Schlussfolgerungen daraus zu ziehen und eine Aussage über das zu erreichende Ziel zu liefern. Unabhängig davon, ob es sich um einen optimalen Lösungsweg, eine Vorhersage oder eine Schlussfolgerung handelt.\cite{HEGKI2019Definition}    
     
     \subsection{Teilgebiet maschinelles Lernen}
     \label{subsubsec:teilgebietML}
@@ -139,12 +139,12 @@
  %       ZU ÜBERARBEITEN
         \\
         Zu Beginn wird das zu lösende Problem definiert, dabei geht es darum die Lernaufgabe des Modells festzulegen. Beim überwachten Lernen wird zwischen Regressionen und Klassifikation unterschieden. Regressionen kommen meist bei Schlussfolgerungen oder Vorhersagen zum Einsatz und Klassifikationen bei Entscheidungen. 
-        Anhand des Problems wird dann ein Alogirthmus als Grundlage für das Modell ausgewählt. Um den Modell nun Wissen beizubringen werden sogenannte Trainingsdaten verwendet. Dabei handelt es sich um Daten in dem Format, wie sie auch später im Betrieb als Eingaben X geliefert werden. Diese werden jedoch davor mit Labels versehen. Diese Labels werden durch Experten für die Trainingsdaten erstellt. Im nächsten Schritt wird dann das Modell auf Basis der Trainingsdaten trainiert. Diese Phase ist die entscheidende Lernphase des Modells. Im prinzip ist das Modell nach dem training bereit für den Einsatz. Meist wird jedoch noch mit einem, dem Modell bisher unbekannten und nicht gelabeldten, Datensatz überprüft ob das Modell richitg funktioniert und die Qualität anhand unterschiedlicher Metirken, wie der Genauigkeit bewertet. Danach ist das Modell einatzbereit und kann mit Eingaben X gespeist werden und schließt dann auf Basis des erlernten Wissens auf eine Ausgabe Y. \cite{Horn2022}\cite{Döbel2018}
-        Auf diese Art und weiße werden beim überwachten Lernen die input Output Probleme gelöst. \cite{Ng2018}
+        Anhand des Problems wird dann ein Alogirthmus als Grundlage für das Modell ausgewählt. Um den Modell nun Wissen beizubringen werden sogenannte Trainingsdaten verwendet. Dabei handelt es sich um Daten in dem Format, wie sie auch später im Betrieb als Eingaben X geliefert werden. Diese werden jedoch davor mit Labels versehen. Diese Labels werden durch Experten für die Trainingsdaten erstellt. Im nächsten Schritt wird dann das Modell auf Basis der Trainingsdaten trainiert. Diese Phase ist die entscheidende Lernphase des Modells. Im prinzip ist das Modell nach dem training bereit für den Einsatz. Meist wird jedoch noch mit einem, dem Modell bisher unbekannten und nicht gelabeldten, Datensatz überprüft ob das Modell richitg funktioniert und die Qualität anhand unterschiedlicher Metirken, wie der Genauigkeit bewertet. Danach ist das Modell einatzbereit und kann mit Eingaben X gespeist werden und schließt dann auf Basis des erlernten Wissens auf eine Ausgabe Y.\cite{Horn2022}\cite{Döbel2018}
+        Auf diese Art und weiße werden beim überwachten Lernen die input Output Probleme gelöst.\cite{Ng2018}
         \\
         Es gibt aber auch einige negative Eigenschaften die bei \ac{ML} Modelle zu berücksichtigen sind und zu möglichen Problemen führen können. Die meisten dieser Risiken lassen sich jedoch inzwischen durch Gegenmaßnahmen verhinder. Zu den Häufigsten Problemen gehören zu geringe Datenmengen, die Passgenauigkeit, Scheinkorrelationen und Verzerrungen. 
         \begin{enumerate}
-            \item Die Datenmenge ist ein entscheidender Faktor im überwachten Lernen. Viele Modelle scheitern daran, dass sie auf Basis von zu wenigen Trainingsdaten trainiert wurden und so nicht in der Lage sind treffende Schlüsse zu ziehen. \cite{Datenkommission2019}\cite{Ng2018}
+            \item Die Datenmenge ist ein entscheidender Faktor im überwachten Lernen. Viele Modelle scheitern daran, dass sie auf Basis von zu wenigen Trainingsdaten trainiert wurden und so nicht in der Lage sind treffende Schlüsse zu ziehen.\cite{Datenkommission2019}\cite{Ng2018}
             \begin{figure}[h]
                 \centering
                 \includegraphics[width = 8cm]{Bilder/Datenmenge.png}
@@ -168,10 +168,10 @@
                 \caption{Scheinkorrelationen in der Bilderkennung \cite{Lapuschkin2016}}
                 \label{fig:Scheinkorrelation}
             \end{figure} \\
-            Ein Beispiel dafür ist in Abbildung \ref*{fig:Scheinkorrelation} zu sehen. In der ein Pferdebild nicht anhand der Kontur des Pferdes, sondern anhand des Wasserzeichens in dem Bild erkannt wurde. Grund dafür war, dass einige der Trainingsdaten dieses Wasserzeichen beinhaltet haben und das Modell daraus eine Scheinkorrelation erlernt hat. \cite{Horn2022}\cite{Lapuschkin2016}\cite{Cremers2019}
+            Ein Beispiel dafür ist in Abbildung \ref*{fig:Scheinkorrelation} zu sehen. In der ein Pferdebild nicht anhand der Kontur des Pferdes, sondern anhand des Wasserzeichens in dem Bild erkannt wurde. Grund dafür war, dass einige der Trainingsdaten dieses Wasserzeichen beinhaltet haben und das Modell daraus eine Scheinkorrelation erlernt hat.\cite{Horn2022}\cite{Lapuschkin2016}\cite{Cremers2019}
             \item Ein letztes und schwerwiegendes Problem ist die Verzerrung von Trainingsdaten, auch Bias genannt. Dieser Aspekt wird später in Kapitel \ref*{subsubsec:Bias} genauer betrachtet. Allgemein kann man sagen, existieren Verzerrungen in Trainingsdaten, so wird das Modell diese Verzerrungen reproduzieren.\cite{Cremers2019}
         \end{enumerate}
-        Zusammenfassend wird bei \ac*{ML}, speziell beim überwachten Lernen auf Basis von Daten, Trainingsdaten genannt, Wissen aus der Vergangenheit erlernt. Dazu werden Zusammenhänge in den Daten genutzt und die dazugehörigen Bewertungen in Form von Labels. So entsteht eine äbhängigkeit des Modells von den Trainingsdaten. Im Falle von zu wenig Trainingsdaten, wird das Modell die Realität unterrepräsentieren und daher nicht einsetzbar. Die Daten selbst können aber ebenfalls zu Scheinkorrelationen und Verzerrungen führen die das Ergebnis des Modells mitunter stark beeinflussen. \cite{Cremers2019}
+        Zusammenfassend wird bei \ac*{ML}, speziell beim überwachten Lernen auf Basis von Daten, Trainingsdaten genannt, Wissen aus der Vergangenheit erlernt. Dazu werden Zusammenhänge in den Daten genutzt und die dazugehörigen Bewertungen in Form von Labels. So entsteht eine äbhängigkeit des Modells von den Trainingsdaten. Im Falle von zu wenig Trainingsdaten, wird das Modell die Realität unterrepräsentieren und daher nicht einsetzbar. Die Daten selbst können aber ebenfalls zu Scheinkorrelationen und Verzerrungen führen die das Ergebnis des Modells mitunter stark beeinflussen.\cite{Cremers2019}
  
     \newpage
     \subsection{Ethik in der künstlichen Intelligenz}
@@ -217,20 +217,22 @@
             \item \textbf{Transparenz} \\
             Mit der Transparenz ist in erster Linie die Transparenz der \ac*{KI} gemeint. Der Fokus liegt darauf, dass es für ein vertrauenswürdigen Umgang mit \ac*{KI} notwenig ist, nachzuvollziehen wie Entscheidungen getroffen werden. Der Bedarf von Transparenz ist besonders hoch, da Entscheidugen Unfair erscheinen können und eine Entscheidungsgrundlage klarhiet liefern kann. Technologisch handelt es sich jedoch bei den meisten Modellen um sogenannte Black-Box Modelle welche in ihrer Entscheidung nicht nachvollziehbar sind. Trotzdem wird von einer transparenten \ac*{KI} die Interpretierbarkeit, die Nachverfolgbarkeit sowie die Reproduzierbarkeit des Ergebnisses erwartet.\cite{Cremers2019}\cite{Hallensleben2020}\cite{Heesen2020}
             \item \textbf{Verlässlichkeit} \\
-            Die Verlässlichkeit ist die ein Aspekt der sich mit der tatsächlichen Funktion der \ac*{KI} befasst. Sie umfasst die Korrektheit der Ausgabe aber auch die technologische Robustheit. Für die Korrektheit ist die Implementierung des Modells sowie die verwendeten Trainingsdaten ausschlaggebend. Bei der technologischen Robustheit wird die Anfälligkeit für Fehler und Manipulationen adressiert. Insbesondere Adversial oder Poison attacks spielen bei der Gewährleistung von einer verlässlichen Funktion ein Risiko dar, da sie das Verhalten einer \ac*{KI} manipulieren können. Die Korrektheit durch Fehler oder Manipulationen gefährdet werden und so auch die Verlässlichkeit der \ac{KI}. Dabei ist die Verlässlichkeit die Grundlage für den Einsatz von \ac*{KI} und daher sowohl während der Entwicklung aber auch dem produktiven Einsatz zu jedem Zeitpunkt zu gewährleisten. \cite{Cremers2019}\cite{Hallensleben2020}
+            Die Verlässlichkeit ist die ein Aspekt der sich mit der tatsächlichen Funktion der \ac*{KI} befasst. Sie umfasst die Korrektheit der Ausgabe aber auch die technologische Robustheit. Für die Korrektheit ist die Implementierung des Modells sowie die verwendeten Trainingsdaten ausschlaggebend. Bei der technologischen Robustheit wird die Anfälligkeit für Fehler und Manipulationen adressiert. Insbesondere Adversial oder Poison attacks spielen bei der Gewährleistung von einer verlässlichen Funktion ein Risiko dar, da sie das Verhalten einer \ac*{KI} manipulieren können. Die Korrektheit durch Fehler oder Manipulationen gefährdet werden und so auch die Verlässlichkeit der \ac{KI}. Dabei ist die Verlässlichkeit die Grundlage für den Einsatz von \ac*{KI} und daher sowohl während der Entwicklung aber auch dem produktiven Einsatz zu jedem Zeitpunkt zu gewährleisten.\cite{Cremers2019}\cite{Hallensleben2020}
             \item \textbf{Sicherheit} \\
-            Bei der Sicherheit ist nicht die der \ac*{KI} selbst gemeint, denn diese ist Bestandteil der Verlässlichkeit. Die Sicherheit bezieht sich auf das gesamte System in dem sich die \ac*{KI} und deren Komponenten befinden. Dabei sollen mögliche Schwachstellen für den Missbrauch der \ac*{KI} geschützt werden aber auch allgemein die Sicherheitsanforderungen der gängien Zertifizierungen wie der ISO Norm 27001 für die allgemeine IT-Sicherheit.  \cite{Cremers2019}
+            Bei der Sicherheit ist nicht die der \ac*{KI} selbst gemeint, denn diese ist Bestandteil der Verlässlichkeit. Die Sicherheit bezieht sich auf das gesamte System in dem sich die \ac*{KI} und deren Komponenten befinden. Dabei sollen mögliche Schwachstellen für den Missbrauch der \ac*{KI} geschützt werden aber auch allgemein die Sicherheitsanforderungen der gängien Zertifizierungen wie der ISO Norm 27001 für die allgemeine IT-Sicherheit.\cite{Cremers2019}\cite{Hagendorff2020}
             \item \textbf{Datenschutz} \\
-            Um die Privatsphäre und so das Recht auf informationelle Selbstbestimmung gewährleisten zu können wird Datenschutz benötigt. Auch eine \ac*{KI} muss mit Datenschutzrichtlinien konfrontiert werden. Häufig wird mit sensiblen Daten, egal ob personenbezogene Daten oder Geschäftsgeheimnisse, gearbeitet die es sowohl rechtlich als auch ethisch betrachtet zu schützen gilt. Die Daten ermöglichen es nämlich selbst in teils anonymisierter From Rückschlüsse zu ziehen. Eine \ac*{KI} is daher verpflichtet die rehtlichen Bestimmungen der Datenschutz-Grundverordnung (DSGVO) und des Bundesdatenschutzgesetz (BDSG) einzuhalten. \cite{Cremers2019}
+            Um die Privatsphäre und so das Recht auf informationelle Selbstbestimmung gewährleisten zu können wird Datenschutz benötigt. Auch eine \ac*{KI} muss mit Datenschutzrichtlinien konfrontiert werden. Häufig wird mit sensiblen Daten, egal ob personenbezogene Daten oder Geschäftsgeheimnisse, gearbeitet die es sowohl rechtlich als auch ethisch betrachtet zu schützen gilt. Die Daten ermöglichen es nämlich selbst in teils anonymisierter From Rückschlüsse zu ziehen. Eine \ac*{KI} is daher verpflichtet die rehtlichen Bestimmungen der Datenschutz-Grundverordnung (DSGVO) und des Bundesdatenschutzgesetz (BDSG) einzuhalten.\cite{Cremers2019}
         \end{enumerate}
-        Die sechs Aspekte die aufgeführt wurden beantworten die viele Fragen, die im Zusammgenhang mit \ac*{KI} und Vertrauen auftreten.
+        Mit den sechs Aspekten die in Abbildung \ref*{fig:EthikAnforderungen} aufgeführt sind, werden jedoch nur die grundlegendsten Anforderungen an \ac*{KI} Systeme näher betrachtet. Neben diesen Anforderungen gibt es noch eine Vielzahl weiterer Aspekte die in einem bestimmten Kontext zwingend erfordelrich sind. 
         \begin{figure}[h]
             \centering
             \includegraphics[width = \textwidth]{Bilder/Ethical huidelines hagendorf 2020.png}
             \caption{Übersicht ethischer Leitlinien und die Abgedeckten Aspekte \cite{Hagendorff2020}}
             \label{fig:EthikGuidelines}
         \end{figure} \\
-        Um den aktuellen Stand der bereits existierenden Ethik Leitlinien wird die Abbildung \ref*{fig:EthikGuidelines} herangezogen.\cite{Hagendorff2020} \cite{jobin2019global}
+        In der Abbildung \ref*{fig:EthikGuidelines} werden unterschiedliche Leitlinien für vertrauneswürde \ac*{KI} verglichen. Für den Vergleich werden die unterschiedlichen betrachteten Aspekte der einzelnen Leitlinien aufgeführt. Die daraus entstehende Tabelle veranschaulicht dann, welche Leitlinie welche Aspekte beinhaltet. Zudem wurden die Aspekte der Häufigkeit nach absteigend sortiert. Das bedeutet, die oben stehenden Aspekte werden am häufigsten in Leitlinien betrachtet. Dabei stellt sich heraus, dass einige bereits erwähnte Aspekte wie die Fairness, Sicherheit und Verlässlichkeit in nahezu allen Leitlinien ein Bestandteil sind. Sie sind daher auch in \ref*{fig:EthikGuidelines} bei den obersten Punkten dabei. Es wird aber ebenso der Konflik mit der Erklärbarkeit und der Selbstbestimmtheit bzw. Autonomie veranschaulicht. Denn die Erklärbarkeit wird lediglich in 10 Leitlinien berücksichtigt und die Autonomie in nur 7 von gesamt 22 Leitlinien. Des Weiteren werden neu aufkommende Problematiken wie die Diversität im Umfeld von \ac*{KI} bisher nahezu gar nicht betrachtet.\cite{Hagendorff2020}\cite{jobin2019global} 
+        \\
+        Die Ethik spielt bei dem Einsatz von \ac*{KI} eine immer größer werdende Rolle. Ethik allein reicht jedoch nicht aus um eine vertrauenswürde \ac*{KI} zu schaffen. Es ist ein zusammenkomme von ethischen, rechtlichen und technologischen Herausforderungen, die es zu lösen gilt. Um ein einheitliches Verständnis von vertrauenswürdiger \ac*{KI} zu schaffen, werden Zertifizierungen benötigt. Nur so ist es möglich den Einsatz von \ac*{KI} auf einer vertrauenswürdigen Basis zu schaffen. Dabei müssen die grundlegenden Anforderungen wie Fairness, Autonomie, Sicherheit, Verlässlichkeit, Transparenz und Datenschutz immer erfüllt sein. Es kann zusätzlich noch weitere Anforderungen geben, die sich aufgrund der Rahmenbedingungen, dem Kontext oder den verarbeiteten Daten ergeben können.\cite{Cremers2019}\cite{Hagendorff2020}
 
 %#########################################
     \newpage
@@ -238,30 +240,61 @@
     \label{subsec:KIundbias}
     \subsection{Bias}
     \label{subsubsec:Bias}
-        - ML ist immer auf Basis von Daten aus der Vergangenheit 
-        -   Begriffserklärung: Data Bias vs Bias Verzerrung\\
-        -   Arten von Bias: \\
-            -   Bias durch Abwesenheit - Wenn eine Info fehlt, kann das zu Diskriminierung führen. \\
-            -   Diskriminierung durch Menschen. \\
-        Arten von Bias: Cognitive, Social, Perceptual und Motivational Bias \cite{HEGKI2019Definition}\cite{Parkavi2018} \cite{Fabi2022}
+        Als Bias versteht man in der Literatur allgemein eine Verzerrung eines Wertes oder die Abweichung von einem Standard.\cite{Fabi2022} Der Begriff stammt urspünglich aus dem Englischen und ist auf Deutsch übersetzt gleichbedeutend mit den Worten: Vorurteil, Voreingenommenheit, Neigung und Tendenz. In der \ac*{KI} versteht man unter Bias ebenfalls eine Verzerrung. Dabei bezieht sich die Verzerrung jedoch meist auf die Ausgabe einer \ac*{KI}, also der Ausgabe von \ac*{ML} Algorithmen.\cite{Dilmegani2020} Der Bias selbst ist dabei unabhängig von einer positiven oder negativen Verzerrung.\cite{silberg2019notes}
+        Diese Verzerrungen durch einen Bias werden in das Konzept der vertrauenswürdigen \ac*{KI}, aus Kapitel \ref{subsubsec:ethikinderKI}, in den Aspekt der Fairness eingeordnet. Fairness selbst, ist ein elementarer Bestandteil der Ethik in der Gesellschaft. Etwas gilt als \glqq{}fair\grqq{}, wenn keine unzulässige Ungleichbehandlung stattfindet. Im Umkehrschluss gilt etwas als \glqq{}unfair\grqq{}, wenn es eine Gruppe oder Individuen aufgrund von Eigenschaften ungerechtfertigt systematisch Diskriminiert.\cite{silberg2019notes}
+        \\
+        Für die Arbeit wird speziell der Bias im \ac*{ML} betrachtet. Schwerpunkt wird dabei auf den negativen Einfluss von Verzerrungen im \ac*{ML} und die Auswirkungen eines Bias auf die Ausgabe gelegt. Ein Bias im \ac*{ML} kann aus unterschiedlichen Gründen zustande kommen. Dabei wird in der Literatur oft eine Unterscheidung in die drei Bereiche Bias durch Daten, Bias durch Algorithmen und Bias durch Menschen gemacht.\cite{srinivasan2021biases}\cite{Mehrabi2021}
+        \begin{itemize}
+            \item \textbf{Bias durch Daten} \\
+            Der Bias durch Daten hat seinen Ursprung in der Art wie \ac*{ML} funktioniert. Wie bereits in Kapitel \ref{subsubsec:teilgebietML} genauer beschrieben, wird beim \ac*{ML} mit Trainingsdaten gearbeitet. 
+            \\
+            - Bias aufgrund von Daten --> Über oder Unterrepräsentation von bestimmten Gruppen \\
+            - ML ist immer auf Basis von Daten aus der Vergangenheit \\
+            \textbf{Aufzählung der Arten}
+
+            \item \textbf{Bias durch Algorithmen} \\
+            - algorithmen versuchen das Verhalten einer Person nachzubilden -> Hat eine Person ein Rassistisches Verhalten --> Später unsere Bewertung, wird die Ki auch dieses verhalten besitzen \\
+            - Bias durch Abwesenheit - Wenn eine Info fehlt, kann das zu Diskriminierung führen. --> Algorithmen \\
+            \textbf{Aufzählung der Arten}
+
+            \item \textbf{Bias durch Menschen} \\
+            Dieser Aspekt der Verzerrung von Ergebnissen wird in der Arbeit jedoch nicht tiefer gehend betrachtet, da es sich mehr um ein ethisches Problem der Gesellschaft handelt, als speziell um ein Konflik in der Nutzung von \ac*{KI}.\\
+            - Egal ob von einem Algorithmus beeinfluss oder nicht menschen können Vorurteile besitzen --> Einfluss auf die Generierung von Daten  \\
+            - Diskriminierung durch Menschen. \\
+            \textbf{Aufzählung der Arten}
+
+        \end{itemize}\cite{Mehrabi2021}
+        Letztendlich wird unabhängig von der Ursache des Bias eine Verzerrung des Ergebnisses verursacht. Dabei werden Freiheiten von Personen eingeschränkt und gegen die Anforderungen der Fairness und Autonomie, wie es durch die vertrauenswürdige \ac*{KI} gefordert wird, verstoßen.
+        \\
+        \cite{HEGKI2019Definition}\cite{Parkavi2018}\cite{Fabi2022}\cite{Mehrabi2021}\cite{ntoutsi2020bias}\cite{silberg2019notes}\cite{srinivasan2021biases}
 
     \subsection{Diskriminierung durch Vorurteile in Daten}
     \label{subsubsec:diskriminierungdurchverzerrung}
-
-        - Wie funktioniert Bias in Daten
-        - Was ist die Problematik
-        - Welche Auswirkungen hat es 
-        - Realbeispiele <-- Bewerbungsverfahren
-        \cite{IncidentDatabase2015_16} \cite{hagendorff2019maschinelles}
+        Disrikimierung durch \ac*{KI} sorgt in der öffentlichkeit immer wieder für Schlagzeilen.\cite{Cremers2019}
+        \\
+        Schwarze werden als Gorillas erkannt \cite{Cremers2019} \\
+        Frauen werden benachteiligt \cite{Cremers2019} \\
+        Chat bot wird ein rassist \cite{Cremers2019}\cite{IncidentDatabase2015_16} \\
+        Schwarze sind automatisch kriminell \cite{Cremers2019}\cite{MachineBias2016} \\
+        \\
+        \cite{hagendorff2019maschinelles}
 
     \subsection{Gegenma{\ss}nahmen}
     \label{subsubsec:gegenmassnahmen}
         - Was kann man dagegen tun?
         - Gibt es möglichkeiten Trainingsdaten künstlich zu erzeugen und so eine neutrale betrachtung zu schaffen
         - Parameter entfernen als Lösung --> Die KI wird aber dadurch schlechter 
-        - 
-
+        \\
         Wenn der Parameter mit dem Bias entfernt wird, wird das Ergebnis erstmal schlechter. 
+        \\
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = \textwidth]{Bilder/MinimizingBias.png}
+            \caption{Ansätze um Bias in der \ac*{KI} zu minimieren \cite{Dilmegani2020}}
+            \label{fig:MinimizeBias}
+        \end{figure} \\
+
+        \cite{Drew2019}\cite{Dilmegani2020}
         
     \newpage
 \end{onehalfspace}

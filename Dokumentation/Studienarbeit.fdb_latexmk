@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Studienarbeit"] 1654072323 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1654072348
-  "Literatur.bib" 1654072298 13781 34c3fe0ed777bb18f548e385a7d4945a ""
-  "Studienarbeit.bcf" 1654072347 114853 146fe2483fab1f273b68e1e80d0f6feb "pdflatex"
+["biber Studienarbeit"] 1654122405 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1654122414
+  "Literatur.bib" 1654093310 17762 4f0e56c54a04d16ff6032eb03b5e25cc ""
+  "Studienarbeit.bcf" 1654122413 116629 e32b7f6a80e28d99bd63fc26ae790b33 "pdflatex"
   (generated)
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
-["pdflatex"] 1654072340 "c:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1654072348
+["pdflatex"] 1654122408 "c:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1654122414
   "Bilder/3VRule.png" 1653307120 114313 51d76908a2deb5b55c867e1748e72dbb ""
   "Bilder/Annual_Data_Size.png" 1653031594 73043 e85836d9e8ce4d57a4dc064d229dc13f ""
   "Bilder/Data_quality_dimensions.png" 1653312027 637825 1f8dc07c24b5e5119da6da898b5dbfcc ""
@@ -13,6 +13,7 @@
   "Bilder/Ethical huidelines hagendorf 2020.png" 1654071439 393790 9b3cffdde320f4547c3d9a5818d2301d ""
   "Bilder/Gartner_hypeCycle.png" 1653571809 117584 28402b1eb9c212aaca76584986bd4342 ""
   "Bilder/Grafik-KI_Whitepaper_final_WEB_2.png" 1653604895 66404 7eb92e15ef758f838d60e420fb862b43 ""
+  "Bilder/MinimizingBias.png" 1654092340 177909 3a4f034c3951bce780f4736252818bd9 ""
   "Bilder/Scheinkorrelation.png" 1653851515 606026 33a57fd26368933427c482c55a05eba9 ""
   "Bilder/dhbw.png" 1652789967 28036 72715f284b6ae369970da384742d8059 ""
   "Bilder/ml_algorithms.png" 1653469267 113682 908d320fae96b2b1e3a01e4c14a943d7 ""
@@ -296,20 +297,20 @@
   "Diagramme/Sz2_Auswahl_Lage.JPG" 1653399344 14906 27b36fd40bed3892caa14115f49a0f9c ""
   "Diagramme/Sz2finish.JPG" 1653560963 74602 c0c6d826187923d75ecb420a381ef404 ""
   "Diagramme/Verbindung_der_Attribute_S2.jpg" 1652789967 9678 7c92f20aa2abf903848e3c99cd36b585 ""
-  "Studienarbeit.aux" 1654072347 33008 e577193d62b54e2b65de52f4b073f3a4 "pdflatex"
-  "Studienarbeit.bbl" 1654072327 54245 491d204d1eaeeeb9ce05339ee9729e77 "biber Studienarbeit"
-  "Studienarbeit.lof" 1654072347 4531 93dedff3eab0c69260260119a06880ca "pdflatex"
-  "Studienarbeit.lot" 1654072347 1813 2b17c00fdfe7e24a39d09a0689137db1 "pdflatex"
-  "Studienarbeit.out" 1654072347 5088 644e0caf93dd8819439f3fb006ff4371 "pdflatex"
-  "Studienarbeit.run.xml" 1654072347 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
+  "Studienarbeit.aux" 1654122413 35498 6ab05fcc2aec6ebe2f0350a202df3212 "pdflatex"
+  "Studienarbeit.bbl" 1654122408 67846 a6199bd905a043e587333ea398ea6d0b "biber Studienarbeit"
+  "Studienarbeit.lof" 1654122413 4713 fa72b61a2b376bc213676e3f197b9233 "pdflatex"
+  "Studienarbeit.lot" 1654122413 1813 a9885277ec42ae0fc059e47240ceca71 "pdflatex"
+  "Studienarbeit.out" 1654122413 5088 644e0caf93dd8819439f3fb006ff4371 "pdflatex"
+  "Studienarbeit.run.xml" 1654122413 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
   "Studienarbeit.tex" 1653380868 4308 0f6ea5b1de8733421d7ff6c5c7ce3476 ""
-  "Studienarbeit.toc" 1654072347 2850 37f27374ae8b333fe14b614817533308 "pdflatex"
+  "Studienarbeit.toc" 1654122413 2850 085065eaa162dbc0cdaf45943e85cc73 "pdflatex"
   "ads/abkürzungen.tex" 1653316456 1054 1ab9b4f715ce32cdff45b9ab71d05853 ""
   "ads/deckblatt.tex" 1652789967 1314 4efcf5415aeccd2092b638a60e2680ab ""
   "ads/erklärung.tex" 1652789967 624 2790cbdcf2ccbb22eab4cbb2f3a3d6eb ""
   "c:/GitHub/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1653380868 4308 0f6ea5b1de8733421d7ff6c5c7ce3476 ""
   "content/01kapitel.tex" 1653986696 9963 429108984d2f2be63961b3843814fa1b ""
-  "content/02kapitel.tex" 1654072314 39588 a061215210acfa1fa9a485593ae89160 ""
+  "content/02kapitel.tex" 1654122398 45366 b060d2d0ad15abd2499d2c92bd71cd7a ""
   "content/03kapitel.tex" 1653639523 66784 c3b43b3d3b75ad84bfc7e46866e164d5 ""
   "content/04kapitel.tex" 1652789967 808 021c5d687aa76221fb1dc444f480e061 ""
   (generated)
