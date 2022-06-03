@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12.10) (preloaded format=xelatex 2021.12.10)  3 JUN 2022 18:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12.10) (preloaded format=xelatex 2021.12.10)  3 JUN 2022 18:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2440,11 +2440,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 466--471
-
- []
-
-) (content/04kapitel.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2452,7 +2447,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60]
+[60]) (content/04kapitel.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61]
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -2466,7 +2469,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61
+[62
 
 ])
 
@@ -2496,4 +2499,4 @@ Here is how much of TeX's memory you used:
  1350 hyphenation exceptions out of 8191
  103i,19n,105p,2446b,6031s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on c:\Users\Zahnbürste_HQ\Documents\AA_Studium\Bachelor\6. Semester\Studienarbeit\Datengenerator-fuer-Daten-mit-Bias\Dokumentation\build\Studienarbeit.xdv (69 pages, 408448 bytes).
+Output written on c:\Users\Zahnbürste_HQ\Documents\AA_Studium\Bachelor\6. Semester\Studienarbeit\Datengenerator-fuer-Daten-mit-Bias\Dokumentation\build\Studienarbeit.xdv (70 pages, 410984 bytes).

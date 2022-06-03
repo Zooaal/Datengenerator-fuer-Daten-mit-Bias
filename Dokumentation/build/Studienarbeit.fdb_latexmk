@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Studienarbeit"] 1654272072 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1654272246
+["bibtex Studienarbeit"] 1654272072 "Studienarbeit.aux" "Studienarbeit.bbl" "Studienarbeit" 1654275133
   "Studienarbeit.aux" 1654270906 41323 fa5a628a6f9641ee72dbab4f1b1bb3c5 ""
   (generated)
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
-["xdvipdfmx"] 1654272241 "build/Studienarbeit.xdv" "build/Studienarbeit.pdf" "build/Studienarbeit" 1654272246
-  "build/Studienarbeit.xdv" 1654272241 408448 ebdf32fa9f4ec92e6f6ba287f69c60d3 "xelatex"
+["xdvipdfmx"] 1654275128 "build/Studienarbeit.xdv" "build/Studienarbeit.pdf" "build/Studienarbeit" 1654275133
+  "build/Studienarbeit.xdv" 1654275128 410984 5551befba0a0420f3c246123f4b57ec0 "xelatex"
   (generated)
   "build/Studienarbeit.pdf"
-["xelatex"] 1654272194 "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/6. Semester/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "build/Studienarbeit.xdv" "Studienarbeit" 1654272246
+["xelatex"] 1654275076 "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/6. Semester/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "build/Studienarbeit.xdv" "Studienarbeit" 1654275133
   "Bilder/3VRule.png" 1654270905 114313 51d76908a2deb5b55c867e1748e72dbb ""
   "Bilder/Annual_Data_Size.png" 1654270905 73043 e85836d9e8ce4d57a4dc064d229dc13f ""
   "Bilder/Bias_cyrcle.png" 1654270905 57898 43e3a8ccc0770922d0a2bb1124c0fa2f ""
@@ -32,16 +32,16 @@
   "Studienarbeit.bbl" 1654272072 0 d41d8cd98f00b204e9800998ecf8427e "bibtex Studienarbeit"
   "Studienarbeit.tex" 1654270906 5991 c112cf9916764ed4965965d0e2bc011f ""
   "ads/deckblatt.tex" 1654270906 1314 4efcf5415aeccd2092b638a60e2680ab ""
-  "build/Studienarbeit.aux" 1654272241 41089 c949803451dc842a20447b00e9024519 "xelatex"
-  "build/Studienarbeit.lof" 1654272241 3901 6c156a5e1fc747f47ce7831402a77068 "xelatex"
-  "build/Studienarbeit.lot" 1654272241 2641 2287ab0483bb1fb4ab623e495a01c604 "xelatex"
-  "build/Studienarbeit.out" 1654272241 5997 24338604ec340b476cbcc754ca67300b "xelatex"
-  "build/Studienarbeit.run.xml" 1654272241 2563 3e41da001c65ff46b18e86936abc07f7 "xelatex"
-  "build/Studienarbeit.toc" 1654272241 4452 061ec3c4b5acadc97d02958e4fbc5bdd "xelatex"
+  "build/Studienarbeit.aux" 1654275128 41089 c6526c16e4c7af7b77c204dd548f8b34 "xelatex"
+  "build/Studienarbeit.lof" 1654275128 3901 6c156a5e1fc747f47ce7831402a77068 "xelatex"
+  "build/Studienarbeit.lot" 1654275128 2641 2287ab0483bb1fb4ab623e495a01c604 "xelatex"
+  "build/Studienarbeit.out" 1654275128 5997 24338604ec340b476cbcc754ca67300b "xelatex"
+  "build/Studienarbeit.run.xml" 1654275128 2563 3e41da001c65ff46b18e86936abc07f7 "xelatex"
+  "build/Studienarbeit.toc" 1654275128 4452 77f81687779dffa5b3680f060d478256 "xelatex"
   "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/6. Semester/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1654270906 5991 c112cf9916764ed4965965d0e2bc011f ""
   "content/01kapitel.tex" 1654270906 9963 429108984d2f2be63961b3843814fa1b ""
   "content/02kapitel.tex" 1654270906 64671 21922461171b490e4da105e6bbf0b570 ""
-  "content/03kapitel.tex" 1654272145 76598 31f0564df52d1bfb40e4c3aef259a6b4 ""
+  "content/03kapitel.tex" 1654275075 78237 7a78a0d04ea7b590b34e115b880641de ""
   "content/04kapitel.tex" 1654270906 808 021c5d687aa76221fb1dc444f480e061 ""
   (generated)
   "build/Studienarbeit.aux"

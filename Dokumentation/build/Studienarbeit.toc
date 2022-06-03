@@ -63,12 +63,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Datenauswertung}{60}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{60}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{61}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Schluss}{61}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Schluss}{62}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{61}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{62}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Diskussion}{61}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Diskussion}{62}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Ausblick}{61}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Ausblick}{62}{section.4.3}%
