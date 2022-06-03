@@ -325,7 +325,7 @@
         \\
         Entscheidend, um bewusst Gegenma{ss}nahmen gegen einen Bias einleiten zu können ist die Transparenz der \ac*{KI}. Die Transparenz ermöglicht es, Entscheidungen einer \ac*{KI} nachzuvollziehen und mögiche Verzerungen zu identifizieren. Für die Erkennung und Eliminierung gibt es verschiedene Ansätze. Dazu gehören sowohl technische Maßnahmen, als auch organisatrische Maßnahmen die ergriffen werden können. 
         \begin{description}
-            \item[Technische Maßnahmen] \hfill \\
+            \item[Technische Maßnahmen] \hfill
             \begin{description}
                 \item[Bereinigung der Trainingsdaten] \hfill \\
                 Die Bereinigung der Trainingsdaten ist eine mögliche Maßnahme im Umgang mit einem erkannten Bias. Dazu werden die Einflussfaktoren, bei einer Regression beispielsweise die Korrelationskoeffizienten, genauer analysiert. Als Reaktion auf einen unzulässigen Einflussfaktor wird dieser aus der Entscheidungsfindung entfernt. So hat das für den Bias ausschlaggede Attribut zukünftig keinen Einfluss auf die Ausgabe der \ac*{KI} bzw. des \ac*{ML} Algorithmus. Es ist zudem Egal um welche Art von Bias es sich in den Daten handelt. Durch die Entfernung werden zukünftige Bewertungen nicht mehr Verzerrt sein sowie die Daten selbst. Es wird für das zukünftige Training verhindert, dass aus den Daten eine Verzerrung erlernt werden kann, die den Algorithmus und die Ausgabe beinflussen können.\cite{hagendorff2019maschinelles} Neben der Bereinigung des Bias verliert das Modell jedoch auch an Genauigkeit. Umgangssprachlich gesagt, wird dem Modell seine Entscheidungsgrunlage weggenommen und dieses muss die Neuen, meist tatsächlichen Zusammenhänge erst erlernen. So kann es dazu führen, dass das Modell ohne das Attribut nicht genug generalisiert und es zum underfitting kommt. Häufig kann dem entgegengesteuert werden, in dem mehr Trainingsdaten verwendet werden. In extremen Fällen kann es aber auch passieren, dass das Modell keine anderen Zusammenhänge auffinden kann und somit die \ac*{KI} in diesem Anwendungsfall vollkommen unbrauchbar wird.\cite{hagendorff2019maschinelles}
@@ -339,7 +339,7 @@
 
             \end{description}
 
-            \item[Organisatorische Maßnahmen] \hfill \\
+            \item[Organisatorische Maßnahmen] \hfill
             \begin{description}
                 \item [Regelmäßig Überprüfung] \hfill \\
                 Für die Frühzeitige Erkennung eines Bias ist eine regelmäßige Überprüfung zwingend notwendig. Zu überprüfen sind dabei alle Ursachen von Biasen. Dazu gehört die Auswahl und Erstellung der Trainingsdaten, die Bewerter der Trainingsdaten und der \ac{ML} Algorithmus. 
