@@ -1,0 +1,134 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Horn2022}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b41d6da949a5c0b81ffcd5a2c57eb90a}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{fullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{bibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authorbibnamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authornamehash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \strng{authorfullhash}{b41d6da949a5c0b81ffcd5a2c57eb90a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 22.05.2022 [Online]. Verfügbar:\url{https://franziskahorn.de/mlbook_all.html}}
+      \field{edition}{Version 1.3, 02.02.2022}
+      \field{title}{A Practitioner’s Guide to Machine Learning}
+      \field{year}{2022}
+    \endentry
+    \entry{Otto2019}{misc}{}
+      \name{author}{10}{}{%
+        {{hash=47b6ff6bcb1c3b107867b3a8f8f2d8db}{%
+           family={Otto},
+           familyi={O\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f151f355343a7f42784fc1fa3150b30d}{%
+           family={Lis},
+           familyi={L\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=df3c57eb5b33bd18075548224dcda30e}{%
+           family={Jürjes},
+           familyi={J\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=889234aff92ac56a13fb3582231ba1d5}{%
+           family={Cirullies},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2639475e0d101d20461e2a55a0e1892f}{%
+           family={Opriel},
+           familyi={O\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d9b3e23746c76ef6419b7f77905ec8ed}{%
+           family={Howar},
+           familyi={H\bibinitperiod},
+           given={Falk},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f6089a62ae96318cd0e9dd1c2c745e6c}{%
+           family={Meister},
+           familyi={M\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=951f7c6e9fad51f2fd8d0a5c2b8fa44c}{%
+           family={Spiekermann},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2d9bf97af1ca8503a8678d9254c4aee}{%
+           family={Pettenpohl},
+           familyi={P\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ad6a39b7d67fa744bd9791ff574ba404}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{fullhash}{f5c7b8d35c821b4e48389851cf829408}
+      \strng{bibnamehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{authorbibnamehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{authornamehash}{120dddfbcfcdce6331900a201f017f7c}
+      \strng{authorfullhash}{f5c7b8d35c821b4e48389851cf829408}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Ecosystems}
+      \field{year}{2019}
+    \endentry
+    \entry{Cremers2019}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d5f9ee334c9e28a468affb8bd745845f}{%
+           family={Cremers},
+           familyi={C\bibinitperiod},
+           given={Armin\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a942fd1cdac7b49ac4cd04a21f5b5e0b}{%
+           family={Englander},
+           familyi={E\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{fullhash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{bibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authorbibnamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authornamehash}{49647725ff82ff3c110cbdc2595c7b47}
+      \strng{authorfullhash}{49647725ff82ff3c110cbdc2595c7b47}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff:
