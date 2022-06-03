@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  3 JUN 2022 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  3 JUN 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1735,20 +1735,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42]
-<Diagramme/Sz1_Regeln.drawio.png, id=1026, 327.2225pt x 613.29124pt>
+<Diagramme/Sz1_Regeln.drawio.png, id=1025, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 205.
 (pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43 <./Diagramme/Sz1_Regeln.drawio.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1756,7 +1751,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44]
+[43]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44 <./Diagramme/Sz1_Regeln.drawio.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1881,7 +1884,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]) (content/04kapitel.tex
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 466--469
+
+ []
+
+) (content/04kapitel.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1950,7 +1958,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64] (Studienarbeit.aux)
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 7DEE9BC2A182293E140D4881AA1F8E48;5943.
+(rerunfilecheck)             Checksum: CB8DB4F041A07621370BE27FE152F148;6103.
 Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 \openout1 = `Studienarbeit.run.xml'.
 
@@ -1958,13 +1966,13 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 Here is how much of TeX's memory you used:
  45946 strings out of 478547
  1021225 string characters out of 2840420
- 2003482 words of memory out of 3000000
+ 2003637 words of memory out of 3000000
  62951 multiletter control sequences out of 15000+600000
  528619 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  103i,19n,105p,2451b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Studienarbeit.pdf (72 pages, 4150428 bytes).
+Output written on Studienarbeit.pdf (72 pages, 4151223 bytes).
 PDF statistics:
  1481 PDF objects out of 1728 (max. 8388607)
  354 named destinations out of 1000 (max. 500000)
