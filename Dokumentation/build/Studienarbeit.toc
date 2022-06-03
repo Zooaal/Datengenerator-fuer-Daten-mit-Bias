@@ -1,0 +1,74 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abkürzungsverzeichnis}{V}{chapter*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abbildungsverzeichnis}{VI}{chapter*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Tabellenverzeichnis}{VII}{chapter*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Zielsetzung}{3}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{4}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Stand der Technik}{5}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Daten als wertschöpfende Ressource}{5}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Daten}{5}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Datenqualität}{7}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}\ac {KI}}{10}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Künstliche Intelligenz allgemein}{10}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Teilgebiet maschinelles Lernen}{11}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Ethik in der künstlichen Intelligenz}{17}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Vorurteile im Zusammenhang mit \ac {KI}}{23}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Bias}{23}{subsection.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Diskriminierung durch Vorurteile in Daten}{27}{subsection.2.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Gegenma{\ss }nahmen}{29}{subsection.2.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Praktischer Teil}{32}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Szenarien}{32}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Szenario zur Bewertung von Bewährungsanträge}{32}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Szenario zur Vorhersage eines sozialen Punktesystems}{33}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Vergleich der Szenarien}{34}{subsection.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Konzeption}{35}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{35}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{36}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Umsetzung}{40}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario zur Bewertung von Bewährungsanträge}{40}{subsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario zur Vorhersage von einem sozialen Punktesystem}{49}{subsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Datenauswertung}{60}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{60}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Schluss}{61}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{61}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Diskussion}{61}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Ausblick}{61}{section.4.3}%
