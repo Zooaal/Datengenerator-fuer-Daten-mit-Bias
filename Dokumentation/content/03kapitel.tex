@@ -151,7 +151,7 @@ Für die Bestimmung einer Ausprägung der Härte der Strafe, ist die Berechnung 
 \label{table:4}
 \end{table}\\
 Die in Tabelle \ref{table:4} gezeigten Wahrscheinlichkeiten ergeben sich aus dem Beitrag des U.S. Department of Justice vom April 2019. In diesem ist in \glqq{}Table 12\grqq{} eine prozentuale Verteilung von den Strafgruppen Gewalttätig, Eigentum, Drogen, Öffentliche Ordnung und Sonstige über die Geschlechter \ac{W} und \ac{M} aus dem Dezember 2016 aufgelistet. Dabei sind die Strafen nach den schwersten Delikten absteigend aufgeführt. Somit wird diese Verteilung auf die in der Konzeption definierten Ausprägungen Leicht, Mittel und Hart verteilt. So wird der Prozentsatz der gewalttätigen Strafen Hart zugeordnet, die Eigentumsstrafen Mittel zugeordnet und die Drogen, Öffentliche Ordnung und Sonstigen Strafen Leicht zugeordnet. Dadurch ergeben sich auf Grundlage der Zahlen aus den USA die Wahrscheinlichkeiten in der Tabelle \ref{table:4}.\cite[S. 21]{Bronson2017}\\
-Um die Bestimmung der Härte der Strafe nun durchzuführen, wird der selbe Code wie in Abbildung \ref{fig:GeschlechtscodeS1} gezeigt auf dieses Attribut angepasst und im Verbund mit einer if Abfrage zur Überprüfung des Geschlechts umgesetzt. So wird entsprechend dem Geschlecht einer Person nach den dazu passenden Wahrscheinlichkeiten die Härte der Strafe zufällig ausgewählt.\\
+Um die Bestimmung der Härte der Strafe nun durchzuführen, wird der selbe Code wie im Listing \ref{lst:GeschlechtscodeS1} gezeigt auf dieses Attribut angepasst und im Verbund mit einer if Abfrage zur Überprüfung des Geschlechts umgesetzt. So wird entsprechend dem Geschlecht einer Person nach den dazu passenden Wahrscheinlichkeiten die Härte der Strafe zufällig ausgewählt.\\
 \textbf{Hautfarbe}\\
 Formel zur Berechnung der Hautfarbe basierend auf dem Vorwissen des Geschlechtes:\\
 Gegeben: Gesamt \ac{W}/\ac{M} = Anzahl an Weißen und Schwarzen Gefangenen pro (G)Geschlecht = S(Schwarz) + Wi(Weiß)\\
@@ -188,16 +188,16 @@ Gegeben: Gesamt \ac{W}/\ac{M} = Anzahl an Weißen und Schwarzen Gefangenen pro (
 \label{table:5}
 \end{table}\\
 Die in der Tabelle \ref{table:5} dargestellten Berechnungen und daraus resultierenden Wahrscheinlichkeiten beruhen erneut auf der Veröffentlichung vom U.S. Department of Justice. In dieser sind in \glqq{}Table 8\grqq{} die Gefangenen nach Geschlecht und ethischen Gruppen aufgeteilt. Zur Vereinfachung wurden für die Hautfarbe jedoch nur zwischen Schwarz und Weiß unterschieden. Dabei werden Ethnien bewusst nicht gesondert berücksichtigt. Somit sind lediglich die Zahlen für die Anzahl an der Gruppe Schwarz und Weiß nach Geschlecht Männlich Weiblich von Interesse. Um daraus Prozentwerte zu bilden, nach welchen dann eine Person entweder die Hautfarbe Schwarz oder Weiß bekommt, wurde die oben gezeigte Formel aufgestellt. Für die Formel wird zuerst zum einen die Gesamtheit an Schwarzen sowie Weißen männlichen Personen und zum anderen die Gesamtheit an Schwarzen sowie Weißen weiblichen Personen gebildet. Daraufhin können basierend auf diesen Gesamtwerten die Wahrscheinlichkeitsverteilungen für Männlich und Schwarz, Männlich und Weiß, Weiblich und Schwarz, Weiblich und Weiß anhand der Formel berechnet werden.\\
-Damit diese Wahrscheinlichkeiten bei der Bestimmung angewendet werden können, wird wie schon bei der Härte der Strafe, der Code aus Abbildung \ref{fig:GeschlechtscodeS1} durch eine if Abfrage erweitert und an dieses Attribut angepasst.\\
+Damit diese Wahrscheinlichkeiten bei der Bestimmung angewendet werden können, wird wie schon bei der Härte der Strafe, der Code aus Listing \ref{lst:GeschlechtscodeS1} durch eine if Abfrage erweitert und an dieses Attribut angepasst.\\
 Als letztes Attribut wird noch eine Ausprägung für die Länge der Strafe bestimmt. Hierfür wird mit der \glqq{}numpy\grqq{} Bibliothek eine zufällige Ganzzahl zwischen eins und fünf ausgewählt.\\
 Um einen Schleifendurchlauf abzuschließen werden die durch Wahrscheinlichkeiten bestimmten Werte zusammen als ein Dictionary als neuen Eintrag in ein Array mit der Zuordnung(Attribut:Ausprägung) hinzugefügt. Damit ist ein Schleifendurchlauf abgeschlossen und der nächste kann beginnen. Wenn die Schleife fertig ist, wird das volle Array mit den gespeicherten Einträgen aus der Methode, zum Datengenerieren, zurückgegeben und diese ist damit auch vollends durchgeführt.\\
-Als nächsten, aus der Konzeption definierten Prozessschritt, nach dem generieren der Daten, wird das aufstellen der Regeln umgesetzt. Hierfür wird die Methode \glqq{}create\_Rules\grqq{} mit den Parametern \glqq{}request\_values, request\_bias, bias\grqq{} implementiert. Der Parameter \glqq{}request\_values\grqq{} ist ein Dictionary mit den Keys an den für die Bewertung relevanten Attributen und den dazugehörigen Ausprägungen in einem Array als Value. In diesem Fall sind es wie in der Konzeption definiert die Attribute Härte der Strafe und Laufende Strafe, welche wie in der folgenden Abbildung \ref{fig:RequestValues} im Dictionary angegeben werden.\\
-\begin{figure}[h]
-    \centering
-    \includegraphics{Diagramme/Sz1_RequestValues.JPG}
-    \caption{Codezeilen zum Erstellen eines Dictionary mit den zur Bewertung relevanten Attributen}
-    \label{fig:RequestValues}
-\end{figure}\\
+Als nächsten, aus der Konzeption definierten Prozessschritt, nach dem generieren der Daten, wird das aufstellen der Regeln umgesetzt. Hierfür wird die Methode \glqq{}create\_Rules\grqq{} mit den Parametern \glqq{}request\_values, request\_bias, bias\grqq{} implementiert. Der Parameter \glqq{}request\_values\grqq{} ist ein Dictionary mit den Keys an den für die Bewertung relevanten Attributen und den dazugehörigen Ausprägungen in einem Array als Value. In diesem Fall sind es wie in der Konzeption definiert die Attribute Härte der Strafe und Laufende Strafe, welche wie in der folgenden Abbildung \ref{lst:RequestValues} im Dictionary angegeben werden.\\
+\begin{lstlisting}[language=Python,label={lst:RequestValues},caption=Codezeilen zum Erstellen eines Dictionary mit den zur Bewertung relevanten Attributen]
+request_values = {
+    "Laufende_Strafe": [1,2,3,4,5],
+    "Haerte_des_Vergehens": ["Leicht", "Mittel", "Hart"]
+}
+\end{lstlisting}
 Der Parameter \glqq{}request\_bias\grqq{} ist genau gleich aufgebaut, beinhaltet jedoch die Attribute Geschlecht und Hautfarbe und deren Ausprägung. Dieser gibt die Liste der durch Verzerrung beeinflussbaren Attribute an. Der letzte Parameter \glqq{}bias\grqq{} gibt die gewünschte Verzerrung ebenfalls wie die anderen Parameter an. 
 In der Methode werden vier Rückgabewerte als Dictionaries generiert. Ein Dictionary für die Regeln der positiven Auswirkung, eines für die negative Auswirkung und nochmals die selben zwei Listen ergänzt durch die gewünschte Verzerrung. 
 \begin{figure}[h]
@@ -210,43 +210,74 @@ In Abbildung \ref{fig:Sz1Regeln} ist der Ablauf der Methode als Programmablaufpl
 Im nächsten Punkt wird überprüft, ob ein Bias angegeben wurde. Wenn kein Bias angegeben wurde, werden die zuvor erstellten und kopierten Regeln als die vier Dictionaries zurückgegeben. Falls ein Bias angegeben wurde, wird für jeden Key in \glqq{}request\_bias\grqq{} überprüft, ob dieser dem Bias entspricht. Sobald der Key und damit das Attribut, welches verzerrt werden soll, gefunden ist werden die Ausprägungen, welche im Bias angegeben wurden, den negativen Bias Regeln hinzugefügt und die anderen übrig gebliebenen den positiven Bias Regeln hinzugefügt. So wird zum Beispiel bei Angabe: \glqq{}bias: Hautfarbe:Weiß\grqq{} die Hautfarbe:Weiß den negativen Bias Regeln und die Hautfarbe:Schwarz den positiven Bias Regeln hinzugefügt. Daraufhin sind alle vier Dictionaries für die Regeln gefüllt und können zurückgegeben werden.
 Damit ist die Methode zum erstellen der Regeln vollständig umgesetzt.
 In der nächsten Zelle wurde eine Methode zum generieren eines Seeds/Startwerts umgesetzt. Dieser wird wie zu Beginn der Umsetzung beschrieben benötigt, um zu jedem Ausführungszeitpunkt unterschiedliche Zufallswerte zu erhalten. Daher sollte der Startwert ebenfalls immer variieren. Um dies zu schaffen werden momentane Zeitwerte genommen und miteinander verrechnet, sodass am Ende ein zeitabhängiger Wert resultiert. Zur Absicherung, falls der Wert Mal negativ oder Null sein sollte, wird ein zweiter alternativ Wert aus dem aktuellen Tag multipliziert mit den aktuellen Minuten plus Eins berechnet, da bei dieser Rechnung immer ein Wert größer Null resultiert. Der am Ende berechnete Startwert wird dann zurückgegeben und kann somit verwendet werden.    
-Im nächsten Prozessschritt wird wie in der Konzeption beschrieben, das Erstellen der Bewertenden und die Methode zum Bewerten umgesetzt. Dafür wird eine Klasse namens \glqq{}Evaluator\grqq{} erstellt, welche die Methoden \glqq{}init\grqq{} und \glqq{}rate\grqq{} implementiert. Der Aufbau der Methode \glqq{}init\grqq{} ist in der folgenden Abbildung \ref{fig:Evaluator_init} dargestellt.
-\begin{figure}[h]
-    \centering
-    \includegraphics{Diagramme/Evaluator_Init.JPG}
-    \caption{Methode zur Initialisierung eines Bewertenden}
-    \label{fig:Evaluator_init}
-\end{figure}\\
+Im nächsten Prozessschritt wird wie in der Konzeption beschrieben, das Erstellen der Bewertenden und die Methode zum Bewerten umgesetzt. Dafür wird eine Klasse namens \glqq{}Evaluator\grqq{} erstellt, welche die Methoden \glqq{}init\grqq{} und \glqq{}rate\grqq{} implementiert. Der Aufbau der Methode \glqq{}init\grqq{} ist in dem folgenden Listing \ref{lst:Evaluator_init} dargestellt.
+\begin{lstlisting}[language=Python,label={lst:Evaluator_init},caption=Methode zur Initialisierung eines Bewertenden]
+def __init__(self, rule_pos, rule_neg, bias, percentage=0.2):
+    self.rule_pos = rule_pos
+    self.rule_neg = rule_neg
+    self.bias = bias
+    self.bias_percentage = percentage
+\end{lstlisting}
 Die Methode ist für das Erstellen eines Objektes mit den angegebenen Parametern zuständig. Dabei wird jedem \glqq{}Evaluator\grqq{} Objekt ein Dictionary mit positiven Regeln und eines mit negativen Regeln sowie ein Boolean ob der Bewertende diskriminierend ist und ein Prozentsatz, welcher die stärke der Diskriminierung angibt, übergeben. Diese vier Angaben speichert jedes Objekt für sich und kann intern für sich selbst darauf zugreifen. Damit können dann die gewünschte Anzahl an Bewertenden und Bewertende welche diskriminieren erstellt werden. Durch die Angaben der eigenen Regeln, haben dann die diskriminierenden Bewertenden die Bias regeln und die neutralen Bewertenden die normalen Regeln. Zudem kann durch das Flag als Boolean ein diskriminierender von einem neutralen Bewerter unterschieden werden.
-Die zweite Methode der Klasse, welche \glqq{}Evaluator\grqq{} implementiert und von jedem Objekt der Klasse verwendet werden kann, ist in der folgenden Abbildung \ref{fig:Evaluator_rate} dargestellt.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm,height=14cm]{Diagramme/Evaluator_Rate.JPG}
-    \caption{Methode eines Bewertenden zum Bewerten von Anträgen.}
-    \label{fig:Evaluator_rate}
-\end{figure}\\
+Die zweite Methode der Klasse, welche \glqq{}Evaluator\grqq{} implementiert und von jedem Objekt der Klasse verwendet werden kann, ist in dem folgenden Listing \ref{lst:Evaluator_rate} dargestellt.
+\begin{lstlisting}[language=Python,label={lst:Evaluator_rate},caption=Methode eines Bewertenden zum Bewerten von Anträgen]
+def rate(self, request, bias):
+    #First 50/50 distribution
+    pos = 50
+    #Calculate the proportion according to which the decision is influenced positively or negatively.
+    prop = 45/self.rule_pos.__len__()
+    #Depending on how the rules match the request, the weight of the positive evaluation is shifted.
+    for key in self.rule_pos.keys():
+        if(self.rule_pos[key].__contains__(request[key])):
+            pos += prop
+        else:
+            pos -= prop
+    try:
+        #If a bias is present, this is additionally taken into account with the Parameter in %
+        if(self.bias):
+            for b in bias:
+                if(bias[b].__contains__(request[b])):
+                    pos = pos*self.bias_percentage
+        #Normalise positive value
+        pos = pos/100
+        #Determine negative value
+        neg = 1-pos
+        #Rating by chance with indication of pos and neg rating and adding the rating to the request. 
+        request["Bewertung"] = np.random.choice(["positiv", "negativ"], p=[pos, neg])
+    except:
+        print("Failure")
+    return request
+\end{lstlisting}
 Die hier gezeigte Methode \glqq{}rate\grqq{} wird von den Objekten der Klasse \glqq{}Evaluator\grqq{} zum Bewerten eines Antrages verwendet. Als Parameter werden zum einen mit \glqq{}self\grqq{} das Objekt welches die Methode aufruft, mit \glqq{}request\grqq{} der zu bewertende Antrag und mit \glqq{}bias\grqq{} die Verzerrung welche ausgewirkt werden soll übergeben. Als Rückgabe wird der erhaltene Antrag mit Ergänzung der Bewertung zurückgegeben. Im Nachfolgenden wird erläutert wie die Bewertung in der Methode abläuft.
 Zu Beginn wird die Wahrscheinlichkeitsverteilung zwischen der positiven und negativen Bewertung auf 50 zu 50 Prozent gesetzt. Somit ist die Entscheidung noch offen. Danach wird eine Proportion bestimmt, durch welche sich eine im Antrag positive oder negative Ausprägung auf die Wahrscheinlichkeitsverteilung der Entscheidung auswirkt. Diese wird wie folgt errechnet: 45 geteilt durch die Anzahl an Attributen in den Regeln. Es wird mit 45 gerechnet, da es immer noch eine rest Wahrscheinlichkeit geben soll, falls alle Ausprägungen im Antrag positiv oder negativ ausfallen. Als nächstes werden die Ausprägungen der Attribute im Antrag durch eine Schleife mit den Regeln verglichen, um aus den Regeln zu entscheiden, ob die Wahrscheinlichkeitsverteilung der Entscheidung die Proportion hinzu oder abgezogen wird. So tendiert die Entscheidung am Ende mehr zu einer positiven oder negativen Entscheidung abhängig von den im Antrag angegebenen Ausprägungen und den Regeln des Bewertenden. Um nach der Bewertung noch eine potentielle Diskriminierung einzubringen, wird überprüft ob das Flag des Bewertenden zur Diskriminierung gesetzt ist. Wenn die Bewertende Person eine diskriminierende und die gewünschte Bias Ausprägung in dem Antrag vorhanden ist, wird die Wahrscheinlichkeit für eine positive Auswirkung durch die Code Zeile: \glqq{}pos = pos*self.bias\_percentage\grqq{} mit dem für den Bewertenden angegebenen Prozentsatz verringert. Somit ist dadurch die Möglichkeit auf eine positive Bewertung deutlich gesunken. Nachfolgend wird dann noch die Wahrscheinlichkeitsverteilung für die Entscheidung passend umgewandelt, um beruhend auf diesen Wahrscheinlichkeiten die Entscheidung zu treffen und das Ergebnis im Antrag also dem Dataframe anzuhängen. Zum Schluss wird der überarbeitete Antrag wieder zurückgegeben und das Bewerten ist abgeschlossen.\\
-Nach Abschluss der Klasse werden nun noch zwei Methoden benötigt, welche den gesamt Ablauf durchführen und die anderen Methoden vereinen. Zum einen die Methode \glqq{}generate\_data\grqq{}, welche die Anzahl an zu generierenden Datensätzen übermittelt bekommt. In der Methode wird zuerst ein Seed durch Aufruf der oben beschriebenen Methode zum Seed/Startwert generieren erzeugt. Danach kann die Methode für das Datengenerieren mit dem Seed und der Anzahl an Daten aufgerufen werden. Der Rückgabewert wird dann in ein neuen Pandas Dataframe geschrieben und zurückgegeben. Die andere Methode, welche implementiert wird, ist für den gesamt Ablauf der Datenbewertung zuständig. Diese trägt den Namen \glqq{}work\grqq{} und bekommt den Datensatz, die gewünschte Verzerrung, die Anzahl der Bewertenden, die Anzahl der diskriminierenden Bewertenden und die Prozentual Auswirkung der Verzerrung als Parameter übergeben. Als erstes werden in der Methode die beiden benötigten Dictionaries für \glqq{}request\_values und request\_bias\grqq{} angelegt und mit den Werten des Szenarios wie in der folgenden Abbildung \ref{fig:standardValues} zu sehen gefüllt.\\
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm,height=6cm]{Diagramme/Sz1_standardValues.JPG}
-    \caption{Dictionaries gefüllt mit Standard Werten des ersten Szenario}
-    \label{fig:standardValues}
-\end{figure}\\
-Danach werden daraus die Regeln bestimmt und gespeichert. Im Anschluss wird die gewünschte Anzahl an \glqq{}Evaluator\grqq{} Objekte erzeugt und diesen die Regeln übergeben. Um die Verzerrung umzusetzen wird danach die gewünschte Anzahl der \glqq{}Evaluator\grqq{} Objekte in diskriminierende Bewertende umgewandelt und dessen Regeln ausgetauscht durch die Bias Regeln. Damit sind alle Vorbereitungen abgeschlossen und das eigentliche Bewerten der Anträge kann beginnen. Dafür wird eine Schleife über den Dataframe der Anträge durchlaufen. Für jeden Antrag wird dann zufällig bestimmt, welches \glqq{}Evaluator\grqq{} Objekt den Antrag bewertet. Nachdem der Antrag bewertet wurde wird dieser der Liste der fertigen Anträge hinzugefügt. Sobald alle Anträge bewertet sind und die Schleife daher durchlaufen ist, wird die Liste der fertigen Anträge zu einem Dataframe umgewandelt und aus der Methode zurückgegeben. 
+Nach Abschluss der Klasse werden nun noch zwei Methoden benötigt, welche den gesamt Ablauf durchführen und die anderen Methoden vereinen. Zum einen die Methode \glqq{}generate\_data\grqq{}, welche die Anzahl an zu generierenden Datensätzen übermittelt bekommt. In der Methode wird zuerst ein Seed durch Aufruf der oben beschriebenen Methode zum Seed/Startwert generieren erzeugt. Danach kann die Methode für das Datengenerieren mit dem Seed und der Anzahl an Daten aufgerufen werden. Der Rückgabewert wird dann in ein neuen Pandas Dataframe geschrieben und zurückgegeben. Die andere Methode, welche implementiert wird, ist für den gesamt Ablauf der Datenbewertung zuständig. Diese trägt den Namen \glqq{}work\grqq{} und bekommt den Datensatz, die gewünschte Verzerrung, die Anzahl der Bewertenden, die Anzahl der diskriminierenden Bewertenden und die Prozentual Auswirkung der Verzerrung als Parameter übergeben. Als erstes werden in der Methode die beiden benötigten Dictionaries für \glqq{}request\_values und request\_bias\grqq{} angelegt und mit den Werten des Szenarios nach dem Schema wie in dem obigen Listing \ref{lst:RequestValues} zu sehen gefüllt. Danach werden daraus die Regeln bestimmt und gespeichert. Im Anschluss wird die gewünschte Anzahl an \glqq{}Evaluator\grqq{} Objekte erzeugt und diesen die Regeln übergeben. Um die Verzerrung umzusetzen wird danach die gewünschte Anzahl der \glqq{}Evaluator\grqq{} Objekte in diskriminierende Bewertende umgewandelt und dessen Regeln ausgetauscht durch die Bias Regeln. Damit sind alle Vorbereitungen abgeschlossen und das eigentliche Bewerten der Anträge kann beginnen. Dafür wird eine Schleife über den Dataframe der Anträge durchlaufen. Für jeden Antrag wird dann zufällig bestimmt, welches \glqq{}Evaluator\grqq{} Objekt den Antrag bewertet. Nachdem der Antrag bewertet wurde wird dieser der Liste der fertigen Anträge hinzugefügt. Sobald alle Anträge bewertet sind und die Schleife daher durchlaufen ist, wird die Liste der fertigen Anträge zu einem Dataframe umgewandelt und aus der Methode zurückgegeben. 
 Damit sind auch die letzten beiden Methoden umgesetzt und es muss letztendlich nur noch eine finale Zelle zur Ausführung des gesamten Programmes erstellt werden.\\
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm,height=10cm]{Diagramme/Sz1Final.JPG}
-    \caption{Letzte Zelle des Szenario der Bewährungsantrag, für die Benutzenden Interaktion}
-    \label{fig:Sz1finalCell}
-\end{figure}\\
-In der Abbildung \ref{fig:Sz1finalCell} ist die letzte Zelle für die Interaktionen des Benutzenden dargestellt. Im oberen Teil der Zelle haben die Benutzenden die Möglichkeit, Anpassungen am Datengenerator zu machen. So kann hier die gewünschte Verzerrung, die Größe des Datensatzes, die Anzahl an Bewertenden, die Anzahl der diskriminierenden unter den Bewertenden und der Prozentuale Einfluss der Verzerrung angepasst werden. Im unteren Teil wird dann die Hauptmethode zum Datengenerieren (generate\_data) aufgerufen und im Anschluss durch die Methode \glqq{}work\grqq{} die zuvor generierten Anträge bewertet. Beide Datensätze werden separat als Variablen geführt, sodass am Ende der Methode die Ursprungsdaten als \glqq{}Daten.csv\grqq{} und der bewertete Datensatz als \glqq{}Daten\_Bewertet.csv\grqq{} abgespeichert werden.\\
+\begin{lstlisting}[language=Python,label={lst:Sz1finalCell},caption=Letzte Zelle des Szenario der Bewährungsantrag für die Interaktion des Benutzenden]
+#Here is the section for the possible parameters to enter
+#This dictionary specifies the bias(es) on a possible attribute
+bias = {
+    "Hautfarbe": ["Schwarz"]
+}
+#The number of datasets that are to be generated
+datasets=10000
+#The number of evaluators who evaluate entries
+evaluator_count=10
+#The number of evaluators who evaluate with a bias
+bias_evaluator=4
+#This decides how strong the bias will be. The higher the stronger.
+bias_percentage=0.2
+
+#Dont touch this
+data = generate_data(datasets)
+finished = work(data,bias,evaluator_count,bias_evaluator,bias_percentage)
+data.to_csv("Daten.csv", sep=';', encoding='utf-8', index=False)
+finished.to_csv("Daten_Bewertet.csv", sep=';', encoding='utf-8', index=False)
+\end{lstlisting}
+Im Listing \ref{lst:Sz1finalCell} ist die letzte Zelle für die Interaktionen des Benutzenden dargestellt. Im oberen Teil der Zelle haben die Benutzenden die Möglichkeit, Anpassungen am Datengenerator zu machen. So kann hier die gewünschte Verzerrung, die Größe des Datensatzes, die Anzahl an Bewertenden, die Anzahl der diskriminierenden unter den Bewertenden und der Prozentuale Einfluss der Verzerrung angepasst werden. Im unteren Teil wird dann die Hauptmethode zum Datengenerieren (generate\_data) aufgerufen und im Anschluss durch die Methode \glqq{}work\grqq{} die zuvor generierten Anträge bewertet. Beide Datensätze werden separat als Variablen geführt, sodass am Ende der Methode die Ursprungsdaten als \glqq{}Daten.csv\grqq{} und der bewertete Datensatz als \glqq{}Daten\_Bewertet.csv\grqq{} abgespeichert werden.\\
 Insgesamt ist mit dieser letzten Zelle die gesamte Umsetzung des ersten Szenarios als \glqq{}Szenario1.ipynb\grqq{} Datei abgeschlossen und kann so direkt verwendet werden, um Daten zu generieren.
 \subsection{Umsetzung des Szenario zur Vorhersage von einem sozialen Punktesystem}
 \label{umsetzungsz2}
-Das zweite Szenario wird ebenfalls wie das erste in eine Python Notebook umgesetzt. Das File trägt den Namen \glqq{}Szenario2.ipynb\grqq{} und beginnt sowie auch das erste Szenario mit dem laden der benötigten Bibliotheken. Auch in diesem werden die gleichen Bibliotheken wie in Abbildung \ref{fig:Zelle1S1} dargestellt geladen. Einzige Ausnahme hierbei liegt darin, dass das Faker Objekt nicht wie in der Abbildung gezeigt ist erstellt wird. In diesem Fall wir es wie folgt erstellt: \glqq{}fake = Factory.create("de\_DE")\grqq{}. Der Grund dafür, liegt darin, dass in diesem Szenario Deutsche Namen generiert werden sollen, da es sich um ein auf Deutschland angelegtes Szenario handelt. In der zweiten Zelle des Notebooks wird die Methode für das erstellen eines Seed/Startwert aus dem Szenario der Bewährungsanträge implementiert. Diese verändert sich nicht und kann daher so verwendet werden.\\
+Das zweite Szenario wird ebenfalls wie das erste in eine Python Notebook umgesetzt. Das File trägt den Namen \glqq{}Szenario2.ipynb\grqq{} und beginnt sowie auch das erste Szenario mit dem laden der benötigten Bibliotheken. Auch in diesem werden die gleichen Bibliotheken obig zum ersten Szenario beschrieben geladen. Einzige Ausnahme hierbei liegt darin, dass das Faker Objekt nicht wie in der Abbildung gezeigt ist erstellt wird. In diesem Fall wir es wie folgt erstellt: \glqq{}fake = Factory.create("de\_DE")\grqq{}. Der Grund dafür, liegt darin, dass in diesem Szenario Deutsche Namen generiert werden sollen, da es sich um ein auf Deutschland angelegtes Szenario handelt. In der zweiten Zelle des Notebooks wird die Methode für das erstellen eines Seed/Startwert aus dem Szenario der Bewährungsanträge implementiert. Diese verändert sich nicht und kann daher so verwendet werden.\\
 Als nächstes ist die Methode \glqq{}create\_fake\_data\grqq{} mit den Parameter num und seed umgesetzt. In dieser wird die durch num angegebene Anzahl an Daten generiert. Der Parameter seed wird zu beginn der Methode als Startwert für die Zufallsmethoden von numpy und Faker gesetzt. Als nächstes wird eine Schleife über num begonnen, in welcher in jedem Durchlauf einen Eintrag für den Datensatz generiert wird. In jedem Durchlauf müssen die Ausprägungen der für dieses Szenario bestimmte Attribute Name, Alter, Politische Orientierung, Bildungsabschluss, Soziales, Wohnlage und CO2-Fußabdruck, unter Betrachtung der im Kapitel \ref{subsection:konzeption} angegebenen Abhängigkeiten, bestimmt werden. Der Name eines Eintrages wird durch die Faker Instanz wie folgt \glqq{}"Name": fake.first\_name()\grqq{} generiert. Die anderen Ausprägungen der Attribute werden, um das Szenario so real wie möglich zu halten, beruhend auf Wahrscheinlichkeiten aus Statistiken bestimmt. Die Wahrscheinlichkeiten der verschiedenen Attributen ergeben sich wie folgend aufgeführt:\\
 \textbf{Alter}\\
 Ein Alter für eine Person wird zwischen 20 und 79 Jahren bestimmt. Zur Bestimmung wird aufgrund der verwendeten Statistik in drei Altersgruppen unterteilt, welche unterschiedliche Wahrscheinlichkeiten besitzen. Die Altersgruppen sind von 20 bis 39, 40-59 und 60 bis 79 Jahren.\\
@@ -282,7 +313,7 @@ Bei der Bestimmung der Politischen Orientierung in Links, Mitte und Rechts wird 
     \caption{Tabelle der Wahrscheinlichkeiten für die Politische Orientierung nach Alter}
     \label{table:7}
 \end{table}\\
-Die in der Tabelle \ref{table:7} dargestellten Wahrscheinlichkeiten wurden nach den dafür angegebenen Altersgruppen aus der Tabelle der Veröffentlichung von der Konrad-Adenauer-Stiftung e. V. berechnet. Dafür wurden die Prozente der oben zugeordneten Parteien aufsummiert. So ergeben sich die Prozentpunkte für Links, Mitte und Rechts. Jedoch fehlen zu den 100\% pro Altersgruppe die Prozentpunkte der Sonstigen Parteien. Da diese nämlich keiner Richtung zugeordnet werden können müssen die Prozente der sonstigen Insgesamt verrechnet werden. Nach der Verrechnung der Sonstigen Parteien entstehen dann die in der Tabelle dargestellten Wahrscheinlichkeiten.\cite[S. 33]{konrad-adenauer-stiftung2021} Zur Umsetzung der Bestimmung der Politischen Orientierung wird eine Reihe an ifelse Abfragen über das zutreffende Alter durchlaufen, um dann mit den Altersendsprechenden Wahrscheinlichkeiten die Politische Orientierung zu bestimmen. Der Code für die Wahrscheinlichkeitsauswahl sieht dabei genau wie im Beispiel aus der Abbildung \ref{fig:GeschlechtscodeS1} dargestellt aus.\\
+Die in der Tabelle \ref{table:7} dargestellten Wahrscheinlichkeiten wurden nach den dafür angegebenen Altersgruppen aus der Tabelle der Veröffentlichung von der Konrad-Adenauer-Stiftung e. V. berechnet. Dafür wurden die Prozente der oben zugeordneten Parteien aufsummiert. So ergeben sich die Prozentpunkte für Links, Mitte und Rechts. Jedoch fehlen zu den 100\% pro Altersgruppe die Prozentpunkte der Sonstigen Parteien. Da diese nämlich keiner Richtung zugeordnet werden können müssen die Prozente der sonstigen Insgesamt verrechnet werden. Nach der Verrechnung der Sonstigen Parteien entstehen dann die in der Tabelle dargestellten Wahrscheinlichkeiten.\cite[S. 33]{konrad-adenauer-stiftung2021} Zur Umsetzung der Bestimmung der Politischen Orientierung wird eine Reihe an ifelse Abfragen über das zutreffende Alter durchlaufen, um dann mit den Altersendsprechenden Wahrscheinlichkeiten die Politische Orientierung zu bestimmen. Der Code für die Wahrscheinlichkeitsauswahl sieht dabei genau wie im Beispiel aus dem Listing \ref{lst:GeschlechtscodeS1} dargestellt aus.\\
 \textbf{Bildungsabschluss}\\
 Der Bildungsabschluss einer Person basiert ebenfalls wie die Politische Orientierung auf dem Alter. Zusätzlich wird wie auch schon zuvor eine Statistik aus einem Datenreport des Jahres 2021 vom Statistischen Bundesamt verwendet. \cite{destatis2021} Dadurch können die Daten so realitätsnahe wie möglich gehalten werden.\\ 
 \begin{table}[!h]
@@ -317,7 +348,7 @@ Das soziale Engagement wird von 0 bis 3 angegeben und basiert wie in der Konzept
     \caption{Tabelle der Wahrscheinlichkeiten für das Soziale Engagement nach Politischer Orientierung}
     \label{table:9}
 \end{table}\\
-Die in der Tabelle \ref{table:9} aufgeführten fiktiven Wahrscheinlichkeiten sind ebenso wie schon bei der Bestimmung der anderen Attribute, durch den Code aus Abbildung \ref{fig:GeschlechtscodeS1} umgesetzt. Jedoch wird durch eine if else Abfrage die unterschiedlichen Politischen Orientierungen unterschieden und dementsprechend die passenden Wahrscheinlichkeiten in der Codezeile verwendet.\\
+Die in der Tabelle \ref{table:9} aufgeführten fiktiven Wahrscheinlichkeiten sind ebenso wie schon bei der Bestimmung der anderen Attribute, durch den Code aus Listing \ref{lst:GeschlechtscodeS1} umgesetzt. Jedoch wird durch eine if else Abfrage die unterschiedlichen Politischen Orientierungen unterschieden und dementsprechend die passenden Wahrscheinlichkeiten in der Codezeile verwendet.\\
 \textbf{Wohnlage}\\
 Die Wohnlage wird durch die Ausprägungen Ländlich, Vorort, Kleinstadt und Großstadt angegebenen und wird durch kein anderes Attribut beeinflusst. Die Wahrscheinlichkeiten für die einzelnen Ausprägungen sind in nachfolgender Tabelle aufgezeigt.
 \begin{table}[!h]
@@ -333,57 +364,100 @@ Die Wohnlage wird durch die Ausprägungen Ländlich, Vorort, Kleinstadt und Gro�
     \caption{Tabelle der Wahrscheinlichkeiten für die Wohnlage}
     \label{table:10}
 \end{table}\\
-Zur Bestimmung der Wahrscheinlichkeiten für die unterschiedlichen Ausprägungen der Wohnlage müssen zuerst die in der Tabelle \ref{table:10} angegebenen Einwohnergrenzen pro Ausprägung festgelegt werden. Für die Festlegung wurde nach eigenem Ermessen entschieden, welche Ausprägung zu welcher Einwohnergrenze passt. Aus einer Publikation des Statistischen Bundesamt können dann nach dieser Eingliederung die Wahrscheinlichkeiten aufsummiert werden. In der Publikation \glqq{}Gemeinden nach Bundesländern und Einwohnergrößenklassen am 31.12.2020\grqq{} sind der prozentuale Anteil an deutschen Einwohner in gewissen Einwohnergrenzen angegeben. Diese werden dann nach den hier für die Ausprägungen definierten Grenzen aufsummiert und in der Tabelle angegebenen. Damit kann eine möglichst Realitätsnahe Datenerzeugung gewährleistet werden. Für die Umsetzung der Auswahl der Ausprägung kann wie auch schon in den vorigen Fällen der selbe Code aus Abbildung \ref{fig:GeschlechtscodeS1} auf den Fall hier angepasst und verwendet werden. So sieht die finale Codezeile wie in der folgenden Abbildung dargestellt aus.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm]{Diagramme/Sz2_Auswahl_Lage.JPG}
-    \caption{Codezeile zur Auswahl der Ausprägung der Wohnlage basierend auf angegebenen Wahrscheinlichkeiten}
-    \label{fig:Sz2AuswahlWohnlage}
-\end{figure}\\
+Zur Bestimmung der Wahrscheinlichkeiten für die unterschiedlichen Ausprägungen der Wohnlage müssen zuerst die in der Tabelle \ref{table:10} angegebenen Einwohnergrenzen pro Ausprägung festgelegt werden. Für die Festlegung wurde nach eigenem Ermessen entschieden, welche Ausprägung zu welcher Einwohnergrenze passt. Aus einer Publikation des Statistischen Bundesamt können dann nach dieser Eingliederung die Wahrscheinlichkeiten aufsummiert werden. In der Publikation \glqq{}Gemeinden nach Bundesländern und Einwohnergrößenklassen am 31.12.2020\grqq{} sind der prozentuale Anteil an deutschen Einwohner in gewissen Einwohnergrenzen angegeben. Diese werden dann nach den hier für die Ausprägungen definierten Grenzen aufsummiert und in der Tabelle angegebenen. Damit kann eine möglichst Realitätsnahe Datenerzeugung gewährleistet werden. Für die Umsetzung der Auswahl der Ausprägung kann wie auch schon in den vorigen Fällen der selbe Code aus Listing \ref{lst:GeschlechtscodeS1} auf den Fall hier angepasst und verwendet werden. So sieht die finale Codezeile wie in der folgenden Abbildung dargestellt aus.
+\begin{lstlisting}[language=Python,label={lst:Sz2AuswahlWohnlage},caption=Codezeile zur Auswahl der Ausprägung der Wohnlage basierend auf angegebenen Wahrscheinlichkeiten]
+location = np.random.choice(["Großstadt","Kleinstadt","Vorort","Ländlich"], p=[0.5952,0.266,0.085,0.0538])
+\end{lstlisting}
 \textbf{CO2-Fußabdruck}\\
-Der CO2-Fußabdruck ist das komplexeste Attribut des Szenarios, da dieser auf zwei Attributen basiert. Wie in der Abbildung \ref{fig:VerbindungenS2} dargestellt hat das Soziale Engagement und die Wohnlage eine Auswirkung auf den CO2-Fußabdruck. Dadurch, dass das Soziale Engagement ebenfalls noch von der Politischen Orientierung und diese vom Alter abhängig ist, haben auch noch zwei weitere Attribute eine indirekte Auswirkung auf den CO2-Fußabdruck. Dies lässt sich auch dadurch begründen, dass der CO2-Fußabdruck in der Realität sich aus vielen unterschiedlichen Teilen zusammensetzt. Da es für den CO2-Fußabdruck unter Berücksichtigung dieser Auswirkungen keine Referenzen aus der realen Welt gibt, wurden fiktive Werte für eine Gaußkurve verwendet. Als Referenzen für die Angabe der Ausprägung des CO2-Fußabdruck in Tonnen pro Kopf konnte jedoch der Mittelwert von 7,91 Tonnen herangezogen werden.\cite{ClimateWatch2022} Um daraus ein Intervall um diesen Wert als Mittelwert festzulegen. So ergab sich das Intervall von 4 bis 12 Tonnen in 0,5er Schritten. Für die daraus resultierenden 17 Ausprägungen wurde eine Gaußkurve erzeugt. Um die Auswirkung von Sozialem Engagement und Wohnlage durchzusetzen wird die Gaußkurve, je nach Grundlage der Attribute verschoben. Für die Umsetzung der jeweiligen Verschiebung durch die beiden Attribute Soziales Engagement und Wohnlage muss eine große ifelse Abfragestruktur mit 16 unterschiedlichen Zuständen erstellt werden, da beide Attribute 4 verschiedene Ausprägungen haben(4*4=16). In den 16 unterschiedlichen Zuständen wird dann die Codezeile aus der Abbildung \ref{fig:Sz2AuswahlWohnlage}, um die 17 Ausprägungen des CO2-Fußabdruck angepasst und die Wahrscheinlichkeiten der Gaußkurve entsprechend dem Zustand eingetragen. Dadurch entsteht ein recht komplexes Codekonstrukt, welches jedoch sehr anschauliche abhängige Daten liefert und damit das Szenario in der Auswertung interessanter gestaltet.\\
-Mit der abschließenden Bestimmung des CO2-Fußabdruck sind alle Ausprägungen der Attribute bestimmt und die Werte können nun als ein Dictionary dem Array des gesamt Datensatzes hinzugefügt werden. 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm,height=9cm]{Diagramme/Sz2AddEntry.JPG}
-    \caption{Codeausschnitt zum Hinzufügen eines Dateneintrags}
-    \label{fig:Sz2AddEntry}
-\end{figure}\\
-In der Abbildung \ref{fig:Sz2AddEntry} ist der Codeausschnitt zu sehen, wie das Dictionary mit der Zuordnung Attribut als Key und die Ausprägung als Value erstellt und dem Array \glqq{}output\grqq{} angehängt wird. Die Ausprägung des Namens wird in diesem Schritt erst bestimmt und die anderen werden durch die Variablen übertragen.
+Der CO2-Fußabdruck ist das komplexeste Attribut des Szenarios, da dieser auf zwei Attributen basiert. Wie in der Abbildung \ref{fig:VerbindungenS2} dargestellt hat das Soziale Engagement und die Wohnlage eine Auswirkung auf den CO2-Fußabdruck. Dadurch, dass das Soziale Engagement ebenfalls noch von der Politischen Orientierung und diese vom Alter abhängig ist, haben auch noch zwei weitere Attribute eine indirekte Auswirkung auf den CO2-Fußabdruck. Dies lässt sich auch dadurch begründen, dass der CO2-Fußabdruck in der Realität sich aus vielen unterschiedlichen Teilen zusammensetzt. Da es für den CO2-Fußabdruck unter Berücksichtigung dieser Auswirkungen keine Referenzen aus der realen Welt gibt, wurden fiktive Werte für eine Gaußkurve verwendet. Als Referenzen für die Angabe der Ausprägung des CO2-Fußabdruck in Tonnen pro Kopf konnte jedoch der Mittelwert von 7,91 Tonnen herangezogen werden.\cite{ClimateWatch2022} Um daraus ein Intervall um diesen Wert als Mittelwert festzulegen. So ergab sich das Intervall von 4 bis 12 Tonnen in 0,5er Schritten. Für die daraus resultierenden 17 Ausprägungen wurde eine Gaußkurve erzeugt. Um die Auswirkung von Sozialem Engagement und Wohnlage durchzusetzen wird die Gaußkurve, je nach Grundlage der Attribute verschoben. Für die Umsetzung der jeweiligen Verschiebung durch die beiden Attribute Soziales Engagement und Wohnlage muss eine große ifelse Abfragestruktur mit 16 unterschiedlichen Zuständen erstellt werden, da beide Attribute 4 verschiedene Ausprägungen haben(4*4=16). In den 16 unterschiedlichen Zuständen wird dann die Codezeile aus dem Listing \ref{lst:Sz2AuswahlWohnlage}, um die 17 Ausprägungen des CO2-Fußabdruck angepasst und die Wahrscheinlichkeiten der Gaußkurve entsprechend dem Zustand eingetragen. Dadurch entsteht ein recht komplexes Codekonstrukt, welches jedoch sehr anschauliche abhängige Daten liefert und damit das Szenario in der Auswertung interessanter gestaltet.\\
+Mit der abschließenden Bestimmung des CO2-Fußabdruck sind alle Ausprägungen der Attribute bestimmt und die Werte können nun als ein Dictionary dem Array des gesamt Datensatzes hinzugefügt werden.
+\begin{lstlisting}[language=Python,label={lst:Sz2AddEntry},caption=Codeausschnitt zum Hinzufügen eines Dateneintrags zum gesamt Datenset]
+output.append(
+    {
+        #Name of the person
+        "Name": fake.first_name(),
+        "Alter": age,
+        "Politische Orientierung": politics,
+        "Bildungsabschluss": grad,
+        "Soziales": social,
+        "Wohnlage": location,
+        "CO2-Fußabdruck": co2
+    }  
+)
+\end{lstlisting}
+Im Listing \ref{lst:Sz2AddEntry} ist der Codeausschnitt zu sehen, wie das Dictionary mit der Zuordnung Attribut als Key und die Ausprägung als Value erstellt und dem Array \glqq{}output\grqq{} angehängt wird. Die Ausprägung des Namens wird in diesem Schritt erst bestimmt und die anderen werden durch die Variablen übertragen.
 Im Anschluss ist ein Schleifendurchlauf beendet, somit ein Eintrag dem Datensatz hinzugefügt und es wird falls noch offen der nächste Durchlauf begonnen. Sobald die Schleife beendet ist, ist der gesamte gewünschte Datensatz generiert und wird letztendlich nur noch als Array aus der Methode zurückgegeben. \\
-Als nächste Zelle wird wie auch schon im ersten Szenario eine Methode, welche das Datenerstellen zusammenfasst umgesetzt. Diese ist genau gleich wie im Kapitel \ref{subsubsec:umsetzungsz1} beschrieben umgesetzt. Zuerst wird ein Seed und danach mit diesem die gewünschte Anzahl an Daten generiert, als Dataframe gespeichert und zurückgegeben.\\ 
+Als nächste Zelle wird wie auch schon im ersten Szenario eine Methode, welche das Datenerstellen zusammenfasst umgesetzt. Diese ist genau gleich wie im Kapitel \ref{umsetzungsz1} beschrieben umgesetzt. Zuerst wird ein Seed und danach mit diesem die gewünschte Anzahl an Daten generiert, als Dataframe gespeichert und zurückgegeben.\\ 
 In der darauffolgenden Zelle ist die Methode \glqq{}create\_Rules()\grqq{} für das erstellen der Regeln implementiert. Diese Methode ist deutlich einfacher umgesetzt, als sie im Szenario der Bewährungsanträge implementiert werden musste. In diesem Szenario werden die Regeln fix als Dictionary angegeben erstellt.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm]{Diagramme/Sz2Regeln.JPG}
-    \caption{Codeausschnitt zum Erstellen des Regel Dictionary}
-    \label{fig:Sz2Regeln}
-\end{figure}\\
-Das Dictionary der Regeln, welches in der Methode erstellt und zurückgegeben wird, ist in der Abbildung \ref{fig:Sz2Regeln} dargestellt. Für jedes Attribut, welches in der Konzeption unter \ref{subsubsec:szenario2} als beeinflussendes Attribut eingestuft wird, muss ein Key Value Paar dem Dictionary hinzugefügt werden. Als Keys werden die Attribute und in den Values nach der in der zur Generierung angegebenen Reihenfolge eine Punktzahl für jede Ausprägung angegeben. Die angegebenen Punkte pro Ausprägung beeinflussen dann in diesem Maße die soziale Punktzahl einer Person. So kann der Bewertende für jedes Attribut nach der Ausprägung und der zugehörigen Punktzahl in den Regeln schauen. So setzt sich dann Stück für Stück die soziale Punktzahl einer Person zusammen. Die Punkte für die jeweiligen Ausprägungen wurden fiktiv bestimmt. Dabei wurde darauf geachtet, dass es in jedem Attribut sowohl positive als auch negative Auswirkungen von Ausprägungen vorhanden sind. Zudem darf die maximal mögliche Punktzahl nicht 1400 übersteigen und die minimale nicht unter 600 fallen. Zum Schluss wird das erstellte Dictionary aus der Methode zurückgegeben und kann dann als Regelwerk zur Bewertung verwendet werden.\\
+\begin{lstlisting}[language=Python,label={lst:Sz2Regeln},caption=Codeausschnitt zum Erstellen des Regel Dictionary]
+def create_Rules():
+    influential = {
+        "Politische Orientierung": [-50, 50, -50],
+        "Bildungsabschluss": [20, 40, 60, 80, 100, 120,-120],
+        "Soziales": [-70,0,40,100],
+        "Wohnlage": [-30,20,20,-30],
+        "CO2-Fußabdruck": [110,70,40,10,0,-20,-40,-70,-110]
+    }
+return influential
+\end{lstlisting}
+Das Dictionary der Regeln, welches in der Methode erstellt und zurückgegeben wird, ist in dem Listing \ref{lst:Sz2Regeln} dargestellt. Für jedes Attribut, welches in der Konzeption unter \ref{subsubsec:szenario2} als beeinflussendes Attribut eingestuft wird, muss ein Key Value Paar dem Dictionary hinzugefügt werden. Als Keys werden die Attribute und in den Values nach der in der zur Generierung angegebenen Reihenfolge eine Punktzahl für jede Ausprägung angegeben. Die angegebenen Punkte pro Ausprägung beeinflussen dann in diesem Maße die soziale Punktzahl einer Person. So kann der Bewertende für jedes Attribut nach der Ausprägung und der zugehörigen Punktzahl in den Regeln schauen. So setzt sich dann Stück für Stück die soziale Punktzahl einer Person zusammen. Die Punkte für die jeweiligen Ausprägungen wurden fiktiv bestimmt. Dabei wurde darauf geachtet, dass es in jedem Attribut sowohl positive als auch negative Auswirkungen von Ausprägungen vorhanden sind. Zudem darf die maximal mögliche Punktzahl nicht 1400 übersteigen und die minimale nicht unter 600 fallen. Zum Schluss wird das erstellte Dictionary aus der Methode zurückgegeben und kann dann als Regelwerk zur Bewertung verwendet werden.\\
 Im nächsten Schritt ist wie auch schon im ersten Szenario die Klasse \glqq{}Evaluator\grqq{} mit der Methode \glqq{}\_init\_\grqq{} zum erstellen eines Objektes und \glqq{}rate\grqq{} für das Bewerten von Personen. Für die Initialisierung eines \glqq{}Evaluator\grqq{} Objektes wird zum einen ein Regel Dictionary, ein Boolean ob die Bewertende diskriminierend ist und eine Punktzahl für die negative Auswirkung einer Diskriminierung benötigt. Diese Parameter speichert dann jedes erzeugte Objekt einzeln für sich. Die zweite Methode für das Bewerten der Personen bekommt die drei Parameter \glqq{}influential\grqq{}, \glqq{}person\grqq{} und \glqq{}bias\grqq{} übergeben. In \glqq{}influential\grqq{} sind als Dictionary alle Attribute des Szenario bis auf das Alter und der Name mit deren Ausprägungen gegeben. In dem Parameter \glqq{}person\grqq{} ist der Datenpunkt der zu bewertenden Person enthalten und in \glqq{}bias\grqq{} ist die eine oder mehrere gewünschte Verzerrungen als Dictionary angegeben. Zu Beginn der Methode wird die momentan Bewertete Punktzahl auf 1000 Punkte gesetzt. 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm]{Diagramme/Sz2Rate1.JPG}
-    \caption{Codeausschnitt der Funktion zum Bewerten von Personen}
-    \label{fig:Sz2Rate}
-\end{figure}\\
-Daraufhin folgt die in der Abbildung \ref{fig:Sz2Rate} zu teilen dargestellte Schleife über alle Keys, somit Attributen, in den Regeln des Bewerters. In der Schleife wird für jedes Attribut dann die Auswirkung auf die Punktzahl bestimmt. Dafür muss zuerst überprüft werden, ob es sich um das Attribut CO2-Fußabdruck handelt oder nicht, da bei diesem nicht für jeden Komma fünf Wert eine Auswirkung in den Regeln definiert ist. Somit hat 4 und 4,5 die gleiche Auswirkung. Diese Besonderheit des CO2 Fußabdruck muss daher in der Codezeile \glqq{}value\_of\_key = int(person[key])\grqq{} durch Parsen des Values zu einem Integer besonders behandelt werden. Die darauf folgenden Zeilen Code sind jedoch für jedes Attribut dieselben. In der nächsten Zeile wird für die erhaltene Ausprägung des momentan in der Schleife bearbeitenden Attributes der Index in der Liste von allen Ausprägungen dieses Attributes bestimmt. Mit dem Index kann daraufhin nämlich die Auswirkung dieser Ausprägung aus den Regeln entnommen und auf die momentane Punktzahl addiert werden. Damit ist die Auswirkung schon mal in die Punktzahl der Person mit ein berechnet. Um die Zahlen jedoch interessanter zu halten, wird danach noch ein zusätzlicher prozentualer Wert der Auswirkung bestimmt, welcher ebenfalls auf die Punktzahl berechnet wird. Dafür werden 15 Prozent der Auswirkung genommen und dann ein Zufallswert zwischen 0 und diesen 15 Prozent bestimmt und der Punktzahl der Person hinzugefügt \ac{bzw} abgezogen. Danach ist der Durchlauf für dieses eine Attribut beendet und die Punktzahl wurde entsprechend der Ausprägung der zu bewertenden Person im Bezug auf die Regeln des Bewertenden angepasst. Sobald die Schleife fertig ist, wird im nächsten Schritt überprüft ob die Bewertende Person diskriminierend ist. Wenn dies der Fall ist, beginnt eine Schleife über alle im Parameter \glqq{}bias\grqq{} angegebenen gewünschten Verzerrungen. Wie auch schon zuvor gibt es hier einen Sonderfall für das Attribut Alter, da die gewünschte Verzerrung für ein Alter in einem Intervall angegeben wird. Daher muss hier überprüft werden, ob das alter der zu bewertende Person im Intervall liegt oder nicht. Der nachfolgende Code ist dann der selbe für alle anderen Attribute bis auf den Namen.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm]{Diagramme/Sz2Rate2.JPG}
-    \caption{Codeausschnitt für das Hinzufügen eines Bias beim Bewerten der Personen}
-    \label{fig:Sz2Rate2}
-\end{figure}\\
-In der ersten Zeile des Ausschnittes von Abbildung \ref{fig:Sz2Rate2} wird dann überprüft, ob die Person die zu diskriminierende Ausprägung des Attributes besitzt. Wenn dies der Fall ist, muss überprüft werden, dass wenn die Auswirkung des Bias der Person von der Punktzahl abgezogen wird, diese trotzdem noch über 600 liegt. Falls die Punktzahl dann unter 600 liegt, wird eine neue Punktzahl zu 40\% zwischen 600-610 oder zu 35\% zwischen 611-620 oder zu 25\% zwischen 621-630 zufällig für die Person bestimmt. Dadurch wird gewährleistet, dass nicht sehr viele Personen am Ende eine Punktzahl von genau 600 haben. Wenn die Punktzahl nicht unter 600 fallen würde, wird die Auswirkung des Bias von der Punktzahl der Person abgezogen.\\
+\begin{lstlisting}[language=Python,label={lst:Sz2Rate},caption=Codeausschnitt der Funktion zum Bewerten von Personen]
+for key in self.rules.keys():
+    if(key == "CO2-Fußabdruck"):
+        value_of_key = int(person[key])
+        index = influential[key].index(value_of_key)
+        rate += self.rules[key][index]
+        procent = self.rules[key][index] * 0.15
+        procent = round(procent,0)
+        if(procent<0):
+            rand = random.randint(0,(procent*-1))
+            rate -= int(rand)
+        else:
+            rand = random.randint(0,procent)
+            rate += int(rand)
+\end{lstlisting}
+Daraufhin folgt die in dem Listing \ref{lst:Sz2Rate} zu teilen dargestellte Schleife über alle Keys, somit Attributen, in den Regeln des Bewerters. In der Schleife wird für jedes Attribut dann die Auswirkung auf die Punktzahl bestimmt. Dafür muss zuerst überprüft werden, ob es sich um das Attribut CO2-Fußabdruck handelt oder nicht, da bei diesem nicht für jeden Komma fünf Wert eine Auswirkung in den Regeln definiert ist. Somit hat 4 und 4,5 die gleiche Auswirkung. Diese Besonderheit des CO2 Fußabdruck muss daher durch die dritte Codezeile aus dem Listing \ref{lst:Sz2Rate} mithilfe von Parsen des Values zu einem Integer besonders behandelt werden. Die darauf folgenden Zeilen Code sind jedoch für jedes Attribut dieselben. In der nächsten Zeile wird für die erhaltene Ausprägung des momentan in der Schleife bearbeitenden Attributes der Index in der Liste von allen Ausprägungen dieses Attributes bestimmt. Mit dem Index kann daraufhin nämlich die Auswirkung dieser Ausprägung aus den Regeln entnommen und auf die momentane Punktzahl addiert werden. Damit ist die Auswirkung schon mal in die Punktzahl der Person mit ein berechnet. Um die Zahlen jedoch interessanter zu halten, wird danach noch ein zusätzlicher prozentualer Wert der Auswirkung bestimmt, welcher ebenfalls auf die Punktzahl berechnet wird. Dafür werden 15 Prozent der Auswirkung genommen und dann ein Zufallswert zwischen 0 und diesen 15 Prozent bestimmt und der Punktzahl der Person hinzugefügt \ac{bzw} abgezogen. Danach ist der Durchlauf für dieses eine Attribut beendet und die Punktzahl wurde entsprechend der Ausprägung der zu bewertenden Person im Bezug auf die Regeln des Bewertenden angepasst. Sobald die Schleife fertig ist, wird im nächsten Schritt überprüft ob die Bewertende Person diskriminierend ist. Wenn dies der Fall ist, beginnt eine Schleife über alle im Parameter \glqq{}bias\grqq{} angegebenen gewünschten Verzerrungen. Wie auch schon zuvor gibt es hier einen Sonderfall für das Attribut Alter, da die gewünschte Verzerrung für ein Alter in einem Intervall angegeben wird. Daher muss hier überprüft werden, ob das alter der zu bewertende Person im Intervall liegt oder nicht. Der nachfolgende Code ist dann der selbe für alle anderen Attribute bis auf den Namen.
+\begin{lstlisting}[language=Python,label={lst:Sz2Rate2},caption=Codeausschnitt für das Hinzufügen einer Verzerrung beim Bewerten der Personen]
+if(bias[b].__contains__(person[b])):
+    red_val = self.bias_neg
+    if((rate-red_val)<600):
+        rate_part = np.random.choice([0,1,2], p=[0.4,0.35,0.25])
+        biasrate = random.randint(600,610) if(rate_part == 0) else random.randint(611,620) if(rate_part == 1) else random.randint(621,630)
+        rate = biasrate
+    else:
+        rate-=red_val
+\end{lstlisting}
+In der ersten Zeile des Ausschnittes von Abbildung \ref{lst:Sz2Rate2} wird dann überprüft, ob die Person die zu diskriminierende Ausprägung des Attributes besitzt. Wenn dies der Fall ist, muss überprüft werden, dass wenn die Auswirkung des Bias der Person von der Punktzahl abgezogen wird, diese trotzdem noch über 600 liegt. Falls die Punktzahl dann unter 600 liegt, wird eine neue Punktzahl zu 40\% zwischen 600-610 oder zu 35\% zwischen 611-620 oder zu 25\% zwischen 621-630 zufällig für die Person bestimmt. Dadurch wird gewährleistet, dass nicht sehr viele Personen am Ende eine Punktzahl von genau 600 haben. Wenn die Punktzahl nicht unter 600 fallen würde, wird die Auswirkung des Bias von der Punktzahl der Person abgezogen.\\
 Zum Abschluss der Funktion wird nochmals überprüft ob die Grenzen der Punktzahl überschritten wurden und falls zutreffend diese auf die jeweilige Grenze zurück gesetzt. Danach wird dem Datenpunkt des Dataframes die Bewertung als Integer hinzugefügt und der Datenpunkt kann zurückgegeben werden.\\
 Als nächste und letzte Methode wird die Methode für den gesamt Ablauf des Bewertens Namens \glqq{}work\grqq{} umgesetzt. Diese ist sehr ähnlich wie auch schon beim ersten Szenario umgesetzt. Zu aller erst ist ein Dictionary mit allen Attributen, bis auf Name und Alter, und deren Ausprägungen implementiert. Danach wird durch Aufruf der Methode zum erstellen der Regeln, diese in eine Variable gespeichert. Im Anschluss kann die gewünschte Zahl an  \glqq{}Evaluator\grqq{} Objekten unter Angabe der zuvor erstellten Regeln erstellt werden. Von diesen Objekten wird dann noch die gewünschte Anzahl zu diskriminierenden umgewandelt und diesen die negative Bias Auswirkung übergeben. Zum Schluss der Methode wird über den erhaltenen Datensatz iteriert und jeder Datenpunkt von einem zufälligen \glqq{}Evaluator\grqq{} Objekt bewertet. Nach der Bewertung werden die bewerteten Datenpunkte separat abgespeichert und als Dataframe aus der Methode zurückgegeben. Damit ist die letzte Methode vollends implementiert und es kann in einer letzten Zelle des Notebooks der gesamt Ablauf zusammengefasst werden.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=16cm]{Diagramme/Sz2finish.JPG}
-    \caption{Codeausschnitt für das Hinzufügen eines Bias beim Bewerten der Personen}
-    \label{fig:Sz2Finish}
-\end{figure}\\
-In der Abbildung \ref{fig:Sz2Finish} ist die letzte Zelle dargestellt. Im oberen Bereich kann die Benutzende Person Anpassungen vornehmen, wie den Bias festlegen, die Datenset Größe bestimmen, die Anzahl der Bewertenden und diskriminierenden festlegen sowie die Auswirkung des Bias bestimmen. Als Beispiel wurden hierbei zwei mögliche Versionen für einen Bias angegeben. Im unteren Teil ist der Ablauf des gesamt Programms abgebildet. Zuerst werden die Daten durch die \glqq{}generate\_data\grqq{}Methode in der gewünschten Anzahl generiert. Danach werden diese Daten mit Hilfe der \glqq{}work\grqq{} Methode bewertet und als neuen Dataframe zurückgegeben. Zum Schluss werden dann noch die Rohdaten als \glqq{}Daten\_Szenario2.csv\grqq{} Datei und die bewerteten Daten als \glqq{}Daten\_Bewertet\_Szenario2.csv\grqq{} Datei abgespeichert.
+\begin{lstlisting}[language=Python,label={lst:Sz2Finish},caption=Letzte Zelle des Szenario des sozialen Punktesystems für die Interaktion des Benutzenden]
+#Here is the section for the possible parameters to enter
+#This is an example of how a bias on age can be indicated
+age_sample = {
+    "Alter": "20-30"
+}
+#This dictionary specifies the bias(es) on a possible attribute
+bias = {
+    "Alter": "20-30",
+    "Bildungsabschluss": ["Ausbildung","ohne"]
+}
+#The number of datasets that are to be generated
+datasets = 10000
+#The number of evaluators who evaluate entries
+evaluatorcount = 10
+#The number of evaluators who evaluate with a bias
+bias_evaluator = 4
+#This decides how strong the bias will be. The higher the stronger.
+negativ_bias_impact = 200
+
+#Dont touch this
+data = generate_data(datasets)
+finished = work(df=data,bias=bias,evaluator_count=evaluatorcount,bias_evaluator=bias_evaluator,bias_neg=negativ_bias_impact)
+data.to_csv("Daten_Szenario2.csv", sep=';', encoding='utf-8', index=False)
+finished.to_csv("Daten_Bewertet_Szenario2.csv", sep=';', encoding='utf-8', index=False)
+\end{lstlisting}
+In der Abbildung \ref{lst:Sz2Finish} ist die letzte Zelle dargestellt. Im oberen Bereich kann die Benutzende Person Anpassungen vornehmen, wie den Bias festlegen, die Datenset Größe bestimmen, die Anzahl der Bewertenden und diskriminierenden festlegen sowie die Auswirkung des Bias bestimmen. Als Beispiel wurden hierbei zwei mögliche Versionen für einen Bias angegeben. Im unteren Teil ist der Ablauf des gesamt Programms abgebildet. Zuerst werden die Daten durch die \glqq{}generate\_data\grqq{}Methode in der gewünschten Anzahl generiert. Danach werden diese Daten mit Hilfe der \glqq{}work\grqq{} Methode bewertet und als neuen Dataframe zurückgegeben. Zum Schluss werden dann noch die Rohdaten als \glqq{}Daten\_Szenario2.csv\grqq{} Datei und die bewerteten Daten als \glqq{}Daten\_Bewertet\_Szenario2.csv\grqq{} Datei abgespeichert.
 Hiermit ist die gesamte Umsetzung beider Szenarien abgeschlossen und beide Szenarien können getrennt voneinander als Notebooks verwendet werden, um Daten zu generieren.\\
 Im nächsten Kapitel wird die Auswertung der generierten Daten beschrieben.
 \newpage

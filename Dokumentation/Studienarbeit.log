@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  3 JUN 2022 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  3 JUN 2022 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,30 +986,30 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count468
 \@quotereset=\count469
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 89.
 (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (Studienarbeit.aux)
 \openout1 = `Studienarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1064,7 +1064,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 89.
  (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1074,9 +1074,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count476
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (Studienarbeit.out) (Studienarbeit.out)
 \@outlinefile=\write5
 \openout5 = `Studienarbeit.out'.
@@ -1110,8 +1110,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Studienarbeit.bbl' found.
  (Studienarbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 80.
-Package biblatex Info: Reference segment=0 on input line 80.
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
  (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (ads/deckblatt.tex
@@ -1126,12 +1126,12 @@ Package pdftex.def Info: Bilder/dhbw.png  used on input line 5.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 	\newpage
-               [1]
+l.106 	\newpage
+                [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104     \end{abstract}
+l.113     \end{abstract}
                          [1] (Studienarbeit.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
  (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
@@ -1171,7 +1171,7 @@ although it is yet undefined on input line 17.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...leich der Szenarien}{34}{subsection.3.1.3}
+l.25 ...leich der Szenarien}{33}{subsection.3.1.3}
                                                   % [1
 
 ])
@@ -1181,18 +1181,18 @@ l.25 ...leich der Szenarien}{34}{subsection.3.1.3}
  [2] (ads/abkÃ¼rzungen.tex) [5
 
 
-] (Studienarbeit.lof [6
-
-
-])
+] (Studienarbeit.lof)
 \tf@lof=\write7
 \openout7 = `Studienarbeit.lof'.
 
- [7] (Studienarbeit.lot)
+ [6
+
+
+] (Studienarbeit.lot)
 \tf@lot=\write8
 \openout8 = `Studienarbeit.lot'.
 
- [8
+ [7
 
 
 ] (content/01kapitel.tex
@@ -1249,12 +1249,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]) (content/02kapitel.tex
 Kapitel 2.
-<Bilder/Annual_Data_Size.png, id=460, 853.1875pt x 290.08376pt>
+<Bilder/Annual_Data_Size.png, id=426, 853.1875pt x 290.08376pt>
 File: Bilder/Annual_Data_Size.png Graphic file (type png)
 <use Bilder/Annual_Data_Size.png>
 Package pdftex.def Info: Bilder/Annual_Data_Size.png  used on input line 14.
 (pdftex.def)             Requested size: 441.01772pt x 149.9503pt.
-<Bilder/3VRule.png, id=473, 690.1785pt x 333.04425pt>
+<Bilder/3VRule.png, id=439, 690.1785pt x 333.04425pt>
 File: Bilder/3VRule.png Graphic file (type png)
 <use Bilder/3VRule.png>
 Package pdftex.def Info: Bilder/3VRule.png  used on input line 28.
@@ -1277,7 +1277,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./Bilder/3VRule.png>]
-<Bilder/Data_quality_dimensions.png, id=499, 876.876pt x 447.47176pt>
+<Bilder/Data_quality_dimensions.png, id=466, 876.876pt x 447.47176pt>
 File: Bilder/Data_quality_dimensions.png Graphic file (type png)
 <use Bilder/Data_quality_dimensions.png>
 Package pdftex.def Info: Bilder/Data_quality_dimensions.png  used on input line 44.
@@ -1301,7 +1301,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<Bilder/ml_toolset.png, id=530, 963.6pt x 790.955pt>
+<Bilder/ml_toolset.png, id=497, 963.6pt x 790.955pt>
 File: Bilder/ml_toolset.png Graphic file (type png)
 <use Bilder/ml_toolset.png>
 Package pdftex.def Info: Bilder/ml_toolset.png  used on input line 102.
@@ -1317,12 +1317,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9 <./Bilder/ml_toolset.png>]
 Package acronym Info: Label `acro:bzw' newly defined as it shall be overridden
 although it is yet undefined on input line 117.
-<Bilder/ml_algorithms.png, id=573, 1114.1625pt x 625.33624pt>
+<Bilder/ml_algorithms.png, id=540, 1114.1625pt x 625.33624pt>
 File: Bilder/ml_algorithms.png Graphic file (type png)
 <use Bilder/ml_algorithms.png>
 Package pdftex.def Info: Bilder/ml_algorithms.png  used on input line 122.
 (pdftex.def)             Requested size: 398.33858pt x 223.56555pt.
-<Bilder/superviced_learning.png, id=586, 604.2575pt x 319.1925pt>
+<Bilder/superviced_learning.png, id=553, 604.2575pt x 319.1925pt>
 File: Bilder/superviced_learning.png Graphic file (type png)
 <use Bilder/superviced_learning.png>
 Package pdftex.def Info: Bilder/superviced_learning.png  used on input line 135.
@@ -1355,12 +1355,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./Bilder/superviced_learning.png>]
-<Bilder/Datenmenge.png, id=614, 316.18124pt x 202.356pt>
+<Bilder/Datenmenge.png, id=581, 316.18124pt x 202.356pt>
 File: Bilder/Datenmenge.png Graphic file (type png)
 <use Bilder/Datenmenge.png>
 Package pdftex.def Info: Bilder/Datenmenge.png  used on input line 150.
 (pdftex.def)             Requested size: 227.62204pt x 145.68076pt.
-<Bilder/overunderfitting.png, id=621, 1264.725pt x 646.415pt>
+<Bilder/overunderfitting.png, id=588, 1264.725pt x 646.415pt>
 File: Bilder/overunderfitting.png Graphic file (type png)
 <use Bilder/overunderfitting.png>
 Package pdftex.def Info: Bilder/overunderfitting.png  used on input line 159.
@@ -1374,7 +1374,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./Bilder/Datenmenge.png>]
-<Bilder/Scheinkorrelation.png, id=632, 546.843pt x 180.675pt>
+<Bilder/Scheinkorrelation.png, id=599, 546.843pt x 180.675pt>
 File: Bilder/Scheinkorrelation.png Graphic file (type png)
 <use Bilder/Scheinkorrelation.png>
 Package pdftex.def Info: Bilder/Scheinkorrelation.png  used on input line 167.
@@ -1396,7 +1396,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<Bilder/Gartner_hypeCycle.png, id=655, 1228.59pt x 1168.365pt>
+<Bilder/Gartner_hypeCycle.png, id=622, 1228.59pt x 1168.365pt>
 File: Bilder/Gartner_hypeCycle.png Graphic file (type png)
 <use Bilder/Gartner_hypeCycle.png>
 Package pdftex.def Info: Bilder/Gartner_hypeCycle.png  used on input line 182.
@@ -1410,7 +1410,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./Bilder/Gartner_hypeCycle.png>]
-<Bilder/Grafik-KI_Whitepaper_final_WEB_2.png, id=691, 1134.2375pt x 515.9275pt>
+<Bilder/Grafik-KI_Whitepaper_final_WEB_2.png, id=657, 1134.2375pt x 515.9275pt>
 File: Bilder/Grafik-KI_Whitepaper_final_WEB_2.png Graphic file (type png)
 <use Bilder/Grafik-KI_Whitepaper_final_WEB_2.png>
 Package pdftex.def Info: Bilder/Grafik-KI_Whitepaper_final_WEB_2.png  used on input line 206.
@@ -1440,7 +1440,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<Bilder/Ethical huidelines hagendorf 2020.png, id=757, 1062.97125pt x 834.11626pt>
+<Bilder/Ethical huidelines hagendorf 2020.png, id=724, 1062.97125pt x 834.11626pt>
 File: Bilder/Ethical huidelines hagendorf 2020.png Graphic file (type png)
 <use Bilder/Ethical huidelines hagendorf 2020.png>
 Package pdftex.def Info: Bilder/Ethical huidelines hagendorf 2020.png  used on input line 229.
@@ -1466,7 +1466,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 239.
 
-<Bilder/Bias_cyrcle.png, id=796, 638.98724pt x 340.27126pt>
+<Bilder/Bias_cyrcle.png, id=763, 638.98724pt x 340.27126pt>
 File: Bilder/Bias_cyrcle.png Graphic file (type png)
 <use Bilder/Bias_cyrcle.png>
 Package pdftex.def Info: Bilder/Bias_cyrcle.png  used on input line 249.
@@ -1512,12 +1512,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-<Bilder/Gorillas.png, id=888, 513.71925pt x 289.08pt>
+<Bilder/Gorillas.png, id=855, 513.71925pt x 289.08pt>
 File: Bilder/Gorillas.png Graphic file (type png)
 <use Bilder/Gorillas.png>
 Package pdftex.def Info: Bilder/Gorillas.png  used on input line 303.
 (pdftex.def)             Requested size: 327.20668pt x 184.13277pt.
-<Bilder/Twitter.png, id=895, 431.81325pt x 217.41225pt>
+<Bilder/Twitter.png, id=862, 431.81325pt x 217.41225pt>
 File: Bilder/Twitter.png Graphic file (type png)
 <use Bilder/Twitter.png>
 Package pdftex.def Info: Bilder/Twitter.png  used on input line 312.
@@ -1597,7 +1597,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
-<Diagramme/Grobkonzept_PAP.jpg, id=978, 283.0575pt x 363.3575pt>
+<Diagramme/Grobkonzept_PAP.jpg, id=945, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 69.
@@ -1614,12 +1614,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<Diagramme/Verbindung_der_Attribute_S1.drawio.png, id=986, 292.09125pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S1.drawio.png, id=952, 292.09125pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S1.drawio.png Graphic file (type png)
 <use Diagramme/Verbindung_der_Attribute_S1.drawio.png>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S1.drawio.png  used on input line 84.
 (pdftex.def)             Requested size: 292.09052pt x 121.45343pt.
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=988, 350.30875pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=954, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 92.
@@ -1690,10 +1690,6 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 13
 (C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-
-LaTeX Warning: Reference `fig:GeschlechtscodeS1' on page 40 undefined on input line 154.
-
-
 Overfull \hbox (6.13383pt too wide) in paragraph at lines 138--158
 \T1/lmr/m/n/12 Gegeben: Ge-samt [][]/[][] = An-zahl an Wei-ÿen und Schwar-zen Ge-fan-ge-nen pro (G)Geschlecht
  []
@@ -1716,38 +1712,10 @@ Overfull \hbox (37.46739pt too wide) in paragraph at lines 163--187
  []
 
 
-LaTeX Warning: Reference `fig:GeschlechtscodeS1' on page 41 undefined on input line 191.
+Underfull \hbox (badness 10000) in paragraph at lines 160--195
 
-<Diagramme/Sz1_RequestValues.JPG, id=1044, 398.99063pt x 71.51718pt>
-File: Diagramme/Sz1_RequestValues.JPG Graphic file (type jpg)
-<use Diagramme/Sz1_RequestValues.JPG>
-Package pdftex.def Info: Diagramme/Sz1_RequestValues.JPG  used on input line 197.
-(pdftex.def)             Requested size: 398.98965pt x 71.517pt.
-<Diagramme/Sz1_Regeln.drawio.png, id=1045, 327.2225pt x 613.29124pt>
-File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
-<use Diagramme/Sz1_Regeln.drawio.png>
-Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 205.
-(pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
-<Diagramme/Evaluator_Init.JPG, id=1048, 432.11438pt x 106.14656pt>
-File: Diagramme/Evaluator_Init.JPG Graphic file (type jpg)
-<use Diagramme/Evaluator_Init.JPG>
-Package pdftex.def Info: Diagramme/Evaluator_Init.JPG  used on input line 216.
-(pdftex.def)             Requested size: 432.11331pt x 106.1463pt.
-<Diagramme/Evaluator_Rate.JPG, id=1050, 714.41907pt x 465.99094pt>
-File: Diagramme/Evaluator_Rate.JPG Graphic file (type jpg)
-<use Diagramme/Evaluator_Rate.JPG>
-Package pdftex.def Info: Diagramme/Evaluator_Rate.JPG  used on input line 224.
-(pdftex.def)             Requested size: 455.24265pt x 398.35529pt.
-<Diagramme/Sz1_standardValues.JPG, id=1052, 529.22719pt x 173.14688pt>
-File: Diagramme/Sz1_standardValues.JPG Graphic file (type jpg)
-<use Diagramme/Sz1_standardValues.JPG>
-Package pdftex.def Info: Diagramme/Sz1_standardValues.JPG  used on input line 233.
-(pdftex.def)             Requested size: 455.24763pt x 170.72108pt.
-<Diagramme/Sz1Final.JPG, id=1053, 548.80031pt x 336.50719pt>
-File: Diagramme/Sz1Final.JPG Graphic file (type jpg)
-<use Diagramme/Sz1Final.JPG>
-Package pdftex.def Info: Diagramme/Sz1Final.JPG  used on input line 241.
-(pdftex.def)             Requested size: 455.2529pt x 284.52798pt.
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1760,9 +1728,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1770,19 +1735,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[43 <./Diagramme/Sz1_RequestValues.JPG>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+<Diagramme/Sz1_Regeln.drawio.png, id=1026, 327.2225pt x 613.29124pt>
+File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
+<use Diagramme/Sz1_Regeln.drawio.png>
+Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 205.
+(pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1791,10 +1748,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <./Diagramme/Sz1_Regeln.drawio.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[43 <./Diagramme/Sz1_Regeln.drawio.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1802,7 +1756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./Diagramme/Evaluator_Init.JPG>]
+[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1810,23 +1764,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46 <./Diagramme/Evaluator_Rate.JPG>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[47 <./Diagramme/Sz1_standardValues.JPG>]
-
-LaTeX Warning: Reference `fig:Zelle1S1' on page 48 undefined on input line 249.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--255
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 251--255
 
  []
 
@@ -1837,50 +1776,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./Diagramme/Sz1Final.JPG>]
+[46]
 
-LaTeX Warning: Reference `fig:GeschlechtscodeS1' on page 49 undefined on input line 285.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 280--286
+
+ []
 
 
-LaTeX Warning: Reference `fig:GeschlechtscodeS1' on page 49 undefined on input line 320.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-LaTeX Warning: Reference `fig:GeschlechtscodeS1' on page 49 undefined on input line 336.
-
-<Diagramme/Sz2_Auswahl_Lage.JPG, id=1107, 746.79pt x 18.82031pt>
-File: Diagramme/Sz2_Auswahl_Lage.JPG Graphic file (type jpg)
-<use Diagramme/Sz2_Auswahl_Lage.JPG>
-Package pdftex.def Info: Diagramme/Sz2_Auswahl_Lage.JPG  used on input line 339.
-(pdftex.def)             Requested size: 455.24408pt x 11.47289pt.
-<Diagramme/Sz2AddEntry.JPG, id=1111, 316.93407pt x 209.28188pt>
-File: Diagramme/Sz2AddEntry.JPG Graphic file (type jpg)
-<use Diagramme/Sz2AddEntry.JPG>
-Package pdftex.def Info: Diagramme/Sz2AddEntry.JPG  used on input line 348.
-(pdftex.def)             Requested size: 455.28209pt x 256.07393pt.
-
-LaTeX Warning: Reference `subsubsec:umsetzungsz1' on page 49 undefined on input line 354.
-
-<Diagramme/Sz2Regeln.JPG, id=1113, 432.86719pt x 156.585pt>
-File: Diagramme/Sz2Regeln.JPG Graphic file (type jpg)
-<use Diagramme/Sz2Regeln.JPG>
-Package pdftex.def Info: Diagramme/Sz2Regeln.JPG  used on input line 358.
-(pdftex.def)             Requested size: 455.24408pt x 164.68669pt.
-<Diagramme/Sz2Rate1.JPG, id=1116, 371.88937pt x 225.84375pt>
-File: Diagramme/Sz2Rate1.JPG Graphic file (type jpg)
-<use Diagramme/Sz2Rate1.JPG>
-Package pdftex.def Info: Diagramme/Sz2Rate1.JPG  used on input line 366.
-(pdftex.def)             Requested size: 455.24408pt x 276.47319pt.
-Package acronym Info: Label `acro:bzw' overridden on input line 370.
-<Diagramme/Sz2Rate2.JPG, id=1119, 468.24937pt x 173.14688pt>
-File: Diagramme/Sz2Rate2.JPG Graphic file (type jpg)
-<use Diagramme/Sz2Rate2.JPG>
-Package pdftex.def Info: Diagramme/Sz2Rate2.JPG  used on input line 373.
-(pdftex.def)             Requested size: 455.24408pt x 168.34592pt.
-<Diagramme/Sz2finish.JPG, id=1121, 868.74562pt x 414.04688pt>
-File: Diagramme/Sz2finish.JPG Graphic file (type jpg)
-<use Diagramme/Sz2finish.JPG>
-Package pdftex.def Info: Diagramme/Sz2finish.JPG  used on input line 382.
-(pdftex.def)             Requested size: 455.24408pt x 216.97351pt.
+[48]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1889,6 +1805,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1912,13 +1831,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52 <./Diagramme/Sz2_Auswahl_Lage.JPG>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[52]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1934,7 +1847,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./Diagramme/Sz2AddEntry.JPG>]
+[54]
+Package acronym Info: Label `acro:bzw' overridden on input line 420.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1942,7 +1857,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55 <./Diagramme/Sz2Regeln.JPG> <./Diagramme/Sz2Rate1.JPG>]
+[55]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1950,7 +1865,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56 <./Diagramme/Sz2Rate2.JPG>]
+[56]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1958,7 +1873,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57 <./Diagramme/Sz2finish.JPG>]
+[57]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2017,12 +1932,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [63]
-Overfull \hbox (21.69473pt too wide) in paragraph at lines 179--179
+Overfull \hbox (21.69473pt too wide) in paragraph at lines 188--188
 \T1/lmr/m/n/12 Datensammlung + Alter + und + Geschlecht . pdf / a25fb063 -[] b305 -[] d567 -[] 2d98 -[] e77b1104f713 ?
  []
 
 
-Overfull \hbox (11.31828pt too wide) in paragraph at lines 179--179
+Overfull \hbox (11.31828pt too wide) in paragraph at lines 188--188
 []\T1/lmr/m/n/12 S. Bun-des-amt, \T1/lmr/m/it/12 Da-ten-re-port 2021 - Ka-pi-tel 3: Bil-dung\T1/lmr/m/n/12 , 2021, Letz-ter Zu-griff: 23.05.2022.
  []
 
@@ -2034,51 +1949,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [64] (Studienarbeit.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Studienarbeit.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Studienarbeit.out':
-(rerunfilecheck)             Before: 079D151A60641DE0E01E56B44E7424E9;5942
-(rerunfilecheck)             After:  7DEE9BC2A182293E140D4881AA1F8E48;5943.
-
-Package biblatex Warning: Please rerun LaTeX.
-
+Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
+(rerunfilecheck)             Checksum: 7DEE9BC2A182293E140D4881AA1F8E48;5943.
 Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 \openout1 = `Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45849 strings out of 478547
- 1020995 string characters out of 2840420
- 1829135 words of memory out of 3000000
- 62957 multiletter control sequences out of 15000+600000
+ 45946 strings out of 478547
+ 1021225 string characters out of 2840420
+ 2003482 words of memory out of 3000000
+ 62951 multiletter control sequences out of 15000+600000
  528619 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 103i,19n,105p,2450b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{section*.12} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.11} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.9} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exist, replaced by a fixed one
-
+ 103i,19n,105p,2451b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Studienarbeit.pdf (73 pages, 4526350 bytes).
+Output written on Studienarbeit.pdf (72 pages, 4150428 bytes).
 PDF statistics:
- 1367 PDF objects out of 1440 (max. 8388607)
- 239 named destinations out of 1000 (max. 500000)
- 456 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1481 PDF objects out of 1728 (max. 8388607)
+ 354 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
