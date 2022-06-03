@@ -10,8 +10,8 @@
 \contentsline {section}{\numberline {2.1}Daten als wertschöpfende Ressource}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Daten}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Datenqualität}{7}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Künstliche Intelligenz}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Künstliche Intelligenz Allgemein}{9}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}\ac {KI}}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Künstliche Intelligenz allgemein}{9}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Teilgebiet maschinelles Lernen}{10}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Ethik in der künstlichen Intelligenz}{16}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Vorurteile im Zusammenhang mit \ac {KI}}{22}{section.2.3}%
