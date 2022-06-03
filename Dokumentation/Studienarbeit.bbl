@@ -460,8 +460,8 @@
       \strng{authorbibnamehash}{265d13a098ab7c6b0d4b604ce2070f4c}
       \strng{authornamehash}{265d13a098ab7c6b0d4b604ce2070f4c}
       \strng{authorfullhash}{265d13a098ab7c6b0d4b604ce2070f4c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 IEEE International Conference on Communications Workshops (ICC Workshops)}
@@ -1098,6 +1098,82 @@
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
     \endentry
+    \entry{ntoutsi2020bias}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=d91e68c27fb6532cbc9436b0b640a962}{%
+           family={Ntoutsi},
+           familyi={N\bibinitperiod},
+           given={Eirini},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4324253df183ab6a846df79383a55536}{%
+           family={Fafalios},
+           familyi={F\bibinitperiod},
+           given={Pavlos},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ea6b2df58b4d406148304d6a0ab5e2cf}{%
+           family={Gadiraju},
+           familyi={G\bibinitperiod},
+           given={Ujwal},
+           giveni={U\bibinitperiod}}}%
+        {{hash=88ee2428ef6a40169f9225138dcad138}{%
+           family={Iosifidis},
+           familyi={I\bibinitperiod},
+           given={Vasileios},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d6f39264fac99623136df11c39951df7}{%
+           family={Nejdl},
+           familyi={N\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7690d7bd760c8039dc1ab142ff7c067b}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Maria-Esther},
+           giveni={M\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=a76ccbef49119aa2cc87d46090bea705}{%
+           family={Ruggieri},
+           familyi={R\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=239ddb34b2b1f4cba06ecb606fca3560}{%
+           family={Turini},
+           familyi={T\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6a7d4b316269c9e4bb25972c0970820e}{%
+           family={Papadopoulos},
+           familyi={P\bibinitperiod},
+           given={Symeon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=698c833ee9b071c94b26ac2a53a668b9}{%
+           family={Krasanakis},
+           familyi={K\bibinitperiod},
+           given={Emmanouil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{fullhash}{7d81e09199f1d0198a334a4195609710}
+      \strng{bibnamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{authorbibnamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{authornamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
+      \strng{authorfullhash}{7d81e09199f1d0198a334a4195609710}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery}
+      \field{number}{3}
+      \field{title}{Bias in data-driven artificial intelligence systems—An introductory survey}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{e1356}
+      \range{pages}{-1}
+    \endentry
     \entry{srinivasan2021biases}{article}{}
       \name{author}{2}{}{%
         {{hash=a930a8136a87db041b6b58a5fc9dd8e3}{%
@@ -1194,212 +1270,6 @@
       \endverb
       \keyw{representation learning,deep learning,machine learning,Fairness and bias in artificial intelligence,natural language processing}
     \endentry
-    \entry{Parkavi2018}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=53feed426a7d24dae7836d069fff943b}{%
-           family={A},
-           familyi={A\bibinitperiod},
-           given={Parkavi},
-           giveni={P\bibinitperiod}}}%
-        {{hash=55db48a12e2f9b8d781069e02a2e3848}{%
-           family={Jawaid},
-           familyi={J\bibinitperiod},
-           given={Anam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5625f35ee4860e98ed9dc0aff5c341a9}{%
-           family={Dev},
-           familyi={D\bibinitperiod},
-           given={Saima},
-           giveni={S\bibinitperiod}}}%
-        {{hash=585af0705b3d819951aa92c2a704836a}{%
-           family={M\bibnamedelima S},
-           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Vinutha},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{cc7ce8db94f357b0d1d19b34d82259a7}
-      \strng{fullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \strng{bibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
-      \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
-      \field{title}{The Patterns that Don’t Exist : Study on the effects of psychological human biases in data analysis and decision making}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1109/CSITSS.2018.8768554
-      \endverb
-    \endentry
-    \entry{ntoutsi2020bias}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=d91e68c27fb6532cbc9436b0b640a962}{%
-           family={Ntoutsi},
-           familyi={N\bibinitperiod},
-           given={Eirini},
-           giveni={E\bibinitperiod}}}%
-        {{hash=4324253df183ab6a846df79383a55536}{%
-           family={Fafalios},
-           familyi={F\bibinitperiod},
-           given={Pavlos},
-           giveni={P\bibinitperiod}}}%
-        {{hash=ea6b2df58b4d406148304d6a0ab5e2cf}{%
-           family={Gadiraju},
-           familyi={G\bibinitperiod},
-           given={Ujwal},
-           giveni={U\bibinitperiod}}}%
-        {{hash=88ee2428ef6a40169f9225138dcad138}{%
-           family={Iosifidis},
-           familyi={I\bibinitperiod},
-           given={Vasileios},
-           giveni={V\bibinitperiod}}}%
-        {{hash=d6f39264fac99623136df11c39951df7}{%
-           family={Nejdl},
-           familyi={N\bibinitperiod},
-           given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
-        {{hash=7690d7bd760c8039dc1ab142ff7c067b}{%
-           family={Vidal},
-           familyi={V\bibinitperiod},
-           given={Maria-Esther},
-           giveni={M\bibinithyphendelim E\bibinitperiod}}}%
-        {{hash=a76ccbef49119aa2cc87d46090bea705}{%
-           family={Ruggieri},
-           familyi={R\bibinitperiod},
-           given={Salvatore},
-           giveni={S\bibinitperiod}}}%
-        {{hash=239ddb34b2b1f4cba06ecb606fca3560}{%
-           family={Turini},
-           familyi={T\bibinitperiod},
-           given={Franco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=6a7d4b316269c9e4bb25972c0970820e}{%
-           family={Papadopoulos},
-           familyi={P\bibinitperiod},
-           given={Symeon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=698c833ee9b071c94b26ac2a53a668b9}{%
-           family={Krasanakis},
-           familyi={K\bibinitperiod},
-           given={Emmanouil},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
-      \strng{fullhash}{7d81e09199f1d0198a334a4195609710}
-      \strng{bibnamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
-      \strng{authorbibnamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
-      \strng{authornamehash}{83152149d0cf1e9e62ef7daa6c2a4f8f}
-      \strng{authorfullhash}{7d81e09199f1d0198a334a4195609710}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery}
-      \field{number}{3}
-      \field{title}{Bias in data-driven artificial intelligence systems—An introductory survey}
-      \field{volume}{10}
-      \field{year}{2020}
-      \field{pages}{e1356}
-      \range{pages}{-1}
-    \endentry
-    \entry{IncidentDatabase2015_16}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=7079c72c21415131774625ba1d64f4b0}{%
-           family={Anonymous},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
-      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
-      \strng{bibnamehash}{7079c72c21415131774625ba1d64f4b0}
-      \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
-      \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
-      \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{addendum}{Letzter Zugriff: 23.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/16}}
-      \field{howpublished}{Responsible AI Collaborative.}
-      \field{title}{Incident Number 16. in McGregor, S. (ed.) Artificial Intelligence Incident Database.}
-      \field{year}{2015}
-    \endentry
-    \entry{MachineBias2016}{misc}{}
-      \name{author}{4}{}{%
-        {{hash=48c46dd28c4e658ea1ad97ba6caec416}{%
-           family={Angwin},
-           familyi={A\bibinitperiod},
-           given={Julia},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d6cdd970807360d93b4b80fb5eaf286c}{%
-           family={Larson},
-           familyi={L\bibinitperiod},
-           given={Jeff},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c92891e86996d2c01c8683c11cd41560}{%
-           family={Surya},
-           familyi={S\bibinitperiod},
-           given={Mattu},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2839b86b8666c075c9d0a7fa27fcada6}{%
-           family={Kirchner},
-           familyi={K\bibinitperiod},
-           given={Lauren},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{046bfb5fd41e0fb1069e3d418c5582ce}
-      \strng{fullhash}{3ceab4327a10a3e98a48324c3c02fbbc}
-      \strng{bibnamehash}{3ceab4327a10a3e98a48324c3c02fbbc}
-      \strng{authorbibnamehash}{3ceab4327a10a3e98a48324c3c02fbbc}
-      \strng{authornamehash}{046bfb5fd41e0fb1069e3d418c5582ce}
-      \strng{authorfullhash}{3ceab4327a10a3e98a48324c3c02fbbc}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{addendum}{Letzer Zugriff: 28.05.2022 [Online]. Verfügbar:\url{https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing}}
-      \field{howpublished}{Pro Pubica artikle}
-      \field{title}{Machine Bias - There’s software used across the country to predict future criminals. And it’s biased against blacks.}
-      \field{year}{2016}
-    \endentry
-    \entry{hagendorff2019maschinelles}{article}{}
-      \name{author}{1}{}{%
-        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
-           family={Hagendorff},
-           familyi={H\bibinitperiod},
-           given={Thilo},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
-      \strng{fullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
-      \strng{bibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
-      \strng{authorbibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
-      \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
-      \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Österreichische Zeitschrift für Soziologie}
-      \field{number}{1}
-      \field{title}{Maschinelles Lernen und Diskriminierung: Probleme und Lösungsansätze}
-      \field{volume}{44}
-      \field{year}{2019}
-      \field{pages}{53\bibrangedash 66}
-      \range{pages}{14}
-    \endentry
     \entry{Drew2019}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=b7f2c953cd66d9d47ffbdc038443560a}{%
@@ -1452,6 +1322,128 @@
       \verb https://doi.org/10.1145/3308560.3317590
       \endverb
       \keyw{Artificial intelligence,production monitoring,bias}
+    \endentry
+    \entry{Parkavi2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=53feed426a7d24dae7836d069fff943b}{%
+           family={A},
+           familyi={A\bibinitperiod},
+           given={Parkavi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=55db48a12e2f9b8d781069e02a2e3848}{%
+           family={Jawaid},
+           familyi={J\bibinitperiod},
+           given={Anam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5625f35ee4860e98ed9dc0aff5c341a9}{%
+           family={Dev},
+           familyi={D\bibinitperiod},
+           given={Saima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=585af0705b3d819951aa92c2a704836a}{%
+           family={M\bibnamedelima S},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Vinutha},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc7ce8db94f357b0d1d19b34d82259a7}
+      \strng{fullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \strng{bibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \strng{authorbibnamehash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \strng{authornamehash}{cc7ce8db94f357b0d1d19b34d82259a7}
+      \strng{authorfullhash}{b5f5a27eb2cc0798b203ae58bbbc2f5a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
+      \field{title}{The Patterns that Don’t Exist : Study on the effects of psychological human biases in data analysis and decision making}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1109/CSITSS.2018.8768554
+      \endverb
+    \endentry
+    \entry{IncidentDatabase2015_16}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7079c72c21415131774625ba1d64f4b0}{%
+           family={Anonymous},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{bibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzter Zugriff: 23.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/16}}
+      \field{howpublished}{Responsible AI Collaborative.}
+      \field{title}{Incident Number 16. in McGregor, S. (ed.) Artificial Intelligence Incident Database.}
+      \field{year}{2015}
+    \endentry
+    \entry{IncidentDatabase2015_6}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7079c72c21415131774625ba1d64f4b0}{%
+           family={Anonymous},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{bibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 30.05.2022 [Online]. Verfügbar:\url{incidentdatabase.ai/cite/6}}
+      \field{howpublished}{Responsible AI Collaborative}
+      \field{title}{Incident Number 6. in McGregor, S. (ed.) Artificial Intelligence Incident Database}
+      \field{year}{2016}
+    \endentry
+    \entry{Twitter2016}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 01.06.2022 [Online]. Verfügbar:\url{pic.twitter.com/xuGi1u9S1A}}
+      \field{title}{Tay Microsoft Chatbot}
+      \field{year}{2016}
+    \endentry
+    \entry{hagendorff2019maschinelles}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c2a5bd1c8abf4d0ac046e0640f4d2e66}{%
+           family={Hagendorff},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{fullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{bibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorbibnamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authornamehash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \strng{authorfullhash}{c2a5bd1c8abf4d0ac046e0640f4d2e66}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Österreichische Zeitschrift für Soziologie}
+      \field{number}{1}
+      \field{title}{Maschinelles Lernen und Diskriminierung: Probleme und Lösungsansätze}
+      \field{volume}{44}
+      \field{year}{2019}
+      \field{pages}{53\bibrangedash 66}
+      \range{pages}{14}
     \endentry
     \entry{Bronson2017}{misc}{}
       \name{author}{2}{}{%

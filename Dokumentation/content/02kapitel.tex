@@ -240,61 +240,126 @@
     \label{subsec:KIundbias}
     \subsection{Bias}
     \label{subsubsec:Bias}
-        Als Bias versteht man in der Literatur allgemein eine Verzerrung eines Wertes oder die Abweichung von einem Standard.\cite{Fabi2022} Der Begriff stammt urspünglich aus dem Englischen und ist auf Deutsch übersetzt gleichbedeutend mit den Worten: Vorurteil, Voreingenommenheit, Neigung und Tendenz. In der \ac*{KI} versteht man unter Bias ebenfalls eine Verzerrung. Dabei bezieht sich die Verzerrung jedoch meist auf die Ausgabe einer \ac*{KI}, also der Ausgabe von \ac*{ML} Algorithmen.\cite{Dilmegani2020} Der Bias selbst ist dabei unabhängig von einer positiven oder negativen Verzerrung.\cite{silberg2019notes}
+        Als Bias versteht man in der Literatur allgemein eine Verzerrung eines Wertes oder die Abweichung von einem Standard.\cite{Fabi2022} Der Begriff stammt urspünglich aus dem Englischen und ist auf Deutsch übersetzt gleichbedeutend mit den Worten: Vorurteil, Voreingenommenheit, Neigung und Tendenz. In der \ac*{KI} versteht man unter Bias ebenfalls eine Verzerrung. Dabei bezieht sich die Verzerrung jedoch meist auf die Ausgabe einer \ac*{KI}, also der Ausgabe von \ac*{ML} Algorithmen.\cite{Dilmegani2020} Der Bias selbst ist dabei unabhängig von einer positiven oder negativen Verzerrung.\cite{silberg2019notes}\cite{ntoutsi2020bias}
         Diese Verzerrungen durch einen Bias werden in das Konzept der vertrauenswürdigen \ac*{KI}, aus Kapitel \ref{subsubsec:ethikinderKI}, in den Aspekt der Fairness eingeordnet. Fairness selbst, ist ein elementarer Bestandteil der Ethik in der Gesellschaft. Etwas gilt als \glqq{}fair\grqq{}, wenn keine unzulässige Ungleichbehandlung stattfindet. Im Umkehrschluss gilt etwas als \glqq{}unfair\grqq{}, wenn es eine Gruppe oder Individuen aufgrund von Eigenschaften ungerechtfertigt systematisch Diskriminiert.\cite{silberg2019notes}
         \\
         Für die Arbeit wird speziell der Bias im \ac*{ML} betrachtet. Schwerpunkt wird dabei auf den negativen Einfluss von Verzerrungen im \ac*{ML} und die Auswirkungen eines Bias auf die Ausgabe gelegt. Ein Bias im \ac*{ML} kann aus unterschiedlichen Gründen zustande kommen. Dabei wird in der Literatur oft eine Unterscheidung in die drei Bereiche Bias durch Daten, Bias durch Algorithmen und Bias durch Menschen gemacht.\cite{srinivasan2021biases}\cite{Mehrabi2021}
-        \begin{itemize}
-            \item \textbf{Bias durch Daten} \\
-            Der Bias durch Daten hat seinen Ursprung in der Art wie \ac*{ML} funktioniert. Wie bereits in Kapitel \ref{subsubsec:teilgebietML} genauer beschrieben, wird beim \ac*{ML} mit Trainingsdaten gearbeitet. 
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width =15cm]{Bilder/Bias_cyrcle.png}
+            \caption{Exemplarische Arten von Bias in den drei Teilbereichen Daten, Algorithmen und Mensch \cite{Mehrabi2021}}
+            \label{fig:BiasCycle}
+        \end{figure}\\
+        Eine eindeutige Unterteilung fin diese drei Bereiche ist jedoch schwer möglich. Meist beeinflussens ich die Bereiche gegenseitig, wie es in der Abbildung \ref*{fig:BiasCycle} dargestellt ist. Zum Beispiel eine Verzerrung die durch einen Menschen zustande kommt, wird Einfluss auf die Daten haben, die bei der Entwicklung der \ac{KI} eine elementare Rolle spielen. Aber Ebenso ist es unter Umständen möglich, dass die \ac{KI} zuvor, durch seine Ausgabe, einen Einfluss auf das Handeln eines Menschen gehabt hat.\cite{Mehrabi2021} Ein Bias ist demnach also entweder in den Daten, einem Algorithmus oder einem Menschen zu verorten. Seine Auswirkungen bzw. seine Verzerrung wird aber erst in dem danach folgenden Bereich sichtbar, wie es in Abbildung \ref*{fig:BiasCycle} zu sehen ist. Der Bias uns seine Verzerrung in der \ac*{KI} bilden so eine Kreislauf der in allen Bereichen seinen Einfluss hat.\cite*[]{Mehrabi2021}
+        Bias ist aber nur der Überbegriff. In den drei benannten Kategorien gibt es eine Vielzahl an unterschiedlichen Auspräungen von Bias. Deshalb werden im folgenden die Kategorien in denen Bias vorkommen und die dazugehörigen spezifische Ausprägungen von Bias genauer untersucht.
+        \begin{description}
+            \item [Bias durch Daten:]\hfill \\
+            Der Bias durch Daten hat seinen Ursprung in der Funktionsweise von \ac{ML}. Wie bereits in Kapitel \ref{subsubsec:teilgebietML} genauer beschrieben, wird beim \ac{ML} mit Trainingsdaten gearbeitet. Speziell beim überwachten \ac*{ML} werden historische Daten genutzt um Zusammenhänge und Strukturen aus Daten zu erlernen. So wird eine Verhaltensweise, meist die eines Menschen, durch ein Modell nachgebildet. Entscheidend für die Funktionalität sind daher die Trainingsdaten. Sie sind auch der Ort an dem sehr häufig ein Bias auftritt.\cite{silberg2019notes}\cite{Drew2019}
             \\
-            - Bias aufgrund von Daten --> Über oder Unterrepräsentation von bestimmten Gruppen \\
-            - ML ist immer auf Basis von Daten aus der Vergangenheit \\
-            \textbf{Aufzählung der Arten}
-
-            \item \textbf{Bias durch Algorithmen} \\
-            - algorithmen versuchen das Verhalten einer Person nachzubilden -> Hat eine Person ein Rassistisches Verhalten --> Später unsere Bewertung, wird die Ki auch dieses verhalten besitzen \\
-            - Bias durch Abwesenheit - Wenn eine Info fehlt, kann das zu Diskriminierung führen. --> Algorithmen \\
-            \textbf{Aufzählung der Arten}
-
-            \item \textbf{Bias durch Menschen} \\
-            Dieser Aspekt der Verzerrung von Ergebnissen wird in der Arbeit jedoch nicht tiefer gehend betrachtet, da es sich mehr um ein ethisches Problem der Gesellschaft handelt, als speziell um ein Konflik in der Nutzung von \ac*{KI}.\\
-            - Egal ob von einem Algorithmus beeinfluss oder nicht menschen können Vorurteile besitzen --> Einfluss auf die Generierung von Daten  \\
-            - Diskriminierung durch Menschen. \\
-            \textbf{Aufzählung der Arten}
-
-        \end{itemize}\cite{Mehrabi2021}
-        Letztendlich wird unabhängig von der Ursache des Bias eine Verzerrung des Ergebnisses verursacht. Dabei werden Freiheiten von Personen eingeschränkt und gegen die Anforderungen der Fairness und Autonomie, wie es durch die vertrauenswürdige \ac*{KI} gefordert wird, verstoßen.
+            Die wichtigsten Ausprägungen von Bias in Daten sind: Measurement Bias, Sampling Bias und Label Bias\cite{srinivasan2021biases}\cite{Mehrabi2021}
+            \begin{description}
+                \item [Measurement Bias:] \hfill \\
+                Der \glqq{}measurement bias\grqq{} (\ac*{dt}.:Verzerrung der Messung) entsteht durch die Art in der Merkmale ausgewählt, verwendet und ermittelt werden. Ein Beispiel für diese Art der Verzerrung ist, dass für das Kriminalitätsrisiko Bewertung die Verhaftungsrate im Freundes-/Familienkreis herangezogen wurden. So entsatnd der Trugschluss, dass Minderheitengruppen aufgrund einer höheren Verhaftungsrate gefährlicher seine. Zurückzuführen ist der Bias auf die häufigere Kontrolle von Minderheitengruppen und eine dadurch verursachte höhere Verhaftungsvariable.\cite{silberg2019notes}\cite{srinivasan2021biases}\cite{Mehrabi2021}
+                \item [Sampling Bias:] \hfill \\
+                Ein \glqq{}sampling bias\grqq{} (\ac*{dt}.: Stichprobenverzerrung) ist eine der häufigsten Arten von Verzerrungen in Datensätzen. Hier entsteht die Verzerrung dadurch, dass eine bestimmte Gruppe wie beispielsweise dunkelhäutigen Personen im Vergleich zu hellhäutige Personen unterräpresentiert wird oder vollständig fehlt. Wenn Gruppen im unterrepräsentiert sind oder gar ganz in den Trainingsdaten fehlen, kann dies dazu führen, dass der Algorithmus schlechter generalisiert und so schlechter gegenüber dunkelhäutigen Personen funktioniert. Die Stichprobe in Form der Trainingsdaten ist, wenn ein Sampling Bias enthalten ist aus diesem Grund nicht repräsentativ für die reale Welt und somit auch nicht als Traainingsdatensatz für \ac*{ML} geeignet.\cite{srinivasan2021biases}\cite{Mehrabi2021}
+                \item [Lable Bias:] \hfill \\
+                \glqq{}Lable bias\grqq{} (\ac*{dt}.: Verzerrung der Beschriftung) bedeutet, dass es eine Verzerrung in der Bewertung der Trainingsdaten gibt. Zurückzuführen ist dieser Bias auf seine Entstehung, genauer auf die bewertenden Personen. Die Verzerrung wird durch die individuelle Begebenheiten verursacht. Es kann z.B. aufgrund unterschiedlicher Herkunft passieren, dass der selbe Objekttyp mit unterschiedlichen Bezeichnungen verstehen wird. Als Beispiel, das Bild einer Frikadelle wird je nach Herkunft des Bewertenden möglicherweise auch mit dem Namen: Fleischküchle, Fleischpflanzerl oder Bulette bennant.
+                Durch die Verzerrung der Bewertung können aber ebenso die Vorurteile von Menschen in den Daten repräsentiert werden. So kann beispielsweise das diskriminierende Handeln in Form der Bewertung von Entscheidungen oder Bewertungen in die Trainingsdaten integriert werden. Auf diese Weise können unzulässige Muster in eine \ac*{KI} übertragen werden.\cite{srinivasan2021biases}
+            \end{description}
+            
+            \item [Bias durch Algorithmen:] \hfill \\
+            Nicht nur die Daten die zum Trainieren und Lernen von \ac*{ML} Modellen genutzt werden können die Ursache einer Verzerrung sein. Auch das Modell slebst kann für eine Verzerrung sorgen. Beispiele für einen Bias durch Algorithmen sind: Algorithmic Bias und Confounding Bias.
+            \begin{description}
+                \item [Algorithmic Bias:] \hfill \\
+                Von einem \glqq{}algorithmic bias\grqq{}(\ac*{dt}.: Algorithmische Verzerrung) spricht man, wenn die Eingabedaten keinen Bias enthalten, sondern der Algorithmus eine Verzerrung hinzufügt. Dies kann druch verschiedene Entschiedungen wie die Regularisierung, Optimierungsfunktionen oder die Anwendung von Regressionsmodellen zustande kommen und die Entscheidungen des Algorithmus verzerren.\cite{srinivasan2021biases}\cite{Mehrabi2021}
+                \item [Confounding Bias:] \hfill \\
+                Der \glqq{}confounding bias\grqq{} (\ac*{dt}.: Verdeckende Verzerrung) ist die Folge aus falsch erlernten Zusammenhängen. Zum einen können Beziehungen in Daten erlernt werden, die nicht korrekt sind. Zum anderen kann es auch sein, dass bestehende Beziehungen in den Daten von dem Algorithmus nicht erlernt werden und so bei dem einsatz des Modells nicht zu erwartende Verzerrungen auftreten. Diese Art des Bias hängt mit dem Problem des underfitting im \ac*{ML} zusammen, denn es werden unzureichende Modellanpassungen. Der confounding bias kann daher eine Ursache für underfitting von \ac*{ML} Modellen sein.\cite{srinivasan2021biases}
+            \end{description}
+                
+            \item [Bias durch Menschen:] \hfill \\
+            Dieser Aspekt der Verzerrung von Ergebnissen wird in der Arbeit jedoch nicht tiefer gehend betrachtet, da es sich mehr um ein ethisches Problem der Gesellschaft handelt, als speziell um ein Konflik in der Nutzung von \ac{KI}. Exemplarisch werden trotzdem der Hirsorical Bias, Social Bias und der Behavior Bias erläutet. Diese haben zwar keinen direkten Einfluss auf \ac*{KI} und \ac*{ML}, indirekt beeinflussen sie jedoch die Daten die letzten Endes für das \ac*{ML} genutzt werden.
+            \begin{description}
+                \item [Historical Bias:] \hfill \\
+                Als \glqq{}historical bias\grqq{} (\ac*{dt}.: Historische Voreingenommenheit) versteht man grundlegend Vorurteile. Speziell die Voreingenommenheit von Personen unabhängig von Daten. Diese Vorurteile können zu Diskriminierung führen und auch im Bereich von \ac*{ML} eine Rolle bei der Erstellung von Test bzw. Trainingsdaten spielen. Historische Voreingenommenheit ist somit der Grund aus dem bspw. ein Lable Bias entsteht.\cite{Mehrabi2021}\cite{Parkavi2018}
+                \item [Social Bias:] \hfill \\
+                \glqq{}Social bias\grqq{} (\ac*{dt}.: Soziale Vorurteile) beschreibt die Manipulation in der menschlichen Entscheidungsfindung. Egal ob durch Rezensionen, Reviews oder Bewertungen, Menschen lassen sich in ihrem Handeln durch die Gesellschaft beeinflussen. Eine schlechte Bewertung eines Artikels führt in der Regel zu dem Vorurteil, dass der Artikel nicht gut ist und führt dazu sich gegen den Kauf zu entscheiden.\cite{Mehrabi2021}\cite{Parkavi2018}
+                \item [Behavior Bias:] \hfill \\
+                Der \glqq{}behavior bias\grqq{} (\ac*{dt}.: Verhaltensbedingte Vorurteile) ergibt sich aus einem unterschiedlichen Nutzungsverhalten. Abhängig von dem Kontext und den Rahmenbedingungen, ändert sich auch das Nutzungsverhalten der Nutzenden. Es kann beispielsweise gegen die Erwartung passieren, dass die selbste Handlung auf unterschiedlichen Plattformen zu unterschiedliche Reaktionen führt.\cite{Mehrabi2021}
+            \end{description}
+        \end{description}
+        Verzerrungen können in jedem Prozessschritt beim \ac*{ML} entstehen. Egal ob bei der Erstellung, Auswahl oder Bewertung von Daten oder bei der Verwendung von Algorithmen. Entscheidend ist, wie man mit dieser Verzerrung umgeht und ob man sich dieser Bewusst ist. Ziel muss es sein, einen Rahmen für den vertrauenswürdigen Einsatz von \ac*{KI} zu gewährleisten. Zu diesem gehört die Gerechtigkeit und Fairness so wie die Autonomie des Menschen. 
+        Letztendlich wird unabhängig von der Ursache des Bias eine Verzerrung des Ergebnisses verursacht. Dabei werden Freiheiten von Personen eingeschränkt und gegen die Anforderungen der Fairness und Autonomie, wie es durch die vertrauenswürdige \ac*{KI} gefordert wird, verstoßen. Der Aspekt der Diskriminierung wird im folgenden Kapitel \ref*{subsubsec:diskriminierungdurchverzerrung} nochmals anhand von Beispielen  betrachtet. 
         \\
-        \cite{HEGKI2019Definition}\cite{Parkavi2018}\cite{Fabi2022}\cite{Mehrabi2021}\cite{ntoutsi2020bias}\cite{silberg2019notes}\cite{srinivasan2021biases}
+        \cite{HEGKI2019Definition}\cite{Fabi2022}\cite{silberg2019notes}\cite{srinivasan2021biases}\cite{ntoutsi2020bias}\cite{Mehrabi2021}\cite{Parkavi2018}
 
     \subsection{Diskriminierung durch Vorurteile in Daten}
     \label{subsubsec:diskriminierungdurchverzerrung}
-        Disrikimierung durch \ac*{KI} sorgt in der öffentlichkeit immer wieder für Schlagzeilen.\cite{Cremers2019}
+        Disrikimierung durch \ac*{KI} sorgt in der öffentlichkeit immer wieder für Schlagzeilen.\cite{Cremers2019} Und das obowhl Experten in der \ac*{KI} eine Möglichkeit sehen, die Vorurteile des Menschen zu redizieren indem die Entscheidungsfindung durch einen Algorithmus übernommen wird. Das Risiko, dass eine \ac*{KI} jedoch die menschlichen bzw. gesellschaftlichen Vorurteile übernimmt und möglicherweise verstärkt besteht dennoch.\cite{silberg2019notes} Die Auswirkungen eines Bias im produktiven Einsatz äußern sich meist in Disrikimierung und Benachteiligung. 
+        Um zu zeigen welche Folgen eine Verzerrung in einer \ac*{KI} haben kann, werden diese an drei berühmten Fällen von Diskriminierung und Benachteiligung aus der realen Welt demonstriert.
         \\
-        Schwarze werden als Gorillas erkannt \cite{Cremers2019} \\
-        Frauen werden benachteiligt \cite{Cremers2019} \\
-        Chat bot wird ein rassist \cite{Cremers2019}\cite{IncidentDatabase2015_16} \\
-        Schwarze sind automatisch kriminell \cite{Cremers2019}\cite{MachineBias2016} \\
-        \\
-        \cite{hagendorff2019maschinelles}
-
-    \subsection{Gegenma{\ss}nahmen}
-    \label{subsubsec:gegenmassnahmen}
-        - Was kann man dagegen tun?
-        - Gibt es möglichkeiten Trainingsdaten künstlich zu erzeugen und so eine neutrale betrachtung zu schaffen
-        - Parameter entfernen als Lösung --> Die KI wird aber dadurch schlechter 
-        \\
-        Wenn der Parameter mit dem Bias entfernt wird, wird das Ergebnis erstmal schlechter. 
-        \\
+        Ein sehr populär gewordener Fall von Diskriminierung fand im Jahr 2015 im Zusammenhang mit der \ac*{KI} für Bilderkennung und automatisierte Kategorisierung von Google statt. Aufgabe der Software ist es, Bilder zu analysieren und dazu passende Beschriftungen zu erzeugen. Der Skandal der sich hier ereignete war, dass ein Foto von zwei Schwarzen Menschen mit der Beschriftung \glqq{}Gorillas\grqq{} versehen wurde.\cite{Cremers2019}\cite{IncidentDatabase2015_16}
         \begin{figure}[h]
             \centering
-            \includegraphics[width = \textwidth]{Bilder/MinimizingBias.png}
-            \caption{Ansätze um Bias in der \ac*{KI} zu minimieren \cite{Dilmegani2020}}
-            \label{fig:MinimizeBias}
+            \includegraphics[width = 11.5cm]{Bilder/Gorillas.png}
+            \caption{Erkennung von Schwarzen als Gorillas \cite{IncidentDatabase2015_16}}
+            \label{fig:HumanGorillas}
         \end{figure} \\
-
-        \cite{Drew2019}\cite{Dilmegani2020}
+        In dem Bildausschnitt \ref*{fig:HumanGorillas} lässt sich dabei klar erkennen, dass die Kategorien der anderen Fotos treffend waren. Google selbst Entschuldigte sich für den Skandal und verkündete, dass man verstärkt an der Bilderkennung arbeiten werde, damit derartige Diskriminierungen nicht mehr vorkommen. Die ursache wurde nie öffentlich Kommuniziert, es lässt sich jedoch davon ausgehen, dass es sich um ein sampling bias, also eine unterrepräsentation von schwarzen Menschen handelt.\cite{IncidentDatabase2015_16}
+        \\
+        Ein weiteres Beispiel, dass insbesondere die Entstehung eines Bias während des produktiven Betrieb veranschaulicht, war der Microsoft Chat bot Tay. Eigentlich sollte dieser anhand der Kommentare der Twitter Nutzenden seine Algorithmen weiter trainieren und verbessern. Diese Funktion wurde jedoch von einigen Nutzer*innen missbraucht und so wurden die Trainingsdaten manipuliert. Es wurden rassistische, diskriminierende und meinungsbasierte Kommentare veröffentlicht, die dazu geführt haben, dass das \ac*{ML} Modell sich dieses Verhalten selbst aneignet.\cite{Cremers2019}\cite{IncidentDatabase2015_6}
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 14cm]{Bilder/Twitter.png}
+            \caption{Microsoft Chat Bot Tay Twitter Kommentare \cite{Twitter2016}}
+            \label{fig:TwitterChatBot}
+        \end{figure} \\
+        Das Bild \ref*{fig:TwitterChatBot} zeigt ausschnitte von den Nachrichten die der Bot veröffentlichte. Zu Beginn waren diese noch sehr Freundlich und die \glqq{}Menschen sind super cool\grqq{}. Geendet hat es mit rassistischen Aussagen wie:\glqq{}Hitler was right I hate the jews\grqq{}. Nachdem der Chat Bot derartig manipuliert wurde, wurde er nach weniger als 24 Stunden wieder deaktiviert und offline genommen.\cite{IncidentDatabase2015_16} 
+        \\
+        Bei dem letzten Beispiel geht es um den Bewerbungsprozess bei Amazon. Dieses Beispiel bezieht sich auf eine Software die bereits 2014 entwicklet wurde und die Lebensläufe der Bewerber einstufen und Bewerten sollte. Nach einiger Zeit stellte sich heraus, dass die \ac*{KI} männliche Bewerber bevorzugt und Frauen unberechtigter weise schlechter bewertet. Die Ursache dafür liegt wiedermal in den Trainingsdaten des \ac*{ML} Modells. Es wurden die Daten der Bewerbungen der letzten Jahre genutzt. Da das Verhältnis von Männern und Frauen in der Tech Branche jedoch sehr unausgeglichen ist, hat das Modell den Trugschluss getroffen, dass männliche Bewerber bevorzugt werden würden. Auf diese Art und Weise entwickelte sich ein sampling bzw. measurement bias, der für eine Diskriminierung von Frauen sorgte. Letztendlich wurde die Software nach Versuchen, das Problem in den Griff zu bekommen, 2017 abgeschalten.\cite{Cremers2019}\cite{IncidentDatabase2015_37}
+        \\
+        In allen Fällen ist die Verzerrung im produktiven Betrieb der \ac*{KI} entdeckt geworden. Daraus ergibt sich ein weiteres Problem. Nicht nur der Bias selbst ist ein Herausforderung, die es zu lösen gilt, sondern auch die überprüfung von Modellen speziell hinsichtlich Verzerrungen. Denn \ac*{KI} hat inzwischen einen Stellenwert in der Gesellschaft, von dem aus nicht nur eine diskriminierende Nachricht oder ein rassistischer Kommentar die Folge einer Verzerrung sein kann. Es werden Entscheidungen durch \ac*{KI} getroffen, die einen starken Einfluss auf ein Individuum haben kann. Nur um einige Beispiele zu nennen werden mehr und mehr Entscheidungen im Gesundheitssektor oder der Justiz durch eine \ac*{KI} getroffen. Hier kann ein Bias verherende Folgen haben, die nicht mit einer Entschuldigung korrigiert werden können.\cite{hagendorff2019maschinelles}Dabei ist die Form und die Ursache des Bias egal. Es muss grundsätzlich der Faktor Verzerrung, Bias und Vorurteile mehr bercksichtigt werden im Umgang mit \ac*{KI} Systemen.\cite{Drew2019}
+        \\
+        Quellen to be added.
+        \cite{hagendorff2019maschinelles}
+    
+    \subsection{Gegenma{\ss}nahmen}
+    \label{subsubsec:gegenmassnahmen}
+        Die Problematik der Diskriminierung stellt sowohl die Wissenschaft als auch die Wirtschaft vor Herausforderungen. Zur Lösung dieser Herausforderungen gibt es bereits eine Vielzahl an Forschungen, auch wenn die Thematik rund um Bias und Verzerrung einer \ac*{KI} erst ein sehr neuer Forschungsbreich ist.
+        \\
+        - erklärbarkeit/Transparenz von \ac*{KI} Systemen um Bias zu erkennen
+        \\
+        Um einen Bias zu vermeiden gibt es verschiedene Ansätze. Dazu gehören sowohl technische Maßnahmen, als auch organisatrische Maßnahmen die ergriffen werden können. 
+        \begin{description}
+            \item[techische Maßnahmen] \hfill \\
+            - Trainingsdaten bereinigen. Wir eliminieren die Parameter die zu einer Diskriminierung führen bzw führen können.
+            - Wir verhindern, dass ein Algorithmus  durch Verzerrte Daten Zusammenhänge erlernt die Biased sind
+            - Dadurch verlieren wir aber erstmal an Qualität und Nützlichkeit
+            Wenn der Parameter mit dem Bias entfernt wird, wird das Ergebnis erstmal schlechter. \\
+            Wir verlieren sehr viel an genauigkeit, d.h. wir können das Modell möglicherweiße nicht mehr einsetzen.\\
+            Wir nehmen dem Modell seine Entscheidungsgrundlage weg.
+            \cite{hagendorff2019maschinelles}
+            \\
+            - Konzept der \glqq{}counterfactual fairness\grqq{} 
+            - Wir testen das Modell ob es Entscheidungen gelich trifft
+            - Beispiel: Ein Frauen Datensatz wird zu einem Mann abgeänder und die Auswirkung auf die Ausgabe der KI betrachtet --> sollte gleich sein
+            - \cite{hagendorff2019maschinelles}
+            \\
+            in-processing
+            \\
+            pre-processing
+            \\
+            post processing
+            \\
+            - Gibt es möglichkeiten Trainingsdaten künstlich zu erzeugen und so eine neutrale betrachtung zu schaffen
+            \item[organisatorische Maßnahmen] \hfill \\
+            - Prinzip von \glqq{}fairness through unawareness\grqq{} \cite{hagendorff2019maschinelles}
+            \\
+            - Auditieren von Trainingsdaten und Modellen \cite{hagendorff2019maschinelles}
+        \end{description}
+        Trotz dieser Maßnahmen wird es immer Verzerrungen und Vorurteile in Daten geben. Wichtiger als diese zu minimieren ist es, über deren existenz aufzuklären. Denn es ist in der Verantwortung der Entwickler sowohl in der Entwicklung als auch bei dem Betrieb die \ac*{KI} regelmäßig auf Verzerrungen zu überprüfen.\cite{Drew2019} Nur so kann letztendlich eine gerechte, diskriminierungsfreie vertrauenswürde \ac*{KI} geschaffen werden, die nachvollziehbare Entscheidungen trifft.
+        \\
+        Quellen to be done
+        \cite{Drew2019}\cite{Dilmegani2020}\cite{hagendorff2019maschinelles}
         
     \newpage
 \end{onehalfspace}
