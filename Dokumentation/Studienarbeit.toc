@@ -18,19 +18,19 @@
 \contentsline {subsection}{\numberline {2.3.1}Bias}{22}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Diskriminierung durch Vorurteile in Daten}{26}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Gegenma{\ss }nahmen}{28}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Praktischer Teil}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Szenarien}{30}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{30}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{31}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Konzeption}{32}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{32}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{33}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Umsetzung}{36}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario 1}{36}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario 2}{46}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Datenauswertung}{57}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{57}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Schluss}{58}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{58}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diskussion}{58}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ausblick}{58}{section.4.3}%
+\contentsline {chapter}{\numberline {3}Praktischer Teil}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Szenarien}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Szenario 1}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Szenario 2}{32}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Konzeption}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Grobkonzept}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feinkonzept}{34}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Umsetzung}{37}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario 1}{37}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario 2}{47}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Datenauswertung}{58}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{58}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Schluss}{59}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diskussion}{59}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ausblick}{59}{section.4.3}%

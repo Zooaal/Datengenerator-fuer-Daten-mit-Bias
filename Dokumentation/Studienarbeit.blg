@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Studienarbeit.blg'
-[111] biber-MSWIN64:340> INFO - === 
-[155] Biber.pm:418> INFO - Reading 'Studienarbeit.bcf'
-[284] Biber.pm:972> INFO - Found 45 citekeys in bib section 0
-[297] Biber.pm:4383> INFO - Processing section 0
-[309] Biber.pm:4574> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[377] bibtex.pm:1713> INFO - LaTeX decoding ...
-[423] bibtex.pm:1518> INFO - Found BibTeX data source 'Literatur.bib'
-[678] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[678] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[678] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[678] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
-[708] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
-[732] bbl.pm:757> INFO - Output to Studienarbeit.bbl
-[733] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Mehrabi2021' is not an integer - this will probably not sort properly.
-[733] Biber.pm:132> INFO - WARNINGS: 1
+[232] biber-MSWIN64:340> INFO - === 
+[330] Biber.pm:418> INFO - Reading 'Studienarbeit.bcf'
+[471] Biber.pm:972> INFO - Found 46 citekeys in bib section 0
+[485] Biber.pm:4383> INFO - Processing section 0
+[506] Biber.pm:4574> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[596] bibtex.pm:1713> INFO - LaTeX decoding ...
+[656] bibtex.pm:1518> INFO - Found BibTeX data source 'Literatur.bib'
+[1000] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1000] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1000] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[1000] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[1070] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
+[1094] bbl.pm:757> INFO - Output to Studienarbeit.bbl
+[1094] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Mehrabi2021' is not an integer - this will probably not sort properly.
+[1094] Biber.pm:132> INFO - WARNINGS: 1

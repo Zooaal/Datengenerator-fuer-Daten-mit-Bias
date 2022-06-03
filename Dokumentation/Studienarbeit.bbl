@@ -1445,6 +1445,26 @@
       \field{pages}{53\bibrangedash 66}
       \range{pages}{14}
     \endentry
+    \entry{Google}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Letzer Zugriff: 01.06.2022 [Online]. Verfügbar:\url{https://ai.google/responsibilities/responsible-ai-practices/?category=fairness}}
+      \field{title}{Responsible AI practices}
+      \field{year}{2022}
+    \endentry
     \entry{Bronson2017}{misc}{}
       \name{author}{2}{}{%
         {{hash=1c210d927a0f2dd3ebd4ca9e3bf9020d}{%
