@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Studienarbeit.blg'
-[155] biber-MSWIN64:340> INFO - === 
-[219] Biber.pm:415> INFO - Reading 'Studienarbeit.bcf'
-[413] Biber.pm:952> INFO - Found 47 citekeys in bib section 0
-[434] Biber.pm:4340> INFO - Processing section 0
-[450] Biber.pm:4531> INFO - Looking for bibtex format file 'Literatur.bib' for section 0
-[545] bibtex.pm:1689> INFO - LaTeX decoding ...
-[628] bibtex.pm:1494> INFO - Found BibTeX data source 'Literatur.bib'
-[854] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Mehrabi2021' is not an integer - this will probably not sort properly.
-[970] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[970] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[970] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[970] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[1009] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
-[1040] bbl.pm:757> INFO - Output to Studienarbeit.bbl
-[1041] Biber.pm:128> INFO - WARNINGS: 1
+[154] biber-MSWIN64:340> INFO - === 
+[207] Biber.pm:415> INFO - Reading 'Studienarbeit.bcf'
+[396] Biber.pm:952> INFO - Found 47 citekeys in bib section 0
+[418] Biber.pm:4340> INFO - Processing section 0
+[437] Biber.pm:4531> INFO - Looking for bibtex format file 'Literatur.bib' for section 0
+[543] bibtex.pm:1689> INFO - LaTeX decoding ...
+[637] bibtex.pm:1494> INFO - Found BibTeX data source 'Literatur.bib'
+[948] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Mehrabi2021' is not an integer - this will probably not sort properly.
+[1079] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1079] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1079] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[1080] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[1125] bbl.pm:654> INFO - Writing 'Studienarbeit.bbl' with encoding 'UTF-8'
+[1160] bbl.pm:757> INFO - Output to Studienarbeit.bbl
+[1160] Biber.pm:128> INFO - WARNINGS: 1

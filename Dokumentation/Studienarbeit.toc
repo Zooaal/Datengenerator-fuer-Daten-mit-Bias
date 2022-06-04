@@ -65,12 +65,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Datenauswertung}{59}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{64}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{65}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Schluss}{65}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Schluss}{69}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{69}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Diskussion}{65}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Diskussion}{69}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Ausblick}{65}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Ausblick}{69}{section.4.3}%
