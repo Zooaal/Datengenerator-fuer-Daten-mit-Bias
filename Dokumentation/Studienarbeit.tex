@@ -160,6 +160,14 @@ backend=biber, natbib=true]{biblatex}
     \addcontentsline{toc}{section}{Tabellenverzeichnis}
     \newpage
 
+    %Listingverzeichnis
+    \cleardoublepage
+    \thispagestyle{empty}
+    \phantomsection
+	\lstlistoflistings
+    \addcontentsline{toc}{section}{Listings}
+    \newpage
+
     \pagenumbering{arabic}
 	\fancyhf{}
     \fancypagestyle{plain}{%  the preset of fancyhdr 
