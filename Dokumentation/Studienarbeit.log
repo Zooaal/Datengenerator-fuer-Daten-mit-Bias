@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12.10) (preloaded format=xelatex 2021.12.10)  4 JUN 2022 18:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12.10) (preloaded format=xelatex 2021.12.10)  5 JUN 2022 11:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1937,7 +1937,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [68]
 Kapitel 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
 
@@ -2016,4 +2016,4 @@ Here is how much of TeX's memory you used:
  1350 hyphenation exceptions out of 8191
  103i,19n,105p,2658b,6041s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Studienarbeit.xdv (83 pages, 488180 bytes).
+Output written on Studienarbeit.xdv (83 pages, 489432 bytes).
