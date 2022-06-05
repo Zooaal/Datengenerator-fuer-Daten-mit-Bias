@@ -3,27 +3,96 @@
 In diesem letzten Kapitel wird die gesamte Arbeit zusammengefasst und daraufhin eine kritische Reflexion derer durchgeführt. Zum Schluss ist noch ein kleiner Ausblick für die Zukunft gegeben.
 \section{Zusammenfassung}
 \label{zusammenfassung}
--   Fazit ziehen!!! \\
 - Was war das Ziel die Motivation\\
+    Wir wollen Daten schaffen, die in der Lehre eingesetzt werden können um Verzerrungen von Trainingsdaten zu veranschaulichen.
+    Modell lernt aus Daten --> Es lernt auch von Manipulierten Daten oder Verzerrten Daten.
+    Trainingdaten können beim Einsatz des Maschinellen Lernen großen Einfluss auf das Ergebnis haben
+    Häufig ist der Mensch für Verzerrungen aufgrund von bspw Vorurteilen Verantwortlich
+    Vorurteile von Menschen die in Daten auffindbar sind werden sich niemals vermeiden lassen
+    Aufgabe ist es Technische Gegenmaßnahme zu finden aber auch die Menschen für das Thema von Bias in Daten zu sensibilisieren
+    Es muss mehr Wissen über das noch sehr neue Forschungsgebiet von Bias geschaffen werden, damit im Umgang mit KI darauf geachtet werden kann
 - Was sind Daten\\
+    Daten haben sich in der Vergangenheit vom Nebenprodukt zu einer Wertvollen Ressource entwickelt
+    Durch Big Data und Internet of Things ist das generieren und speichern von großen Daten Mengen kein problem mehr
+    Die Qualität von Daten ist häufig entscheidender für die Verwendung
+    Qualität ist ein entschiedender Faktor in der Verarbeitung von Daten und lässt sich inzwischen mehr oder weniger anhand von Quaitäts Merkmalen messen
 - Was hat es mit Daten un KI auf sich\\
+    Daten sind die Grundlage für KI
+    Besonders das Teilgebiert superviced Learning aus dem Bereich des ML ist Datengetriebene
+    Man lernt Zusammenhänge aus Trainingsdaten und kann ein Modell erzuegen, welches das Verhalten in den historischen Daten zuverlässig reproduzieren kann
+    %Hier hast du vllt noch eine Idee wie man da was schreibt sonst passt des 
 - Was ist Ethik in der KI \\
+    Ethik ist die Grundlage einer Gesellschaft
+    Neben dem Recht ist die Ethik eine Leitlinie zum Verhalten in der Gesellschaft 
+    Beim Einsatz von KI bekommt die Ethik einen immer größer werdenden stellenwert.
+    KI übernimmt immer mehr Entscheidungen, die großen Einfluss auf das Leben von einzelnen Individuen nehmen können
+    Um die KI und Ethische Wertvorstellungen zu vereinen, werden leitlinien aus der Wirtschaft und Wissenschaft getrieben.
+    Ein Konzept ist die vertrauenswürdige KI - Besthend aus Recht und Ethik. 
+    Wenn KI eingesetzt wird, müssen Grundwerte wie: Autonomie/Selbstbestimmtheit des Menschen, fairness, Transparenz, Verlässlichkeit, Sicherheit und Datenschutz gewährleistet werden
+    Besonders der Aspekt der Fairness spielt für die Arbeit eine besondere Rolle.
+    KI ist in der Lage, abhängig von ihrer Funktionsweise, für unulässige Unfairness zu sorgen. Insbesondere für Entscheidungen spielt Fairness eine sehr große Rolle und muss berücksichtigt werden
 - Was ist ein Bias \\
+    Bias beschreibt allgemein eine Verzerrung
+    Im Kontext von KI ist eine Verzerrung oft eine nicht wahrheitsgemäße repräsentation der Realität, oft durch unzulässige Vorurteile
+    
+    Im ML gibt es eine vielzahl an unterschiedlichen Arten von Bias
+    Bias kann durch Menschen, Daten oder Algorithmen erzeugt werden
+    Bei Menschen sind dies in der Regel vorurteile durch die Gesellschaft, das verhalten oder die Vergangenheit geprägt
+    Algorithmen können durch falsch erlernte Zusammenhänge falsche Schlüsse ziehen und so Verzerrungen von Ergebnissen erzuegen
+
+    Der entschiedende und für diese Arbeit wichtigste Bias ist jedoch der, der durch die Daten erzeugt wird.
+    Es gibt unterschiedliche Arten von Bias in Daten, wie z.B. die Auswahl der Trainingsdaten (sampling Bias) bis hin zu deren korrektheit (measurement Bias)
+    
+    Eine häufige Art der Verzerrung ist die der Trainingsdaten - Man spricht von Lable Bias 
+    Problem ist, die Trainingsdaten werden nahezu immer von Menschen "gelabelt" und so werden im superviced learning Menschliche Verhaltensweisen reproduziert
+    Lable Bias ist eigentlich ein durch den Menschen als Bewertenden geschaffenes Problem
+    Bei der Erstellung der Lables werden Vorurteile in die Trainingsdaten übertragen 
+    %Hier vllt noch ein Beispiel kurz Anreißen, dass KI bspw. Sexistisch Etnscheidet bei Amazon im Einstellungsprozess
+
+%Timo 
 - Welche Szenarien\\
 - Wie sieht das Ergebnis aus\\
 - Wie ist der Bias erkennbar
-\section{Diskussion}
-\label{diskussion}
+
+%Fazit Ziehen  und Kritisch Reflektieren !!!!!
+- Der Datengenerator ermöglicht es uns an einem praktischen Beispiel Bias in Daten zu ermitteln
+- Man kann das Projekt hinsichtlich des Ziels ein Lehrmittel zu schaffen als vollen Erfolg betrachten
+- Man kann Daten generieren, diese individuell verzerren und besitzt eine groß genuge Menge an qualitativ guten Daten für die Verwendung als Trainingsdaten
+- Man kann 
+
 Kritische Reflektieren der gesamten Arbeit.\\
+%Part Simo
 - Was war bei dem Stand der Technik gut schlecht\\
-- Was ist wichtig mitzunehmen aus Stand der Technik z.B. das es wichtig ist über die Existenz aufzuklären\\
+    Es handelt sich um ein erst Junges Forschungsgebiet
+    Es gibt beisher wenige Lösungen einen erkannten Bias zu ninimieren oder damit Umzugehen
+    Oft ist die einzige Lösung neue Daten zu erzuegen 
+    oder einbusen in der Genauigkeit zu bekommen durch das Entfernen von Attributen
+    Technisch gibt es viele Herausforderungen.
+
+    Aber auch organisatorisch müssen Methoden entwickelt werden, wie man in der Lage ist frühzeitg Verzerrungen zu erkennen, Gegenmaßnahmen zu definieren und präventiv zu verhindern.
+
+    Man steht in beiden Bereichen noch vor Herausforderungen. Die Auswirkungen von Bias hingegen sind unberechenbar und teils nicht abzusätzen.
+    Es kann harmlose Folgen haben, wie einen Skandal, für den man sich entschuldigen muss, aber auch deutlich drastischere Folgen, wenn man sich bspw den Bereich Gesundheitswesen oder Justiz ansieht
+    --> Entscheidungen über "leben ond tod" bzw. Einschränkung der Freiheit die lediglich durch einen Bias entstehen könnte.
+
+    EINE KI muss zukünftig vertrausnwürdig sein und das Bedeutet sowohl die rechtlichen Begebenheiten als auch die Gesellschaftlichen ethischen Wertvorstellungen erfüllen in ihrem Handeln.
+    Deshalb ist ein erster Schritt die Aufklärung über die existenz von Verzerrungen und Bias!!!
+%Part Timo
 - Wie war die Umsetzung und Evaluierung\\
 - Abschließend wie hat alles in allem geklappt Konnten die Ziele erreicht werden
 
 \section{Ausblick}
 \label{ausblick}
 - Ausblick wie kann es weiter gehen\\
+    KI entwickeln und damit die Daten in ein produktives ML Modell überführen --> noch mehr effekt in der Lehre
+    Technische Lösungen und Ansätze Bias besser zu erkennen, fürhzeitiger zu erkennen 
+    Technische Lösungen um Bias zu entfernen --> Viel Forschungsaufwand nötig
+    Operationale Lösungen finden, dass menschliche Vorurteile erst gar nicht in Daten repräsentiert werden 
+    Konzept für vertrauenswürdige KI --> Tertifizierung von Systemen um sicher zu stellen, dass die Grund anforderungen erfüllt werden können
 - Was kann wie gut verwendet werden\\
 - Was kann noch verbessert/erweitert werden z.B. Datenauswertung oder neues Szenario oder noch mehr Realitätsnähe\\
 - Wo kann weiter geforscht werden\\
-    \newpage
+
+- Zukünfitg kann man eine KI entwickeln, diese mit den Trainingsdaten trainieren und den Bias in einem Beispiel veranschaulichen wie es aus der Realität sein könnte
+
+\newpage
