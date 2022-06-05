@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  5 JUN 2022 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  5 JUN 2022 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Studienarbeit.bbl' found.
- (Studienarbeit.bbl)
+ (Studienarbeit.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Fabi2020
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 90.
 Package biblatex Info: Reference segment=0 on input line 90.
  (C:\Users\jesssi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -1529,15 +1537,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-<Bilder/Gorillas.png, id=905, 513.71925pt x 289.08pt>
+<Bilder/Gorillas.png, id=900, 513.71925pt x 289.08pt>
 File: Bilder/Gorillas.png Graphic file (type png)
 <use Bilder/Gorillas.png>
-Package pdftex.def Info: Bilder/Gorillas.png  used on input line 303.
+Package pdftex.def Info: Bilder/Gorillas.png  used on input line 301.
 (pdftex.def)             Requested size: 327.20668pt x 184.13277pt.
-<Bilder/Twitter.png, id=912, 431.81325pt x 217.41225pt>
+<Bilder/Twitter.png, id=907, 431.81325pt x 217.41225pt>
 File: Bilder/Twitter.png Graphic file (type png)
 <use Bilder/Twitter.png>
-Package pdftex.def Info: Bilder/Twitter.png  used on input line 312.
+Package pdftex.def Info: Bilder/Twitter.png  used on input line 310.
 (pdftex.def)             Requested size: 398.33858pt x 200.57237pt.
 
 
@@ -1572,6 +1580,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
+
+LaTeX Warning: Citation 'Fabi2020' on page 30 undefined on input line 352.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1614,7 +1625,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
-<Diagramme/Grobkonzept_PAP.jpg, id=996, 283.0575pt x 363.3575pt>
+<Diagramme/Grobkonzept_PAP.jpg, id=993, 283.0575pt x 363.3575pt>
 File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
 <use Diagramme/Grobkonzept_PAP.jpg>
 Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 69.
@@ -1631,12 +1642,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<Diagramme/Verbindung_der_Attribute_S1.drawio.png, id=1003, 292.09125pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S1.drawio.png, id=1000, 292.09125pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S1.drawio.png Graphic file (type png)
 <use Diagramme/Verbindung_der_Attribute_S1.drawio.png>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S1.drawio.png  used on input line 84.
 (pdftex.def)             Requested size: 292.09052pt x 121.45343pt.
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=1005, 350.30875pt x 121.45375pt>
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=1002, 350.30875pt x 121.45375pt>
 File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
 <use Diagramme/Verbindung_der_Attribute_S2.jpg>
 Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 92.
@@ -1752,7 +1763,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42]
-<Diagramme/Sz1_Regeln.drawio.png, id=1073, 327.2225pt x 613.29124pt>
+<Diagramme/Sz1_Regeln.drawio.png, id=1070, 327.2225pt x 613.29124pt>
 File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
 <use Diagramme/Sz1_Regeln.drawio.png>
 Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 205.
@@ -1902,17 +1913,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
-<Diagramme/Tab_Haut1.PNG, id=1304, 715.473pt x 448.67625pt>
+<Diagramme/Tab_Haut1.PNG, id=1301, 715.473pt x 448.67625pt>
 File: Diagramme/Tab_Haut1.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut1.PNG>
 Package pdftex.def Info: Diagramme/Tab_Haut1.PNG  used on input line 475.
 (pdftex.def)             Requested size: 455.23737pt x 341.4425pt.
-<Diagramme/Tab_Haut2.PNG, id=1307, 816.04875pt x 461.92575pt>
+<Diagramme/Tab_Haut2.PNG, id=1304, 816.04875pt x 461.92575pt>
 File: Diagramme/Tab_Haut2.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut2.PNG>
 Package pdftex.def Info: Diagramme/Tab_Haut2.PNG  used on input line 483.
 (pdftex.def)             Requested size: 455.24092pt x 341.44614pt.
-<Diagramme/Tab_Haut3.PNG, id=1308, 413.74574pt x 438.438pt>
+<Diagramme/Tab_Haut3.PNG, id=1305, 413.74574pt x 438.438pt>
 File: Diagramme/Tab_Haut3.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut3.PNG>
 Package pdftex.def Info: Diagramme/Tab_Haut3.PNG  used on input line 491.
@@ -2101,17 +2112,17 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46087 strings out of 478614
- 1022028 string characters out of 2842650
- 2009917 words of memory out of 3000000
- 62996 multiletter control sequences out of 15000+600000
+ 46088 strings out of 478614
+ 1022038 string characters out of 2842650
+ 2009935 words of memory out of 3000000
+ 62997 multiletter control sequences out of 15000+600000
  528619 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  103i,19n,105p,2627b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jesssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Studienarbeit.pdf (85 pages, 4263191 bytes).
+Output written on Studienarbeit.pdf (85 pages, 4263624 bytes).
 PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
+ 1587 PDF objects out of 1728 (max. 8388607)
  372 named destinations out of 1000 (max. 500000)
  416 words of extra memory for PDF output out of 10000 (max. 10000000)
 
