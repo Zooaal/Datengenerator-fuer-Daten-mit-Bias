@@ -1,4 +1,5 @@
 # Fdb version 3
+<<<<<<< Updated upstream
 ["biber Studienarbeit"] 1654444054 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1654445300
   "Literatur.bib" 1654241882 18580 14668be3345f9d584df1935be52381c0 ""
   "Studienarbeit.bcf" 1654445299 119178 01fa88ec59fc617d5ce416a187cdc457 "pdflatex"
@@ -318,6 +319,61 @@
   "content/02kapitel.tex" 1654443962 64541 3238582a1a7a2d1d74ac98c94e1c7cf4 ""
   "content/03kapitel.tex" 1654430616 96252 5c6845a250fe3fd352e123bbe7736a7c ""
   "content/04kapitel.tex" 1654445288 8752 109e37092bfd42d38523bec4032279de ""
+=======
+["biber Studienarbeit"] 1654360718 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1654441627
+  "Literatur.bib" 1654270906 18580 14668be3345f9d584df1935be52381c0 ""
+  "Studienarbeit.bcf" 1654441621 116389 6693d094129fadef856f6f85f57dd747 "xelatex"
+  (generated)
+  "Studienarbeit.bbl"
+  "Studienarbeit.blg"
+["xdvipdfmx"] 1654441622 "Studienarbeit.xdv" "Studienarbeit.pdf" "Studienarbeit" 1654441627
+  "Studienarbeit.xdv" 1654441621 506532 85776f653eefa7d894c45f03bdf2d656 "xelatex"
+  (generated)
+  "Studienarbeit.pdf"
+["xelatex"] 1654441580 "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/6. Semester/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.xdv" "Studienarbeit" 1654441627
+  "Bilder/3VRule.png" 1654270905 114313 51d76908a2deb5b55c867e1748e72dbb ""
+  "Bilder/Annual_Data_Size.png" 1654270905 73043 e85836d9e8ce4d57a4dc064d229dc13f ""
+  "Bilder/Bias_cyrcle.png" 1654270905 57898 43e3a8ccc0770922d0a2bb1124c0fa2f ""
+  "Bilder/Data_quality_dimensions.png" 1654270905 637825 1f8dc07c24b5e5119da6da898b5dbfcc ""
+  "Bilder/Datenmenge.png" 1654270905 69689 911a571585acaf8513f650c0d14f9e59 ""
+  "Bilder/Ethical huidelines hagendorf 2020.png" 1654270905 393790 9b3cffdde320f4547c3d9a5818d2301d ""
+  "Bilder/Gartner_hypeCycle.png" 1654270905 117584 28402b1eb9c212aaca76584986bd4342 ""
+  "Bilder/Gorillas.png" 1654270905 648229 70da4ee3c4f2cc569fa668f39aeb8180 ""
+  "Bilder/Grafik-KI_Whitepaper_final_WEB_2.png" 1654270905 66404 7eb92e15ef758f838d60e420fb862b43 ""
+  "Bilder/Scheinkorrelation.png" 1654270905 606026 33a57fd26368933427c482c55a05eba9 ""
+  "Bilder/Twitter.png" 1654270905 198899 0e8c7f8ec4fb974580a28c03d1ca1efa ""
+  "Bilder/dhbw.png" 1654270905 28036 72715f284b6ae369970da384742d8059 ""
+  "Bilder/ml_algorithms.png" 1654270905 113682 908d320fae96b2b1e3a01e4c14a943d7 ""
+  "Bilder/ml_toolset.png" 1654270905 191620 61746727272e133c2198d14bd6f05135 ""
+  "Bilder/overunderfitting.png" 1654270905 365692 c3eb16e90902011a67f4e112c23858bf ""
+  "Bilder/superviced_learning.png" 1654270905 73979 4f086b6b94abc65f7cdc744a4deda683 ""
+  "Diagramme/Grobkonzept_PAP.jpg" 1654270905 14845 58053afef62f5e4e5503bcf782b314f1 ""
+  "Diagramme/Sz1_Regeln.drawio.png" 1654270905 27029 6ff506e7f087e201694598141e5e6f3f ""
+  "Diagramme/Tab_Haut1.PNG" 1654336590 38277 3241a6c2fb43523f16c3e1213f02bc56 ""
+  "Diagramme/Tab_Haut2.PNG" 1654340930 43742 df06a69c5cc0231c5e163c23f301ee3f ""
+  "Diagramme/Tab_Haut3.PNG" 1654343300 43716 68e2d28a1f0d307d9839485fb455a2fc ""
+  "Diagramme/Tab_Point1.PNG" 1654434274 136305 3e851cf9165c7ee5cb5e69e257289d03 ""
+  "Diagramme/Tab_Point2.PNG" 1654435311 44323 5b65e1f46bc81a811cf5032ddfa5e9f3 ""
+  "Diagramme/Tab_Point3.PNG" 1654437835 101796 41a722a7c743b9da7e818ef2cdb4f7f3 ""
+  "Diagramme/Tab_Point4.PNG" 1654440145 82107 e43b38eb490f5f0836262a61d47448bc ""
+  "Diagramme/Verbindung_der_Attribute_S1.drawio.png" 1654270906 6877 6de120a63ddeb28b4233d6fef216f2aa ""
+  "Diagramme/Verbindung_der_Attribute_S2.jpg" 1654270906 9678 7c92f20aa2abf903848e3c99cd36b585 ""
+  "Studienarbeit.aux" 1654441621 48157 9927a9bde89eb5fbc4d071923f371211 "xelatex"
+  "Studienarbeit.bbl" 1654360722 70253 bd409c1f633a41233c66333728ef8b33 "biber Studienarbeit"
+  "Studienarbeit.lof" 1654441621 5457 349ee2f032a5ddb7c33c38df636174ff "xelatex"
+  "Studienarbeit.lol" 1654441621 1920 66069c6fe72acbca1bba9f8dac0e46ed "xelatex"
+  "Studienarbeit.lot" 1654441621 2825 288052cac10f974ec03c81c80dac263b "xelatex"
+  "Studienarbeit.out" 1654441621 6083 687416cc486484aba5a7b4171785f55d "xelatex"
+  "Studienarbeit.run.xml" 1654441621 2563 79d5f5ccea9f99e5dc2ee8f1f4fba403 "xelatex"
+  "Studienarbeit.tex" 1654357709 6192 223b5923b580cfe851553413a8a05dfc ""
+  "Studienarbeit.toc" 1654441621 4539 67ca6f191bb859c68fcb8874e3148099 "xelatex"
+  "ads/deckblatt.tex" 1654270906 1314 4efcf5415aeccd2092b638a60e2680ab ""
+  "c:/Users/Zahnbürste_HQ/Documents/AA_Studium/Bachelor/6. Semester/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1654357709 6192 223b5923b580cfe851553413a8a05dfc ""
+  "content/01kapitel.tex" 1654427572 9924 752a56e7eaa5c3683aee6b6cce3f5d25 ""
+  "content/02kapitel.tex" 1654270906 64671 21922461171b490e4da105e6bbf0b570 ""
+  "content/03kapitel.tex" 1654441533 105736 eef30337da07827bf278f14444b8f286 ""
+  "content/04kapitel.tex" 1654423108 1210 6f25ec05d9e247c0cfecd08c8e8621cf ""
+>>>>>>> Stashed changes
   (generated)
   "Studienarbeit.aux"
   "Studienarbeit.bcf"

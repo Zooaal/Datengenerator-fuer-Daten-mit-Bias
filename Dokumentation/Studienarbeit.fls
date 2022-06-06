@@ -1611,10 +1611,25 @@ INPUT .\Diagramme\Tab_Haut2.PNG
 INPUT .\Diagramme\Tab_Haut3.PNG
 INPUT .\Diagramme\Tab_Haut3.PNG
 INPUT Diagramme\Tab_Haut3.PNG
+<<<<<<< Updated upstream
 INPUT .\Diagramme\Tab_Haut3.PNG
 INPUT .\Diagramme\Tab_Haut3.PNG
 INPUT .\Diagramme\Tab_Haut3.PNG
 INPUT .\Diagramme\Tab_Haut3.PNG
+=======
+INPUT .\Diagramme\Tab_Point1.PNG
+INPUT .\Diagramme\Tab_Point1.PNG
+INPUT Diagramme\Tab_Point1.PNG
+INPUT .\Diagramme\Tab_Point2.PNG
+INPUT .\Diagramme\Tab_Point2.PNG
+INPUT Diagramme\Tab_Point2.PNG
+INPUT .\Diagramme\Tab_Point3.PNG
+INPUT .\Diagramme\Tab_Point3.PNG
+INPUT Diagramme\Tab_Point3.PNG
+INPUT .\Diagramme\Tab_Point4.PNG
+INPUT .\Diagramme\Tab_Point4.PNG
+INPUT Diagramme\Tab_Point4.PNG
+>>>>>>> Stashed changes
 INPUT .\content\04kapitel.tex
 INPUT .\content\04kapitel.tex
 INPUT .\content\04kapitel.tex

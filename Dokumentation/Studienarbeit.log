@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  5 JUN 2022 18:08
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12.10) (preloaded format=xelatex 2021.12.10)  5 JUN 2022 17:06
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1196,14 +1200,14 @@ l.25 ...ialen Punktesystems}{32}{subsection.3.1.2}
  [2] (ads/abkürzungen.tex) [5
 
 
-] (Studienarbeit.lof)
+] (Studienarbeit.lof [6
+
+
+])
 \tf@lof=\write7
 \openout7 = `Studienarbeit.lof'.
 
- [6
-
-
-] [7] (Studienarbeit.lot)
+ [7] (Studienarbeit.lot)
 \tf@lot=\write8
 \openout8 = `Studienarbeit.lot'.
 
@@ -1913,6 +1917,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
+<<<<<<< Updated upstream
 <Diagramme/Tab_Haut1.PNG, id=1301, 715.473pt x 448.67625pt>
 File: Diagramme/Tab_Haut1.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut1.PNG>
@@ -1928,23 +1933,29 @@ File: Diagramme/Tab_Haut3.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut3.PNG>
 Package pdftex.def Info: Diagramme/Tab_Haut3.PNG  used on input line 491.
 (pdftex.def)             Requested size: 413.74474pt x 438.43692pt.
+=======
+File: Diagramme/Tab_Haut1.PNG Graphic file (type bmp)
+<Diagramme/Tab_Haut1.PNG>
+File: Diagramme/Tab_Haut2.PNG Graphic file (type bmp)
+<Diagramme/Tab_Haut2.PNG>
+File: Diagramme/Tab_Haut3.PNG Graphic file (type bmp)
+<Diagramme/Tab_Haut3.PNG>
+File: Diagramme/Tab_Point1.PNG Graphic file (type bmp)
+<Diagramme/Tab_Point1.PNG>
+File: Diagramme/Tab_Point2.PNG Graphic file (type bmp)
+<Diagramme/Tab_Point2.PNG>
+File: Diagramme/Tab_Point3.PNG Graphic file (type bmp)
+<Diagramme/Tab_Point3.PNG>
+File: Diagramme/Tab_Point4.PNG Graphic file (type bmp)
+<Diagramme/Tab_Point4.PNG>
+>>>>>>> Stashed changes
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--502
+Underfull \hbox (badness 10000) in paragraph at lines 466--534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--502
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--502
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--502
+Underfull \hbox (badness 10000) in paragraph at lines 466--534
 
  []
 
@@ -2016,13 +2027,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [66]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]) (content/04kapitel.tex
+[67]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2031,6 +2045,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[69]
+Overfull \hbox (8.58679pt too wide) in paragraph at lines 554--565
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[70]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (content/04kapitel.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[71]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[72]
 Kapitel 4.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2049,8 +2103,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [70]
 Underfull \hbox (badness 10000) in paragraph at lines 86--95
+=======
+[73
+>>>>>>> Stashed changes
 
  []
 
@@ -2069,7 +2127,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [72
+=======
+[74
+>>>>>>> Stashed changes
 
 ]
 
@@ -2079,7 +2141,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [73]
+=======
+[75]
+Missing character: There is no — in font ec-lmr12!
+Missing character: There is no ’ in font ec-lmr12!
+Missing character: There is no ’ in font ec-lmri12!
+Missing character: There is no ’ in font ec-lmri12!
+>>>>>>> Stashed changes
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2087,8 +2157,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [74]
 Overfull \hbox (21.69473pt too wide) in paragraph at lines 197--197
+=======
+[76]
+Overfull \hbox (21.94485pt too wide) in paragraph at lines 197--197
+>>>>>>> Stashed changes
 \T1/lmr/m/n/12 Datensammlung + Alter + und + Geschlecht . pdf / a25fb063 -[] b305 -[] d567 -[] 2d98 -[] e77b1104f713 ?
  []
 
@@ -2104,7 +2179,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< Updated upstream
 [75] (Studienarbeit.aux)
+=======
+[77] (Studienarbeit.aux)
+>>>>>>> Stashed changes
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: A45294D4FFE0CDB4750C41C99BE7F180;5978.
 Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
@@ -2112,6 +2191,7 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  46088 strings out of 478614
  1022038 string characters out of 2842650
  2009935 words of memory out of 3000000
@@ -2126,3 +2206,14 @@ PDF statistics:
  372 named destinations out of 1000 (max. 500000)
  416 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+ 44835 strings out of 411044
+ 986811 string characters out of 2823760
+ 1995299 words of memory out of 3000000
+ 64689 multiletter control sequences out of 15000+600000
+ 462096 words of font info for 62 fonts, out of 8000000 for 9000
+ 1350 hyphenation exceptions out of 8191
+ 103i,19n,105p,2834b,6041s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Studienarbeit.xdv (87 pages, 506532 bytes).
+>>>>>>> Stashed changes

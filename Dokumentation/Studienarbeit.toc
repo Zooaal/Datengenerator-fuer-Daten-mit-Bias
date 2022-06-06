@@ -31,7 +31,20 @@
 \contentsline {subsection}{\numberline {3.3.1}Umsetzung des Szenario zur Bewertung von Bewährungsanträge}{39}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Umsetzung des Szenario zur Vorhersage von einem sozialen Punktesystem}{48}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Datenauswertung}{59}{section.3.4}%
+<<<<<<< Updated upstream
 \contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{65}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Schluss}{69}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Zusammenfassung}{69}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Ausblick}{71}{section.4.2}%
+=======
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Evaluation der Ergebnisse}{69}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Schluss}{73}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{73}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Diskussion}{73}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Ausblick}{73}{section.4.3}%
+>>>>>>> Stashed changes
