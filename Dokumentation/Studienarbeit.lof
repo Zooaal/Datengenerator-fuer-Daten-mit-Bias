@@ -1,31 +1,55 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Weltweit jährlich anfallende Datenmenge \blx@tocontentsinit {0}\cite {Reinsel2018}\relax }}{5}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Big Data 3 V rule \blx@tocontentsinit {0}\cite {Taleb2018}\relax }}{6}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Data Quality Dimensions \blx@tocontentsinit {0}\cite {Taleb2018}\relax }}{7}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemplarisch dargestellte Disziplinen von \ac {KI}\blx@tocontentsinit {0}\cite {Horn2022}\relax }}{9}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Arten des maschinellen Lernen\blx@tocontentsinit {0}\cite {Horn2022}\relax }}{11}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Der Prozess von überwachtem Lernen \blx@tocontentsinit {0}\cite {Kharwal2020}\relax }}{12}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Veränderung der Performance durch die Datenmengen \blx@tocontentsinit {0}\cite {Ng2018}\relax }}{13}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Overfitting und Underfitting \blx@tocontentsinit {0}\cite {Horn2022}\relax }}{14}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Scheinkorrelationen in der Bilderkennung \blx@tocontentsinit {0}\cite {Lapuschkin2016}\relax }}{14}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Gartner Hype Cycle für \ac *{KI} \blx@tocontentsinit {0}\cite {Goasduff2020}\relax }}{16}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Ethische und rechtliche Grundlagen für eine \ac *{KI} \blx@tocontentsinit {0}\cite {Cremers2019}\relax }}{18}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Übersicht ethischer Leitlinien und die Abgedeckten Aspekte \blx@tocontentsinit {0}\cite {Hagendorff2020}\relax }}{20}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Exemplarische Arten von Bias in den drei Teilbereichen Daten, Algorithmen und Mensch \blx@tocontentsinit {0}\cite {Mehrabi2021}\relax }}{22}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Erkennung von Schwarzen als Gorillas \blx@tocontentsinit {0}\cite {IncidentDatabase2015_16}\relax }}{26}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Microsoft Chat Bot Tay Twitter Kommentare \blx@tocontentsinit {0}\cite {Twitter2016}\relax }}{27}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Weltweit jährlich anfallende Datenmenge \cite {Reinsel2018}\relax }}{5}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Big Data 3 V rule \cite {Taleb2018}\relax }}{6}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Data Quality Dimensions \cite {Taleb2018}\relax }}{7}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemplarisch dargestellte Disziplinen von \ac {KI}\cite {Horn2022}\relax }}{9}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Arten des maschinellen Lernen\cite {Horn2022}\relax }}{11}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Der Prozess von überwachtem Lernen \cite {Kharwal2020}\relax }}{12}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Veränderung der Performance durch die Datenmengen \cite {Ng2018}\relax }}{13}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Overfitting und Underfitting \cite {Horn2022}\relax }}{14}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Scheinkorrelationen in der Bilderkennung \cite {Lapuschkin2016}\relax }}{14}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Gartner Hype Cycle für \ac *{KI} \cite {Goasduff2020}\relax }}{16}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Ethische und rechtliche Grundlagen für eine \ac *{KI} \cite {Cremers2019}\relax }}{18}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Übersicht ethischer Leitlinien und die Abgedeckten Aspekte \cite {Hagendorff2020}\relax }}{20}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Exemplarische Arten von Bias in den drei Teilbereichen Daten, Algorithmen und Mensch \cite {Mehrabi2021}\relax }}{22}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Erkennung von Schwarzen als Gorillas \cite {IncidentDatabase2015_16}\relax }}{26}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Microsoft Chat Bot Tay Twitter Kommentare \cite {Twitter2016}\relax }}{27}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Programmablaufplan der fünf Hauptschritte zur Generierung der Daten\relax }}{35}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Verbindungen zwischen den Attributen eines Bewährungsantrages\relax }}{36}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Verbindungen zwischen den Attributen des zweiten Szenario\relax }}{37}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Programmablaufplan zur Generierung der Regeln vom Szenario für Bewährungsanträge\relax }}{44}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Bewertung nach Prozent von der gesamt Anzahl an Daten\relax }}{60}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Härte der Strafe und der Bewertung nach der gesamt Anzahl an Daten\relax }}{61}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Laufenden Strafe nach Prozent von der gesamt Anzahl an Daten\relax }}{63}{figure.caption.54}%
-<<<<<<< Updated upstream
-=======
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Überblick der sozialen Punkteverteilung über den gesamten Datensatz\relax }}{64}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
@@ -35,5 +59,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Auswertung der Anzahl von Personen eingegliedert in die politische Orientierung und Bildungsabschluss pro Punktestand\relax }}{68}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
->>>>>>> Stashed changes
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Überblick über die Verteilung der Bewertung\relax }}{93}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Überblick über die Verteilung der Hautfarbe\relax }}{94}{figure.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Bewertung nach Anzahl der gesamt Daten\relax }}{95}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Bewertung nach Prozent von der gesamt Anzahl an Daten\relax }}{96}{figure.caption.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Härte des Vergehens nach Anzahl der gesamt Daten\relax }}{97}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Härte der Strafe und der Bewertung nach der gesamt Anzahl an Daten\relax }}{98}{figure.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Laufenden Strafe nach Prozent von der gesamt Anzahl an Daten\relax }}{99}{figure.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Laufenden Strafe und der Bewertung nach Prozent von der gesamt Anzahl an Daten\relax }}{100}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Auswertung der Hautfarbe im Zusammenhang mit der Bewertung, Härte der Strafe und Laufenden Strafe nach der gesamt Anzahl an Daten\relax }}{101}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Verteilung des Geschlechts über die Hautfarbe\relax }}{102}{figure.caption.70}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Überblick über die Verteilung der Bewertung\relax }}{103}{figure.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Auswertung der Anzahl von Personen und durchschnittlicher Punktestand pro Alter\relax }}{104}{figure.caption.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Auswertung der Anzahl von Personen pro Alter und politische Orientierung\relax }}{105}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Auswertung des Punktestand pro politische Orientierung über alle Datenpunkte\relax }}{106}{figure.caption.74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.5}{\ignorespaces Auswertung des Punktestand für jeden Bildungsabschluss über alle Datenpunkte\relax }}{107}{figure.caption.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.6}{\ignorespaces Auswertung der Anzahl an Datenpunkten für jeden Bildungsabschluss und jede politische Orientierung\relax }}{108}{figure.caption.76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.7}{\ignorespaces Auswertung des Punktestand für jeden Bildungsabschluss und politische Orientierung über alle Datenpunkte\relax }}{109}{figure.caption.77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.8}{\ignorespaces Auswertung des Punktestand für den CO2-Fußabdruck über alle Datenpunkte\relax }}{110}{figure.caption.78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.9}{\ignorespaces Auswertung der Anzahl an Datenpunkten für den CO2-Fußabdruck pro politische Orientierung\relax }}{111}{figure.caption.79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.10}{\ignorespaces Auswertung des Punktestand für das soziale Engagement über alle Datenpunkte\relax }}{112}{figure.caption.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.11}{\ignorespaces Auswertung der Anzahl an Datenpunkten für das soziale Engagement pro politische Orientierung\relax }}{113}{figure.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {D.12}{\ignorespaces Auswertung des Punktestand für die Wohnlage über alle Datenpunkte\relax }}{114}{figure.caption.82}%
