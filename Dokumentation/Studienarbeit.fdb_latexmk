@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Studienarbeit"] 1654614971 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1654614998
+["biber Studienarbeit"] 1654614971 "Studienarbeit.bcf" "Studienarbeit.bbl" "Studienarbeit" 1654621516
   "Literatur.bib" 1654253978 18580 14668be3345f9d584df1935be52381c0 ""
-  "Studienarbeit.bcf" 1654614997 119126 bac676968c199f21e6bf2cd7af4e3370 "pdflatex"
+  "Studienarbeit.bcf" 1654621515 119126 bac676968c199f21e6bf2cd7af4e3370 "pdflatex"
   (generated)
   "Studienarbeit.bbl"
   "Studienarbeit.blg"
-["pdflatex"] 1654614987 "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1654614998
+["pdflatex"] 1654621505 "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" "Studienarbeit.pdf" "Studienarbeit" 1654621516
   "Bilder/3VRule.png" 1653316661 114313 51d76908a2deb5b55c867e1748e72dbb ""
   "Bilder/Annual_Data_Size.png" 1653050482 73043 e85836d9e8ce4d57a4dc064d229dc13f ""
   "Bilder/Bias_cyrcle.png" 1654238361 57898 43e3a8ccc0770922d0a2bb1124c0fa2f ""
@@ -327,22 +327,22 @@
   "Diagramme/Tab_Point4.PNG" 1654515631 82107 e43b38eb490f5f0836262a61d47448bc ""
   "Diagramme/Verbindung_der_Attribute_S1.drawio.png" 1654254042 6877 6de120a63ddeb28b4233d6fef216f2aa ""
   "Diagramme/Verbindung_der_Attribute_S2.jpg" 1652276430 9678 7c92f20aa2abf903848e3c99cd36b585 ""
-  "Studienarbeit.aux" 1654614997 49476 a37407ae265ce1e5ec20d18258810bce "pdflatex"
+  "Studienarbeit.aux" 1654621515 49476 a37407ae265ce1e5ec20d18258810bce "pdflatex"
   "Studienarbeit.bbl" 1654614978 70253 bdf851233f91030b9b878cd98b6a7a8a "biber Studienarbeit"
-  "Studienarbeit.lof" 1654614997 4728 fcedb61c5f4d482e229a3e4845a83922 "pdflatex"
-  "Studienarbeit.lol" 1654614997 1711 1f521126ecacbc303867d4b2fd4d263c "pdflatex"
-  "Studienarbeit.lot" 1654614997 2206 602803aada3192a8f49c740c3827f1c8 "pdflatex"
-  "Studienarbeit.out" 1654614997 7622 d78e87790c13694397169d8b255a4946 "pdflatex"
-  "Studienarbeit.run.xml" 1654614997 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
+  "Studienarbeit.lof" 1654621515 4728 fcedb61c5f4d482e229a3e4845a83922 "pdflatex"
+  "Studienarbeit.lol" 1654621515 1711 1f521126ecacbc303867d4b2fd4d263c "pdflatex"
+  "Studienarbeit.lot" 1654621515 2206 602803aada3192a8f49c740c3827f1c8 "pdflatex"
+  "Studienarbeit.out" 1654621515 7622 d78e87790c13694397169d8b255a4946 "pdflatex"
+  "Studienarbeit.run.xml" 1654621515 2528 9b4ef3fbc5e3b559274ae65a7b80d5d1 "pdflatex"
   "Studienarbeit.tex" 1654596389 38128 2e5f496971bd11ffef2d4347336bf0eb ""
-  "Studienarbeit.toc" 1654614997 3580 c5689d84cfe13547cd33f4102ab83e29 "pdflatex"
+  "Studienarbeit.toc" 1654621515 3580 c5689d84cfe13547cd33f4102ab83e29 "pdflatex"
   "ads/abkürzungen.tex" 1654600889 1055 f717cc492c9b17da2d72d418df621015 ""
   "ads/deckblatt.tex" 1652276430 1314 4efcf5415aeccd2092b638a60e2680ab ""
   "ads/erklärung.tex" 1651661558 624 2790cbdcf2ccbb22eab4cbb2f3a3d6eb ""
   "c:/Users/zaoralti/Documents/PraxisT3000/Studienarbeit/Datengenerator-fuer-Daten-mit-Bias/Dokumentation/Studienarbeit.tex" 1654596389 38128 2e5f496971bd11ffef2d4347336bf0eb ""
   "content/01kapitel.tex" 1654598403 11271 1fc7686c2b28fa532df3a377354d11bd ""
   "content/02kapitel.tex" 1654614960 64561 cd6bad359b71703207446576671822fd ""
-  "content/03kapitel.tex" 1654516679 105737 63762348d5180ab8c6498a08e2dd6efd ""
+  "content/03kapitel.tex" 1654621502 105742 c54162420b5ed37735b5736f646e4f36 ""
   "content/04kapitel.tex" 1654614397 11321 f96f1980b581264dc8067ccf0626e207 ""
   (generated)
   "Studienarbeit.aux"

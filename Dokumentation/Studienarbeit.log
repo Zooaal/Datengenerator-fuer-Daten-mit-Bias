@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  7 JUN 2022 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  7 JUN 2022 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1936,7 +1936,7 @@ File: Diagramme/Tab_Point3.PNG Graphic file (type png)
 <use Diagramme/Tab_Point3.PNG>
 Package pdftex.def Info: Diagramme/Tab_Point3.PNG  used on input line 519.
 (pdftex.def)             Requested size: 455.24777pt x 341.441pt.
-<Diagramme/Tab_Point4.PNG, id=1348, 954.56625pt x 481.19775pt>
+<Diagramme/Tab_Point4.PNG, id=1349, 954.56625pt x 481.19775pt>
 File: Diagramme/Tab_Point4.PNG Graphic file (type png)
 <use Diagramme/Tab_Point4.PNG>
 Package pdftex.def Info: Diagramme/Tab_Point4.PNG  used on input line 527.
@@ -2432,12 +2432,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [93]
 Anhang C.
-<Diagramme/SZ1_Tab1.PNG, id=2075, 640.19176pt x 459.51675pt>
+<Diagramme/SZ1_Tab1.PNG, id=2076, 640.19176pt x 459.51675pt>
 File: Diagramme/SZ1_Tab1.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab1.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab1.PNG  used on input line 743.
 (pdftex.def)             Requested size: 455.24266pt x 341.43939pt.
-<Diagramme/SZ1_Tab2.PNG, id=2076, 684.156pt x 407.72325pt>
+<Diagramme/SZ1_Tab2.PNG, id=2077, 684.156pt x 407.72325pt>
 File: Diagramme/SZ1_Tab2.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab2.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab2.PNG  used on input line 750.
@@ -2445,7 +2445,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab2.PNG  used on input line 750.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab3.PNG, id=2077, 562.5015pt x 448.67625pt>
+<Diagramme/SZ1_Tab3.PNG, id=2078, 562.5015pt x 448.67625pt>
 File: Diagramme/SZ1_Tab3.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab3.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab3.PNG  used on input line 757.
@@ -2453,7 +2453,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab3.PNG  used on input line 757.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab4.PNG, id=2078, 711.8595pt x 447.47176pt>
+<Diagramme/SZ1_Tab4.PNG, id=2079, 711.8595pt x 447.47176pt>
 File: Diagramme/SZ1_Tab4.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab4.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab4.PNG  used on input line 764.
@@ -2461,7 +2461,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab4.PNG  used on input line 764.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab5.PNG, id=2079, 825.68475pt x 429.40425pt>
+<Diagramme/SZ1_Tab5.PNG, id=2080, 825.68475pt x 429.40425pt>
 File: Diagramme/SZ1_Tab5.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab5.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab5.PNG  used on input line 771.
@@ -2469,7 +2469,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab5.PNG  used on input line 771.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab6.PNG, id=2080, 808.2195pt x 455.301pt>
+<Diagramme/SZ1_Tab6.PNG, id=2081, 808.2195pt x 455.301pt>
 File: Diagramme/SZ1_Tab6.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab6.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab6.PNG  used on input line 778.
@@ -2477,7 +2477,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab6.PNG  used on input line 778.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab7.PNG, id=2081, 413.1435pt x 456.5055pt>
+<Diagramme/SZ1_Tab7.PNG, id=2082, 413.1435pt x 456.5055pt>
 File: Diagramme/SZ1_Tab7.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab7.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab7.PNG  used on input line 785.
@@ -2485,7 +2485,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab7.PNG  used on input line 785.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab8.PNG, id=2082, 651.03226pt x 454.69875pt>
+<Diagramme/SZ1_Tab8.PNG, id=2083, 651.03226pt x 454.69875pt>
 File: Diagramme/SZ1_Tab8.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab8.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab8.PNG  used on input line 792.
@@ -2493,7 +2493,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab8.PNG  used on input line 792.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab9.PNG, id=2083, 767.86874pt x 458.31226pt>
+<Diagramme/SZ1_Tab9.PNG, id=2084, 767.86874pt x 458.31226pt>
 File: Diagramme/SZ1_Tab9.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab9.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab9.PNG  used on input line 799.
@@ -2501,7 +2501,7 @@ Package pdftex.def Info: Diagramme/SZ1_Tab9.PNG  used on input line 799.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab10.PNG, id=2084, 731.1315pt x 460.119pt>
+<Diagramme/SZ1_Tab10.PNG, id=2085, 731.1315pt x 460.119pt>
 File: Diagramme/SZ1_Tab10.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab10.PNG>
 Package pdftex.def Info: Diagramme/SZ1_Tab10.PNG  used on input line 806.
@@ -2592,12 +2592,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [103 <./Diagramme/SZ1_Tab10.PNG>]
 Anhang D.
-<Diagramme/SZ2_Tab1.PNG, id=2146, 952.7595pt x 481.19775pt>
+<Diagramme/SZ2_Tab1.PNG, id=2147, 952.7595pt x 481.19775pt>
 File: Diagramme/SZ2_Tab1.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab1.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab1.PNG  used on input line 815.
 (pdftex.def)             Requested size: 455.24045pt x 341.43253pt.
-<Diagramme/SZ2_Tab2.PNG, id=2147, 953.36176pt x 479.391pt>
+<Diagramme/SZ2_Tab2.PNG, id=2148, 953.36176pt x 479.391pt>
 File: Diagramme/SZ2_Tab2.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab2.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab2.PNG  used on input line 822.
@@ -2605,7 +2605,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab2.PNG  used on input line 822.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab3.PNG, id=2148, 954.56625pt x 481.8pt>
+<Diagramme/SZ2_Tab3.PNG, id=2149, 954.56625pt x 481.8pt>
 File: Diagramme/SZ2_Tab3.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab3.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab3.PNG  used on input line 829.
@@ -2613,7 +2613,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab3.PNG  used on input line 829.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab4.PNG, id=2149, 953.36176pt x 481.8pt>
+<Diagramme/SZ2_Tab4.PNG, id=2150, 953.36176pt x 481.8pt>
 File: Diagramme/SZ2_Tab4.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab4.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab4.PNG  used on input line 836.
@@ -2621,7 +2621,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab4.PNG  used on input line 836.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab5.PNG, id=2150, 950.3505pt x 481.8pt>
+<Diagramme/SZ2_Tab5.PNG, id=2151, 950.3505pt x 481.8pt>
 File: Diagramme/SZ2_Tab5.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab5.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab5.PNG  used on input line 843.
@@ -2629,7 +2629,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab5.PNG  used on input line 843.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab6.PNG, id=2151, 950.3505pt x 479.391pt>
+<Diagramme/SZ2_Tab6.PNG, id=2152, 950.3505pt x 479.391pt>
 File: Diagramme/SZ2_Tab6.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab6.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab6.PNG  used on input line 850.
@@ -2637,7 +2637,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab6.PNG  used on input line 850.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab7.PNG, id=2152, 950.95274pt x 476.982pt>
+<Diagramme/SZ2_Tab7.PNG, id=2153, 950.95274pt x 476.982pt>
 File: Diagramme/SZ2_Tab7.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab7.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab7.PNG  used on input line 857.
@@ -2645,7 +2645,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab7.PNG  used on input line 857.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab8.PNG, id=2153, 855.195pt x 461.92575pt>
+<Diagramme/SZ2_Tab8.PNG, id=2154, 855.195pt x 461.92575pt>
 File: Diagramme/SZ2_Tab8.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab8.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab8.PNG  used on input line 864.
@@ -2653,7 +2653,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab8.PNG  used on input line 864.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab9.PNG, id=2154, 853.38824pt x 482.40225pt>
+<Diagramme/SZ2_Tab9.PNG, id=2155, 853.38824pt x 482.40225pt>
 File: Diagramme/SZ2_Tab9.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab9.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab9.PNG  used on input line 871.
@@ -2661,7 +2661,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab9.PNG  used on input line 871.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab10.PNG, id=2155, 849.77475pt x 481.8pt>
+<Diagramme/SZ2_Tab10.PNG, id=2156, 849.77475pt x 481.8pt>
 File: Diagramme/SZ2_Tab10.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab10.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab10.PNG  used on input line 878.
@@ -2669,7 +2669,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab10.PNG  used on input line 878.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab11.PNG, id=2156, 951.555pt x 478.1865pt>
+<Diagramme/SZ2_Tab11.PNG, id=2157, 951.555pt x 478.1865pt>
 File: Diagramme/SZ2_Tab11.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab11.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab11.PNG  used on input line 885.
@@ -2677,7 +2677,7 @@ Package pdftex.def Info: Diagramme/SZ2_Tab11.PNG  used on input line 885.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab12.PNG, id=2157, 849.77475pt x 476.37975pt>
+<Diagramme/SZ2_Tab12.PNG, id=2158, 849.77475pt x 476.37975pt>
 File: Diagramme/SZ2_Tab12.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab12.PNG>
 Package pdftex.def Info: Diagramme/SZ2_Tab12.PNG  used on input line 892.
@@ -2796,11 +2796,11 @@ Here is how much of TeX's memory you used:
  63305 multiletter control sequences out of 15000+600000
  528619 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 103i,19n,105p,2844b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 103i,19n,105p,2848b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Studienarbeit.pdf (125 pages, 5506033 bytes).
+Output written on Studienarbeit.pdf (125 pages, 5506056 bytes).
 PDF statistics:
- 2485 PDF objects out of 2487 (max. 8388607)
+ 2486 PDF objects out of 2487 (max. 8388607)
  944 named destinations out of 1000 (max. 500000)
  578 words of extra memory for PDF output out of 10000 (max. 10000000)
 
