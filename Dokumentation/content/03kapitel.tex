@@ -458,7 +458,7 @@ data.to_csv("Daten_Szenario2.csv", sep=';', encoding='utf-8', index=False)
 finished.to_csv("Daten_Bewertet_Szenario2.csv", sep=';', encoding='utf-8', index=False)
 \end{lstlisting}
 In der Abbildung \ref{lst:Sz2Finish} ist die letzte Zelle dargestellt. Im oberen Bereich kann die Benutzende Person Anpassungen vornehmen, wie den Bias festlegen, die Datenset Größe bestimmen, die Anzahl der Bewertenden und diskriminierenden festlegen sowie die Auswirkung des Bias bestimmen. Als Beispiel wurden hierbei zwei mögliche Versionen für einen Bias angegeben. Im unteren Teil ist der Ablauf des gesamt Programms abgebildet. Zuerst werden die Daten durch die \glqq{}generate\_data\grqq{}Methode in der gewünschten Anzahl generiert. Danach werden diese Daten mit Hilfe der \glqq{}work\grqq{} Methode bewertet und als neuen Dataframe zurückgegeben. Zum Schluss werden dann noch die Rohdaten als \glqq{}Daten\_Szenario2.csv\grqq{} Datei und die bewerteten Daten als \glqq{}Daten\_Bewertet\_Szenario2.csv\grqq{} Datei abgespeichert.
-Hiermit ist die gesamte Umsetzung beider Szenarien abgeschlossen und beide Szenarien können getrennt voneinander als Notebooks verwendet werden, um Daten zu generieren.\\
+Hiermit ist die gesamte Umsetzung beider Szenarien abgeschlossen und beide Szenarien können getrennt voneinander als Notebooks verwendet werden, um Daten zu generieren.\\ 
 Im nächsten Kapitel wird die Auswertung der generierten Daten beschrieben.
 \newpage
 \section{Datenauswertung}
