@@ -2399,8 +2399,8 @@
     <bcf:citekey order="64">Horn2022</bcf:citekey>
     <bcf:citekey order="65">Horn2022</bcf:citekey>
     <bcf:citekey order="66">Horn2022</bcf:citekey>
-    <bcf:citekey order="67">Datenkommission2019</bcf:citekey>
-    <bcf:citekey order="68">Döbel2018</bcf:citekey>
+    <bcf:citekey order="67">Döbel2018</bcf:citekey>
+    <bcf:citekey order="68">Datenkommission2019</bcf:citekey>
     <bcf:citekey order="69">Döbel2018</bcf:citekey>
     <bcf:citekey order="70">Horn2022</bcf:citekey>
     <bcf:citekey order="71">Döbel2018</bcf:citekey>
@@ -2516,7 +2516,7 @@
     <bcf:citekey order="181">Drew2019</bcf:citekey>
     <bcf:citekey order="182">HEGKI2019</bcf:citekey>
     <bcf:citekey order="183">HEGKI2019Definition</bcf:citekey>
-    <bcf:citekey order="184">Fabi2020</bcf:citekey>
+    <bcf:citekey order="184">Fabi2022</bcf:citekey>
     <bcf:citekey order="185">Mehrabi2021</bcf:citekey>
     <bcf:citekey order="186">MachineBias2016</bcf:citekey>
     <bcf:citekey order="187">Bronson2017</bcf:citekey>
@@ -2569,13 +2569,12 @@
     <bcf:citekey order="234">Twitter2016</bcf:citekey>
     <bcf:citekey order="235">hagendorff2019maschinelles</bcf:citekey>
     <bcf:citekey order="236">Google</bcf:citekey>
-    <bcf:citekey order="237">Fabi2020</bcf:citekey>
-    <bcf:citekey order="238">MachineBias2016</bcf:citekey>
-    <bcf:citekey order="239">Bronson2017</bcf:citekey>
-    <bcf:citekey order="240">statista2020</bcf:citekey>
-    <bcf:citekey order="241">konrad-adenauer-stiftung2021</bcf:citekey>
-    <bcf:citekey order="242">destatis2021</bcf:citekey>
-    <bcf:citekey order="243">ClimateWatch2022</bcf:citekey>
+    <bcf:citekey order="237">MachineBias2016</bcf:citekey>
+    <bcf:citekey order="238">Bronson2017</bcf:citekey>
+    <bcf:citekey order="239">statista2020</bcf:citekey>
+    <bcf:citekey order="240">konrad-adenauer-stiftung2021</bcf:citekey>
+    <bcf:citekey order="241">destatis2021</bcf:citekey>
+    <bcf:citekey order="242">ClimateWatch2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
