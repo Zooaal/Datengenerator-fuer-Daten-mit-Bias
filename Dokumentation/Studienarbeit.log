@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  8 JUN 2022 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  9 JUN 2022 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1267,12 +1267,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]) (content/02kapitel.tex
 Kapitel 2.
-<Bilder/Annual_Data_Size.png, id=511, 853.1875pt x 290.08376pt>
+<Bilder/Annual_Data_Size.png, id=510, 853.1875pt x 290.08376pt>
 File: Bilder/Annual_Data_Size.png Graphic file (type png)
 <use Bilder/Annual_Data_Size.png>
 Package pdftex.def Info: Bilder/Annual_Data_Size.png  used on input line 14.
 (pdftex.def)             Requested size: 441.01772pt x 149.9503pt.
-<Bilder/3VRule.png, id=524, 690.1785pt x 333.04425pt>
+<Bilder/3VRule.png, id=523, 690.1785pt x 333.04425pt>
 File: Bilder/3VRule.png Graphic file (type png)
 <use Bilder/3VRule.png>
 Package pdftex.def Info: Bilder/3VRule.png  used on input line 28.
@@ -1295,7 +1295,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./Bilder/3VRule.png>]
-<Bilder/Data_quality_dimensions.png, id=551, 876.876pt x 447.47176pt>
+<Bilder/Data_quality_dimensions.png, id=550, 876.876pt x 447.47176pt>
 File: Bilder/Data_quality_dimensions.png Graphic file (type png)
 <use Bilder/Data_quality_dimensions.png>
 Package pdftex.def Info: Bilder/Data_quality_dimensions.png  used on input line 44.
@@ -1323,7 +1323,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 96.
 
-<Bilder/ml_toolset.png, id=583, 963.6pt x 790.955pt>
+<Bilder/ml_toolset.png, id=582, 963.6pt x 790.955pt>
 File: Bilder/ml_toolset.png Graphic file (type png)
 <use Bilder/ml_toolset.png>
 Package pdftex.def Info: Bilder/ml_toolset.png  used on input line 103.
@@ -1338,12 +1338,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9 <./Bilder/ml_toolset.png>]
 Package acronym Info: Label `acro:bzw' newly defined as it shall be overridden
 although it is yet undefined on input line 118.
-<Bilder/ml_algorithms.png, id=627, 1114.1625pt x 625.33624pt>
+<Bilder/ml_algorithms.png, id=626, 1114.1625pt x 625.33624pt>
 File: Bilder/ml_algorithms.png Graphic file (type png)
 <use Bilder/ml_algorithms.png>
 Package pdftex.def Info: Bilder/ml_algorithms.png  used on input line 123.
 (pdftex.def)             Requested size: 398.33858pt x 223.56555pt.
-<Bilder/superviced_learning.png, id=640, 604.2575pt x 319.1925pt>
+<Bilder/superviced_learning.png, id=639, 604.2575pt x 319.1925pt>
 File: Bilder/superviced_learning.png Graphic file (type png)
 <use Bilder/superviced_learning.png>
 Package pdftex.def Info: Bilder/superviced_learning.png  used on input line 136.
@@ -1376,12 +1376,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./Bilder/superviced_learning.png>]
-<Bilder/Datenmenge.png, id=667, 316.18124pt x 202.356pt>
+<Bilder/Datenmenge.png, id=666, 316.18124pt x 202.356pt>
 File: Bilder/Datenmenge.png Graphic file (type png)
 <use Bilder/Datenmenge.png>
 Package pdftex.def Info: Bilder/Datenmenge.png  used on input line 151.
 (pdftex.def)             Requested size: 227.62204pt x 145.68076pt.
-<Bilder/overunderfitting.png, id=674, 1264.725pt x 646.415pt>
+<Bilder/overunderfitting.png, id=673, 1264.725pt x 646.415pt>
 File: Bilder/overunderfitting.png Graphic file (type png)
 <use Bilder/overunderfitting.png>
 Package pdftex.def Info: Bilder/overunderfitting.png  used on input line 160.
@@ -1395,7 +1395,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./Bilder/Datenmenge.png>]
-<Bilder/Scheinkorrelation.png, id=685, 546.843pt x 180.675pt>
+<Bilder/Scheinkorrelation.png, id=684, 546.843pt x 180.675pt>
 File: Bilder/Scheinkorrelation.png Graphic file (type png)
 <use Bilder/Scheinkorrelation.png>
 Package pdftex.def Info: Bilder/Scheinkorrelation.png  used on input line 168.
@@ -1417,7 +1417,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<Bilder/Gartner_hypeCycle.png, id=709, 1228.59pt x 1168.365pt>
+<Bilder/Gartner_hypeCycle.png, id=708, 1228.59pt x 1168.365pt>
 File: Bilder/Gartner_hypeCycle.png Graphic file (type png)
 <use Bilder/Gartner_hypeCycle.png>
 Package pdftex.def Info: Bilder/Gartner_hypeCycle.png  used on input line 183.
@@ -1431,7 +1431,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./Bilder/Gartner_hypeCycle.png>]
-<Bilder/Grafik-KI_Whitepaper_final_WEB_2.png, id=744, 1134.2375pt x 515.9275pt>
+<Bilder/Grafik-KI_Whitepaper_final_WEB_2.png, id=743, 1134.2375pt x 515.9275pt>
 File: Bilder/Grafik-KI_Whitepaper_final_WEB_2.png Graphic file (type png)
 <use Bilder/Grafik-KI_Whitepaper_final_WEB_2.png>
 Package pdftex.def Info: Bilder/Grafik-KI_Whitepaper_final_WEB_2.png  used on input line 207.
@@ -1461,7 +1461,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<Bilder/Ethical huidelines hagendorf 2020.png, id=810, 1062.97125pt x 834.11626pt>
+<Bilder/Ethical huidelines hagendorf 2020.png, id=809, 1062.97125pt x 834.11626pt>
 File: Bilder/Ethical huidelines hagendorf 2020.png Graphic file (type png)
 <use Bilder/Ethical huidelines hagendorf 2020.png>
 Package pdftex.def Info: Bilder/Ethical huidelines hagendorf 2020.png  used on input line 230.
@@ -1487,7 +1487,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 240.
 
-<Bilder/Bias_cyrcle.png, id=850, 638.98724pt x 340.27126pt>
+<Bilder/Bias_cyrcle.png, id=849, 638.98724pt x 340.27126pt>
 File: Bilder/Bias_cyrcle.png Graphic file (type png)
 <use Bilder/Bias_cyrcle.png>
 Package pdftex.def Info: Bilder/Bias_cyrcle.png  used on input line 250.
@@ -1533,12 +1533,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-<Bilder/Gorillas.png, id=936, 513.71925pt x 289.08pt>
+<Bilder/Gorillas.png, id=935, 513.71925pt x 289.08pt>
 File: Bilder/Gorillas.png Graphic file (type png)
 <use Bilder/Gorillas.png>
 Package pdftex.def Info: Bilder/Gorillas.png  used on input line 302.
 (pdftex.def)             Requested size: 327.20668pt x 184.13277pt.
-<Bilder/Twitter.png, id=943, 431.81325pt x 217.41225pt>
+<Bilder/Twitter.png, id=942, 431.81325pt x 217.41225pt>
 File: Bilder/Twitter.png Graphic file (type png)
 <use Bilder/Twitter.png>
 Package pdftex.def Info: Bilder/Twitter.png  used on input line 311.
@@ -1618,15 +1618,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
-<Diagramme/Grobkonzept_PAP.jpg, id=1030, 283.0575pt x 363.3575pt>
-File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
-<use Diagramme/Grobkonzept_PAP.jpg>
-Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 69.
-(pdftex.def)             Requested size: 170.7212pt x 227.62459pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1635,20 +1626,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<Diagramme/Verbindung_der_Attribute_S1.drawio.png, id=1037, 292.09125pt x 121.45375pt>
-File: Diagramme/Verbindung_der_Attribute_S1.drawio.png Graphic file (type png)
-<use Diagramme/Verbindung_der_Attribute_S1.drawio.png>
-Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S1.drawio.png  used on input line 84.
-(pdftex.def)             Requested size: 292.09052pt x 121.45343pt.
-<Diagramme/Verbindung_der_Attribute_S2.jpg, id=1039, 350.30875pt x 121.45375pt>
-File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
-<use Diagramme/Verbindung_der_Attribute_S2.jpg>
-Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 92.
-(pdftex.def)             Requested size: 350.30789pt x 121.45343pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--106
-
- []
+<Diagramme/Grobkonzept_PAP.jpg, id=1033, 283.0575pt x 363.3575pt>
+File: Diagramme/Grobkonzept_PAP.jpg Graphic file (type jpg)
+<use Diagramme/Grobkonzept_PAP.jpg>
+Package pdftex.def Info: Diagramme/Grobkonzept_PAP.jpg  used on input line 70.
+(pdftex.def)             Requested size: 170.7212pt x 227.62459pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1658,6 +1640,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./Diagramme/Grobkonzept_PAP.jpg>]
+<Diagramme/Verbindung_der_Attribute_S1.drawio.png, id=1040, 292.09125pt x 121.45375pt>
+File: Diagramme/Verbindung_der_Attribute_S1.drawio.png Graphic file (type png)
+<use Diagramme/Verbindung_der_Attribute_S1.drawio.png>
+Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S1.drawio.png  used on input line 85.
+(pdftex.def)             Requested size: 292.09052pt x 121.45343pt.
+<Diagramme/Verbindung_der_Attribute_S2.jpg, id=1042, 350.30875pt x 121.45375pt>
+File: Diagramme/Verbindung_der_Attribute_S2.jpg Graphic file (type jpg)
+<use Diagramme/Verbindung_der_Attribute_S2.jpg>
+Package pdftex.def Info: Diagramme/Verbindung_der_Attribute_S2.jpg  used on input line 93.
+(pdftex.def)             Requested size: 350.30789pt x 121.45343pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--107
+
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1668,7 +1665,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36 <./Diagramme/Verbindung_der_Attribute_S1.drawio.png>]
+[36]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1676,7 +1673,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./Diagramme/Verbindung_der_Attribute_S2.jpg>]
+[37 <./Diagramme/Verbindung_der_Attribute_S1.drawio.png> <./Diagramme/Verbindung_der_Attribute_S2.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1685,15 +1682,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
-Package acronym Info: Label `acro:M' newly defined as it shall be overridden
-although it is yet undefined on input line 117.
-Package acronym Info: Label `acro:W' newly defined as it shall be overridden
-although it is yet undefined on input line 117.
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--119
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1702,21 +1690,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 121--135
+Package acronym Info: Label `acro:M' newly defined as it shall be overridden
+although it is yet undefined on input line 118.
+Package acronym Info: Label `acro:W' newly defined as it shall be overridden
+although it is yet undefined on input line 118.
 
- []
-
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 135.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 135.
-(C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (6.13383pt too wide) in paragraph at lines 138--158
-\T1/lmr/m/n/12 Gegeben: Ge-samt [][]/[][] = An-zahl an Wei-ÿen und Schwar-zen Ge-fan-ge-nen pro (G)Geschlecht
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--158
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
 
  []
 
@@ -1728,17 +1707,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40]
-Overfull \hbox (37.46739pt too wide) in paragraph at lines 163--187
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--195
+Underfull \hbox (badness 10000) in paragraph at lines 122--136
 
  []
 
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 136.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 136.
+(C:\Users\zaoralti\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (6.13383pt too wide) in paragraph at lines 139--159
+\T1/lmr/m/n/12 Gegeben: Ge-samt [][]/[][] = An-zahl an Wei-ÿen und Schwar-zen Ge-fan-ge-nen pro (G)Geschlecht
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--159
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1748,19 +1733,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41]
+Overfull \hbox (37.46739pt too wide) in paragraph at lines 164--188
+ [][] 
+ []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
-<Diagramme/Sz1_Regeln.drawio.png, id=1106, 327.2225pt x 613.29124pt>
-File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
-<use Diagramme/Sz1_Regeln.drawio.png>
-Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 205.
-(pdftex.def)             Requested size: 227.62119pt x 398.33511pt.
+Underfull \hbox (badness 10000) in paragraph at lines 161--196
+
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1772,7 +1752,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[42]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [43]
+<Diagramme/Sz1_Regeln.drawio.png, id=1109, 327.2225pt x 613.29124pt>
+File: Diagramme/Sz1_Regeln.drawio.png Graphic file (type png)
+<use Diagramme/Sz1_Regeln.drawio.png>
+Package pdftex.def Info: Diagramme/Sz1_Regeln.drawio.png  used on input line 206.
+(pdftex.def)             Requested size: 199.17104pt x 369.88663pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1789,10 +1783,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 251--255
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1801,15 +1791,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [46]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 280--286
+Underfull \hbox (badness 10000) in paragraph at lines 252--256
 
  []
 
@@ -1820,7 +1802,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [48]
+Underfull \hbox (badness 10000) in paragraph at lines 281--287
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1829,6 +1823,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1839,15 +1841,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [51]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1872,8 +1869,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [54]
-Package acronym Info: Label `acro:bzw' overridden on input line 420.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1882,6 +1877,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [55]
+Package acronym Info: Label `acro:bzw' overridden on input line 421.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1906,48 +1903,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
-<Diagramme/Tab_Haut1.PNG, id=1337, 715.473pt x 448.67625pt>
+<Diagramme/Tab_Haut1.PNG, id=1335, 715.473pt x 448.67625pt>
 File: Diagramme/Tab_Haut1.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut1.PNG>
-Package pdftex.def Info: Diagramme/Tab_Haut1.PNG  used on input line 475.
+Package pdftex.def Info: Diagramme/Tab_Haut1.PNG  used on input line 474.
 (pdftex.def)             Requested size: 455.23737pt x 341.4425pt.
-<Diagramme/Tab_Haut2.PNG, id=1340, 816.04875pt x 461.92575pt>
+<Diagramme/Tab_Haut2.PNG, id=1338, 816.04875pt x 461.92575pt>
 File: Diagramme/Tab_Haut2.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut2.PNG>
-Package pdftex.def Info: Diagramme/Tab_Haut2.PNG  used on input line 483.
+Package pdftex.def Info: Diagramme/Tab_Haut2.PNG  used on input line 482.
 (pdftex.def)             Requested size: 455.24092pt x 341.44614pt.
-<Diagramme/Tab_Haut3.PNG, id=1341, 413.74574pt x 438.438pt>
+<Diagramme/Tab_Haut3.PNG, id=1339, 413.74574pt x 438.438pt>
 File: Diagramme/Tab_Haut3.PNG Graphic file (type png)
 <use Diagramme/Tab_Haut3.PNG>
-Package pdftex.def Info: Diagramme/Tab_Haut3.PNG  used on input line 491.
-(pdftex.def)             Requested size: 413.74474pt x 438.43692pt.
-<Diagramme/Tab_Point1.PNG, id=1343, 953.964pt x 480.5955pt>
+Package pdftex.def Info: Diagramme/Tab_Haut3.PNG  used on input line 490.
+(pdftex.def)             Requested size: 295.37141pt x 312.9803pt.
+<Diagramme/Tab_Point1.PNG, id=1341, 953.964pt x 480.5955pt>
 File: Diagramme/Tab_Point1.PNG Graphic file (type png)
 <use Diagramme/Tab_Point1.PNG>
-Package pdftex.def Info: Diagramme/Tab_Point1.PNG  used on input line 503.
-(pdftex.def)             Requested size: 455.24828pt x 341.43053pt.
-<Diagramme/Tab_Point2.PNG, id=1345, 953.964pt x 486.618pt>
+Package pdftex.def Info: Diagramme/Tab_Point1.PNG  used on input line 502.
+(pdftex.def)             Requested size: 455.24828pt x 284.52422pt.
+<Diagramme/Tab_Point2.PNG, id=1343, 953.964pt x 486.618pt>
 File: Diagramme/Tab_Point2.PNG Graphic file (type png)
 <use Diagramme/Tab_Point2.PNG>
-Package pdftex.def Info: Diagramme/Tab_Point2.PNG  used on input line 511.
-(pdftex.def)             Requested size: 455.24828pt x 341.44704pt.
-<Diagramme/Tab_Point3.PNG, id=1347, 950.95274pt x 477.58424pt>
+Package pdftex.def Info: Diagramme/Tab_Point2.PNG  used on input line 510.
+(pdftex.def)             Requested size: 455.24828pt x 284.54044pt.
+<Diagramme/Tab_Point3.PNG, id=1345, 950.95274pt x 477.58424pt>
 File: Diagramme/Tab_Point3.PNG Graphic file (type png)
 <use Diagramme/Tab_Point3.PNG>
-Package pdftex.def Info: Diagramme/Tab_Point3.PNG  used on input line 519.
-(pdftex.def)             Requested size: 455.24777pt x 341.441pt.
-<Diagramme/Tab_Point4.PNG, id=1349, 954.56625pt x 481.19775pt>
+Package pdftex.def Info: Diagramme/Tab_Point3.PNG  used on input line 518.
+(pdftex.def)             Requested size: 455.24408pt x 228.63298pt.
+<Diagramme/Tab_Point4.PNG, id=1347, 954.56625pt x 481.19775pt>
 File: Diagramme/Tab_Point4.PNG Graphic file (type png)
 <use Diagramme/Tab_Point4.PNG>
-Package pdftex.def Info: Diagramme/Tab_Point4.PNG  used on input line 527.
-(pdftex.def)             Requested size: 455.24437pt x 341.43253pt.
+Package pdftex.def Info: Diagramme/Tab_Point4.PNG  used on input line 526.
+(pdftex.def)             Requested size: 455.24437pt x 284.52832pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--534
+Underfull \hbox (badness 10000) in paragraph at lines 465--533
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--534
+Underfull \hbox (badness 10000) in paragraph at lines 465--533
 
  []
 
@@ -1976,24 +1973,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [61 <./Diagramme/Tab_Haut2.PNG>]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62 <./Diagramme/Tab_Haut3.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63]
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[62]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[63 <./Diagramme/Tab_Haut3.PNG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2019,8 +2016,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [66 <./Diagramme/Tab_Point3.PNG>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[67 <./Diagramme/Tab_Point4.PNG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2028,15 +2030,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[68 <./Diagramme/Tab_Point4.PNG>]
+[68]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2045,10 +2039,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-Overfull \hbox (8.58679pt too wide) in paragraph at lines 554--565
- [][] 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2058,10 +2048,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (content/04kapitel.tex
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2069,6 +2055,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [71]
+Overfull \hbox (8.58679pt too wide) in paragraph at lines 552--563
+ [][] 
+ []
+
+) (content/04kapitel.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2218,43 +2209,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [86
 
 ]
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 492--493
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 493--494
+[][][][][][] 
  []
 
 
-Overfull \hbox (333.36371pt too wide) in paragraph at lines 493--494
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 498--499
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 495--496
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 503--504
+[][][][][][] 
  []
 
 
-Overfull \hbox (308.16345pt too wide) in paragraph at lines 496--497
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 508--509
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 498--499
-[][] 
- []
-
-
-Overfull \hbox (282.9632pt too wide) in paragraph at lines 499--500
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 501--502
-[][] 
- []
-
-
-Overfull \hbox (257.76294pt too wide) in paragraph at lines 502--503
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 514--515
+[][][][][][] 
  []
 
 
@@ -2265,78 +2241,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-16.88802pt}.
 
 [87]
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 505--506
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 519--520
+[][][][][][] 
  []
 
 
-Overfull \hbox (308.16345pt too wide) in paragraph at lines 506--507
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 524--525
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 508--509
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 529--530
+[][][][][][] 
  []
 
 
-Overfull \hbox (333.36371pt too wide) in paragraph at lines 509--510
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 535--536
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 511--512
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 540--541
+[][][][][][] 
  []
 
 
-Overfull \hbox (308.16345pt too wide) in paragraph at lines 512--513
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 545--546
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 514--515
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 550--551
+[][][][][][] 
  []
 
 
-Overfull \hbox (282.9632pt too wide) in paragraph at lines 515--516
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 556--557
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 518--519
-[][] 
- []
-
-
-Overfull \hbox (282.9632pt too wide) in paragraph at lines 519--520
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 521--522
-[][] 
- []
-
-
-Overfull \hbox (308.16345pt too wide) in paragraph at lines 522--523
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 524--525
-[][] 
- []
-
-
-Overfull \hbox (333.36371pt too wide) in paragraph at lines 525--526
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 527--528
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 561--562
+[][][][][][] 
  []
 
 
@@ -2347,48 +2293,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-16.88802pt}.
 
 [88]
-Overfull \hbox (308.16345pt too wide) in paragraph at lines 528--529
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 566--567
+[][][][][][] 
  []
 
 
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 531--532
-[][] 
- []
-
-
-Overfull \hbox (257.76294pt too wide) in paragraph at lines 532--533
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 534--535
-[][] 
- []
-
-
-Overfull \hbox (282.9632pt too wide) in paragraph at lines 535--536
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 537--538
-[][] 
- []
-
-
-Overfull \hbox (308.16345pt too wide) in paragraph at lines 538--539
-[][] 
- []
-
-
-Overfull \hbox (37.2607pt too wide) in paragraph at lines 540--541
-[][] 
- []
-
-
-Overfull \hbox (333.36371pt too wide) in paragraph at lines 541--542
-[][] 
+Overfull \hbox (4.66057pt too wide) in paragraph at lines 571--572
+[][][][][][] 
  []
 
 
@@ -2432,79 +2343,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [93]
 Anhang C.
-<Diagramme/SZ1_Tab1.PNG, id=2076, 640.19176pt x 459.51675pt>
+<Diagramme/SZ1_Tab1.PNG, id=2106, 640.19176pt x 459.51675pt>
 File: Diagramme/SZ1_Tab1.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab1.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab1.PNG  used on input line 743.
+Package pdftex.def Info: Diagramme/SZ1_Tab1.PNG  used on input line 775.
 (pdftex.def)             Requested size: 455.24266pt x 341.43939pt.
-<Diagramme/SZ1_Tab2.PNG, id=2077, 684.156pt x 407.72325pt>
+<Diagramme/SZ1_Tab2.PNG, id=2107, 684.156pt x 407.72325pt>
 File: Diagramme/SZ1_Tab2.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab2.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab2.PNG  used on input line 750.
+Package pdftex.def Info: Diagramme/SZ1_Tab2.PNG  used on input line 782.
 (pdftex.def)             Requested size: 455.26077pt x 341.43378pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab3.PNG, id=2078, 562.5015pt x 448.67625pt>
+<Diagramme/SZ1_Tab3.PNG, id=2108, 562.5015pt x 448.67625pt>
 File: Diagramme/SZ1_Tab3.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab3.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab3.PNG  used on input line 757.
+Package pdftex.def Info: Diagramme/SZ1_Tab3.PNG  used on input line 789.
 (pdftex.def)             Requested size: 455.23747pt x 341.4425pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab4.PNG, id=2079, 711.8595pt x 447.47176pt>
+<Diagramme/SZ1_Tab4.PNG, id=2109, 711.8595pt x 447.47176pt>
 File: Diagramme/SZ1_Tab4.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab4.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab4.PNG  used on input line 764.
+Package pdftex.def Info: Diagramme/SZ1_Tab4.PNG  used on input line 796.
 (pdftex.def)             Requested size: 455.2518pt x 341.43398pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab5.PNG, id=2080, 825.68475pt x 429.40425pt>
+<Diagramme/SZ1_Tab5.PNG, id=2110, 825.68475pt x 429.40425pt>
 File: Diagramme/SZ1_Tab5.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab5.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab5.PNG  used on input line 771.
+Package pdftex.def Info: Diagramme/SZ1_Tab5.PNG  used on input line 803.
 (pdftex.def)             Requested size: 455.24933pt x 341.45337pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab6.PNG, id=2081, 808.2195pt x 455.301pt>
+<Diagramme/SZ1_Tab6.PNG, id=2111, 808.2195pt x 455.301pt>
 File: Diagramme/SZ1_Tab6.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab6.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab6.PNG  used on input line 778.
+Package pdftex.def Info: Diagramme/SZ1_Tab6.PNG  used on input line 810.
 (pdftex.def)             Requested size: 455.25131pt x 341.44017pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab7.PNG, id=2082, 413.1435pt x 456.5055pt>
+<Diagramme/SZ1_Tab7.PNG, id=2112, 413.1435pt x 456.5055pt>
 File: Diagramme/SZ1_Tab7.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab7.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab7.PNG  used on input line 785.
+Package pdftex.def Info: Diagramme/SZ1_Tab7.PNG  used on input line 817.
 (pdftex.def)             Requested size: 455.25984pt x 341.43094pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab8.PNG, id=2083, 651.03226pt x 454.69875pt>
+<Diagramme/SZ1_Tab8.PNG, id=2113, 651.03226pt x 454.69875pt>
 File: Diagramme/SZ1_Tab8.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab8.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab8.PNG  used on input line 792.
+Package pdftex.def Info: Diagramme/SZ1_Tab8.PNG  used on input line 824.
 (pdftex.def)             Requested size: 455.26251pt x 341.4395pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab9.PNG, id=2084, 767.86874pt x 458.31226pt>
+<Diagramme/SZ1_Tab9.PNG, id=2114, 767.86874pt x 458.31226pt>
 File: Diagramme/SZ1_Tab9.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab9.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab9.PNG  used on input line 799.
+Package pdftex.def Info: Diagramme/SZ1_Tab9.PNG  used on input line 831.
 (pdftex.def)             Requested size: 455.2531pt x 341.45354pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ1_Tab10.PNG, id=2085, 731.1315pt x 460.119pt>
+<Diagramme/SZ1_Tab10.PNG, id=2115, 731.1315pt x 460.119pt>
 File: Diagramme/SZ1_Tab10.PNG Graphic file (type png)
 <use Diagramme/SZ1_Tab10.PNG>
-Package pdftex.def Info: Diagramme/SZ1_Tab10.PNG  used on input line 806.
+Package pdftex.def Info: Diagramme/SZ1_Tab10.PNG  used on input line 838.
 (pdftex.def)             Requested size: 455.23802pt x 341.44458pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2592,95 +2503,95 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [103 <./Diagramme/SZ1_Tab10.PNG>]
 Anhang D.
-<Diagramme/SZ2_Tab1.PNG, id=2147, 952.7595pt x 481.19775pt>
+<Diagramme/SZ2_Tab1.PNG, id=2177, 952.7595pt x 481.19775pt>
 File: Diagramme/SZ2_Tab1.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab1.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab1.PNG  used on input line 815.
+Package pdftex.def Info: Diagramme/SZ2_Tab1.PNG  used on input line 847.
 (pdftex.def)             Requested size: 455.24045pt x 341.43253pt.
-<Diagramme/SZ2_Tab2.PNG, id=2148, 953.36176pt x 479.391pt>
+<Diagramme/SZ2_Tab2.PNG, id=2178, 953.36176pt x 479.391pt>
 File: Diagramme/SZ2_Tab2.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab2.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab2.PNG  used on input line 822.
+Package pdftex.def Info: Diagramme/SZ2_Tab2.PNG  used on input line 854.
 (pdftex.def)             Requested size: 455.23727pt x 341.43797pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab3.PNG, id=2149, 954.56625pt x 481.8pt>
+<Diagramme/SZ2_Tab3.PNG, id=2179, 954.56625pt x 481.8pt>
 File: Diagramme/SZ2_Tab3.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab3.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab3.PNG  used on input line 829.
+Package pdftex.def Info: Diagramme/SZ2_Tab3.PNG  used on input line 861.
 (pdftex.def)             Requested size: 455.24437pt x 341.4408pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab4.PNG, id=2150, 953.36176pt x 481.8pt>
+<Diagramme/SZ2_Tab4.PNG, id=2180, 953.36176pt x 481.8pt>
 File: Diagramme/SZ2_Tab4.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab4.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab4.PNG  used on input line 836.
+Package pdftex.def Info: Diagramme/SZ2_Tab4.PNG  used on input line 868.
 (pdftex.def)             Requested size: 455.23727pt x 341.4408pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab5.PNG, id=2151, 950.3505pt x 481.8pt>
+<Diagramme/SZ2_Tab5.PNG, id=2181, 950.3505pt x 481.8pt>
 File: Diagramme/SZ2_Tab5.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab5.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab5.PNG  used on input line 843.
+Package pdftex.def Info: Diagramme/SZ2_Tab5.PNG  used on input line 875.
 (pdftex.def)             Requested size: 455.23499pt x 341.4408pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab6.PNG, id=2152, 950.3505pt x 479.391pt>
+<Diagramme/SZ2_Tab6.PNG, id=2182, 950.3505pt x 479.391pt>
 File: Diagramme/SZ2_Tab6.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab6.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab6.PNG  used on input line 850.
+Package pdftex.def Info: Diagramme/SZ2_Tab6.PNG  used on input line 882.
 (pdftex.def)             Requested size: 455.23499pt x 341.43797pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab7.PNG, id=2153, 950.95274pt x 476.982pt>
+<Diagramme/SZ2_Tab7.PNG, id=2183, 950.95274pt x 476.982pt>
 File: Diagramme/SZ2_Tab7.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab7.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab7.PNG  used on input line 857.
+Package pdftex.def Info: Diagramme/SZ2_Tab7.PNG  used on input line 889.
 (pdftex.def)             Requested size: 455.24777pt x 341.43983pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab8.PNG, id=2154, 855.195pt x 461.92575pt>
+<Diagramme/SZ2_Tab8.PNG, id=2184, 855.195pt x 461.92575pt>
 File: Diagramme/SZ2_Tab8.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab8.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab8.PNG  used on input line 864.
+Package pdftex.def Info: Diagramme/SZ2_Tab8.PNG  used on input line 896.
 (pdftex.def)             Requested size: 455.23468pt x 341.44614pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab9.PNG, id=2155, 853.38824pt x 482.40225pt>
+<Diagramme/SZ2_Tab9.PNG, id=2185, 853.38824pt x 482.40225pt>
 File: Diagramme/SZ2_Tab9.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab9.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab9.PNG  used on input line 871.
+Package pdftex.def Info: Diagramme/SZ2_Tab9.PNG  used on input line 903.
 (pdftex.def)             Requested size: 455.24953pt x 341.44803pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab10.PNG, id=2156, 849.77475pt x 481.8pt>
+<Diagramme/SZ2_Tab10.PNG, id=2186, 849.77475pt x 481.8pt>
 File: Diagramme/SZ2_Tab10.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab10.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab10.PNG  used on input line 878.
+Package pdftex.def Info: Diagramme/SZ2_Tab10.PNG  used on input line 910.
 (pdftex.def)             Requested size: 455.25388pt x 341.4408pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab11.PNG, id=2157, 951.555pt x 478.1865pt>
+<Diagramme/SZ2_Tab11.PNG, id=2187, 951.555pt x 478.1865pt>
 File: Diagramme/SZ2_Tab11.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab11.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab11.PNG  used on input line 885.
+Package pdftex.def Info: Diagramme/SZ2_Tab11.PNG  used on input line 917.
 (pdftex.def)             Requested size: 455.2457pt x 341.44836pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagramme/SZ2_Tab12.PNG, id=2158, 849.77475pt x 476.37975pt>
+<Diagramme/SZ2_Tab12.PNG, id=2188, 849.77475pt x 476.37975pt>
 File: Diagramme/SZ2_Tab12.PNG Graphic file (type png)
 <use Diagramme/SZ2_Tab12.PNG>
-Package pdftex.def Info: Diagramme/SZ2_Tab12.PNG  used on input line 892.
+Package pdftex.def Info: Diagramme/SZ2_Tab12.PNG  used on input line 924.
 (pdftex.def)             Requested size: 455.25388pt x 341.43031pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2790,17 +2701,17 @@ Package logreq Info: Writing requests to 'Studienarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46926 strings out of 478547
- 1038151 string characters out of 2840420
- 2252159 words of memory out of 3000000
+ 46957 strings out of 478547
+ 1038678 string characters out of 2840420
+ 2223139 words of memory out of 3000000
  63304 multiletter control sequences out of 15000+600000
  528619 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 103i,19n,105p,2848b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 103i,19n,105p,2847b,2586s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/zaoralti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Studienarbeit.pdf (125 pages, 5506050 bytes).
+Output written on Studienarbeit.pdf (125 pages, 5509224 bytes).
 PDF statistics:
- 2486 PDF objects out of 2487 (max. 8388607)
- 944 named destinations out of 1000 (max. 500000)
+ 2522 PDF objects out of 2984 (max. 8388607)
+ 975 named destinations out of 1000 (max. 500000)
  578 words of extra memory for PDF output out of 10000 (max. 10000000)
 
